@@ -10,3 +10,13 @@ Thumbs.db
 
 # Logs
 *.log
+
+# 抓取中间产物（CI 每次重新生成，不需要提交）
+scripts/mtgtop8_scraper/data/raw_*.json
+scripts/mtgtop8_scraper/data/progress.json
+scripts/mtgtop8_scraper/data/processed_*.json
+scripts/Report/
+
+# Python
+__pycache__/
+*.pyc

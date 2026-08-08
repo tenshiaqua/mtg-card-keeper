@@ -122,6 +122,13 @@ body {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
+/* 趋势指示器 */
+.trend { font-size: 0.85em; margin-left: 6px; white-space: nowrap; }
+.trend-up { color: #51cf66; }
+.trend-down { color: #ff6b6b; }
+.trend-same { color: #666; }
+.trend-new { color: #ffd43b; }
+
 /* 响应式 */
 @media (max-width: 600px) {
   .constructed-grid, .edh-grid { grid-template-columns: repeat(2, 1fr); }
@@ -328,6 +335,14 @@ function renderCard(card) {
   const colorSymbols = { W: '⚪', U: '🔵', B: '⚫', R: '🔴', G: '🟢' };
   const colorStr = colors.length ? colors.map(c => colorSymbols[c] || c).join(' ') : '无色';
 
+  // 趋势指示器（对比上周数据变化）
+  const trend = card.trend || {};
+  const trendIcon = (t) =>
+    t === 'up'   ? '<span class="trend trend-up">↑上升</span>'
+  : t === 'down' ? '<span class="trend trend-down">↓下降</span>'
+  : t === 'new'  ? '<span class="trend trend-new">✨新增</span>'
+  : '<span class="trend trend-same">→持平</span>';
+
   resultContainer.innerHTML = `
     <div class="card-result">
       <div class="card-header">
@@ -355,12 +370,12 @@ function renderCard(card) {
       </div>
 
       <div class="section">
-        <h3>🏟️ 构筑赛制使用（最近3个月上位）</h3>
+        <h3>🏟️ 构筑赛制使用（最近3个月上位）${trendIcon(trend.constructed)}</h3>
         <div class="constructed-grid">${constructedHtml}</div>
       </div>
 
       <div class="section">
-        <h3>🐉 EDH 使用情况（EDHREC）</h3>
+        <h3>🐉 EDH 使用情况（EDHREC）${trendIcon(trend.edh)}</h3>
         <div class="edh-grid">${edhHtml}</div>
       </div>
     </div>

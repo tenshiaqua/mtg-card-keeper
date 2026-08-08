@@ -1,94 +1,76 @@
-# MTG 卡牌保留价值查询 - GitHub Pages 部署
+# MTG 卡牌保留价值查询
 
-## 📦 部署文件
+🔗 **在线访问**：https://tenshiaqua.github.io/mtg-card-keeper/
 
-部署目录包含 3 个文件，总计约 1MB：
+综合 Modern / Standard / Pauper 构筑赛制 + EDHREC EDH 使用数据，判断万智牌卡牌是否值得保留。
 
-| 文件 | 大小 | 说明 |
-|---|---|---|
-| `index.html` | ~7 KB | 前端页面 |
-| `app.js` | ~8 KB | 前端查询引擎 |
-| `card_database.json` | ~1 MB | 压缩版卡牌数据库（4036 张卡） |
+## 📦 仓库结构
 
-## 🚀 部署到 GitHub Pages
+```
+├── index.html / app.js / card_database.json   ← 前端静态文件（Pages 直接服务）
+├── .github/workflows/weekly-update.yml         ← 每周自动更新工作流
+├── scripts/                                    ← 数据抓取与构建代码
+│   ├── mtgtop8_scraper/                        ← mtgtop8 抓取器（纯标准库）
+│   ├── card_keeper/                            ← 数据库合并与推荐逻辑
+│   ├── build_deploy.py                         ← 构建+归档+趋势计算
+│   └── prune_history.py                        ← 清理旧快照
+└── history/                                    ← 每周数据快照（保留12周）
+```
 
-### 方法一：新建仓库部署（推荐）
+## 🔄 自动更新机制
 
-1. **在 GitHub 创建新仓库**（如 `mtg-card-keeper`，设为 Public）
+### 构筑数据（每周一自动）
 
-2. **上传 deploy 目录内容**
-   ```bash
-   cd e:\Codes\MTG\card_keeper\deploy
-   git init
-   git add .
-   git commit -m "MTG 卡牌保留价值查询"
-   git branch -M main
-   git remote add origin https://github.com/<你的用户名>/mtg-card-keeper.git
-   git push -u origin main
-   ```
+GitHub Actions 每周一 11:00（北京时间）自动运行：
 
-3. **开启 GitHub Pages**
-   - 进入仓库 → Settings → Pages
-   - Source 选择 **Deploy from a branch**
-   - Branch 选择 `main` / `(root)`
-   - 点击 Save
+1. 抓取 mtgtop8 最近 3 个月的 Standard / Modern / Pauper 上位数据
+2. 归档当前数据库到 `history/snapshot_YYYYMMDD.json`
+3. 重建数据库，对比上周计算趋势（↑上升 / ↓下降 / →持平 / ✨新增）
+4. 提交推送，GitHub Pages 自动重建
 
-4. **等待 1-2 分钟**，访问：
-   ```
-   https://<你的用户名>.github.io/mtg-card-keeper/
-   ```
+也可在仓库 Actions 页面手动触发（`workflow_dispatch`）。
 
-### 方法二：部署到已有仓库的子目录
+### EDHREC 数据（手动月更）
 
-如果不想新建仓库，可以放到已有仓库的子目录：
-
-1. 将 `deploy/` 目录内容复制到仓库的 `docs/` 或 `mtg-card-keeper/` 目录
-2. Settings → Pages → Source 选 main 分支
-3. 如果放在子目录，需要设置仓库名为 `<用户名>.github.io` 或使用自定义域名
-
-> ⚠️ 注意：GitHub Pages 默认只服务根目录。如果放在子目录，URL 会包含子目录路径。
-
-## 🔄 更新数据
-
-当有新的构筑数据或 EDH 数据时，重新生成部署文件：
+EDHREC 有 Cloudflare 保护无法自动抓取，需手动更新：
 
 ```bash
-# 1. 重建数据库（合并所有数据源）
-python -m card_keeper.build_database
+# 1. 本地启动 card_keeper 服务
+python -m card_keeper.server --port 8080
 
-# 2. 生成部署目录
-python -m card_keeper.deploy
+# 2. 用浏览器 MCP 采集 EDHREC /top/{color} 页面数据
+#    （通过 /api/edh 端点写入 edhrec_cache.json）
 
-# 3. 将 deploy/ 内容重新上传到 GitHub
-cd e:\Codes\MTG\card_keeper\deploy
-git add card_database.json
-git commit -m "更新卡牌数据库"
+# 3. 将更新后的 edhrec_cache.json 复制到仓库
+copy edhrec_cache.json scripts\card_keeper\data\edhrec_cache.json
+
+# 4. 提交推送
+git add scripts/card_keeper/data/edhrec_cache.json
+git commit -m "data: 月度更新 EDHREC 数据"
 git push
 ```
 
-GitHub Pages 会在 1-2 分钟内自动更新。
+下次 Actions 运行时会自动合并新的 EDH 数据。
 
-## 🛠️ 本地测试
-
-部署前可以本地测试：
+## 🛠️ 本地构建
 
 ```bash
-# 进入 deploy 目录
-cd e:\Codes\MTG\card_keeper\deploy
+# 手动构建部署数据库（含趋势计算）
+python scripts/build_deploy.py
 
-# 启动简易 HTTP 服务器
-python -m http.server 8081
-
-# 浏览器访问
-# http://localhost:8081/
+# 本地预览
+python -m http.server 8080
+# 浏览器访问 http://localhost:8080/
 ```
 
-## 📊 数据库统计
+## 📊 数据来源
 
-- 总卡牌数：4036 张
-- 构筑赛制数据：1839 张（Modern / Standard / Pauper 最近 3 个月上位）
-- EDHREC EDH 数据：2528 张
-- 中文卡名：1838 张
+| 数据源 | 内容 | 卡牌数 |
+|--------|------|--------|
+| mtgtop8.com | Standard/Modern/Pauper 最近3个月上位 | ~1839 |
+| EDHREC | EDH top 卡使用统计 | ~2528 |
+| Scryfall | 卡牌信息（稀有度/颜色/类型/费用） | 缓存递增 |
+| Scryfall | 中文卡名 | 缓存递增 |
 
 ## 🎯 功能说明
 
@@ -102,14 +84,12 @@ python -m http.server 8081
    - 🟠 可保留：EDH 偶用
    - 🔴 可不保留：都不用
 
-2. **构筑赛制使用**（最近 3 个月上位卡组）
-   - Standard / Modern / Pauper 主牌 + 备牌数量
+2. **构筑赛制使用**（最近 3 个月上位卡组 + 趋势指示）
 
-3. **EDH 使用情况**（EDHREC 数据）
-   - 使用卡组数、包含率、Salt 值、等级
+3. **EDH 使用情况**（EDHREC 数据 + 趋势指示）
 
 ## ⚡ 性能
 
 - 数据库约 1MB，首次加载 1-2 秒
 - 加载后所有查询在浏览器本地完成，响应 < 10ms
-- 无需服务器，永久免费在线
+- 无需服务器，GitHub Pages 永久免费
