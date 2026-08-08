@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MTG 卡牌保留价值查询</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: #1a1a2e; color: #e0e0e0; min-height: 100vh;
+}
+
+/* 搜索区 */
+.search-bar {
+  background: #16213e; padding: 20px; text-align: center;
+  border-bottom: 2px solid #0f3460; position: sticky; top: 0; z-index: 100;
+}
+.search-bar h1 { color: #e94560; font-size: 1.4em; margin-bottom: 12px; }
+.search-box { position: relative; max-width: 600px; margin: 0 auto; }
+.search-box input {
+  width: 100%; padding: 12px 16px; font-size: 16px;
+  border: 2px solid #0f3460; border-radius: 8px;
+  background: #1a1a2e; color: #e0e0e0; outline: none;
+  transition: border-color 0.2s;
+}
+.search-box input:focus { border-color: #e94560; }
+.search-box input::placeholder { color: #555; }
+
+/* 自动补全下拉 */
+.autocomplete {
+  position: absolute; top: 100%; left: 0; right: 0;
+  background: #16213e; border: 1px solid #0f3460; border-radius: 0 0 8px 8px;
+  max-height: 300px; overflow-y: auto; z-index: 101; display: none;
+}
+.autocomplete.active { display: block; }
+.autocomplete-item {
+  padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #0f3460;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.autocomplete-item:hover { background: #0f3460; }
+.autocomplete-item .cn { color: #999; font-size: 0.9em; }
+
+/* 稀有度颜色 */
+.r-mythic { color: #f39c12; }
+.r-rare { color: #f1c40f; }
+.r-uncommon { color: #95a5a6; }
+.r-common { color: #ccc; }
+
+/* 结果区 */
+.result-container { max-width: 900px; margin: 20px auto; padding: 0 16px; }
+
+.card-result {
+  background: #16213e; border-radius: 12px; padding: 24px;
+  margin-bottom: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* 卡牌基本信息 */
+.card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+.card-title h2 { font-size: 1.5em; margin-bottom: 4px; }
+.card-title .cn-name { color: #999; font-size: 1.1em; }
+.card-meta { text-align: right; font-size: 0.9em; color: #999; }
+.card-meta .badge {
+  display: inline-block; padding: 4px 10px; border-radius: 4px;
+  font-size: 0.85em; margin-left: 6px; font-weight: bold;
+}
+
+/* 保留建议大标签 */
+.recommendation-banner {
+  padding: 12px 20px; border-radius: 8px; text-align: center;
+  font-size: 1.2em; font-weight: bold; margin-bottom: 20px;
+}
+
+/* 使用情况区域 */
+.section { margin-bottom: 20px; }
+.section h3 {
+  font-size: 1.1em; color: #e94560; margin-bottom: 10px;
+  border-bottom: 1px solid #0f3460; padding-bottom: 6px;
+}
+
+/* 构筑使用表格 */
+.constructed-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+}
+.format-card {
+  background: #1a1a2e; border-radius: 8px; padding: 14px;
+  text-align: center; border: 2px solid transparent;
+}
+.format-card.active { border-color: #e94560; }
+.format-card .fmt-name { font-size: 0.85em; color: #999; margin-bottom: 6px; }
+.format-card .fmt-count { font-size: 1.8em; font-weight: bold; }
+.format-card .fmt-sb { font-size: 0.8em; color: #666; margin-top: 4px; }
+.format-card.inactive .fmt-count { color: #444; }
+
+/* EDH 信息 */
+.edh-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.edh-stat {
+  background: #1a1a2e; border-radius: 8px; padding: 14px; text-align: center;
+}
+.edh-stat .label { font-size: 0.8em; color: #999; margin-bottom: 6px; }
+.edh-stat .value { font-size: 1.4em; font-weight: bold; }
+
+/* 统计信息 */
+.stats-bar {
+  display: flex; gap: 20px; justify-content: center;
+  color: #666; font-size: 0.85em; margin-top: 20px;
+}
+
+/* 空状态 */
+.empty {
+  text-align: center; padding: 60px 20px; color: #555;
+}
+.empty h3 { font-size: 1.2em; margin-bottom: 8px; }
+
+/* 加载中 */
+.loading { text-align: center; padding: 40px; color: #e94560; }
+.loading .spinner {
+  display: inline-block; width: 40px; height: 40px;
+  border: 3px solid #0f3460; border-top-color: #e94560;
+  border-radius: 50%; animation: spin 0.8s linear infinite;
+  margin-bottom: 12px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* 响应式 */
+@media (max-width: 600px) {
+  .constructed-grid, .edh-grid { grid-template-columns: repeat(2, 1fr); }
+  .card-header { flex-direction: column; }
+  .card-meta { text-align: left; margin-top: 10px; }
+}
+</style>
+</head>
+<body>
+
+<div class="search-bar">
+  <h1>🃏 MTG 卡牌保留价值查询</h1>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="输入卡牌英文名或中文名..." autocomplete="off" disabled>
+    <div class="autocomplete" id="autocomplete"></div>
+  </div>
+  <div class="stats-bar" id="statsBar">数据库加载中...</div>
+</div>
+
+<div class="result-container" id="resultContainer">
+  <div class="loading" id="loadingIndicator">
+    <div class="spinner"></div>
+    <p>正在加载数据库（约 2MB）...</p>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+const searchInput = document.getElementById('searchInput');
+const autocomplete = document.getElementById('autocomplete');
+const resultContainer = document.getElementById('resultContainer');
+const statsBar = document.getElementById('statsBar');
+
+let debounceTimer = null;
+let selectedIdx = -1;
+let currentResults = [];
+
+// ============================================================
+// 初始化：加载数据库
+// ============================================================
+
+CardKeeper.init('card_database.json').then(() => {
+  // 隐藏加载提示
+  document.getElementById('loadingIndicator').remove();
+
+  // 显示统计
+  const s = CardKeeper.stats();
+  statsBar.textContent =
+    `📊 共 ${s.total_cards} 张卡 | 构筑数据 ${s.has_constructed} 张 | EDH数据 ${s.has_edh} 张`;
+
+  // 启用搜索框
+  searchInput.disabled = false;
+  searchInput.focus();
+
+  // 显示欢迎信息
+  resultContainer.innerHTML = `
+    <div class="empty">
+      <h3>输入卡名开始查询</h3>
+      <p>综合 Modern / Standard / Pauper 构筑赛制 + EDHREC EDH 使用数据</p>
+    </div>
+  `;
+}).catch(err => {
+  document.getElementById('loadingIndicator').remove();
+  statsBar.textContent = '❌ 数据库加载失败';
+  resultContainer.innerHTML = `
+    <div class="empty">
+      <h3>加载失败</h3>
+      <p>${err.message}</p>
+      <p style="margin-top:10px;color:#666">请确保 card_database.json 与 index.html 在同一目录</p>
+    </div>
+  `;
+});
+
+// ============================================================
+// 搜索输入 → 自动补全（本地查询）
+// ============================================================
+
+searchInput.addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  const q = searchInput.value.trim();
+  if (!q) { autocomplete.classList.remove('active'); return; }
+  debounceTimer = setTimeout(() => doSearch(q), 200);
+}, false);
+
+// 键盘导航
+searchInput.addEventListener('keydown', (e) => {
+  if (!autocomplete.classList.contains('active')) return;
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    selectedIdx = Math.min(selectedIdx + 1, currentResults.length - 1);
+    highlightItem();
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    selectedIdx = Math.max(selectedIdx - 1, 0);
+    highlightItem();
+  } else if (e.key === 'Enter') {
+    e.preventDefault();
+    if (selectedIdx >= 0 && currentResults[selectedIdx]) {
+      fetchCard(currentResults[selectedIdx].name);
+    } else if (currentResults.length > 0) {
+      fetchCard(currentResults[0].name);
+    }
+  }
+}, false);
+
+// 点击外部关闭自动补全
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-box')) {
+    autocomplete.classList.remove('active');
+  }
+}, false);
+
+// ============================================================
+// 本地查询（替换原 API 调用）
+// ============================================================
+
+function doSearch(q) {
+  currentResults = CardKeeper.search(q, 15);
+  selectedIdx = -1;
+  renderAutocomplete(currentResults);
+}
+
+function fetchCard(name) {
+  autocomplete.classList.remove('active');
+  searchInput.value = name;
+
+  const card = CardKeeper.getCard(name);
+  if (card) {
+    renderCard(card);
+  } else {
+    resultContainer.innerHTML = `<div class="empty"><h3>未找到</h3><p>卡牌 "${escapeHtml(name)}" 未收录</p></div>`;
+  }
+}
+
+// ============================================================
+// 渲染（与原版 UI 保持一致）
+// ============================================================
+
+function renderAutocomplete(results) {
+  if (!results.length) {
+    autocomplete.classList.remove('active');
+    return;
+  }
+  autocomplete.innerHTML = results.map((r, i) => {
+    const rarityClass = `r-${r.rarity || 'common'}`;
+    return `<div class="autocomplete-item" data-idx="${i}" data-name="${escapeHtml(r.name)}">
+      <span class="${rarityClass}">${escapeHtml(r.name)}</span>
+      <span class="cn">${escapeHtml(r.chinese_name || '')} ${r.recommendation_label || ''}</span>
+    </div>`;
+  }).join('');
+  autocomplete.classList.add('active');
+
+  // 点击选择
+  autocomplete.querySelectorAll('.autocomplete-item').forEach(item => {
+    item.addEventListener('click', () => {
+      fetchCard(item.dataset.name);
+    });
+  });
+}
+
+function highlightItem() {
+  autocomplete.querySelectorAll('.autocomplete-item').forEach((el, i) => {
+    el.style.background = i === selectedIdx ? '#0f3460' : '';
+  });
+}
+
+function renderCard(card) {
+  const rarityClass = `r-${card.rarity || 'common'}`;
+  const recColor = card.recommendation_color || '#666';
+
+  // 构筑使用
+  const formats = ['standard', 'modern', 'pauper'];
+  const fmtNames = { standard: 'Standard', modern: 'Modern', pauper: 'Pauper' };
+  const constructedHtml = formats.map(f => {
+    const data = (card.constructed || {})[f] || { count: 0, sideboard: 0 };
+    const total = (data.count || 0) + (data.sideboard || 0);
+    const active = total > 0;
+    const sbText = data.sideboard > 0 ? `+${data.sideboard} 备牌` : '';
+    return `<div class="format-card ${active ? 'active' : 'inactive'}">
+      <div class="fmt-name">${fmtNames[f]}</div>
+      <div class="fmt-count">${data.count || 0}</div>
+      <div class="fmt-sb">${sbText}</div>
+    </div>`;
+  }).join('');
+
+  // EDH 信息
+  const edh = card.edh;
+  let edhHtml;
+  if (edh) {
+    const inclusionPct = (edh.inclusion * 100).toFixed(1);
+    const numDecksStr = formatNumber(edh.num_decks);
+    edhHtml = `
+      <div class="edh-stat"><div class="label">使用卡组数</div><div class="value">${numDecksStr}</div></div>
+      <div class="edh-stat"><div class="label">包含率</div><div class="value">${inclusionPct}%</div></div>
+      <div class="edh-stat"><div class="label">Salt</div><div class="value">${(edh.salt || 0).toFixed(2)}</div></div>
+      <div class="edh-stat"><div class="label">等级</div><div class="value" style="font-size:1.1em">${card.edh_tier_label || ''}</div></div>
+    `;
+  } else {
+    edhHtml = `<div class="edh-stat" style="grid-column:span 4"><div class="label">无 EDHREC 数据（冷门卡或未预缓存）</div></div>`;
+  }
+
+  // 颜色标识
+  const colors = card.colors || [];
+  const colorSymbols = { W: '⚪', U: '🔵', B: '⚫', R: '🔴', G: '🟢' };
+  const colorStr = colors.length ? colors.map(c => colorSymbols[c] || c).join(' ') : '无色';
+
+  resultContainer.innerHTML = `
+    <div class="card-result">
+      <div class="card-header">
+        <div class="card-title">
+          <h2 class="${rarityClass}">${escapeHtml(card.name)}</h2>
+          <div class="cn-name">${escapeHtml(card.chinese_name || '（无中文名）')}</div>
+        </div>
+        <div class="card-meta">
+          <span class="${rarityClass}">${card.rarity_cn || card.rarity || ''}</span>
+          <span class="badge" style="background:${recColor};color:#fff">${card.recommendation_label || ''}</span>
+        </div>
+      </div>
+
+      <div class="recommendation-banner" style="background:${recColor};color:#fff">
+        ${card.recommendation_label || '未知'}
+      </div>
+
+      <div class="section">
+        <h3>📋 基本信息</h3>
+        <div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#bbb">
+          <span>类型: ${escapeHtml(card.type_line || '未知')}</span>
+          <span>颜色: ${colorStr}</span>
+          <span>费用: ${card.cmc || 0}</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>🏟️ 构筑赛制使用（最近3个月上位）</h3>
+        <div class="constructed-grid">${constructedHtml}</div>
+      </div>
+
+      <div class="section">
+        <h3>🐉 EDH 使用情况（EDHREC）</h3>
+        <div class="edh-grid">${edhHtml}</div>
+      </div>
+    </div>
+  `;
+}
+
+// ============================================================
+// 工具函数
+// ============================================================
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function formatNumber(n) {
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+  return String(n);
+}
+</script>
+
+</body>
+</html>
