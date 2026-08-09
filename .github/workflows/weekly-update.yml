@@ -32,6 +32,9 @@ jobs:
       - name: 构建数据库 + 计算趋势
         run: python scripts/build_deploy.py
 
+      - name: 抓取卡牌系列信息（Scryfall Bulk Data）
+        run: python scripts/fetch_sets_bulk.py
+
       - name: 清理旧快照（保留12周）
         run: python scripts/prune_history.py --keep 12
 

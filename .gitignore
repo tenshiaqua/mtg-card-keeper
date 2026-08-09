@@ -15,6 +15,7 @@ Thumbs.db
 scripts/mtgtop8_scraper/data/raw_*.json
 scripts/mtgtop8_scraper/data/progress.json
 scripts/mtgtop8_scraper/data/processed_*.json
+scripts/data/default_cards.jsonl.gz
 scripts/Report/
 
 # Python

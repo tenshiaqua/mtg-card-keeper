@@ -41,8 +41,10 @@ const CardKeeper = {
   // 数据
   // ============================================================
 
-  cards: {},       // { cardName: cardData }
-  nameIndex: {},   // { lowercase_name: original_name } 用于大小写不敏感搜索
+  cards: {},        // { cardName: cardData }
+  nameIndex: {},    // { lowercase_name: original_name } 用于大小写不敏感搜索
+  setsIndex: {},    // { set_code: set_name } 系列代码→名称映射
+  setsToCards: {},  // { set_code: [cardName, ...] } 系列→卡牌反向索引
   _loaded: false,
 
   // ============================================================
@@ -50,24 +52,83 @@ const CardKeeper = {
   // ============================================================
 
   /**
-   * 加载数据库 JSON
+   * 加载数据库 JSON 和系列索引
    * @param {string} jsonPath - card_database.json 路径
+   * @param {string} [setsIndexPath] - sets_index.json 路径（可选）
    */
-  async init(jsonPath) {
+  async init(jsonPath, setsIndexPath) {
     const resp = await fetch(jsonPath);
     if (!resp.ok) {
       throw new Error(`加载数据库失败: ${resp.status} ${resp.statusText}`);
     }
     this.cards = await resp.json();
     this.buildIndex();
+
+    // 加载系列索引（如果提供）
+    if (setsIndexPath) {
+      try {
+        const setsResp = await fetch(setsIndexPath);
+        if (setsResp.ok) {
+          this.setsIndex = await setsResp.json();
+          this.buildSetsIndex();
+        }
+      } catch (e) {
+        console.warn('系列索引加载失败，按系列浏览功能不可用', e);
+      }
+    }
+
     this._loaded = true;
   },
 
   buildIndex() {
     this.nameIndex = {};
     for (const name of Object.keys(this.cards)) {
+      if (name.startsWith('__')) continue; // 跳过元数据键
       this.nameIndex[name.toLowerCase()] = name;
     }
+  },
+
+  /**
+   * 构建系列→卡牌反向索引
+   */
+  buildSetsIndex() {
+    this.setsToCards = {};
+    for (const name of Object.keys(this.cards)) {
+      if (name.startsWith('__')) continue;
+      const sets = this.cards[name].sets || [];
+      for (const code of sets) {
+        if (!this.setsToCards[code]) this.setsToCards[code] = [];
+        this.setsToCards[code].push(name);
+      }
+    }
+  },
+
+  /**
+   * 获取所有系列（含卡牌数），按名称排序
+   * @returns {Array<{code, name, count}>}
+   */
+  getAllSets() {
+    return Object.keys(this.setsIndex)
+      .map(code => ({
+        code,
+        name: this.setsIndex[code],
+        count: (this.setsToCards[code] || []).length,
+      }))
+      .filter(s => s.count > 0)
+      .sort((a, b) => a.name.localeCompare(b.name));
+  },
+
+  /**
+   * 获取指定系列中的所有卡牌
+   * @param {string} setCode - 系列代码
+   * @returns {Array} 格式化后的卡牌列表
+   */
+  getCardsBySet(setCode) {
+    const names = this.setsToCards[setCode] || [];
+    return names
+      .map(n => this.cards[n])
+      .filter(Boolean)
+      .map(c => this._formatCard(c));
   },
 
   // ============================================================

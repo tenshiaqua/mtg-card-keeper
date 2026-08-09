@@ -122,6 +122,65 @@ body {
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 
+/* Tab 栏 */
+.tabs {
+  display: flex; gap: 8px; justify-content: center; margin-bottom: 12px;
+}
+.tab {
+  padding: 8px 20px; border: 2px solid #0f3460; border-radius: 8px;
+  background: #1a1a2e; color: #999; cursor: pointer; font-size: 0.95em;
+  transition: all 0.2s;
+}
+.tab:hover { border-color: #e94560; color: #e0e0e0; }
+.tab.active { background: #e94560; color: #fff; border-color: #e94560; }
+
+/* 系列浏览器 */
+.set-browser { margin-bottom: 16px; }
+.set-search-box { position: relative; max-width: 600px; margin: 0 auto 12px; }
+.set-search-box input {
+  width: 100%; padding: 10px 16px; font-size: 15px;
+  border: 2px solid #0f3460; border-radius: 8px;
+  background: #1a1a2e; color: #e0e0e0; outline: none;
+}
+.set-search-box input:focus { border-color: #e94560; }
+
+.set-list {
+  max-height: 300px; overflow-y: auto; max-width: 600px; margin: 0 auto;
+  background: #16213e; border-radius: 8px; border: 1px solid #0f3460;
+}
+.set-item {
+  padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #0f3460;
+  display: flex; justify-content: space-between; align-items: center;
+  transition: background 0.15s;
+}
+.set-item:hover { background: #0f3460; }
+.set-item.selected { background: #0f3460; border-left: 3px solid #e94560; }
+.set-item .set-name { font-size: 0.95em; }
+.set-item .set-code { color: #666; font-size: 0.85em; margin-left: 8px; }
+.set-item .set-count {
+  background: #0f3460; color: #aaa; padding: 2px 8px; border-radius: 4px;
+  font-size: 0.8em; white-space: nowrap;
+}
+
+/* 系列卡牌列表 */
+.set-cards-header {
+  font-size: 1.1em; color: #e94560; margin: 20px 0 10px;
+  border-bottom: 1px solid #0f3460; padding-bottom: 6px;
+}
+.set-card-item {
+  background: #16213e; border-radius: 8px; padding: 12px 16px;
+  margin-bottom: 8px; display: flex; justify-content: space-between;
+  align-items: center; cursor: pointer; transition: background 0.15s;
+  border-left: 3px solid transparent;
+}
+.set-card-item:hover { background: #1a1a2e; border-left-color: #e94560; }
+.set-card-item .sci-name { font-weight: bold; }
+.set-card-item .sci-cn { color: #999; font-size: 0.9em; margin-left: 8px; }
+.set-card-item .sci-badge {
+  display: inline-block; padding: 3px 10px; border-radius: 4px;
+  font-size: 0.8em; font-weight: bold; color: #fff; white-space: nowrap;
+}
+
 /* 趋势指示器 */
 .trend { font-size: 0.85em; margin-left: 6px; white-space: nowrap; }
 .trend-up { color: #51cf66; }
@@ -141,18 +200,34 @@ body {
 
 <div class="search-bar">
   <h1>🃏 MTG 卡牌保留价值查询</h1>
-  <div class="search-box">
+  <div class="tabs">
+    <button class="tab active" data-tab="search" id="tabSearch">🔍 卡牌查询</button>
+    <button class="tab" data-tab="sets" id="tabSets">📦 按系列浏览</button>
+  </div>
+  <div class="search-box" id="searchBox">
     <input type="text" id="searchInput" placeholder="输入卡牌英文名或中文名..." autocomplete="off" disabled>
     <div class="autocomplete" id="autocomplete"></div>
   </div>
   <div class="stats-bar" id="statsBar">数据库加载中...</div>
 </div>
 
+<!-- 查询 Tab -->
 <div class="result-container" id="resultContainer">
   <div class="loading" id="loadingIndicator">
     <div class="spinner"></div>
     <p>正在加载数据库（约 2MB）...</p>
   </div>
+</div>
+
+<!-- 按系列浏览 Tab -->
+<div class="result-container" id="setsContainer" style="display:none">
+  <div class="set-browser">
+    <div class="set-search-box">
+      <input type="text" id="setFilterInput" placeholder="搜索系列名称或代码..." disabled>
+    </div>
+    <div class="set-list" id="setList"></div>
+  </div>
+  <div id="setCardsContainer"></div>
 </div>
 
 <script src="app.js"></script>
@@ -162,15 +237,25 @@ const autocomplete = document.getElementById('autocomplete');
 const resultContainer = document.getElementById('resultContainer');
 const statsBar = document.getElementById('statsBar');
 
+// 系列 Tab 元素
+const setsContainer = document.getElementById('setsContainer');
+const setList = document.getElementById('setList');
+const setFilterInput = document.getElementById('setFilterInput');
+const setCardsContainer = document.getElementById('setCardsContainer');
+const tabSearch = document.getElementById('tabSearch');
+const tabSets = document.getElementById('tabSets');
+const searchBox = document.getElementById('searchBox');
+
 let debounceTimer = null;
 let selectedIdx = -1;
 let currentResults = [];
+let currentSetCode = null;  // 当前选中的系列代码
 
 // ============================================================
 // 初始化：加载数据库
 // ============================================================
 
-CardKeeper.init('card_database.json').then(() => {
+CardKeeper.init('card_database.json', 'sets_index.json').then(() => {
   // 隐藏加载提示
   document.getElementById('loadingIndicator').remove();
 
@@ -190,6 +275,17 @@ CardKeeper.init('card_database.json').then(() => {
       <p>综合 Modern / Standard / Pauper 构筑赛制 + EDHREC EDH 使用数据</p>
     </div>
   `;
+
+  // 初始化系列浏览
+  if (Object.keys(CardKeeper.setsIndex).length > 0) {
+    setFilterInput.disabled = false;
+    renderSetList('');
+    setFilterInput.addEventListener('input', () => {
+      renderSetList(setFilterInput.value.trim().toLowerCase());
+    });
+  } else {
+    setFilterInput.placeholder = '系列数据未加载';
+  }
 }).catch(err => {
   document.getElementById('loadingIndicator').remove();
   statsBar.textContent = '❌ 数据库加载失败';
@@ -201,6 +297,103 @@ CardKeeper.init('card_database.json').then(() => {
     </div>
   `;
 });
+
+// ============================================================
+// Tab 切换
+// ============================================================
+
+tabSearch.addEventListener('click', () => switchTab('search'), false);
+tabSets.addEventListener('click', () => switchTab('sets'), false);
+
+function switchTab(tab) {
+  if (tab === 'search') {
+    tabSearch.classList.add('active');
+    tabSets.classList.remove('active');
+    searchBox.style.display = '';
+    resultContainer.style.display = '';
+    setsContainer.style.display = 'none';
+    searchInput.focus();
+  } else {
+    tabSets.classList.add('active');
+    tabSearch.classList.remove('active');
+    searchBox.style.display = 'none';
+    resultContainer.style.display = 'none';
+    setsContainer.style.display = '';
+    setFilterInput.focus();
+  }
+}
+
+// ============================================================
+// 系列浏览：系列列表渲染与筛选
+// ============================================================
+
+function renderSetList(filter) {
+  const allSets = CardKeeper.getAllSets();
+  const filtered = filter
+    ? allSets.filter(s =>
+        s.name.toLowerCase().includes(filter) || s.code.toLowerCase().includes(filter))
+    : allSets;
+
+  if (filtered.length === 0) {
+    setList.innerHTML = '<div style="padding:16px;text-align:center;color:#555">无匹配系列</div>';
+    return;
+  }
+
+  setList.innerHTML = filtered.map(s => `
+    <div class="set-item ${s.code === currentSetCode ? 'selected' : ''}" data-code="${escapeHtml(s.code)}">
+      <span><span class="set-name">${escapeHtml(s.name)}</span><span class="set-code">${escapeHtml(s.code)}</span></span>
+      <span class="set-count">${s.count} 张</span>
+    </div>
+  `).join('');
+
+  setList.querySelectorAll('.set-item').forEach(item => {
+    item.addEventListener('click', () => selectSet(item.dataset.code), false);
+  });
+}
+
+function selectSet(code) {
+  currentSetCode = code;
+  // 更新选中高亮
+  setList.querySelectorAll('.set-item').forEach(el => {
+    el.classList.toggle('selected', el.dataset.code === code);
+  });
+  renderSetCards(code);
+}
+
+function renderSetCards(code) {
+  const setName = CardKeeper.setsIndex[code] || code;
+  const cards = CardKeeper.getCardsBySet(code);
+
+  if (cards.length === 0) {
+    setCardsContainer.innerHTML = `<div class="empty"><h3>无卡牌</h3></div>`;
+    return;
+  }
+
+  setCardsContainer.innerHTML = `
+    <div class="set-cards-header">📦 ${escapeHtml(setName)} (${code}) — ${cards.length} 张可用卡</div>
+  ` + cards.map(card => {
+    const rarityClass = `r-${card.rarity || 'common'}`;
+    const recColor = card.recommendation_color || '#666';
+    const recLabel = card.recommendation_label || '';
+    return `<div class="set-card-item" data-name="${escapeHtml(card.name)}">
+      <span>
+        <span class="sci-name ${rarityClass}">${escapeHtml(card.name)}</span>
+        <span class="sci-cn">${escapeHtml(card.chinese_name || '')}</span>
+      </span>
+      <span class="sci-badge" style="background:${recColor}">${recLabel}</span>
+    </div>`;
+  }).join('');
+
+  // 点击卡牌查看详情
+  setCardsContainer.querySelectorAll('.set-card-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const card = CardKeeper.getCard(item.dataset.name);
+      if (card) {
+        renderCard(card, setCardsContainer, code);
+      }
+    }, false);
+  });
+}
 
 // ============================================================
 // 搜索输入 → 自动补全（本地查询）
@@ -295,7 +488,8 @@ function highlightItem() {
   });
 }
 
-function renderCard(card) {
+function renderCard(card, target, setCode) {
+  const container = target || resultContainer;
   const rarityClass = `r-${card.rarity || 'common'}`;
   const recColor = card.recommendation_color || '#666';
 
@@ -343,7 +537,12 @@ function renderCard(card) {
   : t === 'new'  ? '<span class="trend trend-new">✨新增</span>'
   : '<span class="trend trend-same">→持平</span>';
 
-  resultContainer.innerHTML = `
+  // 系列浏览模式：添加返回按钮
+  const backBtn = setCode
+    ? `<div style="margin-bottom:12px"><button class="tab" onclick="renderSetCards('${setCode}')" style="cursor:pointer">← 返回列表</button></div>`
+    : '';
+
+  container.innerHTML = backBtn + `
     <div class="card-result">
       <div class="card-header">
         <div class="card-title">
