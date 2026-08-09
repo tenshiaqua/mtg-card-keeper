@@ -37,6 +37,16 @@ jobs:
       - name: 构建数据库 + 计算趋势
         run: python scripts/build_deploy.py
 
+      - name: 合并 Commander Spellbook combo 卡
+        # 将 2005年及之前系列的 combo 组件卡补充到数据库
+        run: python scripts/merge_spellbook_cards.py
+
+      - name: 标记 combo_legacy
+        run: python scripts/tag_combo_legacy.py
+
+      - name: 过滤 2005年后有重印的 combo 卡
+        run: python scripts/filter_combo_legacy.py
+
       - name: 压缩数据库（移除可计算字段）
         run: python scripts/card_keeper/compress_deploy.py
 
