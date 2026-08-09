@@ -29,8 +29,16 @@ jobs:
             --formats standard,modern,pauper \
             --max-pages 8
 
+      - name: 抓取 EDHREC By Type 数据（Past Month）
+        # 每周更新 EDHREC Past Month 数据（7 种类型 × 100 张，约 10 秒）
+        run: |
+          cd scripts && python -m card_keeper.fetch_edhrec_by_type fetch month
+
       - name: 构建数据库 + 计算趋势
         run: python scripts/build_deploy.py
+
+      - name: 压缩数据库（移除可计算字段）
+        run: python scripts/card_keeper/compress_deploy.py
 
       - name: 抓取卡牌系列信息（Scryfall Bulk Data）
         run: python scripts/fetch_sets_bulk.py

@@ -131,6 +131,50 @@ const CardKeeper = {
       .map(c => this._formatCard(c));
   },
 
+  /**
+   * 获取所有 Combo 潜力卡（combo_legacy 标记）
+   * @param {Object} [filter] - 筛选条件 {rarity, color, type}
+   * @returns {Array} 格式化后的卡牌列表
+   */
+  getComboLegacyCards(filter) {
+    const cards = [];
+    for (const [name, card] of Object.entries(this.cards)) {
+      if (name.startsWith('__')) continue;
+      if (!card.combo_legacy) continue;
+      if (filter) {
+        if (filter.rarity && card.rarity !== filter.rarity) continue;
+        if (filter.color && card.color_category !== filter.color) continue;
+        if (filter.type && card.type_category !== filter.type) continue;
+      }
+      cards.push(this._formatCard(card));
+    }
+    cards.sort((a, b) => a.name.localeCompare(b.name));
+    return cards;
+  },
+
+  /**
+   * Combo 潜力卡统计
+   */
+  comboLegacyStats() {
+    const stats = {
+      total: 0,
+      by_rarity: {},
+      by_color: {},
+      by_type: {},
+      has_chinese: 0,
+    };
+    for (const [name, card] of Object.entries(this.cards)) {
+      if (name.startsWith('__')) continue;
+      if (!card.combo_legacy) continue;
+      stats.total++;
+      stats.by_rarity[card.rarity] = (stats.by_rarity[card.rarity] || 0) + 1;
+      stats.by_color[card.color_category] = (stats.by_color[card.color_category] || 0) + 1;
+      stats.by_type[card.type_category] = (stats.by_type[card.type_category] || 0) + 1;
+      if (card.chinese_name) stats.has_chinese++;
+    }
+    return stats;
+  },
+
   // ============================================================
   // 判断逻辑（移植自 database.py）
   // ============================================================

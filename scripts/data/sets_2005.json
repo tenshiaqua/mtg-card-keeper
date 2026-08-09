@@ -1,0 +1,352 @@
+{
+  "rav": {
+    "name": "Ravnica: City of Guilds",
+    "released_at": "2005-10-07",
+    "set_type": "expansion"
+  },
+  "psal": {
+    "name": "Salvat 2005",
+    "released_at": "2005-08-22",
+    "set_type": "box"
+  },
+  "9ed": {
+    "name": "Ninth Edition",
+    "released_at": "2005-07-29",
+    "set_type": "core"
+  },
+  "sok": {
+    "name": "Saviors of Kamigawa",
+    "released_at": "2005-06-03",
+    "set_type": "expansion"
+  },
+  "bok": {
+    "name": "Betrayers of Kamigawa",
+    "released_at": "2005-02-04",
+    "set_type": "expansion"
+  },
+  "unh": {
+    "name": "Unhinged",
+    "released_at": "2004-11-19",
+    "set_type": "funny"
+  },
+  "chk": {
+    "name": "Champions of Kamigawa",
+    "released_at": "2004-10-01",
+    "set_type": "expansion"
+  },
+  "5dn": {
+    "name": "Fifth Dawn",
+    "released_at": "2004-06-04",
+    "set_type": "expansion"
+  },
+  "dst": {
+    "name": "Darksteel",
+    "released_at": "2004-02-06",
+    "set_type": "expansion"
+  },
+  "mrd": {
+    "name": "Mirrodin",
+    "released_at": "2003-10-02",
+    "set_type": "expansion"
+  },
+  "8ed": {
+    "name": "Eighth Edition",
+    "released_at": "2003-07-28",
+    "set_type": "core"
+  },
+  "scg": {
+    "name": "Scourge",
+    "released_at": "2003-05-26",
+    "set_type": "expansion"
+  },
+  "lgn": {
+    "name": "Legions",
+    "released_at": "2003-02-03",
+    "set_type": "expansion"
+  },
+  "ons": {
+    "name": "Onslaught",
+    "released_at": "2002-10-07",
+    "set_type": "expansion"
+  },
+  "jud": {
+    "name": "Judgment",
+    "released_at": "2002-05-27",
+    "set_type": "expansion"
+  },
+  "tor": {
+    "name": "Torment",
+    "released_at": "2002-02-04",
+    "set_type": "expansion"
+  },
+  "dkm": {
+    "name": "Deckmasters",
+    "released_at": "2001-12-01",
+    "set_type": "box"
+  },
+  "ody": {
+    "name": "Odyssey",
+    "released_at": "2001-10-01",
+    "set_type": "expansion"
+  },
+  "psdg": {
+    "name": "Sega Dreamcast Cards",
+    "released_at": "2001-06-28",
+    "set_type": "box"
+  },
+  "apc": {
+    "name": "Apocalypse",
+    "released_at": "2001-06-04",
+    "set_type": "expansion"
+  },
+  "7ed": {
+    "name": "Seventh Edition",
+    "released_at": "2001-04-11",
+    "set_type": "core"
+  },
+  "pls": {
+    "name": "Planeshift",
+    "released_at": "2001-02-05",
+    "set_type": "expansion"
+  },
+  "inv": {
+    "name": "Invasion",
+    "released_at": "2000-10-02",
+    "set_type": "expansion"
+  },
+  "btd": {
+    "name": "Beatdown Box Set",
+    "released_at": "2000-10-01",
+    "set_type": "box"
+  },
+  "pcy": {
+    "name": "Prophecy",
+    "released_at": "2000-06-05",
+    "set_type": "expansion"
+  },
+  "s00": {
+    "name": "Starter 2000",
+    "released_at": "2000-04-01",
+    "set_type": "starter"
+  },
+  "nem": {
+    "name": "Nemesis",
+    "released_at": "2000-02-14",
+    "set_type": "expansion"
+  },
+  "brb": {
+    "name": "Battle Royale Box Set",
+    "released_at": "1999-11-12",
+    "set_type": "box"
+  },
+  "mmq": {
+    "name": "Mercadian Masques",
+    "released_at": "1999-10-04",
+    "set_type": "expansion"
+  },
+  "s99": {
+    "name": "Starter 1999",
+    "released_at": "1999-07-01",
+    "set_type": "starter"
+  },
+  "uds": {
+    "name": "Urza's Destiny",
+    "released_at": "1999-06-07",
+    "set_type": "expansion"
+  },
+  "ptk": {
+    "name": "Portal Three Kingdoms",
+    "released_at": "1999-05-01",
+    "set_type": "starter"
+  },
+  "6ed": {
+    "name": "Classic Sixth Edition",
+    "released_at": "1999-04-21",
+    "set_type": "core"
+  },
+  "ulg": {
+    "name": "Urza's Legacy",
+    "released_at": "1999-02-15",
+    "set_type": "expansion"
+  },
+  "ath": {
+    "name": "Anthologies",
+    "released_at": "1998-11-01",
+    "set_type": "box"
+  },
+  "usg": {
+    "name": "Urza's Saga",
+    "released_at": "1998-10-12",
+    "set_type": "expansion"
+  },
+  "ugl": {
+    "name": "Unglued",
+    "released_at": "1998-08-11",
+    "set_type": "funny"
+  },
+  "p02": {
+    "name": "Portal Second Age",
+    "released_at": "1998-06-24",
+    "set_type": "starter"
+  },
+  "exo": {
+    "name": "Exodus",
+    "released_at": "1998-06-15",
+    "set_type": "expansion"
+  },
+  "sth": {
+    "name": "Stronghold",
+    "released_at": "1998-03-02",
+    "set_type": "expansion"
+  },
+  "tmp": {
+    "name": "Tempest",
+    "released_at": "1997-10-14",
+    "set_type": "expansion"
+  },
+  "wth": {
+    "name": "Weatherlight",
+    "released_at": "1997-06-09",
+    "set_type": "expansion"
+  },
+  "por": {
+    "name": "Portal",
+    "released_at": "1997-05-01",
+    "set_type": "starter"
+  },
+  "past": {
+    "name": "Astral Cards",
+    "released_at": "1997-04-01",
+    "set_type": "box"
+  },
+  "5ed": {
+    "name": "Fifth Edition",
+    "released_at": "1997-03-24",
+    "set_type": "core"
+  },
+  "vis": {
+    "name": "Visions",
+    "released_at": "1997-02-03",
+    "set_type": "expansion"
+  },
+  "itp": {
+    "name": "Introductory Two-Player Set",
+    "released_at": "1996-12-31",
+    "set_type": "starter"
+  },
+  "mgb": {
+    "name": "Multiverse Gift Box",
+    "released_at": "1996-11-01",
+    "set_type": "box"
+  },
+  "mir": {
+    "name": "Mirage",
+    "released_at": "1996-10-08",
+    "set_type": "expansion"
+  },
+  "rqs": {
+    "name": "Rivals Quick Start Set",
+    "released_at": "1996-07-01",
+    "set_type": "box"
+  },
+  "all": {
+    "name": "Alliances",
+    "released_at": "1996-06-10",
+    "set_type": "expansion"
+  },
+  "hml": {
+    "name": "Homelands",
+    "released_at": "1995-10-01",
+    "set_type": "expansion"
+  },
+  "ren": {
+    "name": "Renaissance",
+    "released_at": "1995-08-01",
+    "set_type": "masters"
+  },
+  "rin": {
+    "name": "Rinascimento",
+    "released_at": "1995-08-01",
+    "set_type": "masters"
+  },
+  "chr": {
+    "name": "Chronicles",
+    "released_at": "1995-07-01",
+    "set_type": "masters"
+  },
+  "bchr": {
+    "name": "Chronicles Foreign Black Border",
+    "released_at": "1995-07-01",
+    "set_type": "masters"
+  },
+  "ice": {
+    "name": "Ice Age",
+    "released_at": "1995-06-03",
+    "set_type": "expansion"
+  },
+  "4bb": {
+    "name": "Fourth Edition Foreign Black Border",
+    "released_at": "1995-04-01",
+    "set_type": "core"
+  },
+  "4ed": {
+    "name": "Fourth Edition",
+    "released_at": "1995-04-01",
+    "set_type": "core"
+  },
+  "fem": {
+    "name": "Fallen Empires",
+    "released_at": "1994-11-01",
+    "set_type": "expansion"
+  },
+  "drk": {
+    "name": "The Dark",
+    "released_at": "1994-08-01",
+    "set_type": "expansion"
+  },
+  "sum": {
+    "name": "Summer Magic / Edgar",
+    "released_at": "1994-06-21",
+    "set_type": "core"
+  },
+  "leg": {
+    "name": "Legends",
+    "released_at": "1994-06-01",
+    "set_type": "expansion"
+  },
+  "fbb": {
+    "name": "Foreign Black Border",
+    "released_at": "1994-04-11",
+    "set_type": "core"
+  },
+  "3ed": {
+    "name": "Revised Edition",
+    "released_at": "1994-04-11",
+    "set_type": "core"
+  },
+  "atq": {
+    "name": "Antiquities",
+    "released_at": "1994-03-04",
+    "set_type": "expansion"
+  },
+  "arn": {
+    "name": "Arabian Nights",
+    "released_at": "1993-12-17",
+    "set_type": "expansion"
+  },
+  "2ed": {
+    "name": "Unlimited Edition",
+    "released_at": "1993-12-01",
+    "set_type": "core"
+  },
+  "leb": {
+    "name": "Limited Edition Beta",
+    "released_at": "1993-10-04",
+    "set_type": "core"
+  },
+  "lea": {
+    "name": "Limited Edition Alpha",
+    "released_at": "1993-08-05",
+    "set_type": "core"
+  }
+}

@@ -16,6 +16,8 @@ scripts/mtgtop8_scraper/data/raw_*.json
 scripts/mtgtop8_scraper/data/progress.json
 scripts/mtgtop8_scraper/data/processed_*.json
 scripts/data/default_cards.jsonl.gz
+scripts/data/sets_cache.json
+scripts/data/spellbook_combo_cards.json
 scripts/Report/
 
 # Python

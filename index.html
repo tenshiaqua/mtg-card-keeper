@@ -188,11 +188,61 @@ body {
 .trend-same { color: #666; }
 .trend-new { color: #ffd43b; }
 
+/* Combo 潜力卡 */
+.combo-header { margin-bottom: 16px; }
+.combo-intro {
+  background: #16213e; border-radius: 8px; padding: 14px 18px;
+  border-left: 3px solid #e94560; margin-bottom: 12px;
+}
+.combo-intro strong { color: #e94560; font-size: 1.05em; }
+.combo-desc { color: #888; font-size: 0.85em; }
+
+.combo-filters {
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  max-width: 900px;
+}
+.combo-filters select, .combo-filters input {
+  padding: 8px 12px; border: 2px solid #0f3460; border-radius: 6px;
+  background: #1a1a2e; color: #e0e0e0; outline: none; font-size: 0.9em;
+  transition: border-color 0.2s;
+}
+.combo-filters select:focus, .combo-filters input:focus { border-color: #e94560; }
+.combo-filters input { flex: 1; min-width: 150px; }
+
+.combo-stats {
+  margin-top: 10px; color: #888; font-size: 0.85em;
+}
+
+.combo-card-item {
+  background: #16213e; border-radius: 8px; padding: 12px 16px;
+  margin-bottom: 8px; display: flex; justify-content: space-between;
+  align-items: center; cursor: pointer; transition: background 0.15s;
+  border-left: 3px solid #e94560;
+}
+.combo-card-item:hover { background: #1a1a2e; }
+.combo-card-item .cci-name { font-weight: bold; }
+.combo-card-item .cci-cn { color: #999; font-size: 0.9em; margin-left: 8px; }
+.combo-card-item .cci-meta { color: #666; font-size: 0.8em; margin-left: 6px; }
+.combo-card-item .cci-badge {
+  display: inline-block; padding: 3px 10px; border-radius: 4px;
+  font-size: 0.8em; font-weight: bold; color: #fff; white-space: nowrap;
+  background: #e94560;
+}
+
+/* Combo 标签（卡牌详情中） */
+.combo-tag {
+  display: inline-block; padding: 3px 10px; border-radius: 4px;
+  font-size: 0.8em; font-weight: bold; color: #fff;
+  background: #e94560; margin-left: 6px;
+}
+
 /* 响应式 */
 @media (max-width: 600px) {
   .constructed-grid, .edh-grid { grid-template-columns: repeat(2, 1fr); }
   .card-header { flex-direction: column; }
   .card-meta { text-align: left; margin-top: 10px; }
+  .combo-filters { flex-direction: column; }
+  .combo-filters input { min-width: 100%; }
 }
 </style>
 </head>
@@ -203,6 +253,7 @@ body {
   <div class="tabs">
     <button class="tab active" data-tab="search" id="tabSearch">🔍 卡牌查询</button>
     <button class="tab" data-tab="sets" id="tabSets">📦 按系列浏览</button>
+    <button class="tab" data-tab="combo" id="tabCombo">🔥 Combo潜力卡</button>
   </div>
   <div class="search-box" id="searchBox">
     <input type="text" id="searchInput" placeholder="输入卡牌英文名或中文名..." autocomplete="off" disabled>
@@ -230,6 +281,48 @@ body {
   <div id="setCardsContainer"></div>
 </div>
 
+<!-- Combo潜力卡 Tab -->
+<div class="result-container" id="comboContainer" style="display:none">
+  <div class="combo-header">
+    <div class="combo-intro">🔥 <strong>很久无重印 · Combo 潜力卡</strong><br>
+      <span class="combo-desc">来自 Commander Spellbook 的 combo 组件卡，在 2005 年及之前系列中印刷过，部分很久未重印</span>
+    </div>
+    <div class="combo-filters" id="comboFilters">
+      <select id="comboFilterRarity">
+        <option value="">全部稀有度</option>
+        <option value="mythic">秘稀</option>
+        <option value="rare">稀有</option>
+        <option value="uncommon">非普通</option>
+        <option value="common">普通</option>
+        <option value="special">特殊</option>
+      </select>
+      <select id="comboFilterColor">
+        <option value="">全部颜色</option>
+        <option value="W">白</option>
+        <option value="U">蓝</option>
+        <option value="B">黑</option>
+        <option value="R">红</option>
+        <option value="G">绿</option>
+        <option value="Colorless">无色</option>
+        <option value="Multicolor">多色</option>
+      </select>
+      <select id="comboFilterType">
+        <option value="">全部类型</option>
+        <option value="Creature">生物</option>
+        <option value="Planeswalker">鹏洛客</option>
+        <option value="Artifact">神器</option>
+        <option value="Enchantment">结界</option>
+        <option value="Instant">瞬间</option>
+        <option value="Sorcery">法术</option>
+        <option value="Land">地</option>
+      </select>
+      <input type="text" id="comboSearchInput" placeholder="搜索卡名...">
+    </div>
+    <div class="combo-stats" id="comboStats"></div>
+  </div>
+  <div id="comboCardsContainer"></div>
+</div>
+
 <script src="app.js"></script>
 <script>
 const searchInput = document.getElementById('searchInput');
@@ -245,6 +338,16 @@ const setCardsContainer = document.getElementById('setCardsContainer');
 const tabSearch = document.getElementById('tabSearch');
 const tabSets = document.getElementById('tabSets');
 const searchBox = document.getElementById('searchBox');
+
+// Combo Tab 元素
+const comboContainer = document.getElementById('comboContainer');
+const comboStats = document.getElementById('comboStats');
+const comboCardsContainer = document.getElementById('comboCardsContainer');
+const comboFilterRarity = document.getElementById('comboFilterRarity');
+const comboFilterColor = document.getElementById('comboFilterColor');
+const comboFilterType = document.getElementById('comboFilterType');
+const comboSearchInput = document.getElementById('comboSearchInput');
+const tabCombo = document.getElementById('tabCombo');
 
 let debounceTimer = null;
 let selectedIdx = -1;
@@ -304,22 +407,32 @@ CardKeeper.init('card_database.json', 'sets_index.json').then(() => {
 
 tabSearch.addEventListener('click', () => switchTab('search'), false);
 tabSets.addEventListener('click', () => switchTab('sets'), false);
+tabCombo.addEventListener('click', () => switchTab('combo'), false);
 
 function switchTab(tab) {
+  // 统一移除所有 active
+  tabSearch.classList.remove('active');
+  tabSets.classList.remove('active');
+  tabCombo.classList.remove('active');
+  // 统一隐藏所有容器
+  searchBox.style.display = 'none';
+  resultContainer.style.display = 'none';
+  setsContainer.style.display = 'none';
+  comboContainer.style.display = 'none';
+
   if (tab === 'search') {
     tabSearch.classList.add('active');
-    tabSets.classList.remove('active');
     searchBox.style.display = '';
     resultContainer.style.display = '';
-    setsContainer.style.display = 'none';
     searchInput.focus();
-  } else {
+  } else if (tab === 'sets') {
     tabSets.classList.add('active');
-    tabSearch.classList.remove('active');
-    searchBox.style.display = 'none';
-    resultContainer.style.display = 'none';
     setsContainer.style.display = '';
     setFilterInput.focus();
+  } else if (tab === 'combo') {
+    tabCombo.classList.add('active');
+    comboContainer.style.display = '';
+    renderComboCards();
   }
 }
 
@@ -394,6 +507,80 @@ function renderSetCards(code) {
     }, false);
   });
 }
+
+// ============================================================
+// Combo 潜力卡：渲染与筛选
+// ============================================================
+
+function renderComboCards() {
+  const filter = {
+    rarity: comboFilterRarity.value,
+    color: comboFilterColor.value,
+    type: comboFilterType.value,
+  };
+  const searchTerm = comboSearchInput.value.trim().toLowerCase();
+
+  let cards = CardKeeper.getComboLegacyCards(filter);
+
+  // 卡名搜索筛选
+  if (searchTerm) {
+    cards = cards.filter(c =>
+      c.name.toLowerCase().includes(searchTerm) ||
+      (c.chinese_name || '').toLowerCase().includes(searchTerm)
+    );
+  }
+
+  // 统计信息
+  const stats = CardKeeper.comboLegacyStats();
+  comboStats.textContent =
+    `📊 共 ${stats.total} 张 | 有中文: ${stats.has_chinese} 张 | ` +
+    `当前显示: ${cards.length} 张`;
+
+  if (cards.length === 0) {
+    comboCardsContainer.innerHTML = '<div class="empty"><h3>无匹配卡牌</h3></div>';
+    return;
+  }
+
+  // 渲染卡牌列表
+  comboCardsContainer.innerHTML = cards.map(card => {
+    const rarityClass = `r-${card.rarity || 'common'}`;
+    const rarityCn = CardKeeper.RARITY_CN[card.rarity] || card.rarity || '';
+    const colorCn = CardKeeper.COLOR_CN[card.color_category] || '';
+    const typeCn = {
+      Creature: '生物', Planeswalker: '鹏洛客', Artifact: '神器',
+      Enchantment: '结界', Instant: '瞬间', Sorcery: '法术',
+      Land: '地', Other: '其他',
+    }[card.type_category] || card.type_category || '';
+
+    return `<div class="combo-card-item" data-name="${escapeHtml(card.name)}">
+      <span>
+        <span class="cci-name ${rarityClass}">${escapeHtml(card.name)}</span>
+        <span class="cci-cn">${escapeHtml(card.chinese_name || '')}</span>
+        <span class="cci-meta">${rarityCn} · ${colorCn} · ${typeCn}</span>
+      </span>
+      <span class="cci-badge">🔥 Combo</span>
+    </div>`;
+  }).join('');
+
+  // 点击卡牌查看详情
+  comboCardsContainer.querySelectorAll('.combo-card-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const card = CardKeeper.getCard(item.dataset.name);
+      if (card) {
+        renderCard(card, comboCardsContainer);
+      }
+    }, false);
+  });
+}
+
+// Combo 筛选事件
+comboFilterRarity.addEventListener('change', renderComboCards, false);
+comboFilterColor.addEventListener('change', renderComboCards, false);
+comboFilterType.addEventListener('change', renderComboCards, false);
+comboSearchInput.addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(renderComboCards, 200);
+}, false);
 
 // ============================================================
 // 搜索输入 → 自动补全（本地查询）
@@ -542,6 +729,11 @@ function renderCard(card, target, setCode) {
     ? `<div style="margin-bottom:12px"><button class="tab" onclick="renderSetCards('${setCode}')" style="cursor:pointer">← 返回列表</button></div>`
     : '';
 
+  // Combo 潜力标签
+  const comboTag = card.combo_legacy
+    ? '<span class="combo-tag">🔥 Combo潜力</span>'
+    : '';
+
   container.innerHTML = backBtn + `
     <div class="card-result">
       <div class="card-header">
@@ -552,6 +744,7 @@ function renderCard(card, target, setCode) {
         <div class="card-meta">
           <span class="${rarityClass}">${card.rarity_cn || card.rarity || ''}</span>
           <span class="badge" style="background:${recColor};color:#fff">${card.recommendation_label || ''}</span>
+          ${comboTag}
         </div>
       </div>
 
