@@ -1,0 +1,11 @@
+{
+  "completed": [],
+  "failed": [],
+  "last_run": {
+    "timestamp": "2026-08-10T04:19:26.503336",
+    "range": "month",
+    "total_fetched": 700,
+    "total_new": 10,
+    "errors": 0
+  }
+}
