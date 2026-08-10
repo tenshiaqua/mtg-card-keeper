@@ -20,7 +20,11 @@ from typing import Optional
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "data")
-MTGTOP8_DATA_DIR = os.path.join(SCRIPT_DIR, "..", "mtgtop8_scraper", "data")
+# CI: scripts/mtgtop8_scraper/data/  (deploy/ 目录下)
+# 本地: ../../../mtgtop8_scraper/data/  (项目根目录下)
+MTGTOP8_DATA_DIR_CI = os.path.join(SCRIPT_DIR, "..", "mtgtop8_scraper", "data")
+MTGTOP8_DATA_DIR_LOCAL = os.path.join(SCRIPT_DIR, "..", "..", "..", "mtgtop8_scraper", "data")
+MTGTOP8_DATA_DIR = MTGTOP8_DATA_DIR_CI if os.path.isdir(MTGTOP8_DATA_DIR_CI) else MTGTOP8_DATA_DIR_LOCAL
 
 # EDH 等级
 EDH_TIERS = {
@@ -388,14 +392,14 @@ def build_database() -> CardDatabase:
     """从所有数据源构建完整数据库"""
     db = CardDatabase()
 
-    # 1. mtgtop8 构筑数据
-    processed_path = find_latest_file(MTGTOP8_DATA_DIR, "processed_")
-    if processed_path:
-        print(f"加载构筑数据: {processed_path}")
-        db.load_mtgtop8(processed_path)
+    # 1. mtgtop8 构筑数据（使用 raw_*.json，格式为 {format: {card_counts: {name: count}}})
+    raw_path = find_latest_file(MTGTOP8_DATA_DIR, "raw_")
+    if raw_path:
+        print(f"加载构筑数据: {raw_path}")
+        db.load_mtgtop8(raw_path)
         print(f"  构筑卡牌: {len(db.cards)} 种")
     else:
-        print("⚠ 未找到 mtgtop8 processed_*.json")
+        print("⚠ 未找到 mtgtop8 raw_*.json")
 
     # 2. EDHREC 缓存
     edhrec_path = os.path.join(DATA_DIR, "edhrec_cache.json")
