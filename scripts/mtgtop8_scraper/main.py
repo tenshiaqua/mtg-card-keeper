@@ -9,7 +9,10 @@ MTG Top8 抓取与分析主入口
   python -m mtgtop8_scraper.main update         # 增量更新全流程（复用缓存）
 
 可选参数:
-  --months N        回溯月份数（默认 3）
+  --months N        回溯月份数（默认 3，与 --weeks 互斥）
+  --weeks N         回溯周数（默认 None，与 --months 互斥）
+  --start-date DATE 精确起始日期 YYYY-MM-DD（与 --end-date 配合）
+  --end-date DATE   精确结束日期 YYYY-MM-DD（与 --start-date 配合）
   --formats X,Y     赛制（默认 standard,modern,pauper）
   --no-chinese      不查询中文卡名（加速）
   --no-sideboard    不统计备牌
@@ -52,10 +55,17 @@ def cmd_scrape(args) -> dict:
         done_events, done_decks = ev, dk
         print(f"加载断点续传进度: {len(done_events)} 比赛, {len(done_decks)} 卡组")
 
-    print(f"\n开始抓取最近 {args.months} 个月的 {', '.join(f.upper() for f in formats)} 上位数据...")
+    # 解析日期范围参数
+    start_date, end_date, weeks, months = _parse_date_args(args)
+
+    range_desc = _date_range_desc(start_date, end_date, weeks, months)
+    print(f"\n开始抓取 {range_desc} 的 {', '.join(f.upper() for f in formats)} 上位数据...")
     raw = scraper.scrape_all_cards(
         formats=formats,
-        months_back=args.months,
+        months_back=months,
+        weeks=weeks,
+        start_date=start_date,
+        end_date=end_date,
         max_pages=args.max_pages,
         with_sideboard=not args.no_sideboard,
         done_events=done_events,
@@ -66,6 +76,30 @@ def cmd_scrape(args) -> dict:
     scraper.save_raw_data(raw, raw_path)
     scraper.save_progress(PROGRESS_PATH, done_events, done_decks)
     return raw
+
+
+def _parse_date_args(args):
+    """解析日期范围参数，返回 (start_date, end_date, weeks, months)"""
+    start_date = None
+    end_date = None
+    if getattr(args, "start_date", None):
+        start_date = datetime.strptime(args.start_date, "%Y-%m-%d")
+    if getattr(args, "end_date", None):
+        end_date = datetime.strptime(args.end_date, "%Y-%m-%d")
+    weeks = getattr(args, "weeks", None)
+    months = getattr(args, "months", None)
+    return start_date, end_date, weeks, months
+
+
+def _date_range_desc(start_date, end_date, weeks, months):
+    """生成日期范围描述文本"""
+    if start_date and end_date:
+        return f"{start_date.strftime('%Y-%m-%d')} ~ {end_date.strftime('%Y-%m-%d')}"
+    if weeks:
+        return f"最近 {weeks} 周"
+    if months:
+        return f"最近 {months} 个月"
+    return "最近 3 个月"
 
 
 def cmd_classify(args) -> dict:
@@ -186,7 +220,10 @@ def main():
     sub = parser.add_subparsers(dest="command", required=True)
 
     common = argparse.ArgumentParser(add_help=False)
-    common.add_argument("--months", type=int, default=3, help="回溯月份数（默认3）")
+    common.add_argument("--weeks", type=float, default=None, help="回溯周数（与 --months 互斥）")
+    common.add_argument("--months", type=int, default=None, help="回溯月份数（与 --weeks 互斥，默认不指定时为3）")
+    common.add_argument("--start-date", help="精确起始日期 YYYY-MM-DD（与 --end-date 配合）")
+    common.add_argument("--end-date", help="精确结束日期 YYYY-MM-DD（与 --start-date 配合）")
     common.add_argument("--formats", default="standard,modern,pauper", help="赛制（默认 standard,modern,pauper）")
     common.add_argument("--no-chinese", action="store_true", help="不查询中文卡名")
     common.add_argument("--no-sideboard", action="store_true", help="不统计备牌")

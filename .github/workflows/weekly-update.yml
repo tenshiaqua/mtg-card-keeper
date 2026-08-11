@@ -1,9 +1,9 @@
-name: Weekly Data Update
+name: Biweekly Data Update
 
 on:
   schedule:
-    # 每周一 03:00 UTC = 北京时间 11:00
-    - cron: '0 3 * * 1'
+    # 每两周周一 03:00 UTC = 北京时间 11:00（第1和第3个周一）
+    - cron: '0 3 1-7,15-21 * 1'
   # 支持手动触发
   workflow_dispatch:
 
@@ -22,15 +22,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 抓取 mtgtop8 数据（最近3个月上位）
+      - name: 抓取 mtgtop8 数据（最近2周上位）
         run: |
           python -m scripts.mtgtop8_scraper.main update \
-            --months 3 \
+            --weeks 2 \
             --formats standard,modern,pauper \
             --max-pages 8
 
       - name: 抓取 EDHREC By Type 数据（Past Month）
-        # 每周更新 EDHREC Past Month 数据（7 种类型 × 100 张，约 10 秒）
+        # 每两周更新 EDHREC Past Month 数据（7 种类型 × 100 张，约 10 秒）
         run: |
           cd scripts && python -m card_keeper.fetch_edhrec_by_type fetch month
 
@@ -51,6 +51,10 @@ jobs:
         # 必须在压缩之前，否则数据库缺少系列信息
         run: python scripts/fetch_sets_bulk.py
 
+      - name: 更新用量历史记录
+        # 记录每次更新的构筑用量，供前端趋势图使用
+        run: python scripts/history_tracker.py
+
       - name: 生成每周变动报告
         # 对比最近两周 snapshot，列出新增/弃用单卡
         run: python scripts/weekly_diff.py --output weekly_diff_report.md
@@ -69,6 +73,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "无数据变化，跳过提交。"
           else
-            git commit -m "chore: weekly data update $(date -u +%Y-%m-%d)"
+            git commit -m "chore: biweekly data update $(date -u +%Y-%m-%d)"
             git push
           fi

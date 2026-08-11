@@ -45,6 +45,7 @@ const CardKeeper = {
   nameIndex: {},    // { lowercase_name: original_name } 用于大小写不敏感搜索
   setsIndex: {},    // { set_code: set_name } 系列代码→名称映射
   setsToCards: {},  // { set_code: [cardName, ...] } 系列→卡牌反向索引
+  usageHistory: {}, // { cardName: { date: {standard, modern, pauper} } } 用量历史
   _loaded: false,
 
   // ============================================================
@@ -77,7 +78,45 @@ const CardKeeper = {
       }
     }
 
+    // 加载用量历史（如果存在，用于趋势图）
+    try {
+      const histResp = await fetch('usage_history.json');
+      if (histResp.ok) {
+        this.usageHistory = await histResp.json();
+      }
+    } catch (e) {
+      console.warn('用量历史加载失败，趋势图不可用', e);
+    }
+
     this._loaded = true;
+  },
+
+  /**
+   * 获取卡牌的用量趋势数据
+   * @param {string} cardName - 卡牌英文名
+   * @returns {Object|null} {dates: [...], datasets: {standard: [...], modern: [...], pauper: [...]}}
+   */
+  getUsageTrend(cardName) {
+    const history = this.usageHistory[cardName];
+    if (!history) return null;
+
+    const dates = Object.keys(history).sort();
+    if (dates.length < 2) return null; // 至少需要 2 个数据点
+
+    const datasets = {
+      standard: [],
+      modern: [],
+      pauper: [],
+    };
+
+    for (const date of dates) {
+      const entry = history[date];
+      datasets.standard.push(entry.standard || 0);
+      datasets.modern.push(entry.modern || 0);
+      datasets.pauper.push(entry.pauper || 0);
+    }
+
+    return { dates, datasets };
   },
 
   buildIndex() {

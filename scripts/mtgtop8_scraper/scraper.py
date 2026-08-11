@@ -89,14 +89,30 @@ _EVENT_LINK_RE = re.compile(r'<a href=event\?e=(\d+)[^>]*>([^<]+)</a>')
 _DATE_RE = re.compile(r'(\d{2}/\d{2}/\d{2})')
 
 
-def parse_format_events(html: str, months_back: int = 3) -> list[dict]:
+def parse_format_events(html: str, months_back: int = None,
+                         start_date: datetime = None, end_date: datetime = None) -> list[dict]:
     """
-    解析赛制列表页，返回最近 N 个月内的比赛列表。
+    解析赛制列表页，返回指定日期范围内的比赛列表。
+
+    三种过滤模式（优先级从高到低）：
+      1. start_date + end_date: 精确日期范围
+      2. months_back: 最近 N 个月
+      3. 默认: 最近 3 个月
 
     Returns:
         [{"event_id", "event_name", "date"("YYYY-MM-DD"), "is_online"}, ...]
     """
-    cutoff = datetime.now() - timedelta(days=months_back * 30 + 5)
+    now = datetime.now()
+    if start_date is not None and end_date is not None:
+        cutoff = start_date
+        upper = end_date
+    elif months_back is not None:
+        cutoff = now - timedelta(days=months_back * 30 + 5)
+        upper = now
+    else:
+        cutoff = now - timedelta(days=3 * 30 + 5)
+        upper = now
+
     events = []
     seen_ids = set()
 
@@ -115,9 +131,9 @@ def parse_format_events(html: str, months_back: int = 3) -> list[dict]:
         try:
             event_date = datetime.strptime(date_str, "%d/%m/%y")
         except ValueError:
-            event_date = datetime.now()  # 日期缺失时按最近处理
+            event_date = now  # 日期缺失时按最近处理
 
-        if event_date < cutoff:
+        if event_date < cutoff or event_date > upper:
             continue
 
         is_online = "mtgo" in row.lower()
@@ -245,11 +261,25 @@ def parse_deck_cards(html: str) -> dict:
 # ============================================================
 
 def scrape_format_events(format_code: str, max_pages: int = 8,
-                         months_back: int = 3) -> list[dict]:
-    """抓取指定赛制最近 N 个月的比赛列表（自动翻页直到超出时间范围）"""
-    events = []
-    cutoff = datetime.now() - timedelta(days=months_back * 30 + 5)
+                         months_back: int = None,
+                         start_date: datetime = None,
+                         end_date: datetime = None) -> list[dict]:
+    """抓取指定赛制指定日期范围内的比赛列表（自动翻页直到超出时间范围）"""
+    now = datetime.now()
+    if start_date is not None and end_date is not None:
+        cutoff = start_date
+        upper = end_date
+        range_label = f"{start_date.strftime('%Y-%m-%d')} ~ {end_date.strftime('%Y-%m-%d')}"
+    elif months_back is not None:
+        cutoff = now - timedelta(days=months_back * 30 + 5)
+        upper = now
+        range_label = f"{months_back} 个月"
+    else:
+        cutoff = now - timedelta(days=3 * 30 + 5)
+        upper = now
+        range_label = "3 个月"
 
+    events = []
     for page in range(1, max_pages + 1):
         if page == 1:
             url = f"{BASE_URL}/format?f={format_code}"
@@ -261,7 +291,7 @@ def scrape_format_events(format_code: str, max_pages: int = 8,
         if not html:
             break
 
-        page_events = parse_format_events(html, months_back=months_back)
+        page_events = parse_format_events(html, start_date=cutoff, end_date=upper)
         if not page_events:
             print(f"  第{page}页无符合时间范围的比赛，停止翻页")
             break
@@ -282,7 +312,7 @@ def scrape_format_events(format_code: str, max_pages: int = 8,
         print(f"  第{page}页: {len(page_events)} 个比赛")
 
         if all_too_old:
-            print(f"  第{page}页比赛均超出 {months_back} 个月范围，停止翻页")
+            print(f"  第{page}页比赛均超出时间范围，停止翻页")
             break
 
         # 没有下一页链接则停止
@@ -296,7 +326,7 @@ def scrape_format_events(format_code: str, max_pages: int = 8,
         if ev["event_id"] not in seen:
             seen.add(ev["event_id"])
             unique.append(ev)
-    print(f"  共 {len(unique)} 个不重复比赛（{months_back} 个月内）")
+    print(f"  共 {len(unique)} 个不重复比赛（{range_label}）")
     return unique
 
 
@@ -322,15 +352,26 @@ def scrape_deck_cards(format_code: str, event_id: str, deck_id: str) -> dict:
 # 主抓取流程 + 增量更新
 # ============================================================
 
-def scrape_all_cards(formats: list[str] = None, months_back: int = 3,
+def scrape_all_cards(formats: list[str] = None, months_back: int = None,
+                     weeks: float = None,
+                     start_date: datetime = None, end_date: datetime = None,
                      max_pages: int = 8, with_sideboard: bool = True,
                      done_events: set = None, done_decks: set = None) -> dict:
     """
     主抓取函数：抓取所有赛制的上位卡组用到的单卡。
 
+    日期范围参数（优先级从高到低）：
+      - start_date + end_date: 精确日期范围
+      - weeks: 最近 N 周
+      - months_back: 最近 N 个月
+      - 默认: 最近 3 个月
+
     Args:
         formats: 赛制列表，默认 ["standard", "modern", "pauper"]
-        months_back: 回溯月份数
+        months_back: 回溯月份数（与 weeks 互斥）
+        weeks: 回溯周数（与 months_back 互斥）
+        start_date: 起始日期（与 end_date 配合使用）
+        end_date: 结束日期（与 start_date 配合使用）
         max_pages: 每个赛制最大翻页数
         with_sideboard: 是否统计备牌
         done_events: 已抓取过的 event_id 集合（增量更新用）
@@ -346,6 +387,19 @@ def scrape_all_cards(formats: list[str] = None, months_back: int = 3,
     if done_decks is None:
         done_decks = set()
 
+    # 解析日期范围
+    if start_date is not None and end_date is not None:
+        pass  # 使用精确日期范围
+    elif weeks is not None:
+        end_date = datetime.now()
+        start_date = end_date - timedelta(weeks=weeks)
+    elif months_back is not None:
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=months_back * 30 + 5)
+    else:
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=3 * 30 + 5)
+
     results = {}
 
     for fmt in formats:
@@ -356,11 +410,13 @@ def scrape_all_cards(formats: list[str] = None, months_back: int = 3,
 
         print(f"\n{'=' * 60}")
         print(f"开始抓取 {fmt.upper()} 赛制 (代码: {code})")
+        print(f"日期范围: {start_date.strftime('%Y-%m-%d')} ~ {end_date.strftime('%Y-%m-%d')}")
         print(f"{'=' * 60}")
 
         # 1. 比赛列表
         print("  [1/3] 获取比赛列表...")
-        events = scrape_format_events(code, max_pages=max_pages, months_back=months_back)
+        events = scrape_format_events(code, max_pages=max_pages,
+                                       start_date=start_date, end_date=end_date)
 
         # 2. 每个比赛的卡组
         print(f"  [2/3] 获取 {len(events)} 个比赛的卡组...")
