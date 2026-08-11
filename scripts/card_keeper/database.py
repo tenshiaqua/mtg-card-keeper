@@ -257,6 +257,37 @@ class CardDatabase:
             card["_constructed_used"] = constructed_used
             card["recommendation"] = recommend(constructed_used, card.get("edh_tier", "unknown"))
 
+    def preserve_existing(self, old_db: dict):
+        """增量保留旧数据库中已无用量的卡牌。
+
+        新数据中不存在的卡牌（用量降为 0）不会被删除，而是：
+        - 保留所有字段（EDH数据、Scryfall信息、中文名、系列等）
+        - constructed 设为空（表示当前无构筑用量）
+        - 重新计算 recommendation（基于 EDH 数据）
+        """
+        preserved = 0
+        for name, old_card in old_db.items():
+            if name.startswith("__"):
+                continue
+            if name in self.cards:
+                continue  # 新数据中已有，跳过
+
+            # 保留旧卡牌，但清空构筑数据
+            card = dict(old_card)  # 浅拷贝足够（constructed 会被替换）
+            card["constructed"] = {}
+            card["_constructed_used"] = False
+            # 重新计算 edh_tier（旧数据库可能已被压缩，移除了此字段）
+            edh = card.get("edh") or {}
+            num_decks = edh.get("num_decks", 0)
+            inclusion = edh.get("inclusion", 0)
+            card["edh_tier"] = classify_edh(num_decks, inclusion)
+
+            self.cards[name] = card
+            preserved += 1
+
+        if preserved > 0:
+            print(f"  🔄 增量保留: {preserved} 张旧卡（已无用量的构筑卡）")
+
     def build_index(self):
         """构建搜索索引"""
         self._name_index = {}
@@ -320,12 +351,12 @@ class CardDatabase:
 
         tier_counts = {}
         for c in self.cards.values():
-            t = c["edh_tier"]
+            t = c.get("edh_tier", "unknown")
             tier_counts[t] = tier_counts.get(t, 0) + 1
 
         rec_counts = {}
         for c in self.cards.values():
-            r = c["recommendation"]
+            r = c.get("recommendation", "drop")
             rec_counts[r] = rec_counts.get(r, 0) + 1
 
         return {
@@ -388,8 +419,13 @@ def find_latest_file(directory: str, prefix: str, suffix: str = ".json") -> Opti
     return os.path.join(directory, files[-1])
 
 
-def build_database() -> CardDatabase:
-    """从所有数据源构建完整数据库"""
+def build_database(existing_db_path: str = None) -> CardDatabase:
+    """从所有数据源构建完整数据库（增量模式）。
+
+    Args:
+        existing_db_path: 旧数据库路径。如果提供，旧数据库中的卡牌会被保留
+                          （即使新数据中已无用量的卡也会保留，标记为 drop）。
+    """
     db = CardDatabase()
 
     # 1. mtgtop8 构筑数据（使用 raw_*.json，格式为 {format: {card_counts: {name: count}}})
@@ -431,10 +467,16 @@ def build_database() -> CardDatabase:
         db.load_chinese_names(cn_cache)
         print(f"  中文卡名: {len(cn_cache)} 张")
 
-    # 5. 统一计算保留建议（确保所有卡牌都有 recommendation）
+    # 5. 增量保留：旧数据库中已无用量的卡牌不删除，仅标记为 drop
+    if existing_db_path and os.path.exists(existing_db_path):
+        with open(existing_db_path, "r", encoding="utf-8") as f:
+            old_db = json.load(f)
+        db.preserve_existing(old_db)
+
+    # 6. 统一计算保留建议（确保所有卡牌都有 recommendation）
     db.finalize_recommendations()
 
-    # 6. 构建索引
+    # 7. 构建索引
     db.build_index()
     print(f"\n数据库总计: {len(db.cards)} 种卡牌")
     return db

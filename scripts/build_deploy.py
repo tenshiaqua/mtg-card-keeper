@@ -112,8 +112,8 @@ def main():
     # 1. 归档当前快照
     just_archived = archive_current()
 
-    # 2. 从所有数据源构建新数据库
-    db = build_database()
+    # 2. 从所有数据源构建新数据库（增量模式：保留旧数据库中已无用量的卡牌）
+    db = build_database(existing_db_path=DEPLOY_DB)
 
     # 3. 计算趋势（对比上一次快照）
     prev = find_prev_snapshot(just_archived)
