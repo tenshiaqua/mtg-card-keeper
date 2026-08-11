@@ -47,11 +47,16 @@ jobs:
       - name: 过滤 2005年后有重印的 combo 卡
         run: python scripts/filter_combo_legacy.py
 
+      - name: 抓取卡牌系列信息（Scryfall Bulk Data）
+        # 必须在压缩之前，否则数据库缺少系列信息
+        run: python scripts/fetch_sets_bulk.py
+
+      - name: 生成每周变动报告
+        # 对比最近两周 snapshot，列出新增/弃用单卡
+        run: python scripts/weekly_diff.py --output weekly_diff_report.md
+
       - name: 压缩数据库（移除可计算字段）
         run: python scripts/card_keeper/compress_deploy.py
-
-      - name: 抓取卡牌系列信息（Scryfall Bulk Data）
-        run: python scripts/fetch_sets_bulk.py
 
       - name: 清理旧快照（保留12周）
         run: python scripts/prune_history.py --keep 12
