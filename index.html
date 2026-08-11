@@ -8,58 +8,58 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
-  background: #1c1b22; color: #e8e6e0; min-height: 100vh;
+  background: #ffffff; color: #333333; min-height: 100vh;
 }
 
 /* 搜索区 */
 .search-bar {
-  background: #2a272f; padding: 20px; text-align: center;
-  border-bottom: 2px solid #3d3a44; position: sticky; top: 0; z-index: 100;
+  background: #ffffff; padding: 20px; text-align: center;
+  border-bottom: 2px solid #dee2e6; position: sticky; top: 0; z-index: 100;
 }
-.search-bar h1 { color: #c08a3e; font-size: 1.4em; margin-bottom: 12px; }
+.search-bar h1 { color: #6c757d; font-size: 1.4em; margin-bottom: 12px; }
 .search-box { position: relative; max-width: 600px; margin: 0 auto; }
 .search-box input {
   width: 100%; padding: 12px 16px; font-size: 16px;
-  border: 2px solid #3d3a44; border-radius: 8px;
-  background: #1c1b22; color: #e8e6e0; outline: none;
+  border: 2px solid #dee2e6; border-radius: 8px;
+  background: #f1f3f5; color: #333333; outline: none;
   transition: border-color 0.2s;
 }
-.search-box input:focus { border-color: #c08a3e; }
-.search-box input::placeholder { color: #6a6570; }
+.search-box input:focus { border-color: #5eb3f3; }
+.search-box input::placeholder { color: #ced4da; }
 
 /* 自动补全下拉 */
 .autocomplete {
   position: absolute; top: 100%; left: 0; right: 0;
-  background: #2a272f; border: 1px solid #3d3a44; border-radius: 0 0 8px 8px;
+  background: #ffffff; border: 1px solid #dee2e6; border-radius: 0 0 8px 8px;
   max-height: 300px; overflow-y: auto; z-index: 101; display: none;
 }
 .autocomplete.active { display: block; }
 .autocomplete-item {
-  padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #3d3a44;
+  padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #dee2e6;
   display: flex; justify-content: space-between; align-items: center;
 }
-.autocomplete-item:hover { background: #3d3a44; }
-.autocomplete-item .cn { color: #9a9590; font-size: 0.9em; }
+.autocomplete-item:hover { background: #dee2e6; }
+.autocomplete-item .cn { color: #6c757d; font-size: 0.9em; }
 
 /* 稀有度颜色 */
-.r-mythic { color: #f39c12; }
-.r-rare { color: #f1c40f; }
-.r-uncommon { color: #95a5a6; }
-.r-common { color: #ccc; }
+.r-mythic { color: #d97706; }
+.r-rare { color: #b8860b; }
+.r-uncommon { color: #6c757d; }
+.r-common { color: #495057; }
 
 /* 结果区 */
 .result-container { max-width: 1400px; margin: 20px auto; padding: 0 16px; }
 
 .card-result {
-  background: #2a272f; border-radius: 12px; padding: 24px;
-  margin-bottom: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  background: #ffffff; border-radius: 12px; padding: 24px;
+  margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 /* 卡牌基本信息 */
 .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
 .card-title h2 { font-size: 1.5em; margin-bottom: 4px; }
-.card-title .cn-name { color: #9a9590; font-size: 1.1em; }
-.card-meta { text-align: right; font-size: 0.9em; color: #9a9590; }
+.card-title .cn-name { color: #6c757d; font-size: 1.1em; }
+.card-meta { text-align: right; font-size: 0.9em; color: #6c757d; }
 .card-meta .badge {
   display: inline-block; padding: 4px 10px; border-radius: 4px;
   font-size: 0.85em; margin-left: 6px; font-weight: bold;
@@ -74,8 +74,8 @@ body {
 /* 使用情况区域 */
 .section { margin-bottom: 20px; }
 .section h3 {
-  font-size: 1.1em; color: #c08a3e; margin-bottom: 10px;
-  border-bottom: 1px solid #3d3a44; padding-bottom: 6px;
+  font-size: 1.1em; color: #6c757d; margin-bottom: 10px;
+  border-bottom: 1px solid #dee2e6; padding-bottom: 6px;
 }
 
 /* 构筑使用表格 */
@@ -83,40 +83,40 @@ body {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
 }
 .format-card {
-  background: #1c1b22; border-radius: 8px; padding: 14px;
+  background: #f1f3f5; border-radius: 8px; padding: 14px;
   text-align: center; border: 2px solid transparent;
 }
-.format-card.active { border-color: #c08a3e; }
-.format-card .fmt-name { font-size: 0.85em; color: #9a9590; margin-bottom: 6px; }
+.format-card.active { border-color: #5eb3f3; }
+.format-card .fmt-name { font-size: 0.85em; color: #6c757d; margin-bottom: 6px; }
 .format-card .fmt-count { font-size: 1.8em; font-weight: bold; }
-.format-card .fmt-sb { font-size: 0.8em; color: #7a7580; margin-top: 4px; }
-.format-card.inactive .fmt-count { color: #4a4550; }
+.format-card .fmt-sb { font-size: 0.8em; color: #6c757d; margin-top: 4px; }
+.format-card.inactive .fmt-count { color: #ced4da; }
 
 /* EDH 信息 */
 .edh-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .edh-stat {
-  background: #1c1b22; border-radius: 8px; padding: 14px; text-align: center;
+  background: #f1f3f5; border-radius: 8px; padding: 14px; text-align: center;
 }
-.edh-stat .label { font-size: 0.8em; color: #9a9590; margin-bottom: 6px; }
+.edh-stat .label { font-size: 0.8em; color: #6c757d; margin-bottom: 6px; }
 .edh-stat .value { font-size: 1.4em; font-weight: bold; }
 
 /* 统计信息 */
 .stats-bar {
   display: flex; gap: 20px; justify-content: center;
-  color: #7a7580; font-size: 0.85em; margin-top: 20px;
+  color: #6c757d; font-size: 0.85em; margin-top: 20px;
 }
 
 /* 空状态 */
 .empty {
-  text-align: center; padding: 60px 20px; color: #6a6570;
+  text-align: center; padding: 60px 20px; color: #ced4da;
 }
 .empty h3 { font-size: 1.2em; margin-bottom: 8px; }
 
 /* 加载中 */
-.loading { text-align: center; padding: 40px; color: #c08a3e; }
+.loading { text-align: center; padding: 40px; color: #5eb3f3; }
 .loading .spinner {
   display: inline-block; width: 40px; height: 40px;
-  border: 3px solid #3d3a44; border-top-color: #c08a3e;
+  border: 3px solid #dee2e6; border-top-color: #5eb3f3;
   border-radius: 50%; animation: spin 0.8s linear infinite;
   margin-bottom: 12px;
 }
@@ -127,55 +127,55 @@ body {
   display: flex; gap: 8px; justify-content: center; margin-bottom: 12px;
 }
 .tab {
-  padding: 8px 20px; border: 2px solid #3d3a44; border-radius: 8px;
-  background: #1c1b22; color: #9a9590; cursor: pointer; font-size: 0.95em;
+  padding: 8px 20px; border: 2px solid #dee2e6; border-radius: 8px;
+  background: #f1f3f5; color: #6c757d; cursor: pointer; font-size: 0.95em;
   transition: all 0.2s;
 }
-.tab:hover { border-color: #c08a3e; color: #e8e6e0; }
-.tab.active { background: #c08a3e; color: #fff; border-color: #c08a3e; }
+.tab:hover { border-color: #5eb3f3; color: #333333; }
+.tab.active { background: #5eb3f3; color: #1c5fa8; border-color: #5eb3f3; font-weight: bold; }
 
 /* 系列浏览器 */
 .set-browser { margin-bottom: 16px; }
 .set-search-box { position: relative; max-width: 600px; margin: 0 auto 12px; }
 .set-search-box input {
   width: 100%; padding: 10px 16px; font-size: 15px;
-  border: 2px solid #3d3a44; border-radius: 8px;
-  background: #1c1b22; color: #e8e6e0; outline: none;
+  border: 2px solid #dee2e6; border-radius: 8px;
+  background: #f1f3f5; color: #333333; outline: none;
 }
-.set-search-box input:focus { border-color: #c08a3e; }
+.set-search-box input:focus { border-color: #5eb3f3; }
 
 .set-list {
   max-height: 300px; overflow-y: auto; max-width: 600px; margin: 0 auto;
-  background: #2a272f; border-radius: 8px; border: 1px solid #3d3a44;
+  background: #ffffff; border-radius: 8px; border: 1px solid #dee2e6;
 }
 .set-item {
-  padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #3d3a44;
+  padding: 10px 16px; cursor: pointer; border-bottom: 1px solid #dee2e6;
   display: flex; justify-content: space-between; align-items: center;
   transition: background 0.15s;
 }
-.set-item:hover { background: #3d3a44; }
-.set-item.selected { background: #3d3a44; border-left: 3px solid #c08a3e; }
+.set-item:hover { background: #dee2e6; }
+.set-item.selected { background: #dee2e6; border-left: 3px solid #5eb3f3; }
 .set-item .set-name { font-size: 0.95em; }
-.set-item .set-code { color: #7a7580; font-size: 0.85em; margin-left: 8px; }
+.set-item .set-code { color: #6c757d; font-size: 0.85em; margin-left: 8px; }
 .set-item .set-count {
-  background: #3d3a44; color: #aaa; padding: 2px 8px; border-radius: 4px;
+  background: #e9ecef; color: #6c757d; padding: 2px 8px; border-radius: 4px;
   font-size: 0.8em; white-space: nowrap;
 }
 
 /* 系列卡牌列表 */
 .set-cards-header {
-  font-size: 1.1em; color: #c08a3e; margin: 20px 0 10px;
-  border-bottom: 1px solid #3d3a44; padding-bottom: 6px;
+  font-size: 1.1em; color: #6c757d; margin: 20px 0 10px;
+  border-bottom: 1px solid #dee2e6; padding-bottom: 6px;
 }
 .set-card-item {
-  background: #2a272f; border-radius: 8px; padding: 12px 16px;
+  background: #ffffff; border-radius: 8px; padding: 12px 16px;
   margin-bottom: 8px; display: flex; justify-content: space-between;
   align-items: center; cursor: pointer; transition: background 0.15s;
   border-left: 3px solid transparent;
 }
-.set-card-item:hover { background: #1c1b22; border-left-color: #c08a3e; }
+.set-card-item:hover { background: #f1f3f5; border-left-color: #5eb3f3; }
 .set-card-item .sci-name { font-weight: bold; }
-.set-card-item .sci-cn { color: #9a9590; font-size: 0.9em; margin-left: 8px; }
+.set-card-item .sci-cn { color: #6c757d; font-size: 0.9em; margin-left: 8px; }
 .set-card-item .sci-badge {
   display: inline-block; padding: 3px 10px; border-radius: 4px;
   font-size: 0.8em; font-weight: bold; color: #fff; white-space: nowrap;
@@ -185,14 +185,14 @@ body {
 .trend { font-size: 0.85em; margin-left: 6px; white-space: nowrap; }
 .trend-up { color: #51cf66; }
 .trend-down { color: #ff6b6b; }
-.trend-same { color: #7a7580; }
+.trend-same { color: #6c757d; }
 .trend-new { color: #ffd43b; }
 
 /* Combo 标签（卡牌详情中） */
 .combo-tag {
   display: inline-block; padding: 3px 10px; border-radius: 4px;
-  font-size: 0.8em; font-weight: bold; color: #fff;
-  background: #c08a3e; margin-left: 6px;
+  font-size: 0.8em; font-weight: bold; color: #1c5fa8;
+  background: #5eb3f3; margin-left: 6px;
 }
 
 /* 响应式 */
@@ -217,17 +217,17 @@ body {
 .card-image-panel img {
   width: 223px;
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 .card-image-panel .image-loading {
   width: 223px;
   height: 311px;
-  background: #1c1b22;
+  background: #f1f3f5;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6a6570;
+  color: #ced4da;
   font-size: 0.9em;
 }
 
@@ -242,13 +242,13 @@ body {
   flex: 0 0 300px;
   max-height: 600px;
   overflow-y: auto;
-  background: #1c1b22;
+  background: #f1f3f5;
   border-radius: 8px;
   padding: 12px;
 }
 .print-item {
   padding: 8px 10px;
-  border-bottom: 1px solid #3d3a44;
+  border-bottom: 1px solid #dee2e6;
   font-size: 0.85em;
   display: flex;
   justify-content: space-between;
@@ -256,13 +256,13 @@ body {
   cursor: pointer;
   transition: background 0.15s;
 }
-.print-item:hover { background: #3d3a44; }
+.print-item:hover { background: #dee2e6; }
 .print-item.current {
-  background: #3d3a44;
-  border-left: 3px solid #c08a3e;
+  background: #dee2e6;
+  border-left: 3px solid #5eb3f3;
 }
-.print-item .print-set { color: #ccc; }
-.print-item .print-num { color: #7a7580; font-size: 0.8em; }
+.print-item .print-set { color: #495057; }
+.print-item .print-num { color: #6c757d; font-size: 0.8em; }
 .print-rarity {
   display: inline-block;
   padding: 2px 6px;
@@ -280,21 +280,21 @@ body {
 
 /* 神谕文本框 */
 .oracle-text-box {
-  background: #1c1b22;
+  background: #f1f3f5;
   border-radius: 8px;
   padding: 14px 18px;
   margin-top: 12px;
   font-size: 0.95em;
   line-height: 1.6;
-  color: #ccc;
-  border-left: 3px solid #3d3a44;
+  color: #495057;
+  border-left: 3px solid #dee2e6;
   white-space: pre-line;
 }
 
 /* 趋势折线图 */
 .trend-chart-container {
   margin-top: 16px;
-  background: #1c1b22;
+  background: #f1f3f5;
   border-radius: 8px;
   padding: 16px;
 }
@@ -312,7 +312,7 @@ body {
 .commander-card {
   flex: 0 0 auto;
   text-align: center;
-  background: #1c1b22;
+  background: #f1f3f5;
   border-radius: 8px;
   padding: 10px;
   width: 160px;
@@ -328,23 +328,23 @@ body {
 .commander-card .cmdr-loading {
   width: 140px;
   height: 195px;
-  background: #3d3a44;
+  background: #dee2e6;
   border-radius: 6px;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #4a4550;
+  color: #ced4da;
   font-size: 0.8em;
 }
 .commander-card .cmdr-name {
   font-size: 0.8em;
-  color: #ccc;
+  color: #495057;
   line-height: 1.3;
 }
 .commander-card .cmdr-decks {
   font-size: 0.75em;
-  color: #7a7580;
+  color: #6c757d;
   margin-top: 2px;
 }
 
@@ -463,7 +463,7 @@ CardKeeper.init('card_database.json', 'sets_index.json').then(() => {
     <div class="empty">
       <h3>加载失败</h3>
       <p>${err.message}</p>
-      <p style="margin-top:10px;color:#666">请确保 card_database.json 与 index.html 在同一目录</p>
+      <p style="margin-top:10px;color:#868e96">请确保 card_database.json 与 index.html 在同一目录</p>
     </div>
   `;
 });
@@ -508,7 +508,7 @@ function renderSetList(filter) {
     : allSets;
 
   if (filtered.length === 0) {
-    setList.innerHTML = '<div style="padding:16px;text-align:center;color:#555">无匹配系列</div>';
+    setList.innerHTML = '<div style="padding:16px;text-align:center;color:#adb5bd">无匹配系列</div>';
     return;
   }
 
@@ -546,7 +546,7 @@ function renderSetCards(code) {
     <div class="set-cards-header">📦 ${escapeHtml(setName)} (${code}) — ${cards.length} 张可用卡</div>
   ` + cards.map(card => {
     const rarityClass = `r-${card.rarity || 'common'}`;
-    const recColor = card.recommendation_color || '#666';
+    const recColor = card.recommendation_color || '#868e96';
     const recLabel = card.recommendation_label || '';
     return `<div class="set-card-item" data-name="${escapeHtml(card.name)}">
       <span>
@@ -657,14 +657,14 @@ function renderAutocomplete(results) {
 
 function highlightItem() {
   autocomplete.querySelectorAll('.autocomplete-item').forEach((el, i) => {
-    el.style.background = i === selectedIdx ? '#3d3a44' : '';
+    el.style.background = i === selectedIdx ? '#dee2e6' : '';
   });
 }
 
 function renderCard(card, target, setCode) {
   const container = target || resultContainer;
   const rarityClass = 'r-' + (card.rarity || 'common');
-  const recColor = card.recommendation_color || '#666';
+  const recColor = card.recommendation_color || '#868e96';
 
   // 构筑使用
   const formats = ['standard', 'modern', 'pauper'];
@@ -754,13 +754,13 @@ function renderCard(card, target, setCode) {
         '<div class="card-info-panel">' +
           '<div class="section" id="cardBasicInfo">' +
             '<h3>📋 基本信息</h3>' +
-            '<div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#bbb">' +
+            '<div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#6c757d">' +
               '<span>类型: ' + escapeHtml(card.type_line || '未知') + '</span>' +
               '<span>颜色: ' + colorStr + '</span>' +
               '<span>CMC: ' + (card.cmc || 0) + '</span>' +
             '</div>' +
             '<div class="oracle-text-box" id="oracleTextBox">' +
-              '<span style="color:#555">加载规则文本中...</span>' +
+              '<span style="color:#adb5bd">加载规则文本中...</span>' +
             '</div>' +
           '</div>' +
 
@@ -779,8 +779,8 @@ function renderCard(card, target, setCode) {
 
         // 右侧：所有印刷版本
         '<div class="card-prints-panel" id="cardPrintsPanel">' +
-          '<div style="font-size:0.9em;color:#c08a3e;margin-bottom:8px;font-weight:bold">📚 所有印刷版本</div>' +
-          '<div id="printsList" style="color:#555">加载中...</div>' +
+          '<div style="font-size:0.9em;color:#5eb3f3;margin-bottom:8px;font-weight:bold">📚 所有印刷版本</div>' +
+          '<div id="printsList" style="color:#adb5bd">加载中...</div>' +
         '</div>' +
       '</div>' +
     '</div>';
@@ -819,9 +819,7 @@ async function loadScryfallDetails(cardName) {
       }
     }
 
-    // 2. 更新基本信息（法术力费用 + 神谕文本 + 类型/颜色/CMC）
-    const oracleBox = document.getElementById('oracleTextBox');
-
+    // 2. 更新基本信息（法术力费用 + 神谕文本 + 类型/颜色/CMC + 攻防）
     // 更新基本信息区域的类型/颜色/CMC（使用 Scryfall 数据补充）
     const basicInfo = document.getElementById('cardBasicInfo');
     if (basicInfo) {
@@ -834,21 +832,43 @@ async function loadScryfallDetails(cardName) {
         ? ScryfallService.renderManaCost(scryfallData.mana_cost)
         : (sfCmc || '0');
 
+      // Power/Toughness（生物、载具等有攻防的卡）
+      let ptHtml = '';
+      if (scryfallData.power != null && scryfallData.toughness != null
+          && scryfallData.power !== '' && scryfallData.toughness !== '') {
+        ptHtml = '<span>攻防: <strong style="color:#e03131;font-size:1.05em">' +
+          escapeHtml(scryfallData.power) + '/' + escapeHtml(scryfallData.toughness) +
+          '</strong></span>';
+      }
+      // 忠诚度（鹏洛客）
+      let loyaltyHtml = '';
+      if (scryfallData.loyalty != null && scryfallData.loyalty !== '') {
+        loyaltyHtml = '<span>忠诚: <strong style="color:#5eb3f3">' +
+          escapeHtml(scryfallData.loyalty) + '</strong></span>';
+      }
+
       basicInfo.innerHTML =
         '<h3>📋 基本信息</h3>' +
-        '<div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#bbb">' +
+        '<div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#6c757d">' +
           '<span>类型: ' + escapeHtml(sfType || '未知') + '</span>' +
           '<span>颜色: ' + colorStr + '</span>' +
           '<span>费用: ' + manaCostHtml + '</span>' +
+          ptHtml +
+          loyaltyHtml +
+        '</div>' +
+        '<div class="oracle-text-box" id="oracleTextBox">' +
+          '<span style="color:#adb5bd">加载规则文本中...</span>' +
         '</div>';
     }
 
+    // 重新获取 oracleBox 引用（因为 basicInfo.innerHTML 刚被重写）
+    const oracleBox = document.getElementById('oracleTextBox');
     if (oracleBox && scryfallData.oracle_text) {
       let oracleHtml = '';
-      // 法术力费用
-      if (scryfallData.mana_cost) {
+      // 法术力费用（仅单面牌在顶部显示，双面牌每个面单独显示）
+      if (scryfallData.mana_cost && !(scryfallData.card_faces && scryfallData.card_faces.length > 1)) {
         oracleHtml += '<div style="margin-bottom:8px;font-size:1.1em;display:flex;align-items:center;gap:8px;flex-wrap:wrap">' +
-          '<strong style="color:#999">费用:</strong> ' + ScryfallService.renderManaCost(scryfallData.mana_cost) + '</div>';
+          '<strong style="color:#868e96">费用:</strong> ' + ScryfallService.renderManaCost(scryfallData.mana_cost) + '</div>';
       }
       // 处理双面牌的神谕文本
       if (scryfallData.card_faces && scryfallData.card_faces.length > 1) {
@@ -856,10 +876,22 @@ async function loadScryfallDetails(cardName) {
           const faceName = face.name || '';
           const faceOracle = face.oracle_text || '';
           const faceMana = face.mana_cost ? ScryfallService.renderManaCost(face.mana_cost) : '';
-          return '<div style="margin-bottom:8px"><strong style="color:#c08a3e">' + escapeHtml(faceName) + '</strong> ' + faceMana + '<br>' + escapeHtml(faceOracle) + '</div>';
-        }).join('<hr style="border-color:#3d3a44;margin:8px 0">');
+          // 每个面的攻防/忠诚
+          let facePt = '';
+          if (face.power != null && face.toughness != null
+              && face.power !== '' && face.toughness !== '') {
+            facePt = ' <strong style="color:#e03131">' +
+              escapeHtml(face.power) + '/' + escapeHtml(face.toughness) + '</strong>';
+          } else if (face.loyalty != null && face.loyalty !== '') {
+            facePt = ' <strong style="color:#5eb3f3">忠诚 ' + escapeHtml(face.loyalty) + '</strong>';
+          }
+          return '<div style="margin-bottom:8px">' +
+            '<strong style="color:#5eb3f3">' + escapeHtml(faceName) + '</strong> ' +
+            faceMana + facePt + '<br>' + escapeHtml(faceOracle) +
+            '</div>';
+        }).join('<hr style="border-color:#dee2e6;margin:8px 0">');
       } else {
-        oracleHtml += '<strong style="color:#999">效果:</strong><br>' + escapeHtml(scryfallData.oracle_text);
+        oracleHtml += '<strong style="color:#868e96">效果:</strong><br>' + escapeHtml(scryfallData.oracle_text);
       }
       oracleBox.innerHTML = oracleHtml;
     }
@@ -877,11 +909,11 @@ async function loadScryfallDetails(cardName) {
     }
     const oracleBox = document.getElementById('oracleTextBox');
     if (oracleBox) {
-      oracleBox.innerHTML = '<span style="color:#555">规则文本加载失败</span>';
+      oracleBox.innerHTML = '<span style="color:#adb5bd">规则文本加载失败</span>';
     }
     const printsList = document.getElementById('printsList');
     if (printsList) {
-      printsList.innerHTML = '<span style="color:#555">加载失败</span>';
+      printsList.innerHTML = '<span style="color:#adb5bd">加载失败</span>';
     }
   }
 }
@@ -891,7 +923,7 @@ function renderPrintsList(prints, currentSet, currentCollectorNumber) {
   if (!container) return;
 
   if (!prints || prints.length === 0) {
-    container.innerHTML = '<span style="color:#555">无印刷数据</span>';
+    container.innerHTML = '<span style="color:#adb5bd">无印刷数据</span>';
     return;
   }
 
@@ -900,12 +932,12 @@ function renderPrintsList(prints, currentSet, currentCollectorNumber) {
 
   const rarityColors = {
     mythic: '#f39c12', rare: '#f1c40f', uncommon: '#95a5a6',
-    common: '#ccc', special: '#9b59b6', bonus: '#e74c3c',
+    common: '#adb5bd', special: '#9b59b6', bonus: '#e74c3c',
   };
 
   container.innerHTML = prints.map(function(p) {
     const isCurrent = p.set === currentSet && p.collector_number === currentCollectorNumber;
-    const rarityColor = rarityColors[p.rarity] || '#666';
+    const rarityColor = rarityColors[p.rarity] || '#868e96';
     return '<div class="print-item' + (isCurrent ? ' current' : '') + '" ' +
       'data-image="' + (p.image_uri || '') + '" ' +
       'onclick="switchCardImage(this)">' +
@@ -964,7 +996,7 @@ async function loadEDHCommanders(cardName) {
   }
 
   // 显示加载中
-  container.innerHTML = '<div style="color:#555;font-size:0.85em;padding:8px">加载 Top Commanders...</div>';
+  container.innerHTML = '<div style="color:#adb5bd;font-size:0.85em;padding:8px">加载 Top Commanders...</div>';
 
   try {
     // 通过 CORS 代理获取 EDHREC 页面 HTML，提取 __NEXT_DATA__
@@ -1061,7 +1093,7 @@ function renderCommanders(container, commanders) {
     return;
   }
 
-  let html = '<div style="font-size:0.85em;color:#c08a3e;margin-bottom:8px;font-weight:bold">🏆 Top Commanders</div>';
+  let html = '<div style="font-size:0.85em;color:#5eb3f3;margin-bottom:8px;font-weight:bold">🏆 Top Commanders</div>';
   html += '<div class="edh-commanders">';
 
   for (const cmdr of commanders) {
@@ -1136,18 +1168,18 @@ function initTrendChart(dates, datasets) {
       maintainAspectRatio: false,
       plugins: {
         legend: {
-          labels: { color: '#999', usePointStyle: true, padding: 16 },
+          labels: { color: '#868e96', usePointStyle: true, padding: 16 },
         },
       },
       scales: {
         x: {
-          ticks: { color: '#7a7580', maxTicksLimit: 8 },
-          grid: { color: '#3d3a44' },
+          ticks: { color: '#868e96', maxTicksLimit: 8 },
+          grid: { color: '#dee2e6' },
         },
         y: {
-          ticks: { color: '#7a7580', beginAtZero: true },
-          grid: { color: '#3d3a44' },
-          title: { display: true, text: '使用张数', color: '#7a7580' },
+          ticks: { color: '#868e96', beginAtZero: true },
+          grid: { color: '#dee2e6' },
+          title: { display: true, text: '使用张数', color: '#868e96' },
         },
       },
       interaction: {
