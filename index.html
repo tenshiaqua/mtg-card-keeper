@@ -48,7 +48,7 @@ body {
 .r-common { color: #ccc; }
 
 /* 结果区 */
-.result-container { max-width: 900px; margin: 20px auto; padding: 0 16px; }
+.result-container { max-width: 1400px; margin: 20px auto; padding: 0 16px; }
 
 .card-result {
   background: #16213e; border-radius: 12px; padding: 24px;
@@ -199,7 +199,7 @@ body {
 
 .combo-filters {
   display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
-  max-width: 900px;
+  max-width: 1400px;
 }
 .combo-filters select, .combo-filters input {
   padding: 8px 12px; border: 2px solid #0f3460; border-radius: 6px;
@@ -282,8 +282,8 @@ body {
 
 /* 右侧：所有印刷版本 */
 .card-prints-panel {
-  flex: 0 0 260px;
-  max-height: 500px;
+  flex: 0 0 300px;
+  max-height: 600px;
   overflow-y: auto;
   background: #1a1a2e;
   border-radius: 8px;
@@ -345,8 +345,54 @@ body {
   max-height: 260px;
 }
 
+/* EDH Top Commanders */
+.edh-commanders {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.commander-card {
+  flex: 0 0 auto;
+  text-align: center;
+  background: #1a1a2e;
+  border-radius: 8px;
+  padding: 10px;
+  width: 160px;
+  transition: transform 0.15s;
+}
+.commander-card:hover { transform: translateY(-2px); }
+.commander-card img {
+  width: 140px;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.commander-card .cmdr-loading {
+  width: 140px;
+  height: 195px;
+  background: #0f3460;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: 0.8em;
+}
+.commander-card .cmdr-name {
+  font-size: 0.8em;
+  color: #ccc;
+  line-height: 1.3;
+}
+.commander-card .cmdr-decks {
+  font-size: 0.75em;
+  color: #666;
+  margin-top: 2px;
+}
+
 /* 响应式：移动端降级为单栏 */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .card-detail-layout {
     flex-direction: column;
   }
@@ -883,7 +929,7 @@ function renderCard(card, target, setCode) {
 
         // 中间：基本信息 + 使用数据
         '<div class="card-info-panel">' +
-          '<div class="section">' +
+          '<div class="section" id="cardBasicInfo">' +
             '<h3>📋 基本信息</h3>' +
             '<div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#bbb">' +
               '<span>类型: ' + escapeHtml(card.type_line || '未知') + '</span>' +
@@ -904,6 +950,7 @@ function renderCard(card, target, setCode) {
           '<div class="section">' +
             '<h3>🐉 EDH 使用情况（EDHREC）' + trendIcon(trend.edh) + '</h3>' +
             '<div class="edh-grid">' + edhHtml + '</div>' +
+            '<div id="edhCommanders" style="margin-top:12px"></div>' +
           '</div>' +
         '</div>' +
 
@@ -922,6 +969,11 @@ function renderCard(card, target, setCode) {
 
   // 异步加载 Scryfall 详细信息
   loadScryfallDetails(card.name);
+
+  // 异步加载 EDHREC Top Commanders
+  if (edh) {
+    loadEDHCommanders(card.name);
+  }
 }
 
 // ============================================================
@@ -944,8 +996,30 @@ async function loadScryfallDetails(cardName) {
       }
     }
 
-    // 2. 更新基本信息（法术力费用 + 神谕文本）
+    // 2. 更新基本信息（法术力费用 + 神谕文本 + 类型/颜色/CMC）
     const oracleBox = document.getElementById('oracleTextBox');
+
+    // 更新基本信息区域的类型/颜色/CMC（使用 Scryfall 数据补充）
+    const basicInfo = document.getElementById('cardBasicInfo');
+    if (basicInfo) {
+      const sfType = scryfallData.type_line || '';
+      const sfCmc = scryfallData.cmc != null ? scryfallData.cmc : '';
+      const sfColors = scryfallData.colors || scryfallData.color_identity || [];
+      const colorSymbols = { W: '⚪', U: '🔵', B: '⚫', R: '🔴', G: '🟢' };
+      const colorStr = sfColors.length ? sfColors.map(function(c) { return colorSymbols[c] || c; }).join(' ') : '无色';
+      const manaCostHtml = scryfallData.mana_cost
+        ? ScryfallService.renderManaCost(scryfallData.mana_cost)
+        : (sfCmc || '0');
+
+      basicInfo.innerHTML =
+        '<h3>📋 基本信息</h3>' +
+        '<div style="display:flex;gap:20px;flex-wrap:wrap;font-size:0.95em;color:#bbb">' +
+          '<span>类型: ' + escapeHtml(sfType || '未知') + '</span>' +
+          '<span>颜色: ' + colorStr + '</span>' +
+          '<span>费用: ' + manaCostHtml + '</span>' +
+        '</div>';
+    }
+
     if (oracleBox && scryfallData.oracle_text) {
       let oracleHtml = '';
       // 法术力费用
@@ -1038,6 +1112,150 @@ function switchCardImage(el) {
     items[i].classList.remove('current');
   }
   el.classList.add('current');
+}
+
+// ============================================================
+// EDHREC Top Commanders 异步加载
+// ============================================================
+
+async function loadEDHCommanders(cardName) {
+  const container = document.getElementById('edhCommanders');
+  if (!container) return;
+
+  // 从 edhrec_cache 获取 slug（通过 CardKeeper 数据）
+  const card = CardKeeper.cards[cardName];
+  if (!card || !card.edh) return;
+
+  // EDHREC slug 通常是卡名小写 + 连字符
+  const slug = cardName.toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-');
+
+  // 检查 localStorage 缓存
+  const cacheKey = 'edhrec_cmdrs_' + slug;
+  const cached = ScryfallService._getCache(cacheKey);
+  if (cached) {
+    renderCommanders(container, cached);
+    return;
+  }
+
+  // 显示加载中
+  container.innerHTML = '<div style="color:#555;font-size:0.85em;padding:8px">加载 Top Commanders...</div>';
+
+  try {
+    // 通过 CORS 代理获取 EDHREC 页面 HTML，提取 __NEXT_DATA__
+    const edhrecUrl = 'https://edhrec.com/cards/' + slug;
+
+    // 尝试多个 CORS 代理
+    const proxies = [
+      'https://corsproxy.io/?url=' + encodeURIComponent(edhrecUrl),
+      'https://api.allorigins.win/raw?url=' + encodeURIComponent(edhrecUrl),
+    ];
+
+    let html = null;
+    for (const proxyUrl of proxies) {
+      try {
+        const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(15000) });
+        if (resp.ok) {
+          html = await resp.text();
+          if (html && html.length > 1000) break;
+        }
+      } catch (e) {
+        continue;
+      }
+    }
+
+    if (!html || html.length < 1000) {
+      container.innerHTML = '';
+      return;
+    }
+
+    // 从 HTML 中提取 __NEXT_DATA__ JSON
+    const m = html.match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
+    if (!m) {
+      container.innerHTML = '';
+      return;
+    }
+
+    const nextData = JSON.parse(m[1]);
+    const jsonDict = nextData?.props?.pageProps?.data?.container?.json_dict || {};
+
+    // 从 cardlists 中找到 Top Commanders（url 包含 /commanders/）
+    let commanders = [];
+    const cardlists = jsonDict.cardlists || [];
+    for (const cl of cardlists) {
+      const views = cl.cardviews || cl.views || [];
+      // 检查是否是 commander 列表（url 以 /commanders/ 开头）
+      const isCommanderList = views.some(function(v) {
+        return v.url && v.url.indexOf('/commanders/') === 0;
+      });
+      if (isCommanderList && views.length > commanders.length) {
+        commanders = views.map(function(v) {
+          return {
+            name: v.name || v.sanitized || '',
+            num_decks: v.num_decks || 0,
+          };
+        });
+      }
+    }
+
+    // 按 num_decks 排序，取 Top 3
+    commanders.sort(function(a, b) { return b.num_decks - a.num_decks; });
+    commanders = commanders.slice(0, 3);
+
+    if (commanders.length === 0) {
+      container.innerHTML = '';
+      return;
+    }
+
+    // 获取每张指挥官的图片（通过 Scryfall）
+    const commandersWithImages = await Promise.all(
+      commanders.map(async function(cmdr) {
+        try {
+          const sfData = await ScryfallService.fetchCard(cmdr.name);
+          cmdr.image_uri = ScryfallService._getImageUri(sfData);
+        } catch (e) {
+          cmdr.image_uri = null;
+        }
+        return cmdr;
+      })
+    );
+
+    // 缓存
+    ScryfallService._setCache(cacheKey, commandersWithImages);
+    renderCommanders(container, commandersWithImages);
+
+  } catch (err) {
+    console.warn('EDHREC Commanders 加载失败:', err);
+    container.innerHTML = '';
+  }
+}
+
+function renderCommanders(container, commanders) {
+  if (!commanders || commanders.length === 0) {
+    container.innerHTML = '';
+    return;
+  }
+
+  let html = '<div style="font-size:0.85em;color:#e94560;margin-bottom:8px;font-weight:bold">🏆 Top Commanders</div>';
+  html += '<div class="edh-commanders">';
+
+  for (const cmdr of commanders) {
+    const imgHtml = cmdr.image_uri
+      ? '<img src="' + cmdr.image_uri + '" alt="' + escapeHtml(cmdr.name) + '">'
+      : '<div class="cmdr-loading">🖼️</div>';
+    const decksStr = cmdr.num_decks > 0 ? formatNumber(cmdr.num_decks) + ' 卡组' : '';
+
+    html += '<div class="commander-card">' +
+      imgHtml +
+      '<div class="cmdr-name">' + escapeHtml(cmdr.name) + '</div>' +
+      '<div class="cmdr-decks">' + decksStr + '</div>' +
+    '</div>';
+  }
+
+  html += '</div>';
+  container.innerHTML = html;
 }
 
 // ============================================================
