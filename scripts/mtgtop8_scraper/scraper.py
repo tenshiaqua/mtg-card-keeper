@@ -291,28 +291,30 @@ def scrape_format_events(format_code: str, max_pages: int = 8,
         if not html:
             break
 
-        page_events = parse_format_events(html, start_date=cutoff, end_date=upper)
-        if not page_events:
-            print(f"  第{page}页无符合时间范围的比赛，停止翻页")
+        # 获取本页所有比赛（不按日期过滤），用于判断翻页方向
+        all_page_events = parse_format_events(html, start_date=None, end_date=None, months_back=None)
+        if not all_page_events:
+            print(f"  第{page}页无比赛，停止翻页")
             break
 
-        # 检查本页是否已经全部超出时间范围
+        # 按日期范围过滤
+        page_events = [ev for ev in all_page_events
+                       if _event_in_range(ev, cutoff, upper)]
+
+        if page_events:
+            events.extend(page_events)
+            print(f"  第{page}页: {len(page_events)} 个比赛（符合日期范围）")
+
+        # 检查本页所有比赛是否全部早于 cutoff（太旧了，可以停止）
         all_too_old = True
-        for ev in page_events:
-            try:
-                d = datetime.strptime(ev["date"], "%Y-%m-%d")
-                if d >= cutoff:
-                    all_too_old = False
-                    break
-            except ValueError:
+        for ev in all_page_events:
+            d = _parse_event_date(ev)
+            if d is None or d >= cutoff:
                 all_too_old = False
                 break
 
-        events.extend(page_events)
-        print(f"  第{page}页: {len(page_events)} 个比赛")
-
         if all_too_old:
-            print(f"  第{page}页比赛均超出时间范围，停止翻页")
+            print(f"  第{page}页比赛均早于 {cutoff.strftime('%Y-%m-%d')}，停止翻页")
             break
 
         # 没有下一页链接则停止
@@ -328,6 +330,22 @@ def scrape_format_events(format_code: str, max_pages: int = 8,
             unique.append(ev)
     print(f"  共 {len(unique)} 个不重复比赛（{range_label}）")
     return unique
+
+
+def _event_in_range(ev: dict, cutoff: datetime, upper: datetime) -> bool:
+    """检查比赛日期是否在指定范围内"""
+    d = _parse_event_date(ev)
+    if d is None:
+        return True  # 日期解析失败，视为在范围内
+    return cutoff <= d <= upper
+
+
+def _parse_event_date(ev: dict) -> datetime | None:
+    """解析比赛日期"""
+    try:
+        return datetime.strptime(ev["date"], "%Y-%m-%d")
+    except (ValueError, KeyError):
+        return None
 
 
 def scrape_event_decks(format_code: str, event_id: str) -> list[dict]:

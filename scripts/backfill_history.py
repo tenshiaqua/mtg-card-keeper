@@ -24,7 +24,9 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 SCRIPTS_DIR = SCRIPT_DIR  # scripts/ 目录
 HISTORY_FILE = os.path.join(REPO_ROOT, "usage_history.json")
-DATA_DIR = os.path.join(SCRIPTS_DIR, "data")
+# scraper 保存 raw 数据到 scripts/mtgtop8_scraper/data/
+SCRAPER_DATA_DIR = os.path.join(SCRIPTS_DIR, "mtgtop8_scraper", "data")
+PROGRESS_PATH = os.path.join(SCRAPER_DATA_DIR, "progress.json")
 
 FORMATS = ["standard", "modern", "pauper"]
 NUM_WINDOWS = 4  # 回填 4 个窗口（8 周 = 2 个月）
@@ -63,24 +65,32 @@ def run_scraper(start_date: str, end_date: str, window_idx: int) -> dict:
         "--no-chinese",  # 回填时跳过中文查询，加速
     ]
 
-    # 从 deploy/scripts/ 目录运行
-    result = subprocess.run(cmd, cwd=SCRIPTS_DIR, capture_output=False)
+    # 从 deploy/ 根目录运行（scraper 模块路径为 scripts.mtgtop8_scraper.main）
+    try:
+        result = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=False, timeout=300)
+    except subprocess.TimeoutExpired:
+        print(f"⚠ scraper 超时（5分钟），跳过窗口 {window_idx + 1}")
+        return {}
 
     if result.returncode != 0:
         print(f"⚠ scraper 返回非零退出码: {result.returncode}")
         return {}
 
-    # 加载最新的 raw 数据
+    # 加载最新的 raw 数据，并重命名为窗口专属文件（避免被后续窗口覆盖）
     raw_files = sorted(
-        f for f in os.listdir(DATA_DIR)
-        if f.startswith("raw_") and f.endswith(".json")
+        f for f in os.listdir(SCRAPER_DATA_DIR)
+        if f.startswith("raw_") and f.endswith(".json") and "_w" not in f
     )
     if not raw_files:
         print("⚠ 未找到 raw_*.json")
         return {}
 
-    raw_path = os.path.join(DATA_DIR, raw_files[-1])
-    return load_json(raw_path)
+    raw_path = os.path.join(SCRAPER_DATA_DIR, raw_files[-1])
+    # 重命名为窗口专属文件
+    window_raw_path = os.path.join(SCRAPER_DATA_DIR, f"raw_backfill_w{window_idx + 1}.json")
+    os.rename(raw_path, window_raw_path)
+    print(f"  已保存窗口数据: {window_raw_path}")
+    return load_json(window_raw_path)
 
 
 def extract_usage(raw_data: dict, window_end_date: str) -> dict:
@@ -146,6 +156,10 @@ def main():
         if not raw_data:
             print(f"⚠ 窗口 {i + 1} 抓取失败，跳过")
             continue
+
+        # 清理进度文件，避免下一窗口被断点续传影响
+        if os.path.exists(PROGRESS_PATH):
+            os.remove(PROGRESS_PATH)
 
         # 提取用量
         window_history = extract_usage(raw_data, window_end_label)
