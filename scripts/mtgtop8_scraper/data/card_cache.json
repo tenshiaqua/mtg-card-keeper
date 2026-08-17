@@ -33513,5 +33513,603 @@
     "set": "vow",
     "set_name": "Innistrad: Crimson Vow",
     "is_basic_land": false
+  },
+  "Ashling's Command": {
+    "name": "Ashling's Command",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Kindred Instant — Elemental",
+    "type_category": "Instant",
+    "cmc": 5.0,
+    "mana_cost": "{3}{U}{R}",
+    "set": "ecl",
+    "set_name": "Lorwyn Eclipsed",
+    "is_basic_land": false
+  },
+  "Bilbo's Gambit": {
+    "name": "Bilbo's Gambit",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Dragonhawk, Fate's Tempest": {
+    "name": "Dragonhawk, Fate's Tempest",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Creature — Bird Dragon",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{R}{R}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Fire Nation Palace": {
+    "name": "Fire Nation Palace",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "is_basic_land": false
+  },
+  "Frontline Rush": {
+    "name": "Frontline Rush",
+    "rarity": "uncommon",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{R}{W}",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Frostcliff Siege": {
+    "name": "Frostcliff Siege",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 3.0,
+    "mana_cost": "{1}{U}{R}",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Gandalf, Goblins' Bane // Flameshape": {
+    "name": "Gandalf, Goblins' Bane // Flameshape",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Creature — Avatar Wizard // Sorcery — Adventure",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{R} // {1}{R}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Kavaron Harrier": {
+    "name": "Kavaron Harrier",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Artifact Creature — Robot Soldier",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{R}",
+    "set": "eoe",
+    "set_name": "Edge of Eternities",
+    "is_basic_land": false
+  },
+  "Lake-town Mariners // Gone Fishing": {
+    "name": "Lake-town Mariners // Gone Fishing",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Human Citizen // Instant — Adventure",
+    "type_category": "Creature",
+    "cmc": 6.0,
+    "mana_cost": "{4}{U}{U} // {3}{U}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Lorehold, the Historian": {
+    "name": "Lorehold, the Historian",
+    "rarity": "mythic",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Creature — Elder Dragon",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{R}{W}",
+    "set": "sos",
+    "set_name": "Secrets of Strixhaven",
+    "is_basic_land": false
+  },
+  "Maelstrom of the Spirit Dragon": {
+    "name": "Maelstrom of the Spirit Dragon",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Magda, the Hoardmaster": {
+    "name": "Magda, the Hoardmaster",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Creature — Dwarf Berserker",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Magmatic Hellkite": {
+    "name": "Magmatic Hellkite",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Dragon",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{2}{R}{R}",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Manifold Mouse": {
+    "name": "Manifold Mouse",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Mouse Soldier",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Molten Collapse": {
+    "name": "Molten Collapse",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{B}{R}",
+    "set": "lci",
+    "set_name": "The Lost Caverns of Ixalan",
+    "is_basic_land": false
+  },
+  "Obliterating Bolt": {
+    "name": "Obliterating Bolt",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "fdn",
+    "set_name": "Foundations",
+    "is_basic_land": false
+  },
+  "Opera Love Song": {
+    "name": "Opera Love Song",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "fin",
+    "set_name": "Final Fantasy",
+    "is_basic_land": false
+  },
+  "Raven Eagle": {
+    "name": "Raven Eagle",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Creature — Bird Assassin",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{B}",
+    "set": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "is_basic_land": false
+  },
+  "Sarkhan, Dragon Ascendant": {
+    "name": "Sarkhan, Dragon Ascendant",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Creature — Human Druid",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Smaug the Magnificent": {
+    "name": "Smaug the Magnificent",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Creature — Dragon",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{2}{R}{R}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Smuggler's Surprise": {
+    "name": "Smuggler's Surprise",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Song of Totentanz": {
+    "name": "Song of Totentanz",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{X}{R}",
+    "set": "woe",
+    "set_name": "Wilds of Eldraine",
+    "is_basic_land": false
+  },
+  "Valley Flamecaller": {
+    "name": "Valley Flamecaller",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Lizard Warlock",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{R}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Viashino Pyromancer": {
+    "name": "Viashino Pyromancer",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Lizard Wizard",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "fdn",
+    "set_name": "Foundations",
+    "is_basic_land": false
+  },
+  "Dawnhart Mentor": {
+    "name": "Dawnhart Mentor",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Human Warlock",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{G}",
+    "set": "mid",
+    "set_name": "Innistrad: Midnight Hunt",
+    "is_basic_land": false
+  },
+  "Bilbo Baggins, Burglar // Take a Glance": {
+    "name": "Bilbo Baggins, Burglar // Take a Glance",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Legendary Creature — Halfling Rogue // Sorcery — Adventure",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U} // {U}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Celestial Flare": {
+    "name": "Celestial Flare",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{W}{W}",
+    "set": "ori",
+    "set_name": "Magic Origins",
+    "is_basic_land": false
+  },
+  "Confusticate and Bebother": {
+    "name": "Confusticate and Bebother",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Curse of the Pierced Heart": {
+    "name": "Curse of the Pierced Heart",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Enchantment — Aura Curse",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "isd",
+    "set_name": "Innistrad",
+    "is_basic_land": false
+  },
+  "Darkmoss Bridge": {
+    "name": "Darkmoss Bridge",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Land",
+    "type_category": "Artifact",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "dsc",
+    "set_name": "Duskmourn: House of Horror Commander",
+    "is_basic_land": false
+  },
+  "Evolution Witness": {
+    "name": "Evolution Witness",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Elf Shaman Mutant",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{G}",
+    "set": "mh3",
+    "set_name": "Modern Horizons 3",
+    "is_basic_land": false
+  },
+  "Goblin Blast-Runner": {
+    "name": "Goblin Blast-Runner",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Goblin",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{R}",
+    "set": "bro",
+    "set_name": "The Brothers' War",
+    "is_basic_land": false
+  },
+  "Goblin Grenade": {
+    "name": "Goblin Grenade",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{R}",
+    "set": "ddt",
+    "set_name": "Duel Decks: Merfolk vs. Goblins",
+    "is_basic_land": false
+  },
+  "Implement of Combustion": {
+    "name": "Implement of Combustion",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "aer",
+    "set_name": "Aether Revolt",
+    "is_basic_land": false
+  },
+  "Improvised Club": {
+    "name": "Improvised Club",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "hoc",
+    "set_name": "The Hobbit Eternal",
+    "is_basic_land": false
+  },
+  "Kor Halberd": {
+    "name": "Kor Halberd",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Artifact — Equipment",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "mom",
+    "set_name": "March of the Machine",
+    "is_basic_land": false
+  },
+  "Moonblade Shinobi": {
+    "name": "Moonblade Shinobi",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Human Ninja",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{3}{U}",
+    "set": "mh1",
+    "set_name": "Modern Horizons",
+    "is_basic_land": false
+  },
+  "Patient Instructor": {
+    "name": "Patient Instructor",
+    "rarity": "common",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Creature — Human Citizen",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{W/U}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Safe Passage": {
+    "name": "Safe Passage",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{W}",
+    "set": "m13",
+    "set_name": "Magic 2013",
+    "is_basic_land": false
+  },
+  "Smaug, the Great Calamity // Spew Flame": {
+    "name": "Smaug, the Great Calamity // Spew Flame",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Creature — Dragon // Sorcery — Adventure",
+    "type_category": "Creature",
+    "cmc": 7.0,
+    "mana_cost": "{5}{R}{R} // {4}{R}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
   }
 }
