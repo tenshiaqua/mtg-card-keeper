@@ -1,18 +1,18 @@
 # MTG 构筑赛制每周变动报告
 
-**对比区间**: `snapshot_20260816.json` → `snapshot_20260817.json`
-**生成时间**: 2026-08-17 04:14
+**对比区间**: `snapshot_20260817.json` → `snapshot_20260818.json`
+**生成时间**: 2026-08-18 04:13
 
 ## 📊 统计摘要
 
 | 类别 | 数量 |
 |------|------|
-| 🆕 新增单卡 | 0 张 |
-| 🗑️ 弃用单卡 | 1842 张 |
+| 🆕 新增单卡 | 1816 张 |
+| 🗑️ 弃用单卡 | 0 张 |
 
-## 🗑️ 弃用单卡（上周 >0 → 本周 0）
+## 🆕 新增单卡（上周 0 → 本周 >0）
 
-共 **1842** 张卡从本周构筑上位牌表中消失。
+共 **1816** 张卡在本周首次出现在构筑上位牌表中。
 
 ### Mirage (MIR) — 1996-10-08
 
@@ -32,7 +32,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Spinning Darkness | Spinning Darkness | 普通 | 10 张 ( pauper 4+6) |
+| Spinning Darkness | Spinning Darkness | 普通 | 8 张 ( pauper 5+3) |
 
 **法术**
 
@@ -68,7 +68,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Raze | Raze | 普通 | 25 张 ( pauper 0+25) |
+| Raze | Raze | 普通 | 22 张 ( pauper 0+22) |
 
 #### 绿（G）
 
@@ -78,16 +78,6 @@
 |------|--------|--------|------|
 | Hidden Spider | Hidden Spider | 普通 | 1 张 ( pauper 0+1) |
 
-### Anthologies (ATH) — 1998-11-01
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Freewind Falcon | Freewind Falcon | 普通 | 5 张 ( pauper 0+5) |
-
 ### Urza's Destiny (UDS) — 1999-06-07
 
 #### 白（W）
@@ -96,7 +86,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mask of Law and Grace | Mask of Law and Grace | 普通 | 16 张 ( pauper 0+16) |
+| Mask of Law and Grace | Mask of Law and Grace | 普通 | 14 张 ( pauper 0+14) |
 
 ### Mercadian Masques (MMQ) — 1999-10-04
 
@@ -127,7 +117,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Rhystic Circle | Rhystic Circle | 普通 | 3 张 ( pauper 0+3) |
+| Rhystic Circle | Rhystic Circle | 普通 | 2 张 ( pauper 0+2) |
 
 #### 蓝（U）
 
@@ -182,7 +172,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Words of Wisdom | Words of Wisdom | 普通 | 2 张 ( pauper 2) |
+| Words of Wisdom | Words of Wisdom | 普通 | 1 张 ( pauper 1) |
 
 #### 红（R）
 
@@ -190,7 +180,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Earth Rift | Earth Rift | 普通 | 14 张 ( pauper 0+14) |
+| Earth Rift | Earth Rift | 普通 | 12 张 ( pauper 0+12) |
 
 ### Torment (TOR) — 2002-02-04
 
@@ -234,7 +224,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Swirling Sandstorm | Swirling Sandstorm | 普通 | 7 张 ( pauper 0+7) |
+| Swirling Sandstorm | Swirling Sandstorm | 普通 | 6 张 ( pauper 0+6) |
 
 ### Scourge (SCG) — 2003-05-26
 
@@ -262,7 +252,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Envelop | Envelop | 普通 | 78 张 ( pauper 0+78) |
+| Envelop | Envelop | 普通 | 76 张 ( pauper 0+76) |
 
 ### Mirrodin (MRD) — 2003-10-02
 
@@ -272,7 +262,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Krark-Clan Shaman | Krark-Clan Shaman | 普通 | 171 张 ( pauper 137+34) |
+| Krark-Clan Shaman | Krark-Clan Shaman | 普通 | 174 张 ( pauper 140+34) |
 
 ### Darksteel (DST) — 2004-02-06
 
@@ -282,7 +272,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hallow | 崇圣 | 普通 | 8 张 ( pauper 0+8) |
+| Hallow | 崇圣 | 普通 | 10 张 ( pauper 0+10) |
 
 #### 无色（Colorless）
 
@@ -300,7 +290,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Plunge into Darkness | 没入幽黯 | 稀有 | 32 张 (摩登 32) |
+| Plunge into Darkness | 没入幽黯 | 稀有 | 24 张 (摩登 24) |
 
 ### Champions of Kamigawa (CHK) — 2004-10-01
 
@@ -310,7 +300,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ethereal Haze | 虚相迷雾 | 普通 | 8 张 ( pauper 6+2) |
+| Ethereal Haze | 虚相迷雾 | 普通 | 5 张 ( pauper 5) |
 
 #### 绿（G）
 
@@ -318,7 +308,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Orochi Leafcaller | 叶咏蛇人 | 普通 | 4 张 ( pauper 4) |
+| Orochi Leafcaller | 叶咏蛇人 | 普通 | 8 张 ( pauper 8) |
 
 ### Ninth Edition (9ED) — 2005-07-29
 
@@ -329,14 +319,6 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Sacred Ground | 圣洁大地 | 稀有 | 2 张 (摩登 0+2) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Tidal Kraken | 潮汐巨怪 | 稀有 | 1 张 (摩登 0+1) |
 
 ### Salvat 2005 (PSAL) — 2005-08-22
 
@@ -358,12 +340,6 @@
 |------|--------|--------|------|
 | Thoughtpicker Witch | 盗念法术师 | 普通 | 1 张 ( pauper 1) |
 
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Shred Memory | 破碎记忆 | 普通 | 1 张 ( pauper 1) |
-
 ### Dissension (DIS) — 2006-05-05
 
 #### 白（W）
@@ -372,8 +348,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Aurora Eidolon | 曙光幻灵 | 普通 | 11 张 ( pauper 11) |
-| Guardian of the Guildpact | 十会盟守护者 | 普通 | 29 张 ( pauper 9+20) |
+| Aurora Eidolon | 曙光幻灵 | 普通 | 7 张 ( pauper 7) |
+| Guardian of the Guildpact | 十会盟守护者 | 普通 | 25 张 ( pauper 9+16) |
 
 #### 红（R）
 
@@ -381,7 +357,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sandstorm Eidolon | 沙暴幻灵 | 普通 | 7 张 ( pauper 7) |
+| Sandstorm Eidolon | 沙暴幻灵 | 普通 | 5 张 ( pauper 5) |
 
 ### Coldsnap (CSP) — 2006-07-21
 
@@ -391,7 +367,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Soul Spike | 灵魂穿刺 | 稀有 | 12 张 (摩登 12) |
+| Soul Spike | 灵魂穿刺 | 稀有 | 8 张 (摩登 8) |
 
 ### Time Spiral Timeshifted (TSB) — 2006-10-06
 
@@ -401,7 +377,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Claws of Gix | 基克斯之爪 | 特殊 | 53 张 (摩登 53) |
+| Claws of Gix | 基克斯之爪 | 特殊 | 37 张 (摩登 37) |
 
 ### Future Sight (FUT) — 2007-05-04
 
@@ -413,16 +389,6 @@
 |------|--------|--------|------|
 | Oblivion Crown | 遗忘冠冕 | 普通 | 4 张 ( pauper 3+1) |
 
-### Tenth Edition (10E) — 2007-07-13
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Llanowar Sentinel | 罗堰哨兵 | 普通 | 4 张 ( pauper 4) |
-
 ### Masters Edition (ME1) — 2007-09-10
 
 #### 白（W）
@@ -431,7 +397,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Holy Light | Holy Light | 普通 | 18 张 ( pauper 0+18) |
+| Holy Light | Holy Light | 普通 | 20 张 ( pauper 0+20) |
 
 #### 蓝（U）
 
@@ -439,7 +405,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sunken City | Sunken City | 非普通 | 5 张 ( pauper 4+1) |
+| Sunken City | Sunken City | 非普通 | 3 张 ( pauper 2+1) |
 
 ### Morningtide (MOR) — 2008-02-01
 
@@ -465,17 +431,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Banishing Knack | 逐退心法 | 普通 | 3 张 ( pauper 3) |
+| Banishing Knack | 逐退心法 | 普通 | 2 张 ( pauper 2) |
 
 ### Masters Edition II (ME2) — 2008-09-22
-
-#### 白（W）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Reinforcements | Reinforcements | 普通 | 1 张 ( pauper 0+1) |
 
 #### 蓝（U）
 
@@ -491,9 +449,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Thermokarst | Thermokarst | 普通 | 56 张 ( pauper 56) |
+| Thermokarst | Thermokarst | 普通 | 64 张 ( pauper 64) |
 
 ### Conflux (CON) — 2009-02-06
+
+#### 白（W）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mark of Asylum | 避难印记 | 稀有 | 1 张 (摩登 0+1) |
 
 #### 绿（G）
 
@@ -501,7 +467,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Scattershot Archer | 散射弓箭手 | 普通 | 30 张 ( pauper 0+30) |
+| Scattershot Archer | 散射弓箭手 | 普通 | 26 张 ( pauper 0+26) |
 
 ### Alara Reborn (ARB) — 2009-04-30
 
@@ -521,7 +487,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Remove Soul | 移魂术 | 普通 | 2 张 ( pauper 0+2) |
+| Remove Soul | 移魂术 | 普通 | 1 张 ( pauper 0+1) |
 
 ### Worldwake (WWK) — 2010-02-05
 
@@ -552,7 +518,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Auriok Sunchaser | 欧瑞克逐日者 | 普通 | 2 张 ( pauper 2) |
-| Glint Hawk | 烁目鹰 | 普通 | 28 张 ( pauper 28) |
+| Glint Hawk | 烁目鹰 | 普通 | 24 张 ( pauper 24) |
 
 #### 无色（Colorless）
 
@@ -560,7 +526,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sylvok Lifestaff | 希沃克生灵杖 | 普通 | 9 张 ( pauper 2+7) |
+| Sylvok Lifestaff | 希沃克生灵杖 | 普通 | 6 张 ( pauper 1+5) |
 
 ### Masters Edition IV (ME4) — 2011-01-10
 
@@ -572,16 +538,6 @@
 |------|--------|--------|------|
 | Artifact Blast | Artifact Blast | 普通 | 2 张 ( pauper 0+2) |
 
-### Duel Decks: Knights vs. Dragons (DDG) — 2011-04-01
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sejiri Steppe | 塞基黎草原 | 普通 | 1 张 ( pauper 1) |
-
 ### New Phyrexia (NPH) — 2011-05-13
 
 #### 黑（B）
@@ -590,7 +546,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Chancellor of the Dross | 蔓非沼督长 | 稀有 | 14 张 (摩登 14) |
+| Chancellor of the Dross | 蔓非沼督长 | 稀有 | 10 张 (摩登 10) |
 
 #### 绿（G）
 
@@ -618,13 +574,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lifelink | 系命 | 普通 | 9 张 ( pauper 6+3) |
+| Lifelink | 系命 | 普通 | 7 张 ( pauper 4+3) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Guardians' Pledge | 守护誓言 | 普通 | 49 张 ( pauper 49) |
+| Guardians' Pledge | 守护誓言 | 普通 | 42 张 ( pauper 42) |
 
 #### 蓝（U）
 
@@ -644,13 +600,13 @@
 
 ### Innistrad (ISD) — 2011-09-30
 
-#### 黑（B）
+#### 红（R）
 
-**法术**
+**结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ghoulcaller's Chant | 尸鬼牧者吟颂 | 普通 | 1 张 ( pauper 1) |
+| Curse of the Pierced Heart | 穿心诅咒 | 普通 | 2 张 ( pauper 2) |
 
 ### Dark Ascension (DKA) — 2012-02-03
 
@@ -660,7 +616,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Artful Dodge | 精巧闪躲 | 普通 | 9 张 ( pauper 8+1) |
+| Artful Dodge | 精巧闪躲 | 普通 | 11 张 ( pauper 10+1) |
 
 ### Avacyn Restored (AVR) — 2012-05-04
 
@@ -670,7 +626,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Galvanic Alchemist | 电流炼金术士 | 普通 | 3 张 ( pauper 3) |
+| Galvanic Alchemist | 电流炼金术士 | 普通 | 5 张 ( pauper 5) |
 
 #### 黑（B）
 
@@ -679,6 +635,16 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Essence Harvest | 收割精魂 | 普通 | 2 张 ( pauper 2) |
+
+### Magic 2013 (M13) — 2012-07-13
+
+#### 白（W）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Safe Passage | Safe Passage | 普通 | 1 张 ( pauper 0+1) |
 
 ### Return to Ravnica (RTR) — 2012-10-05
 
@@ -712,7 +678,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shattering Blow | 粉碎霆击 | 普通 | 4 张 ( pauper 0+4) |
+| Shattering Blow | 粉碎霆击 | 普通 | 1 张 ( pauper 0+1) |
 
 ### Modern Masters (MMA) — 2013-06-07
 
@@ -732,7 +698,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gatecreeper Vine | 蔓门野葛 | 普通 | 54 张 ( pauper 54) |
+| Gatecreeper Vine | 蔓门野葛 | 普通 | 49 张 ( pauper 49) |
 
 ### Conspiracy (CNS) — 2014-06-06
 
@@ -762,17 +728,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Stubborn Denial | 顽固拒斥 | 非普通 | 76 张 (摩登 76) |
-
-### Duel Decks Anthology: Jace vs. Chandra (JVC) — 2014-12-05
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Spire Golem | 尖塔魔像 | 普通 | 3 张 ( pauper 2+1) |
+| Stubborn Denial | 顽固拒斥 | 非普通 | 38 张 (摩登 38) |
 
 ### Duel Decks Anthology: Elves vs. Goblins (EVG) — 2014-12-05
 
@@ -782,7 +738,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Wirewood Herald | Wirewood Herald | 普通 | 5 张 ( pauper 5) |
+| Wirewood Herald | Wirewood Herald | 普通 | 2 张 ( pauper 2) |
 
 ### Fate Reforged (FRF) — 2015-01-23
 
@@ -792,7 +748,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arashin Cleric | 阿拉辛僧侣 | 普通 | 2 张 ( pauper 0+2) |
+| Arashin Cleric | 阿拉辛僧侣 | 普通 | 4 张 ( pauper 0+4) |
 
 ### Modern Masters 2015 (MM2) — 2015-05-22
 
@@ -802,7 +758,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Celestial Purge | 天界涤净 | 非普通 | 65 张 (摩登 0+65) |
+| Celestial Purge | 天界涤净 | 非普通 | 39 张 (摩登 0+39) |
 
 ### Battle for Zendikar (BFZ) — 2015-10-02
 
@@ -818,13 +774,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Scour from Existence | 扫除存在 | 普通 | 31 张 ( pauper 0+31) |
+| Scour from Existence | 扫除存在 | 普通 | 23 张 ( pauper 0+23) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Skyline Cascade | 天际瀑布 | 普通 | 8 张 (摩登 1+7) |
+| Skyline Cascade | 天际瀑布 | 普通 | 4 张 (摩登 1+3) |
 
 ### Oath of the Gatewatch (OGW) — 2016-01-22
 
@@ -834,7 +790,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Crumbling Vestige | 崩坏残骸 | 普通 | 52 张 (摩登 52) |
+| Crumbling Vestige | 崩坏残骸 | 普通 | 24 张 (摩登 24) |
 
 ### Shadows over Innistrad (SOI) — 2016-04-08
 
@@ -844,7 +800,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Structural Distortion | 结构扭曲 | 普通 | 20 张 ( pauper 20) |
+| Structural Distortion | 结构扭曲 | 普通 | 23 张 ( pauper 23) |
 
 ### Eldritch Moon (EMN) — 2016-07-22
 
@@ -854,17 +810,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Providence | 祝祷眷恩 | 稀有 | 2 张 (摩登 2) |
-
-### Treasure Chest (PZ2) — 2016-11-16
-
-#### 绿（G）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Metamorphosis | Metamorphosis | 普通 | 2 张 ( pauper 2) |
+| Providence | 祝祷眷恩 | 稀有 | 1 张 (摩登 1) |
 
 ### Modern Masters 2017 (MM3) — 2017-03-17
 
@@ -874,7 +820,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mortician Beetle | 殡葬甲虫 | 普通 | 24 张 ( pauper 24) |
+| Mortician Beetle | 殡葬甲虫 | 普通 | 16 张 ( pauper 16) |
 
 ### Amonkhet Invocations (MP2) — 2017-04-28
 
@@ -894,7 +840,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Squadron Hawk | 鹰中队 | 普通 | 24 张 ( pauper 24) |
+| Squadron Hawk | 鹰中队 | 普通 | 32 张 ( pauper 32) |
 
 ### Dominaria (DOM) — 2018-04-27
 
@@ -904,7 +850,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Unwind | 倒流 | 普通 | 3 张 ( pauper 3) |
+| Unwind | 倒流 | 普通 | 2 张 ( pauper 2) |
 
 #### 无色（Colorless）
 
@@ -912,7 +858,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Navigator's Compass | 领航员罗盘 | 普通 | 6 张 ( pauper 0+6) |
+| Navigator's Compass | 领航员罗盘 | 普通 | 2 张 ( pauper 0+2) |
 
 ### Commander Anthology Volume II (CM2) — 2018-06-08
 
@@ -922,7 +868,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Whipflare | 鞭扫火光 | 非普通 | 37 张 (摩登 0+37) |
+| Whipflare | 鞭扫火光 | 非普通 | 28 张 (摩登 0+28) |
 
 ### Core Set 2019 (M19) — 2018-07-13
 
@@ -932,7 +878,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Suncleanser | 承阳净化僧 | 稀有 | 27 张 (摩登 0+27) |
+| Suncleanser | 承阳净化僧 | 稀有 | 25 张 (摩登 0+25) |
 
 #### 红（R）
 
@@ -940,7 +886,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Thud | 掷物有声 | 非普通 | 28 张 (摩登 28) |
+| Thud | 掷物有声 | 非普通 | 24 张 (摩登 24) |
 
 ### Core Set 2019 Promos (PM19) — 2018-07-13
 
@@ -952,16 +898,6 @@
 |------|--------|--------|------|
 | Mistcaller | 漫雾师 | 稀有 | 2 张 (摩登 0+2) |
 
-### Commander 2018 (C18) — 2018-08-10
-
-#### 绿（G）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Kruphix's Insight | 克罗芬斯的洞察 | 普通 | 3 张 ( pauper 3) |
-
 ### Ultimate Masters (UMA) — 2018-12-07
 
 #### 白（W）
@@ -970,7 +906,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Martyr of Sands | 尘身殉道者 | 普通 | 52 张 ( pauper 0+52) |
+| Martyr of Sands | 尘身殉道者 | 普通 | 47 张 ( pauper 0+47) |
 
 #### 蓝（U）
 
@@ -978,16 +914,22 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Disrupting Shoal | 搅扰群列 | 稀有 | 48 张 (摩登 48) |
+| Disrupting Shoal | 搅扰群列 | 稀有 | 32 张 (摩登 32) |
 
 #### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fume Spitter | 烟气喷吐兽 | 普通 | 2 张 ( pauper 0+2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Songs of the Damned | Songs of the Damned | 非普通 | 12 张 ( pauper 12) |
-| Spoils of the Vault | Spoils of the Vault | 稀有 | 28 张 (摩登 28) |
+| Spoils of the Vault | Spoils of the Vault | 稀有 | 24 张 (摩登 24) |
 
 #### 绿（G）
 
@@ -1001,7 +943,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Nourishing Shoal | 滋养群列 | 稀有 | 5 张 (摩登 4+1) |
+| Nourishing Shoal | 滋养群列 | 稀有 | 6 张 (摩登 5+1) |
 
 #### 多色（Multicolor）
 
@@ -1027,7 +969,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Scrabbling Claws | 翻拣爪 | 非普通 | 3 张 (摩登 3) |
+| Scrabbling Claws | 翻拣爪 | 非普通 | 2 张 (摩登 2) |
 
 ### War of the Spark (WAR) — 2019-05-03
 
@@ -1037,7 +979,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Neoform | 形体一新 | 非普通 | 51 张 (摩登 48+3) |
+| Neoform | 形体一新 | 非普通 | 54 张 (摩登 52+2) |
 
 ### Modern Horizons (MH1) — 2019-06-14
 
@@ -1047,7 +989,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Prohibit | 禁令 | 普通 | 20 张 ( pauper 16+4) |
+| Prohibit | 禁令 | 普通 | 16 张 ( pauper 13+3) |
 
 #### 黑（B）
 
@@ -1073,7 +1015,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Healer of the Glade | 林沼疗疾灵 | 普通 | 13 张 ( pauper 3+10) |
+| Healer of the Glade | 林沼疗疾灵 | 普通 | 16 张 ( pauper 3+13) |
 
 #### 无色（Colorless）
 
@@ -1099,8 +1041,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Idyllic Grange | 田园农庄 | 普通 | 43 张 ( pauper 43) |
-| Witch's Cottage | 巫婆小屋 | 普通 | 11 张 ( pauper 11) |
+| Idyllic Grange | 田园农庄 | 普通 | 38 张 ( pauper 38) |
+| Witch's Cottage | 巫婆小屋 | 普通 | 13 张 ( pauper 13) |
 
 ### Secret Lair Drop (SLD) — 2019-12-02
 
@@ -1110,13 +1052,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tezzeret the Seeker | 致知者泰兹瑞 | 秘稀 | 5 张 (摩登 0+5) |
+| Tezzeret the Seeker | 致知者泰兹瑞 | 秘稀 | 2 张 (摩登 0+2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Accumulated Knowledge | 累积的知识 | 普通 | 8 张 ( pauper 8) |
+| Accumulated Knowledge | 累积的知识 | 普通 | 4 张 ( pauper 4) |
 
 #### 红（R）
 
@@ -1130,7 +1072,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Desperate Ritual | 急迫祭礼 | 非普通 | 60 张 (摩登 44,  pauper 16) |
+| Desperate Ritual | 急迫祭礼 | 非普通 | 48 张 (摩登 32,  pauper 16) |
 
 #### 绿（G）
 
@@ -1147,13 +1089,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ashiok, Dream Render | 裂梦师安梭苛 | 非普通 | 20 张 (摩登 0+20) |
+| Ashiok, Dream Render | 裂梦师安梭苛 | 非普通 | 12 张 (摩登 0+12) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shadow of Doubt | 猜疑之影 | 稀有 | 5 张 (摩登 5) |
+| Shadow of Doubt | 猜疑之影 | 稀有 | 2 张 (摩登 2) |
 
 ### Theros Beyond Death (THB) — 2020-01-24
 
@@ -1163,7 +1105,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sleep of the Dead | 亡者沉眠 | 普通 | 74 张 ( pauper 74) |
+| Sleep of the Dead | 亡者沉眠 | 普通 | 72 张 ( pauper 72) |
 
 #### 黑（B）
 
@@ -1171,7 +1113,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Omen of the Dead | 死神的预兆 | 普通 | 6 张 ( pauper 6) |
+| Omen of the Dead | 死神的预兆 | 普通 | 5 张 ( pauper 5) |
 
 #### 红（R）
 
@@ -1180,6 +1122,16 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Omen of the Forge | 熔锻神的预兆 | 普通 | 1 张 ( pauper 1) |
+
+### Ikoria: Lair of Behemoths Promos (PIKO) — 2020-04-24
+
+#### 无色（Colorless）
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Indatha Triome | 因达沙群系 | 稀有 | 12 张 (摩登 12) |
 
 ### Ikoria: Lair of Behemoths (IKO) — 2020-04-24
 
@@ -1197,7 +1149,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Of One Mind | 异念归一 | 普通 | 67 张 ( pauper 67) |
+| Of One Mind | 异念归一 | 普通 | 69 张 ( pauper 69) |
 
 #### 多色（Multicolor）
 
@@ -1205,7 +1157,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Song of Creation | 创生颂曲 | 稀有 | 16 张 (摩登 15+1) |
+| Song of Creation | 创生颂曲 | 稀有 | 12 张 (摩登 11+1) |
 
 #### 无色（Colorless）
 
@@ -1213,19 +1165,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Raugrin Triome | 洛格凌群系 | 稀有 | 3 张 (摩登 3) |
-
-### Ikoria: Lair of Behemoths Promos (PIKO) — 2020-04-24
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Indatha Triome | 因达沙群系 | 稀有 | 19 张 (摩登 19) |
-| Savai Triome | 撒维耶群系 | 稀有 | 1 张 (摩登 1) |
-| Zagoth Triome | 札苟斯群系 | 稀有 | 1 张 (摩登 1) |
+| Raugrin Triome | 洛格凌群系 | 稀有 | 2 张 (摩登 2) |
 
 ### Core Set 2021 (M21) — 2020-07-03
 
@@ -1271,7 +1211,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Steel Sabotage | 捣毁钢铁 | 普通 | 126 张 ( pauper 0+126) |
+| Steel Sabotage | 捣毁钢铁 | 普通 | 124 张 ( pauper 0+124) |
 
 #### 黑（B）
 
@@ -1285,7 +1225,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Divest | 褫夺 | 普通 | 6 张 ( pauper 0+6) |
+| Divest | 褫夺 | 普通 | 8 张 ( pauper 0+8) |
 
 #### 多色（Multicolor）
 
@@ -1293,7 +1233,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fulminator Mage | 雷鸣法师 | 稀有 | 15 张 (摩登 0+15) |
+| Fulminator Mage | 雷鸣法师 | 稀有 | 11 张 (摩登 0+11) |
 
 #### 无色（Colorless）
 
@@ -1301,13 +1241,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Welding Jar | 焊熔坛 | 非普通 | 32 张 (摩登 30+2) |
+| Welding Jar | 焊熔坛 | 非普通 | 18 张 (摩登 18) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Glimmervoid | 烁光荒野 | 稀有 | 3 张 (摩登 3) |
+| Glimmervoid | 烁光荒野 | 稀有 | 1 张 (摩登 1) |
 
 ### Amonkhet Remastered (AKR) — 2020-08-13
 
@@ -1335,13 +1275,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tuktuk Rubblefort | 图图乱石堡 | 普通 | 5 张 ( pauper 5) |
+| Tuktuk Rubblefort | 图图乱石堡 | 普通 | 7 张 ( pauper 7) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cleansing Wildfire | 涤地野火 | 普通 | 140 张 (摩登 28,  pauper 92+20) |
+| Cleansing Wildfire | 涤地野火 | 普通 | 154 张 (摩登 28,  pauper 108+18) |
 
 ### Zendikar Rising Commander (ZNC) — 2020-09-25
 
@@ -1362,32 +1302,27 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Chancellor of the Annex | 别馆督长 | 稀有 | 16 张 (摩登 8+8) |
-| Coalition Honor Guard | 联盟仪队兵 | 普通 | 20 张 ( pauper 0+20) |
-| Felidar Guardian | 护卫晶角兽 | 非普通 | 6 张 (摩登 6) |
-| God-Pharaoh's Faithful | 法老神的信徒 | 普通 | 21 张 ( pauper 21) |
+| Coalition Honor Guard | 联盟仪队兵 | 普通 | 13 张 ( pauper 0+13) |
+| Deftblade Elite | Deftblade Elite | 普通 | 4 张 ( pauper 4) |
+| God-Pharaoh's Faithful | 法老神的信徒 | 普通 | 20 张 ( pauper 20) |
 | Imposing Vantasaur | 庄严高颈龙 | 普通 | 12 张 ( pauper 12) |
 | Kor Firewalker | 火行寇族 | 非普通 | 2 张 (摩登 0+2) |
 | Lone Missionary | 独行传教士 | 普通 | 1 张 ( pauper 0+1) |
-| Loyal Sentry | 忠诚哨兵 | 普通 | 2 张 ( pauper 0+2) |
-| Sacred Cat | 圣猫 | 普通 | 72 张 ( pauper 72) |
-| Standard Bearer | Standard Bearer | 普通 | 67 张 ( pauper 0+67) |
+| Loyal Sentry | 忠诚哨兵 | 普通 | 4 张 ( pauper 0+4) |
+| Sacred Cat | 圣猫 | 普通 | 68 张 ( pauper 68) |
+| Standard Bearer | Standard Bearer | 普通 | 52 张 ( pauper 0+52) |
 | Sunscape Familiar | Sunscape Familiar | 普通 | 20 张 ( pauper 20) |
-| Tireless Tribe | Tireless Tribe | 普通 | 8 张 ( pauper 8) |
-| Vizier of Remedies | 缓伤维齐尔 | 非普通 | 43 张 (摩登 43) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Lumithread Field | 明缕力场 | 普通 | 2 张 ( pauper 1+1) |
+| Tireless Tribe | Tireless Tribe | 普通 | 4 张 ( pauper 4) |
+| Vizier of Remedies | 缓伤维齐尔 | 非普通 | 44 张 (摩登 44) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Apostle's Blessing | 门徒加持 | 普通 | 10 张 ( pauper 9+1) |
-| Prismatic Strands | Prismatic Strands | 普通 | 152 张 ( pauper 140+12) |
-| Ramosian Rally | Ramosian Rally | 普通 | 19 张 ( pauper 16+3) |
+| Celestial Flare | 天界火光 | 普通 | 3 张 ( pauper 0+3) |
+| Prismatic Strands | Prismatic Strands | 普通 | 135 张 ( pauper 126+9) |
+| Ramosian Rally | Ramosian Rally | 普通 | 16 张 ( pauper 15+1) |
 
 #### 蓝（U）
 
@@ -1396,10 +1331,9 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Blighted Agent | 枯萎密探 | 普通 | 8 张 (摩登 4,  pauper 4) |
-| Deceiver Exarch | 欺瞒督教 | 非普通 | 4 张 (摩登 4) |
-| Merfolk Trickster | 人鱼诈术师 | 非普通 | 7 张 (摩登 7) |
-| Mnemonic Wall | 记忆墙 | 普通 | 6 张 ( pauper 5+1) |
-| Silvergill Adept | 银鳃专家 | 非普通 | 9 张 (摩登 9) |
+| Mistblade Shinobi | 灭雾忍者 | 普通 | 1 张 ( pauper 1) |
+| Mnemonic Wall | 记忆墙 | 普通 | 4 张 ( pauper 3+1) |
+| Silvergill Adept | 银鳃专家 | 非普通 | 7 张 (摩登 7) |
 | Somber Hoverguard | 灰沉空卫 | 普通 | 3 张 ( pauper 3) |
 | Striped Riverwinder | 斑纹河蛇 | 普通 | 25 张 (摩登 25) |
 
@@ -1407,32 +1341,31 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Jace, Wielder of Mysteries | 博奥杰斯 | 稀有 | 5 张 (摩登 4+1) |
+| Jace, Wielder of Mysteries | 博奥杰斯 | 稀有 | 4 张 (摩登 3+1) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Freed from the Real | 逸脱实界 | 非普通 | 3 张 ( pauper 3) |
+| Freed from the Real | 逸脱实界 | 非普通 | 5 张 ( pauper 5) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Boomerang | 回力镖 | 普通 | 12 张 ( pauper 12) |
+| Boomerang | 回力镖 | 普通 | 16 张 ( pauper 15+1) |
 | Disrupt | Disrupt | 非普通 | 4 张 ( pauper 3+1) |
-| Hurkyl's Recall | 河鼓的召还 | 稀有 | 13 张 (摩登 0+13) |
-| Mental Note | Mental Note | 普通 | 168 张 ( pauper 168) |
-| Perilous Research | 冒险探寻 | 普通 | 4 张 ( pauper 4) |
+| Hurkyl's Recall | 河鼓的召还 | 稀有 | 6 张 (摩登 0+6) |
+| Mental Note | Mental Note | 普通 | 160 张 ( pauper 160) |
 | Turn Aside | 避开 | 普通 | 2 张 ( pauper 2) |
-| Vapor Snag | 毒气阻碍 | 普通 | 16 张 ( pauper 12+4) |
+| Vapor Snag | 毒气阻碍 | 普通 | 15 张 ( pauper 11+4) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Distortion Strike | 曲身进击 | 非普通 | 3 张 ( pauper 3) |
-| Stream of Thought | 思绪流动 | 普通 | 13 张 ( pauper 13) |
+| Stream of Thought | 思绪流动 | 普通 | 9 张 ( pauper 9) |
 
 #### 黑（B）
 
@@ -1441,11 +1374,10 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Augur of Skulls | 颅骨卜算师 | 普通 | 4 张 ( pauper 4) |
-| Bloodrite Invoker | 血仪召现师 | 普通 | 1 张 ( pauper 1) |
-| Bloodthrone Vampire | 血座吸血鬼 | 普通 | 18 张 ( pauper 18) |
-| Carrion Feeder | 腐食怪 | 非普通 | 31 张 (摩登 7,  pauper 24) |
-| Mesmeric Fiend | 催眠邪鬼 | 非普通 | 97 张 ( pauper 38+59) |
-| Plagued Rusalka | 病殁怨魂 | 普通 | 1 张 ( pauper 0+1) |
+| Bloodrite Invoker | 血仪召现师 | 普通 | 2 张 ( pauper 2) |
+| Bloodthrone Vampire | 血座吸血鬼 | 普通 | 12 张 ( pauper 12) |
+| Carrion Feeder | 腐食怪 | 非普通 | 20 张 (摩登 4,  pauper 16) |
+| Mesmeric Fiend | 催眠邪鬼 | 非普通 | 81 张 ( pauper 34+47) |
 
 **结界**
 
@@ -1459,17 +1391,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cling to Dust | 执持化尘 | 非普通 | 41 张 (摩登 40+1) |
-| Reaping the Graves | Reaping the Graves | 普通 | 18 张 ( pauper 16+2) |
-| Suffocating Fumes | 窒塞毒气 | 普通 | 31 张 ( pauper 26+5) |
-| Unexpected Fangs | 突生长牙 | 普通 | 43 张 ( pauper 16+27) |
+| Cling to Dust | 执持化尘 | 非普通 | 30 张 (摩登 29+1) |
+| Reaping the Graves | Reaping the Graves | 普通 | 20 张 ( pauper 18+2) |
+| Suffocating Fumes | 窒塞毒气 | 普通 | 30 张 ( pauper 27+3) |
+| Unexpected Fangs | 突生长牙 | 普通 | 39 张 ( pauper 14+25) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Bloodchief's Thirst | 血侯饥渴 | 非普通 | 1 张 (摩登 0+1) |
-| Rite of Consumption | 耗竭仪式 | 普通 | 10 张 (摩登 3,  pauper 5+2) |
+| Rite of Consumption | 耗竭仪式 | 普通 | 6 张 ( pauper 4+2) |
 
 #### 红（R）
 
@@ -1481,34 +1413,27 @@
 | Ghitu Slinger | 基图投掷手 | 非普通 | 2 张 ( pauper 2) |
 | Goblin Trashmaster | 坏物鬼怪 | 稀有 | 1 张 (摩登 0+1) |
 
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Seal of Fire | 火焰之缄印 | 普通 | 2 张 (摩登 2) |
-| Splinter Twin | 分裂双身 | 稀有 | 4 张 (摩登 4) |
-
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Electrickery | 电流恶戏 | 普通 | 12 张 ( pauper 0+12) |
-| Flaring Pain | Flaring Pain | 普通 | 61 张 ( pauper 2+59) |
-| Gut Shot | 打击内脏 | 普通 | 88 张 (摩登 3,  pauper 0+85) |
-| Lava Dart | 熔岩镖 | 普通 | 314 张 (摩登 152,  pauper 162) |
+| Electrickery | 电流恶戏 | 普通 | 10 张 ( pauper 0+10) |
+| Flaring Pain | Flaring Pain | 普通 | 55 张 ( pauper 2+53) |
+| Gut Shot | 打击内脏 | 普通 | 84 张 ( pauper 0+84) |
+| Lava Dart | 熔岩镖 | 普通 | 279 张 (摩登 133,  pauper 146) |
 | Needle Drop | 落针 | 普通 | 4 张 ( pauper 4) |
-| Searing Blaze | 炙热火光 | 普通 | 77 张 (摩登 4+2,  pauper 0+71) |
-| Skred | 崩雪咒 | 普通 | 90 张 ( pauper 90) |
-| Tarfire | 焦油火 | 普通 | 3 张 (摩登 3) |
+| Searing Blaze | 炙热火光 | 普通 | 74 张 (摩登 4,  pauper 0+70) |
+| Skred | 崩雪咒 | 普通 | 78 张 ( pauper 78) |
+| Tarfire | 焦油火 | 普通 | 2 张 (摩登 2) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Burning Inquiry | 火热探究 | 普通 | 51 张 (摩登 51) |
+| Burning Inquiry | 火热探究 | 普通 | 47 张 (摩登 47) |
 | Goblin Lore | 精灵的学问 | 非普通 | 2 张 (摩登 2) |
-| Kaervek's Torch | Kaervek's Torch | 非普通 | 22 张 ( pauper 15+7) |
-| Rolling Thunder | 旋雷 | 非普通 | 4 张 ( pauper 2+2) |
+| Kaervek's Torch | Kaervek's Torch | 非普通 | 18 张 ( pauper 13+5) |
+| Rolling Thunder | 旋雷 | 非普通 | 3 张 ( pauper 1+2) |
 | Shatterstorm | 粉碎风暴 | 非普通 | 2 张 (摩登 0+2) |
 | Vandalize | 大肆毁坏 | 普通 | 2 张 ( pauper 0+2) |
 
@@ -1518,41 +1443,41 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Allosaurus Rider | 异特龙骑兵 | 稀有 | 48 张 (摩登 48) |
-| Elves of Deep Shadow | 深黯地精 | 普通 | 36 张 ( pauper 36) |
+| Allosaurus Rider | 异特龙骑兵 | 稀有 | 52 张 (摩登 52) |
+| Elves of Deep Shadow | 深黯地精 | 普通 | 31 张 ( pauper 31) |
 | Ezuri, Renegade Leader | 叛军领袖伊祖黎 | 秘稀 | 1 张 (摩登 1) |
 | Fangren Marauder | 方壬劫掠者 | 普通 | 11 张 ( pauper 4+7) |
 | Nest Invader | 袭巢恶兽 | 普通 | 4 张 ( pauper 4) |
-| Strangleroot Geist | 缚根游魂 | 非普通 | 5 张 (摩登 5) |
-| Wellwisher | 美愿祈者 | 普通 | 18 张 ( pauper 17+1) |
+| Strangleroot Geist | 缚根游魂 | 非普通 | 2 张 (摩登 2) |
+| Wellwisher | 美愿祈者 | 普通 | 15 张 ( pauper 14+1) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Seal of Strength | 力量之缄印 | 普通 | 4 张 ( pauper 4) |
-| Talons of Wildwood | 野林利爪 | 普通 | 2 张 ( pauper 2) |
+| Talons of Wildwood | 野林利爪 | 普通 | 1 张 ( pauper 1) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Deglamer | 消幻法 | 普通 | 66 张 ( pauper 0+66) |
+| Deglamer | 消幻法 | 普通 | 69 张 ( pauper 0+69) |
 | Feed the Clan | 喂饱部落 | 普通 | 2 张 ( pauper 0+2) |
-| Moment's Peace | Moment's Peace | 普通 | 76 张 ( pauper 37+39) |
-| Mutagenic Growth | 生体突长 | 非普通 | 118 张 (摩登 105,  pauper 12+1) |
+| Moment's Peace | Moment's Peace | 普通 | 57 张 ( pauper 24+33) |
+| Mutagenic Growth | 生体突长 | 非普通 | 99 张 (摩登 86,  pauper 12+1) |
 | Ranger's Guile | 护林人的智谋 | 普通 | 1 张 ( pauper 0+1) |
 | Vines of Vastwood | 广林藤蔓 | 普通 | 8 张 (摩登 2,  pauper 6) |
-| Wrap in Vigor | 活力覆庇 | 普通 | 7 张 ( pauper 0+7) |
+| Wrap in Vigor | 活力覆庇 | 普通 | 4 张 ( pauper 0+4) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gleeful Sabotage | 欢乐破坏 | 普通 | 1 张 ( pauper 0+1) |
-| Land Grant | Land Grant | 普通 | 91 张 ( pauper 91) |
-| Lead the Stampede | 引领狂奔 | 非普通 | 170 张 ( pauper 170) |
-| Mwonvuli Acid-Moss | 木万弗黎酸苔 | 普通 | 60 张 ( pauper 56+4) |
+| Gleeful Sabotage | 欢乐破坏 | 普通 | 2 张 ( pauper 0+2) |
+| Land Grant | Land Grant | 普通 | 82 张 ( pauper 82) |
+| Lead the Stampede | 引领狂奔 | 非普通 | 153 张 ( pauper 153) |
+| Mwonvuli Acid-Moss | 木万弗黎酸苔 | 普通 | 68 张 ( pauper 64+4) |
 
 #### 多色（Multicolor）
 
@@ -1560,22 +1485,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cavern Harpy | Cavern Harpy | 普通 | 1 张 ( pauper 1) |
 | Gaddock Teeg | 加达提格 | 稀有 | 3 张 (摩登 0+3) |
-| Meddling Mage | 扰咒法师 | 稀有 | 2 张 (摩登 2) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Armadillo Cloak | 穿山甲外衣 | 非普通 | 47 张 ( pauper 40+7) |
+| Armadillo Cloak | 穿山甲外衣 | 非普通 | 35 张 ( pauper 28+7) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Inside Out | 完全相反 | 普通 | 8 张 ( pauper 8) |
-| Unmake | 归返空无 | 普通 | 11 张 ( pauper 4+7) |
+| Inside Out | 完全相反 | 普通 | 4 张 ( pauper 4) |
+| Unmake | 归返空无 | 普通 | 10 张 ( pauper 4+6) |
 
 #### 无色（Colorless）
 
@@ -1610,7 +1533,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Ceremonious Rejection | 隆重拒斥 | 非普通 | 2 张 (摩登 0+2) |
-| Metallic Rebuke | 聚金拒斥 | 普通 | 95 张 (摩登 82+8,  pauper 1+4) |
+| Metallic Rebuke | 聚金拒斥 | 普通 | 71 张 (摩登 65+4,  pauper 0+2) |
 
 #### 黑（B）
 
@@ -1628,12 +1551,6 @@
 |------|--------|--------|------|
 | Renegade Rallier | 乱匠召集人 | 非普通 | 1 张 (摩登 1) |
 
-**鹏洛客**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Saheeli Rai | 莎希莉莱伊 | 秘稀 | 6 张 (摩登 6) |
-
 ### Commander Legends (CMR) — 2020-11-20
 
 #### 黑（B）
@@ -1650,14 +1567,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Boarding Party | 登舰小队 | 普通 | 60 张 ( pauper 60) |
-| Valakut Invoker | 瓦拉库召现师 | 普通 | 2 张 ( pauper 2) |
+| Boarding Party | 登舰小队 | 普通 | 72 张 ( pauper 72) |
+| Valakut Invoker | 瓦拉库召现师 | 普通 | 4 张 ( pauper 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fiery Cannonade | 激烈炮击 | 普通 | 23 张 ( pauper 0+23) |
+| Fiery Cannonade | 激烈炮击 | 普通 | 19 张 ( pauper 0+19) |
 
 ### Kaldheim (KHM) — 2021-02-05
 
@@ -1667,7 +1584,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Brinebarrow Intruder | 盐晶墓入侵者 | 普通 | 50 张 ( pauper 49+1) |
+| Brinebarrow Intruder | 盐晶墓入侵者 | 普通 | 49 张 ( pauper 48+1) |
 
 **结界**
 
@@ -1679,7 +1596,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Behold the Multiverse | 感临多重宇宙 | 普通 | 22 张 ( pauper 22) |
+| Behold the Multiverse | 感临多重宇宙 | 普通 | 19 张 ( pauper 19) |
 
 #### 绿（G）
 
@@ -1687,7 +1604,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Masked Vandal | 覆面破坏者 | 普通 | 163 张 ( pauper 144+19) |
+| Masked Vandal | 覆面破坏者 | 普通 | 140 张 ( pauper 119+21) |
 
 #### 无色（Colorless）
 
@@ -1695,11 +1612,10 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Alpine Meadow | 高寒草地 | 普通 | 1 张 ( pauper 1) |
-| Glacial Floodplain | 冰川漫原 | 普通 | 41 张 ( pauper 41) |
-| Ice Tunnel | 寒冰隧道 | 普通 | 31 张 ( pauper 31) |
-| Rimewood Falls | 霜林瀑布 | 普通 | 6 张 ( pauper 6) |
-| Volatile Fjord | 险恶峡湾 | 普通 | 50 张 ( pauper 50) |
+| Glacial Floodplain | 冰川漫原 | 普通 | 34 张 ( pauper 34) |
+| Ice Tunnel | 寒冰隧道 | 普通 | 29 张 ( pauper 29) |
+| Rimewood Falls | 霜林瀑布 | 普通 | 4 张 ( pauper 4) |
+| Volatile Fjord | 险恶峡湾 | 普通 | 43 张 ( pauper 43) |
 
 ### Kaldheim Commander (KHC) — 2021-02-05
 
@@ -1709,7 +1625,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Timberwatch Elf | 巡林妖精 | 普通 | 86 张 ( pauper 85+1) |
+| Timberwatch Elf | 巡林妖精 | 普通 | 67 张 ( pauper 65+2) |
 
 ### Time Spiral Remastered (TSR) — 2021-03-19
 
@@ -1719,7 +1635,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Stonehorn Dignitary | 石角显贵 | 普通 | 13 张 ( pauper 2+11) |
+| Stonehorn Dignitary | 石角显贵 | 普通 | 9 张 ( pauper 0+9) |
 
 #### 蓝（U）
 
@@ -1727,9 +1643,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Logic Knot | 逻辑打结 | 普通 | 3 张 (摩登 3) |
+| Logic Knot | 逻辑打结 | 普通 | 2 张 (摩登 2) |
 | Piracy Charm | 海盗护符 | 普通 | 10 张 ( pauper 1+9) |
-| Snapback | 突然跳回 | 普通 | 1 张 (摩登 1) |
 
 #### 黑（B）
 
@@ -1737,19 +1652,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Big Game Hunter | 巨兽猎人 | 非普通 | 1 张 (摩登 0+1) |
 | Deepcavern Imp | 深窟小恶魔 | 普通 | 4 张 ( pauper 4) |
 | Gorgon Recluse | 隐遁蛇发妖 | 普通 | 4 张 ( pauper 4) |
 | Grave Scrabbler | 墓地翻拣怪 | 普通 | 4 张 ( pauper 4) |
 | Stinkweed Imp | 臭草小恶魔 | 普通 | 4 张 (摩登 4) |
 | Trespasser il-Vec | 维克黜人入侵者 | 普通 | 4 张 ( pauper 4) |
-| Vampire Hexmage | 邪术吸血鬼 | 非普通 | 3 张 (摩登 3) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Extirpate | 根除 | 稀有 | 8 张 (摩登 0+8) |
+| Extirpate | 根除 | 稀有 | 4 张 (摩登 0+4) |
 | Tendrils of Corruption | 腐化卷须 | 普通 | 4 张 ( pauper 4) |
 
 #### 红（R）
@@ -1766,9 +1679,9 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Conflagrate | 暴燃 | 非普通 | 1 张 (摩登 1) |
-| Lava Spike | 熔岩击 | 非普通 | 8 张 (摩登 8) |
-| Molten Rain | 融铁雨 | 非普通 | 6 张 ( pauper 1+5) |
-| Rough / Tumble | Rough / Tumble | 非普通 | 10 张 (摩登 0+10) |
+| Lava Spike | 熔岩击 | 非普通 | 4 张 (摩登 4) |
+| Molten Rain | 融铁雨 | 非普通 | 2 张 ( pauper 2) |
+| Rough / Tumble | Rough / Tumble | 非普通 | 12 张 (摩登 0+12) |
 
 #### 无色（Colorless）
 
@@ -1776,14 +1689,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lotus Bloom | 盛开莲花 | 稀有 | 40 张 (摩登 40) |
+| Lotus Bloom | 盛开莲花 | 稀有 | 24 张 (摩登 24) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Flagstones of Trokair | 卓耶卡石板迹 | 稀有 | 11 张 (摩登 11) |
-| Tolaria West | 陶拉里亚西境 | 稀有 | 13 张 (摩登 13) |
+| Tolaria West | 陶拉里亚西境 | 稀有 | 6 张 (摩登 6) |
 
 ### Strixhaven Mystical Archive (STA) — 2021-04-23
 
@@ -1793,33 +1706,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mana Tithe | 魔力什一税 | 普通 | 18 张 (摩登 16,  pauper 2) |
-
-#### 蓝（U）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Blue Sun's Zenith | 蓝阳当空 | 稀有 | 1 张 (摩登 1) |
-
-### Commander 2021 (C21) — 2021-04-23
-
-#### 红（R）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Seething Song | 热血战歌 | 普通 | 20 张 ( pauper 20) |
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Gingerbread Cabin | 姜饼木房 | 普通 | 18 张 ( pauper 18) |
+| Mana Tithe | 魔力什一税 | 普通 | 9 张 (摩登 8,  pauper 0+1) |
 
 ### Strixhaven: School of Mages (STX) — 2021-04-23
 
@@ -1844,7 +1731,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Divide by Zero | 除数归零 | 非普通 | 1 张 (摩登 1) |
-| Test of Talents | 试炼才能 | 非普通 | 6 张 (摩登 0+6) |
+| Test of Talents | 试炼才能 | 非普通 | 4 张 (摩登 0+4) |
 
 #### 黑（B）
 
@@ -1860,7 +1747,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| First Day of Class | 开学首日 | 普通 | 16 张 ( pauper 16) |
+| First Day of Class | 开学首日 | 普通 | 15 张 ( pauper 15) |
 
 #### 多色（Multicolor）
 
@@ -1880,6 +1767,24 @@
 |------|--------|--------|------|
 | Academic Probation | 留校察看 | 稀有 | 1 张 (摩登 0+1) |
 
+### Commander 2021 (C21) — 2021-04-23
+
+#### 红（R）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Seething Song | 热血战歌 | 普通 | 20 张 ( pauper 20) |
+
+#### 无色（Colorless）
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Gingerbread Cabin | 姜饼木房 | 普通 | 14 张 ( pauper 14) |
+
 ### Modern Horizons 2 (MH2) — 2021-06-18
 
 #### 白（W）
@@ -1896,7 +1801,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tide Shaper | 塑潮人鱼 | 非普通 | 15 张 (摩登 15) |
+| Tide Shaper | 塑潮人鱼 | 非普通 | 8 张 (摩登 8) |
 
 **瞬间**
 
@@ -1908,8 +1813,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Inevitable Betrayal | 注定背叛 | 稀有 | 39 张 (摩登 0+39) |
-| Step Through | 跨越现身 | 普通 | 2 张 (摩登 2) |
+| Inevitable Betrayal | 注定背叛 | 稀有 | 28 张 (摩登 0+28) |
 
 #### 黑（B）
 
@@ -1917,7 +1821,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Break the Ice | 打破坚冰 | 非普通 | 56 张 (摩登 0+56) |
+| Break the Ice | 打破坚冰 | 非普通 | 40 张 (摩登 0+40) |
 
 #### 红（R）
 
@@ -1925,8 +1829,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gorilla Shaman | 大猩猩祭师 | 非普通 | 17 张 ( pauper 0+17) |
-| Obsidian Charmaw | 黑曜石焰喉龙 | 稀有 | 140 张 (摩登 0+140) |
+| Gorilla Shaman | 大猩猩祭师 | 非普通 | 15 张 ( pauper 0+15) |
+| Obsidian Charmaw | 黑曜石焰喉龙 | 稀有 | 85 张 (摩登 0+85) |
 
 #### 绿（G）
 
@@ -1934,7 +1838,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Quirion Ranger | 奎利恩流浪汉 | 非普通 | 135 张 (摩登 8,  pauper 127) |
+| Quirion Ranger | 奎利恩流浪汉 | 非普通 | 123 张 (摩登 9,  pauper 114) |
 
 #### 多色（Multicolor）
 
@@ -1942,7 +1846,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shardless Agent | 无断片密探 | 稀有 | 96 张 (摩登 96) |
+| Shardless Agent | 无断片密探 | 稀有 | 76 张 (摩登 76) |
 
 #### 无色（Colorless）
 
@@ -1950,14 +1854,24 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Scion of Draco | 骸龙后裔 | 秘稀 | 84 张 (摩登 84) |
+| Scion of Draco | 骸龙后裔 | 秘稀 | 48 张 (摩登 48) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cursed Totem | 诅咒图腾像 | 稀有 | 13 张 (摩登 0+13) |
-| Zuran Orb | 祖尔的法球 | 非普通 | 3 张 (摩登 3) |
+| Cursed Totem | 诅咒图腾像 | 稀有 | 15 张 (摩登 0+15) |
+| Zuran Orb | 祖尔的法球 | 非普通 | 2 张 (摩登 2) |
+
+### Modern Horizons 2 Promos (PMH2) — 2021-06-18
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sanctifier en-Vec | 维克族祝圣僧 | 稀有 | 17 张 (摩登 0+17) |
 
 ### Modern Horizons 1 Timeshifts (H1R) — 2021-06-18
 
@@ -1975,7 +1889,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shenanigans | 恼人把戏 | 普通 | 3 张 ( pauper 0+3) |
+| Shenanigans | 恼人把戏 | 普通 | 5 张 ( pauper 0+5) |
 
 #### 绿（G）
 
@@ -1983,17 +1897,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Weather the Storm | 挺过风暴 | 普通 | 278 张 ( pauper 44+234) |
-
-### Modern Horizons 2 Promos (PMH2) — 2021-06-18
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sanctifier en-Vec | 维克族祝圣僧 | 稀有 | 23 张 (摩登 0+23) |
+| Weather the Storm | 挺过风暴 | 普通 | 272 张 ( pauper 35+237) |
 
 ### Adventures in the Forgotten Realms Promos (PAFR) — 2021-07-23
 
@@ -2003,7 +1907,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Oswald Fiddlebender | 奥斯华费多班德 | 稀有 | 9 张 (摩登 9) |
+| Oswald Fiddlebender | 奥斯华费多班德 | 稀有 | 5 张 (摩登 5) |
 
 #### 蓝（U）
 
@@ -2011,7 +1915,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tasha's Hideous Laughter | 塔莎狂笑术 | 稀有 | 8 张 (摩登 8) |
+| Tasha's Hideous Laughter | 塔莎狂笑术 | 稀有 | 4 张 (摩登 4) |
 
 #### 无色（Colorless）
 
@@ -2020,7 +1924,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Den of the Bugbear | 熊哥布林窝巢 | 稀有 | 2 张 (摩登 2) |
-| Hall of Storm Giants | 风暴巨人大厅 | 稀有 | 14 张 (摩登 14) |
+| Hall of Storm Giants | 风暴巨人大厅 | 稀有 | 9 张 (摩登 9) |
 
 ### Forgotten Realms Commander (AFC) — 2021-07-23
 
@@ -2030,7 +1934,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Curator of Mysteries | 护谜史芬斯 | 稀有 | 21 张 (摩登 21) |
+| Curator of Mysteries | 护谜史芬斯 | 稀有 | 12 张 (摩登 12) |
 
 #### 无色（Colorless）
 
@@ -2038,7 +1942,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Viridian Longbow | 暗碧族长弓 | 普通 | 6 张 ( pauper 0+6) |
+| Viridian Longbow | 暗碧族长弓 | 普通 | 3 张 ( pauper 0+3) |
 
 ### Adventures in the Forgotten Realms (AFR) — 2021-07-23
 
@@ -2048,7 +1952,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Secret Door | 密门 | 普通 | 2 张 ( pauper 2) |
+| Secret Door | 密门 | 普通 | 4 张 ( pauper 4) |
 
 ### Jumpstart: Historic Horizons (J21) — 2021-08-26
 
@@ -2058,13 +1962,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Kor Skyfisher | 寇族空渔人 | 普通 | 102 张 ( pauper 102) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Late to Dinner | 迟归晚餐 | 普通 | 2 张 ( pauper 2) |
+| Kor Skyfisher | 寇族空渔人 | 普通 | 90 张 ( pauper 90) |
 
 #### 蓝（U）
 
@@ -2072,6 +1970,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Moonblade Shinobi | Moonblade Shinobi | 普通 | 1 张 ( pauper 1) |
 | Steelfin Whale | 钢鳍鲸鱼 | 普通 | 4 张 ( pauper 4) |
 
 #### 黑（B）
@@ -2080,8 +1979,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Kitchen Imp | 厨房小恶魔 | 普通 | 31 张 ( pauper 31) |
-| Okiba-Gang Shinobi | 炽场帮忍者 | 普通 | 4 张 ( pauper 1+3) |
+| Kitchen Imp | 厨房小恶魔 | 普通 | 23 张 ( pauper 23) |
+| Okiba-Gang Shinobi | 炽场帮忍者 | 普通 | 3 张 ( pauper 1+2) |
 
 **法术**
 
@@ -2104,7 +2003,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bannerhide Krushok | 披旗寇犀 | 普通 | 9 张 ( pauper 9) |
+| Bannerhide Krushok | 披旗寇犀 | 普通 | 5 张 ( pauper 5) |
 | Glimmer Bairn | 光林童子 | 普通 | 3 张 ( pauper 3) |
 
 **法术**
@@ -2120,15 +2019,21 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Goblin Anarchomancer | 鬼怪无矩术士 | 普通 | 20 张 ( pauper 20) |
-| Territorial Kavu | 据地卡甫 | 稀有 | 80 张 (摩登 80) |
+| Territorial Kavu | 据地卡甫 | 稀有 | 44 张 (摩登 44) |
 
 #### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Implement of Combustion | 燃烧擎具 | 普通 | 4 张 ( pauper 4) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Khalni Garden | 坎尼花园 | 普通 | 75 张 ( pauper 75) |
+| Khalni Garden | 坎尼花园 | 普通 | 60 张 ( pauper 60) |
 
 ### Innistrad: Double Feature (DBL) — 2022-01-28
 
@@ -2138,13 +2043,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Rotten Reunion | 腐身重逢 | 普通 | 10 张 ( pauper 0+10) |
+| Rotten Reunion | 腐身重逢 | 普通 | 4 张 ( pauper 0+4) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Vampire's Kiss | 吸血鬼之吻 | 普通 | 30 张 ( pauper 30) |
+| Vampire's Kiss | 吸血鬼之吻 | 普通 | 18 张 ( pauper 18) |
 
 #### 红（R）
 
@@ -2152,14 +2057,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ardent Elementalist | 热诚元素师 | 普通 | 6 张 ( pauper 6) |
-| Kessig Flamebreather | 凯锡革喷焰师 | 普通 | 135 张 ( pauper 135) |
+| Ardent Elementalist | 热诚元素师 | 普通 | 3 张 ( pauper 3) |
+| Kessig Flamebreather | 凯锡革喷焰师 | 普通 | 123 张 ( pauper 123) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| End the Festivities | 喜庆终结 | 普通 | 118 张 (摩登 0+2,  pauper 10+106) |
+| End the Festivities | 喜庆终结 | 普通 | 115 张 (摩登 0+2,  pauper 9+104) |
 
 #### 绿（G）
 
@@ -2167,6 +2072,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Dawnhart Mentor | 曙鹿集导师 | 非普通 | 1 张 (摩登 1) |
 | Dawnhart Rejuvenator | 曙鹿集回春师 | 普通 | 4 张 ( pauper 0+4) |
 
 #### 多色（Multicolor）
@@ -2175,7 +2081,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Faithful Mending | 虔心修补 | 非普通 | 135 张 (摩登 135) |
+| Faithful Mending | 虔心修补 | 非普通 | 101 张 (摩登 101) |
 
 #### 无色（Colorless）
 
@@ -2183,8 +2089,82 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Jack-o'-Lantern | 南瓜灯 | 普通 | 12 张 ( pauper 2+10) |
+| Jack-o'-Lantern | 南瓜灯 | 普通 | 11 张 ( pauper 2+9) |
 | Wedding Invitation | 婚礼请柬 | 普通 | 1 张 ( pauper 1) |
+
+### Kamigawa: Neon Dynasty (NEO) — 2022-02-18
+
+#### 白（W）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| March of Otherworldly Light | 异灯行进 | 稀有 | 57 张 (摩登 34+23) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mirrorshell Crab | 镜壳蟹 | 普通 | 4 张 ( pauper 0+4) |
+| Tameshi, Reality Architect | 实界筑师多枚实 | 稀有 | 24 张 (摩登 24) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mukotai Ambusher | 无孤帮伏击客 | 普通 | 37 张 ( pauper 16+21) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| March of Wretched Sorrow | 伤悲行进 | 稀有 | 6 张 (摩登 6) |
+| Reckoner's Bargain | 帮派交易 | 普通 | 126 张 ( pauper 126) |
+
+#### 红（R）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Experimental Synthesizer | 实验融合仪 | 普通 | 63 张 (摩登 8,  pauper 55) |
+
+#### 绿（G）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Tamiyo's Safekeeping | 多美代佑护 | 普通 | 42 张 ( pauper 2+40) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Commune with Spirits | 野灵商谈 | 普通 | 2 张 ( pauper 2) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Colossal Skyturtle | 巨型空龟 | 非普通 | 14 张 (摩登 13+1) |
+
+#### 无色（Colorless）
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Boseiju, Who Endures | 历祚母圣树 | 稀有 | 184 张 (摩登 168+16) |
+| Otawara, Soaring City | 霄城大田原 | 稀有 | 56 张 (摩登 56) |
+| Takenuma, Abandoned Mire | 荒泽竹沼 | 稀有 | 7 张 (摩登 7) |
 
 ### Kamigawa: Neon Dynasty Promos (PNEO) — 2022-02-18
 
@@ -2212,81 +2192,6 @@
 |------|--------|--------|------|
 | Eiganjo, Seat of the Empire | 帝居永岩城 | 稀有 | 1 张 (摩登 1) |
 
-### Kamigawa: Neon Dynasty (NEO) — 2022-02-18
-
-#### 白（W）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| March of Otherworldly Light | 异灯行进 | 稀有 | 81 张 (摩登 47+34) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mirrorshell Crab | 镜壳蟹 | 普通 | 1 张 ( pauper 0+1) |
-| Tameshi, Reality Architect | 实界筑师多枚实 | 稀有 | 40 张 (摩登 40) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mukotai Ambusher | 无孤帮伏击客 | 普通 | 38 张 ( pauper 17+21) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| March of Wretched Sorrow | 伤悲行进 | 稀有 | 8 张 (摩登 6+2) |
-| Reckoner's Bargain | 帮派交易 | 普通 | 137 张 ( pauper 137) |
-
-#### 红（R）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Experimental Synthesizer | 实验融合仪 | 普通 | 62 张 (摩登 4,  pauper 58) |
-
-#### 绿（G）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Tamiyo's Safekeeping | 多美代佑护 | 普通 | 52 张 ( pauper 3+49) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Commune with Spirits | 野灵商谈 | 普通 | 5 张 ( pauper 5) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Colossal Skyturtle | 巨型空龟 | 非普通 | 17 张 (摩登 16+1) |
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Boseiju, Who Endures | 历祚母圣树 | 稀有 | 248 张 (摩登 224+24) |
-| Otawara, Soaring City | 霄城大田原 | 稀有 | 82 张 (摩登 82) |
-| Sokenzan, Crucible of Defiance | 逆炉霜剑山 | 稀有 | 1 张 (摩登 1) |
-| Takenuma, Abandoned Mire | 荒泽竹沼 | 稀有 | 9 张 (摩登 9) |
-
 ### Neon Dynasty Commander (NEC) — 2022-02-18
 
 #### 红（R）
@@ -2295,7 +2200,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ox of Agonas | 阿戈纳司境蛮牛 | 秘稀 | 6 张 (摩登 6) |
+| Ox of Agonas | 阿戈纳司境蛮牛 | 秘稀 | 5 张 (摩登 5) |
 
 ### Game Day Promos (GDY) — 2022-04-08
 
@@ -2315,7 +2220,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Raffine's Informant | 拉斐茵的线人 | 普通 | 74 张 ( pauper 74) |
+| Raffine's Informant | 拉斐茵的线人 | 普通 | 70 张 ( pauper 70) |
 
 #### 绿（G）
 
@@ -2333,13 +2238,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Goliath Paladin | 山巨人圣武士 | 普通 | 12 张 ( pauper 7+5) |
+| Goliath Paladin | 山巨人圣武士 | 普通 | 10 张 ( pauper 7+3) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Greatsword of Tyr | 提尔的巨剑 | 普通 | 4 张 ( pauper 2+2) |
+| Greatsword of Tyr | 提尔的巨剑 | 普通 | 7 张 ( pauper 5+2) |
 
 #### 蓝（U）
 
@@ -2347,7 +2252,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fractured Sanity | 裂崩心智 | 稀有 | 8 张 (摩登 8) |
+| Fractured Sanity | 裂崩心智 | 稀有 | 4 张 (摩登 4) |
 
 #### 黑（B）
 
@@ -2355,7 +2260,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arms of Hadar | 哈达之臂 | 普通 | 43 张 ( pauper 1+42) |
+| Arms of Hadar | 哈达之臂 | 普通 | 41 张 ( pauper 1+40) |
 
 #### 绿（G）
 
@@ -2363,7 +2268,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Avenging Hunter | 寻仇猎人 | 普通 | 189 张 ( pauper 166+23) |
+| Avenging Hunter | 寻仇猎人 | 普通 | 177 张 ( pauper 155+22) |
 | Cloakwood Swarmkeeper | Cloakwood Swarmkeeper | 普通 | 4 张 ( pauper 4) |
 
 #### 无色（Colorless）
@@ -2378,13 +2283,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Black Dragon Gate | 黑龙门 | 普通 | 8 张 ( pauper 8) |
-| Castle Locthwain | 洛司温堡 | 稀有 | 4 张 (摩登 4) |
-| Citadel Gate | 城堡门 | 普通 | 72 张 ( pauper 72) |
-| Cliffgate | 山崖门 | 普通 | 60 张 ( pauper 60) |
-| Heap Gate | 堆垛门 | 普通 | 19 张 ( pauper 19) |
-| Highland Forest | 高地树林 | 普通 | 7 张 ( pauper 7) |
-| Manor Gate | 宅邸门 | 普通 | 36 张 ( pauper 36) |
+| Black Dragon Gate | 黑龙门 | 普通 | 4 张 ( pauper 4) |
+| Castle Locthwain | 洛司温堡 | 稀有 | 3 张 (摩登 3) |
+| Citadel Gate | 城堡门 | 普通 | 64 张 ( pauper 64) |
+| Cliffgate | 山崖门 | 普通 | 52 张 ( pauper 52) |
+| Heap Gate | 堆垛门 | 普通 | 14 张 ( pauper 14) |
+| Highland Forest | 高地树林 | 普通 | 5 张 ( pauper 5) |
+| Manor Gate | 宅邸门 | 普通 | 29 张 ( pauper 29) |
 | Sea Gate | 海洋门 | 普通 | 12 张 ( pauper 12) |
 
 ### Alchemy Horizons: Baldur's Gate (HBG) — 2022-07-07
@@ -2395,13 +2300,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dawnbringer Cleric | 神辉牧师 | 普通 | 8 张 ( pauper 1+7) |
+| Dawnbringer Cleric | 神辉牧师 | 普通 | 6 张 ( pauper 1+5) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Portable Hole | 携带式次元洞 | 非普通 | 17 张 (摩登 16+1) |
+| Portable Hole | 携带式次元洞 | 非普通 | 9 张 (摩登 8+1) |
 
 #### 蓝（U）
 
@@ -2409,8 +2314,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Kenku Artificer | 天狗奇械师 | 普通 | 32 张 ( pauper 32) |
-| Ruin Crab | 遗迹蟹 | 非普通 | 8 张 (摩登 8) |
+| Kenku Artificer | 天狗奇械师 | 普通 | 33 张 ( pauper 33) |
+| Ruin Crab | 遗迹蟹 | 非普通 | 4 张 (摩登 4) |
 
 #### 黑（B）
 
@@ -2418,13 +2323,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Guildsworn Prowler | 誓公会游掠者 | 普通 | 4 张 ( pauper 4) |
+| Guildsworn Prowler | 誓公会游掠者 | 普通 | 2 张 ( pauper 2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cast Down | 湮灭 | 非普通 | 269 张 ( pauper 236+33) |
+| Cast Down | 湮灭 | 非普通 | 256 张 ( pauper 231+25) |
 
 #### 红（R）
 
@@ -2432,7 +2337,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Breath Weapon | 喷息武器 | 普通 | 267 张 ( pauper 21+246) |
+| Breath Weapon | 喷息武器 | 普通 | 254 张 ( pauper 20+234) |
 
 #### 绿（G）
 
@@ -2440,7 +2345,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| You Meet in a Tavern | 你在酒馆遇见他人 | 普通 | 4 张 ( pauper 4) |
+| You Meet in a Tavern | 你在酒馆遇见他人 | 普通 | 5 张 ( pauper 5) |
 
 ### Double Masters 2022 (2X2) — 2022-07-08
 
@@ -2450,7 +2355,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Militia Bugler | 司号民兵 | 普通 | 8 张 ( pauper 8) |
+| Militia Bugler | 司号民兵 | 普通 | 6 张 ( pauper 6) |
 | Seeker of the Way | 灵道探求者 | 普通 | 1 张 ( pauper 1) |
 
 **结界**
@@ -2471,7 +2376,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Inquisition of Kozilek | 寇基雷的审讯 | 非普通 | 53 张 (摩登 49+4) |
+| Inquisition of Kozilek | 寇基雷的审讯 | 非普通 | 39 张 (摩登 33+6) |
 
 #### 红（R）
 
@@ -2495,13 +2400,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Burning-Tree Emissary | 火树族密使 | 普通 | 84 张 ( pauper 84) |
+| Burning-Tree Emissary | 火树族密使 | 普通 | 80 张 ( pauper 80) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Agony Warp | 苦痛歪曲 | 普通 | 20 张 ( pauper 20) |
+| Agony Warp | 苦痛歪曲 | 普通 | 19 张 ( pauper 19) |
 
 ### Store Championships (SCH) — 2022-07-09
 
@@ -2511,7 +2416,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cauldron Familiar | 鼎镬佣兽 | 普通 | 34 张 (摩登 20,  pauper 14) |
+| Cauldron Familiar | 鼎镬佣兽 | 普通 | 18 张 (摩登 12,  pauper 6) |
 
 #### 绿（G）
 
@@ -2519,7 +2424,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Vengevine | 复仇藤蔓 | 秘稀 | 24 张 (摩登 24) |
+| Vengevine | 复仇藤蔓 | 秘稀 | 20 张 (摩登 20) |
 
 #### 多色（Multicolor）
 
@@ -2527,7 +2432,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Omnath, Locus of Creation | 生机核欧那斯 | 秘稀 | 3 张 (摩登 3) |
+| Omnath, Locus of Creation | 生机核欧那斯 | 秘稀 | 7 张 (摩登 7) |
 
 #### 无色（Colorless）
 
@@ -2545,17 +2450,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Glimpse the Unthinkable | 瞥视恶念 | 稀有 | 5 张 (摩登 5) |
-
-### Dominaria United Commander (DMC) — 2022-09-09
-
-#### 蓝（U）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Echoing Truth | 真相回响 | 普通 | 3 张 ( pauper 0+3) |
+| Glimpse the Unthinkable | 瞥视恶念 | 稀有 | 1 张 (摩登 1) |
 
 ### Dominaria United (DMU) — 2022-09-09
 
@@ -2565,15 +2460,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Vodalian Hexcatcher | Vodalian Hexcatcher | 稀有 | 10 张 (摩登 10) |
-
-#### 黑（B）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Urborg Repossession | 乌尔博格式复归 | 普通 | 1 张 ( pauper 1) |
+| Vodalian Hexcatcher | Vodalian Hexcatcher | 稀有 | 3 张 (摩登 3) |
 
 #### 红（R）
 
@@ -2595,7 +2482,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Nishoba Brawler | 好斗尼索巴 | 非普通 | 21 张 (摩登 21) |
+| Nishoba Brawler | 好斗尼索巴 | 非普通 | 12 张 (摩登 12) |
 
 #### 无色（Colorless）
 
@@ -2603,17 +2490,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shield-Wall Sentinel | 盾墙哨卫 | 普通 | 8 张 ( pauper 8) |
+| Shield-Wall Sentinel | 盾墙哨卫 | 普通 | 13 张 ( pauper 13) |
 
-### Dominaria United Promos (PDMU) — 2022-09-09
+### Dominaria United Commander (DMC) — 2022-09-09
 
-#### 白（W）
+#### 蓝（U）
 
-**结界**
+**瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Temporary Lockdown | 短时封锁 | 稀有 | 3 张 (摩登 3) |
+| Echoing Truth | 真相回响 | 普通 | 3 张 ( pauper 0+3) |
 
 ### Warhammer 40,000 Commander (40K) — 2022-10-07
 
@@ -2623,7 +2510,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Defile | 染污 | 普通 | 29 张 ( pauper 29) |
+| Defile | 染污 | 普通 | 32 张 ( pauper 32) |
 
 ### Unfinity (UNF) — 2022-10-07
 
@@ -2643,7 +2530,25 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sea Gate Oracle | 海户先知 | 普通 | 13 张 ( pauper 13) |
+| Sea Gate Oracle | 海户先知 | 普通 | 15 张 ( pauper 15) |
+
+### The Brothers' War Retro Artifacts (BRR) — 2022-11-18
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sundering Titan | 裂地泰坦 | 稀有 | 1 张 (摩登 0+1) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Chromatic Star | 五彩星 | 普通 | 35 张 ( pauper 35) |
+| Ichor Wellspring | 脓水涌泉 | 普通 | 245 张 ( pauper 245) |
+| Liquimetal Coating | 液金包覆 | 非普通 | 12 张 (摩登 0+12) |
 
 ### The Brothers' War (BRO) — 2022-11-18
 
@@ -2653,8 +2558,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Loran's Escape | 罗兰的逃难 | 普通 | 5 张 ( pauper 4+1) |
-| Union of the Third Path | 蹊径会施援 | 普通 | 15 张 ( pauper 15) |
+| Loran's Escape | 罗兰的逃难 | 普通 | 3 张 ( pauper 2+1) |
+| Union of the Third Path | 蹊径会施援 | 普通 | 11 张 ( pauper 11) |
 
 #### 黑（B）
 
@@ -2662,7 +2567,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gixian Infiltrator | 基克斯派渗透者 | 普通 | 45 张 ( pauper 45) |
+| Gixian Infiltrator | 基克斯派渗透者 | 普通 | 48 张 ( pauper 48) |
 
 **法术**
 
@@ -2677,6 +2582,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Dwarven Forge-Chanter | 矮人颂锻师 | 普通 | 2 张 ( pauper 0+2) |
+| Goblin Blast-Runner | 运弹鬼怪 | 普通 | 4 张 ( pauper 4) |
 
 #### 无色（Colorless）
 
@@ -2684,14 +2590,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Boulderbranch Golem | 岩枝魔像 | 普通 | 30 张 ( pauper 30) |
+| Boulderbranch Golem | 岩枝魔像 | 普通 | 28 张 ( pauper 28) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Energy Refractor | 能量折射镜 | 普通 | 10 张 ( pauper 10) |
-| The Stone Brain | 魔石大脑 | 稀有 | 16 张 (摩登 0+16) |
+| Energy Refractor | 能量折射镜 | 普通 | 6 张 ( pauper 6) |
+| The Stone Brain | 魔石大脑 | 稀有 | 12 张 (摩登 0+12) |
 
 ### The Brothers' War Promos (PBRO) — 2022-11-18
 
@@ -2701,26 +2607,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fade from History | 淡出历史 | 稀有 | 24 张 (摩登 0+24) |
-
-### The Brothers' War Retro Artifacts (BRR) — 2022-11-18
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Phyrexian Revoker | 非瑞克西亚断念妖 | 稀有 | 2 张 (摩登 1+1) |
-| Sundering Titan | 裂地泰坦 | 稀有 | 1 张 (摩登 0+1) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Chromatic Star | 五彩星 | 普通 | 36 张 ( pauper 36) |
-| Ichor Wellspring | 脓水涌泉 | 普通 | 247 张 ( pauper 247) |
-| Liquimetal Coating | 液金包覆 | 非普通 | 17 张 (摩登 0+17) |
+| Fade from History | 淡出历史 | 稀有 | 17 张 (摩登 0+17) |
 
 ### The Brothers' War Commander (BRC) — 2022-11-18
 
@@ -2730,8 +2617,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Drossforge Bridge | 蔓炉结桥 | 普通 | 193 张 ( pauper 193) |
-| Mistvault Bridge | 雾窖结桥 | 普通 | 116 张 ( pauper 116) |
+| Drossforge Bridge | 蔓炉结桥 | 普通 | 199 张 ( pauper 199) |
+| Mistvault Bridge | 雾窖结桥 | 普通 | 107 张 ( pauper 107) |
 | Mycosynth Wellspring | 构生菌涌泉 | 普通 | 1 张 ( pauper 1) |
 
 ### Eternal Weekend (PEWK) — 2022-11-26
@@ -2742,7 +2629,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Trinisphere | 三定法球 | 秘稀 | 149 张 (摩登 20+129) |
+| Trinisphere | 三定法球 | 秘稀 | 100 张 (摩登 14+86) |
 
 ### 30th Anniversary Edition (30A) — 2022-11-28
 
@@ -2753,10 +2640,9 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Circle of Protection: Black | 反黑保护环 | 非普通 | 2 张 ( pauper 0+2) |
-| Circle of Protection: Blue | Circle of Protection: Blue | 非普通 | 4 张 ( pauper 0+4) |
-| Circle of Protection: Green | Circle of Protection: Green | 非普通 | 3 张 ( pauper 0+3) |
-| Circle of Protection: Red | 反红保护环 | 非普通 | 5 张 ( pauper 0+5) |
-| Circle of Protection: White | Circle of Protection: White | 非普通 | 1 张 ( pauper 0+1) |
+| Circle of Protection: Blue | Circle of Protection: Blue | 非普通 | 3 张 ( pauper 0+3) |
+| Circle of Protection: Green | Circle of Protection: Green | 非普通 | 2 张 ( pauper 0+2) |
+| Circle of Protection: Red | 反红保护环 | 非普通 | 4 张 ( pauper 0+4) |
 
 #### 蓝（U）
 
@@ -2764,7 +2650,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Blue Elemental Blast | 蓝元素冲击波 | 非普通 | 316 张 ( pauper 0+316) |
+| Blue Elemental Blast | 蓝元素冲击波 | 非普通 | 318 张 ( pauper 0+318) |
 
 #### 黑（B）
 
@@ -2773,7 +2659,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Evil Presence | 邪恶存在 | 普通 | 4 张 ( pauper 0+4) |
-| Pestilence | Pestilence | 非普通 | 16 张 ( pauper 15+1) |
+| Pestilence | Pestilence | 非普通 | 7 张 ( pauper 6+1) |
 
 #### 红（R）
 
@@ -2781,7 +2667,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Red Elemental Blast | 红元素冲击波 | 非普通 | 269 张 ( pauper 0+269) |
+| Red Elemental Blast | 红元素冲击波 | 非普通 | 243 张 ( pauper 0+243) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Stone Rain | 石雨 | 普通 | 4 张 ( pauper 0+4) |
 
 #### 绿（G）
 
@@ -2807,7 +2699,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Spellstutter Sprite | 纷咒仙灵 | 普通 | 128 张 ( pauper 128) |
+| Spellstutter Sprite | 纷咒仙灵 | 普通 | 132 张 ( pauper 132) |
 
 #### 黑（B）
 
@@ -2815,15 +2707,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bone Picker | 食骨鸟 | 普通 | 4 张 ( pauper 4) |
-| Crypt Rats | 墓穴老鼠 | 非普通 | 32 张 ( pauper 31+1) |
+| Bone Picker | 食骨鸟 | 普通 | 3 张 ( pauper 3) |
+| Crypt Rats | 墓穴老鼠 | 非普通 | 30 张 ( pauper 29+1) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Diabolic Edict | 恶魔的勒令 | 普通 | 2 张 ( pauper 0+2) |
-| Fungal Infection | 真菌感染 | 普通 | 7 张 ( pauper 7) |
+| Diabolic Edict | 恶魔的勒令 | 普通 | 1 张 ( pauper 0+1) |
+| Fungal Infection | 真菌感染 | 普通 | 8 张 ( pauper 8) |
 
 #### 红（R）
 
@@ -2832,7 +2724,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Drannith Stinger | 卓尼斯术击师 | 普通 | 12 张 ( pauper 12) |
-| Goldhound | 金辉猎犬 | 普通 | 2 张 ( pauper 2) |
+| Goldhound | 金辉猎犬 | 普通 | 1 张 ( pauper 1) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Goblin Grenade | 鬼怪手榴弹 | 非普通 | 2 张 ( pauper 2) |
 
 #### 绿（G）
 
@@ -2840,8 +2738,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hooting Mandrills | 高叫山魈 | 普通 | 28 张 (摩登 14+12,  pauper 2) |
-| Lys Alana Huntmaster | 黎撒拉那领猎人 | 普通 | 3 张 ( pauper 1+2) |
+| Hooting Mandrills | 高叫山魈 | 普通 | 31 张 (摩登 15+14,  pauper 2) |
+| Lys Alana Huntmaster | 黎撒拉那领猎人 | 普通 | 1 张 ( pauper 1) |
 
 #### 无色（Colorless）
 
@@ -2849,7 +2747,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Aether Spellbomb | 乙太咒击弹 | 普通 | 13 张 (摩登 12+1) |
+| Aether Spellbomb | 乙太咒击弹 | 普通 | 11 张 (摩登 11) |
 
 ### Starter Commander Decks (SCD) — 2022-12-02
 
@@ -2859,7 +2757,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Jaspera Sentinel | 雅斯佩树哨卫 | 普通 | 23 张 ( pauper 23) |
+| Jaspera Sentinel | 雅斯佩树哨卫 | 普通 | 22 张 ( pauper 22) |
 
 #### 无色（Colorless）
 
@@ -2867,7 +2765,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Nihil Spellbomb | 返虚咒击弹 | 普通 | 437 张 (摩登 3+127,  pauper 215+92) |
+| Nihil Spellbomb | 返虚咒击弹 | 普通 | 389 张 (摩登 1+90,  pauper 213+85) |
 
 ### Explorer Anthology 2 (EA2) — 2022-12-13
 
@@ -2877,7 +2775,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dispel | 云散 | 普通 | 194 张 ( pauper 134+60) |
+| Dispel | 云散 | 普通 | 181 张 ( pauper 126+55) |
 
 #### 红（R）
 
@@ -2885,7 +2783,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Eidolon of the Great Revel | 盛欢幻灵 | 稀有 | 6 张 (摩登 4+2) |
+| Eidolon of the Great Revel | 盛欢幻灵 | 稀有 | 4 张 (摩登 4) |
 
 ### Dominaria Remastered (DMR) — 2023-01-13
 
@@ -2901,7 +2799,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Spirit Link | 心灵羁绊 | 普通 | 16 张 ( pauper 3+13) |
+| Spirit Link | 心灵羁绊 | 普通 | 10 张 ( pauper 3+7) |
 
 #### 蓝（U）
 
@@ -2909,7 +2807,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Impulse | 冲动 | 普通 | 8 张 ( pauper 8) |
+| Impulse | 冲动 | 普通 | 4 张 ( pauper 4) |
 
 #### 黑（B）
 
@@ -2917,7 +2815,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dark Withering | 黯境枯萎 | 非普通 | 19 张 ( pauper 6+13) |
+| Dark Withering | 黯境枯萎 | 非普通 | 15 张 ( pauper 6+9) |
 
 #### 红（R）
 
@@ -2931,7 +2829,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fireblast | 火焰冲击波 | 非普通 | 140 张 ( pauper 138+2) |
+| Fireblast | 火焰冲击波 | 非普通 | 124 张 ( pauper 122+2) |
 
 #### 多色（Multicolor）
 
@@ -2953,40 +2851,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Damping Sphere | 滞阻法球 | 非普通 | 198 张 (摩登 0+198) |
+| Damping Sphere | 滞阻法球 | 非普通 | 141 张 (摩登 0+141) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gemstone Mine | 宝石矿脉 | 稀有 | 28 张 (摩登 28) |
-| Polluted Mire | 污泥沼 | 普通 | 3 张 ( pauper 3) |
-
-### Phyrexia: All Will Be One (ONE) — 2023-02-10
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Elesh Norn, Mother of Machines | 机械之母艾蕾侬 | 秘稀 | 3 张 (摩登 2+1) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Cankerbloom | Cankerbloom | 非普通 | 1 张 (摩登 1) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Myr Kinsmith | 族匠秘耳 | 普通 | 4 张 ( pauper 4) |
+| Gemstone Mine | 宝石矿脉 | 稀有 | 24 张 (摩登 24) |
+| Polluted Mire | 污泥沼 | 普通 | 2 张 ( pauper 2) |
 
 ### Phyrexia: All Will Be One Promos (PONE) — 2023-02-10
 
@@ -3004,7 +2876,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tyvar, Jubilant Brawler | 欢腾斗客泰瓦 | 稀有 | 164 张 (摩登 164) |
+| Tyvar, Jubilant Brawler | 欢腾斗客泰瓦 | 稀有 | 168 张 (摩登 168) |
 
 #### 无色（Colorless）
 
@@ -3012,13 +2884,39 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Soulless Jailer | 无魂狱卒 | 稀有 | 61 张 (摩登 0+61) |
+| Soulless Jailer | 无魂狱卒 | 稀有 | 41 张 (摩登 0+41) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| The Filigree Sylex | 丝金同兆 | 稀有 | 14 张 (摩登 0+14) |
+| The Filigree Sylex | 丝金同兆 | 稀有 | 11 张 (摩登 0+11) |
+
+### Phyrexia: All Will Be One (ONE) — 2023-02-10
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Elesh Norn, Mother of Machines | 机械之母艾蕾侬 | 秘稀 | 4 张 (摩登 2+2) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Cankerbloom | Cankerbloom | 非普通 | 1 张 (摩登 1) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Myr Kinsmith | 族匠秘耳 | 普通 | 4 张 ( pauper 4) |
 
 ### Phyrexia: All Will Be One Commander (ONC) — 2023-02-10
 
@@ -3046,7 +2944,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Murktide Regent | 黯潮龙侯 | 秘稀 | 33 张 (摩登 21+12) |
+| Murktide Regent | 黯潮龙侯 | 秘稀 | 24 张 (摩登 16+8) |
 
 #### 黑（B）
 
@@ -3054,7 +2952,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Force of Despair | 绝望之力 | 稀有 | 27 张 (摩登 10+17) |
+| Force of Despair | 绝望之力 | 稀有 | 20 张 (摩登 7+13) |
 
 #### 红（R）
 
@@ -3062,7 +2960,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Seasoned Pyromancer | 干练烈焰术士 | 秘稀 | 109 张 (摩登 109) |
+| Seasoned Pyromancer | 干练烈焰术士 | 秘稀 | 71 张 (摩登 71) |
 
 #### 无色（Colorless）
 
@@ -3074,21 +2972,13 @@
 
 ### Shadows of the Past (SIS) — 2023-03-21
 
-#### 黑（B）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Bump in the Night | 半夜响声 | 普通 | 2 张 ( pauper 2) |
-
 #### 绿（G）
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gnaw to the Bone | 啃至白骨 | 普通 | 6 张 ( pauper 0+6) |
+| Gnaw to the Bone | 啃至白骨 | 普通 | 5 张 ( pauper 0+5) |
 
 #### 无色（Colorless）
 
@@ -3106,7 +2996,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Alms of the Vein | 血脉救济 | 普通 | 32 张 ( pauper 32) |
+| Alms of the Vein | 血脉救济 | 普通 | 20 张 ( pauper 20) |
 
 ### Multiverse Legends (MUL) — 2023-04-21
 
@@ -3116,17 +3006,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Elesh Norn, Grand Cenobite | 大修道士艾蕾侬 | 秘稀 | 12 张 (摩登 1+11) |
+| Elesh Norn, Grand Cenobite | 大修道士艾蕾侬 | 秘稀 | 13 张 (摩登 1+12) |
 
-#### 多色（Multicolor）
+### March of the Machine (MOM) — 2023-04-21
 
-**生物**
+#### 白（W）
+
+**神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Kroxa, Titan of Death's Hunger | 冥餍泰坦克罗刹 | 秘稀 | 9 张 (摩登 9) |
-
-### March of the Machine (MOM) — 2023-04-21
+| Kor Halberd | 寇族长戟 | 普通 | 1 张 ( pauper 1) |
 
 #### 蓝（U）
 
@@ -3134,7 +3024,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Meeting of Minds | 思绪聚合 | 普通 | 7 张 ( pauper 7) |
+| Meeting of Minds | 思绪聚合 | 普通 | 9 张 ( pauper 9) |
 
 #### 红（R）
 
@@ -3149,7 +3039,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Lithomantic Barrage | 砾岩齐击 | 非普通 | 1 张 (摩登 0+1) |
-| Wrenn's Resolve | 芮恩的决心 | 普通 | 67 张 (摩登 44,  pauper 23) |
+| Wrenn's Resolve | 芮恩的决心 | 普通 | 51 张 (摩登 32,  pauper 19) |
 
 #### 多色（Multicolor）
 
@@ -3167,62 +3057,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Goldmire Bridge | 金沼结桥 | 普通 | 13 张 ( pauper 13) |
-
-### March of the Machine: The Aftermath (MAT) — 2023-05-12
-
-#### 多色（Multicolor）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Cosmic Rebirth | 寰宇新生 | 非普通 | 4 张 (摩登 4) |
-
-### Tales of Middle-earth Commander (LTC) — 2023-06-23
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Soul's Attendant | 灵魂照护僧 | 普通 | 3 张 ( pauper 2+1) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Arbor Elf | 乔木妖精 | 普通 | 76 张 ( pauper 76) |
-| Essence Warden | 护华师 | 普通 | 4 张 ( pauper 4) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Lignify | 木质化 | 普通 | 4 张 ( pauper 0+4) |
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Field of Ruin | 战场遗迹 | 非普通 | 60 张 (摩登 60) |
-| Minamo, School at Water's Edge | 水面院 | 稀有 | 11 张 (摩登 11) |
-| Oboro, Palace in the Clouds | 云殿胧宫 | 稀有 | 2 张 (摩登 2) |
-
-### Tales of Middle-earth Promos (PLTR) — 2023-06-23
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Boromir, Warden of the Tower | 白塔守护波洛米尔 | 稀有 | 12 张 (摩登 9+3) |
+| Goldmire Bridge | 金沼结桥 | 普通 | 9 张 ( pauper 9) |
 
 ### The Lord of the Rings: Tales of Middle-earth (LTR) — 2023-06-23
 
@@ -3248,13 +3083,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cast into the Fire | 投入烈焰 | 普通 | 174 张 ( pauper 4+170) |
+| Cast into the Fire | 投入烈焰 | 普通 | 170 张 ( pauper 5+165) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Rally at the Hornburg | 号角堡奋威 | 普通 | 80 张 ( pauper 80) |
+| Rally at the Hornburg | 号角堡奋威 | 普通 | 76 张 ( pauper 76) |
 
 #### 绿（G）
 
@@ -3262,7 +3097,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Generous Ent | 慷慨恩特 | 普通 | 352 张 (摩登 103,  pauper 249) |
+| Generous Ent | 慷慨恩特 | 普通 | 307 张 (摩登 85,  pauper 222) |
 
 #### 多色（Multicolor）
 
@@ -3270,7 +3105,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Samwise Gamgee | 山姆怀斯·甘姆吉 | 稀有 | 20 张 (摩登 20) |
+| Samwise Gamgee | 山姆怀斯·甘姆吉 | 稀有 | 12 张 (摩登 12) |
 
 #### 无色（Colorless）
 
@@ -3278,7 +3113,44 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lembas | 兰巴斯 | 普通 | 152 张 ( pauper 152) |
+| Lembas | 兰巴斯 | 普通 | 142 张 ( pauper 142) |
+
+### Tales of Middle-earth Commander (LTC) — 2023-06-23
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Arbor Elf | 乔木妖精 | 普通 | 84 张 ( pauper 84) |
+| Essence Warden | 护华师 | 普通 | 4 张 ( pauper 4) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Lignify | 木质化 | 普通 | 2 张 ( pauper 0+2) |
+
+#### 无色（Colorless）
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Field of Ruin | 战场遗迹 | 非普通 | 45 张 (摩登 45) |
+| Minamo, School at Water's Edge | 水面院 | 稀有 | 10 张 (摩登 10) |
+| Oboro, Palace in the Clouds | 云殿胧宫 | 稀有 | 1 张 (摩登 1) |
+
+### Tales of Middle-earth Promos (PLTR) — 2023-06-23
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Boromir, Warden of the Tower | 白塔守护波洛米尔 | 稀有 | 6 张 (摩登 3+3) |
 
 ### Historic Anthology 7 (HA7) — 2023-07-18
 
@@ -3288,7 +3160,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Unearth | 出土回生 | 普通 | 57 张 (摩登 53,  pauper 4) |
+| Unearth | 出土回生 | 普通 | 30 张 (摩登 26,  pauper 4) |
 
 #### 红（R）
 
@@ -3296,7 +3168,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tribal Flames | 部族焰火 | 普通 | 17 张 (摩登 17) |
+| Tribal Flames | 部族焰火 | 普通 | 11 张 (摩登 11) |
 
 ### Commander Masters (CMM) — 2023-08-04
 
@@ -3306,7 +3178,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Palace Sentinels | 宫殿哨卫 | 普通 | 4 张 ( pauper 1+3) |
+| Palace Sentinels | 宫殿哨卫 | 普通 | 3 张 ( pauper 1+2) |
 
 **法术**
 
@@ -3321,14 +3193,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cryptic Serpent | 隐密巨蛇 | 普通 | 149 张 ( pauper 149) |
+| Cryptic Serpent | 隐密巨蛇 | 普通 | 145 张 ( pauper 145) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Exclude | 排拒 | 普通 | 1 张 ( pauper 1) |
-| Ghostly Flicker | 鬼影闪烁 | 普通 | 41 张 ( pauper 41) |
+| Ghostly Flicker | 鬼影闪烁 | 普通 | 34 张 ( pauper 34) |
 
 #### 黑（B）
 
@@ -3336,15 +3208,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lotleth Giant | 洛特离巨人 | 普通 | 41 张 ( pauper 39+2) |
-| Thorn of the Black Rose | 黑蔷薇之棘 | 普通 | 47 张 ( pauper 36+11) |
+| Lotleth Giant | 洛特离巨人 | 普通 | 37 张 ( pauper 35+2) |
+| Thorn of the Black Rose | 黑蔷薇之棘 | 普通 | 48 张 ( pauper 38+10) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dread Return | 颤栗再现 | 普通 | 40 张 ( pauper 39+1) |
-| Drown in Sorrow | 陷入悲痛 | 普通 | 34 张 ( pauper 1+33) |
+| Dread Return | 颤栗再现 | 普通 | 36 张 ( pauper 35+1) |
+| Drown in Sorrow | 陷入悲痛 | 普通 | 30 张 ( pauper 1+29) |
 
 #### 红（R）
 
@@ -3370,7 +3242,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Temur Battle Rage | 铁木尔战怒 | 普通 | 8 张 (摩登 1+3,  pauper 4) |
+| Temur Battle Rage | 铁木尔战怒 | 普通 | 6 张 (摩登 1+3,  pauper 2) |
 
 #### 绿（G）
 
@@ -3378,13 +3250,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ram Through | 轰然撞倒 | 普通 | 26 张 ( pauper 13+13) |
+| Ram Through | 轰然撞倒 | 普通 | 19 张 ( pauper 8+11) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Finale of Devastation | 幻灭终时 | 秘稀 | 2 张 (摩登 2) |
+| Finale of Devastation | 幻灭终时 | 秘稀 | 1 张 (摩登 1) |
 
 #### 无色（Colorless）
 
@@ -3393,74 +3265,41 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Foundry Inspector | 铸造厂监工 | 普通 | 2 张 ( pauper 2) |
-| Ulamog, the Ceaseless Hunger | 不休饥渴钨拉莫 | 秘稀 | 49 张 (摩登 49) |
+| Ulamog, the Ceaseless Hunger | 不休饥渴钨拉莫 | 秘稀 | 29 张 (摩登 29) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Ashnod's Altar | 阿士诺的祭坛 | 非普通 | 17 张 ( pauper 17) |
-| Bonder's Ornament | 持绊人饰物 | 普通 | 88 张 ( pauper 88) |
-| Campfire | 营火 | 普通 | 59 张 ( pauper 32+27) |
+| Bonder's Ornament | 持绊人饰物 | 普通 | 74 张 ( pauper 74) |
+| Campfire | 营火 | 普通 | 54 张 ( pauper 27+27) |
 
-### Wilds of Eldraine Commander (WOC) — 2023-09-08
+### Wilds of Eldraine Promos (PWOE) — 2023-09-08
 
-#### 蓝（U）
+#### 黑（B）
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Snap | 弹指 | 普通 | 66 张 ( pauper 66) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Aura Gnarlid | 灵气糙节兽 | 普通 | 6 张 ( pauper 4+2) |
-| Sylvan Ranger | 森林巡守 | 普通 | 3 张 ( pauper 3) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ancestral Mask | 先人的面具 | 非普通 | 40 张 ( pauper 40) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Halo Forager | 金圆搜集灵 | 非普通 | 2 张 (摩登 2) |
-
-### Wilds of Eldraine: Enchanting Tales (WOT) — 2023-09-08
-
-#### 蓝（U）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Spreading Seas | 海域蔓延 | 普通 | 19 张 (摩登 0+2,  pauper 0+17) |
+| The End | 故事结局 | 稀有 | 3 张 (标准 0+3) |
 
 #### 红（R）
 
-**结界**
+**法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Blood Moon | 腥红之月 | 稀有 | 91 张 (摩登 26+65) |
+| Song of Totentanz | Song of Totentanz | 稀有 | 4 张 (标准 4) |
 
-#### 绿（G）
+#### 无色（Colorless）
 
-**结界**
+**地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Leyline of Abundance | 丰足地脉 | 稀有 | 164 张 (摩登 164) |
+| Restless Fortress | 不息要塞 | 稀有 | 2 张 (标准 2) |
 
 ### Wilds of Eldraine (WOE) — 2023-09-08
 
@@ -3492,7 +3331,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Torch the Tower | 点燃塔楼 | 普通 | 22 张 ( pauper 21+1) |
+| Torch the Tower | 点燃塔楼 | 普通 | 23 张 ( pauper 22+1) |
 
 **法术**
 
@@ -3506,7 +3345,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Troublemaker Ouphe | 惹祸奥夫 | 普通 | 95 张 ( pauper 3+92) |
+| Troublemaker Ouphe | 惹祸奥夫 | 普通 | 98 张 ( pauper 1+97) |
 
 #### 无色（Colorless）
 
@@ -3514,8 +3353,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Agatha's Soul Cauldron | 阿加莎的灵魂鼎镬 | 秘稀 | 84 张 (摩登 81+3) |
-| Candy Trail | 糖果小径 | 普通 | 100 张 ( pauper 95, 标准 5) |
+| Agatha's Soul Cauldron | 阿加莎的灵魂鼎镬 | 秘稀 | 72 张 (摩登 68+4) |
+| Candy Trail | 糖果小径 | 普通 | 80 张 ( pauper 79, 标准 1) |
 
 **地**
 
@@ -3524,31 +3363,64 @@
 | Crystal Grotto | 水晶石室 | 普通 | 1 张 ( pauper 1) |
 | Restless Cottage | 不息小屋 | 稀有 | 1 张 (标准 1) |
 
-### Wilds of Eldraine Promos (PWOE) — 2023-09-08
+### Wilds of Eldraine: Enchanting Tales (WOT) — 2023-09-08
 
-#### 黑（B）
+#### 蓝（U）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Spreading Seas | 海域蔓延 | 普通 | 21 张 ( pauper 0+21) |
+
+#### 红（R）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Blood Moon | 腥红之月 | 稀有 | 68 张 (摩登 18+50) |
+
+#### 绿（G）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Leyline of Abundance | 丰足地脉 | 稀有 | 168 张 (摩登 168) |
+
+### Wilds of Eldraine Commander (WOC) — 2023-09-08
+
+#### 蓝（U）
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| The End | 故事结局 | 稀有 | 2 张 (标准 0+2) |
+| Snap | 弹指 | 普通 | 64 张 ( pauper 64) |
 
-#### 红（R）
+#### 绿（G）
 
 **生物**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Rotisserie Elemental | 烹烤元素 | 稀有 | 4 张 (标准 4) |
+| Aura Gnarlid | 灵气糙节兽 | 普通 | 4 张 ( pauper 4) |
+| Sylvan Ranger | 森林巡守 | 普通 | 3 张 ( pauper 3) |
 
-#### 无色（Colorless）
-
-**地**
+**结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Restless Fortress | 不息要塞 | 稀有 | 2 张 (标准 2) |
+| Ancestral Mask | 先人的面具 | 非普通 | 28 张 ( pauper 28) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Halo Forager | 金圆搜集灵 | 非普通 | 1 张 (摩登 1) |
 
 ### Doctor Who (WHO) — 2023-10-13
 
@@ -3558,7 +3430,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Past in Flames | 过往成焰 | 秘稀 | 44 张 (摩登 33+11) |
+| Past in Flames | 过往成焰 | 秘稀 | 32 张 (摩登 24+8) |
 
 #### 无色（Colorless）
 
@@ -3567,111 +3439,6 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Horizon Canopy | 遍野林冠 | 稀有 | 3 张 (摩登 3) |
-
-### Special Guests (SPG) — 2023-11-17
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Stoneforge Mystic | 锻石秘教徒 | 稀有 | 4 张 (摩登 4) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Phantasmal Image | 幻象身影 | 稀有 | 2 张 (摩登 2) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Whir of Invention | 创发隆响 | 稀有 | 40 张 (摩登 40) |
-
-#### 黑（B）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Darkness | 黑暗 | 特殊 | 1 张 ( pauper 1) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Damnation | 破灭 | 稀有 | 7 张 (摩登 1+6) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Goblin Bushwhacker | 开路鬼怪 | 普通 | 85 张 ( pauper 85) |
-| Magus of the Moon | 红月贤者 | 稀有 | 7 张 (摩登 1+6) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Galvanic Blast | 电流冲击波 | 非普通 | 269 张 (摩登 3+46,  pauper 220) |
-
-#### 绿（G）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Green Sun's Zenith | 绿阳当空 | 稀有 | 305 张 (摩登 305) |
-| Scapeshift | 变境 | 秘稀 | 50 张 (摩登 50) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Fiend Artisan | 塑生邪魔 | 秘稀 | 40 张 (摩登 40) |
-| Slippery Bogle | 油滑波葛 | 非普通 | 36 张 ( pauper 36) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Drown in the Loch | 拖入湖底 | 非普通 | 29 张 (摩登 29) |
-| Manamorphose | 魔力塑型 | 非普通 | 72 张 (摩登 48,  pauper 24) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Frogmite | 小蛙兽 | 普通 | 10 张 ( pauper 10) |
-| Thought-Knot Seer | 结念预知体 | 稀有 | 117 张 (摩登 74+43) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Skysovereign, Consul Flagship | 执政官旗舰云威号 | 秘稀 | 6 张 (摩登 0+6) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Arid Mesa | 不毛高地 | 稀有 | 407 张 (摩登 407) |
-| Desert | 沙漠 | 非普通 | 10 张 ( pauper 8+2) |
-| Marsh Flats | 沼地平野 | 稀有 | 448 张 (摩登 448) |
-| Misty Rainforest | 雾漫雨林 | 稀有 | 302 张 (摩登 302) |
-| Prismatic Vista | 澈光远景 | 稀有 | 5 张 (摩登 5) |
-| Scalding Tarn | 沸腾山湖 | 稀有 | 227 张 (摩登 227) |
-| Verdant Catacombs | 新绿陵墓 | 稀有 | 210 张 (摩登 210) |
 
 ### The Lost Caverns of Ixalan (LCI) — 2023-11-17
 
@@ -3688,7 +3455,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dusk Rose Reliquary | 暮影蔷薇圣物箱 | 非普通 | 4 张 (摩登 0+3, 标准 1) |
+| Dusk Rose Reliquary | 暮影蔷薇圣物箱 | 非普通 | 2 张 (摩登 0+1, 标准 1) |
 
 #### 蓝（U）
 
@@ -3696,7 +3463,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Spyglass Siren | 望远塞连 | 非普通 | 32 张 (标准 32) |
+| Spyglass Siren | 望远塞连 | 非普通 | 36 张 (标准 36) |
 
 **瞬间**
 
@@ -3710,9 +3477,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bringer of the Last Gift | 终礼使者 | 稀有 | 32 张 (标准 32) |
-| Deep-Cavern Bat | 深窟蝙蝠 | 非普通 | 70 张 (摩登 1+1, 标准 54+14) |
-| Preacher of the Schism | 叛教帮传道士 | 稀有 | 34 张 (标准 12+22) |
+| Bringer of the Last Gift | 终礼使者 | 稀有 | 28 张 (标准 28) |
+| Deep-Cavern Bat | 深窟蝙蝠 | 非普通 | 78 张 (摩登 0+1, 标准 59+18) |
+| Preacher of the Schism | 叛教帮传道士 | 稀有 | 31 张 (标准 12+19) |
 
 **神器**
 
@@ -3724,7 +3491,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fanatical Offering | 狂热献祭 | 普通 | 164 张 ( pauper 164) |
+| Fanatical Offering | 狂热献祭 | 普通 | 162 张 ( pauper 162) |
 
 #### 红（R）
 
@@ -3732,20 +3499,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Goblin Tomb Raider | 古墓奇鬼 | 普通 | 92 张 ( pauper 92) |
-| Inti, Seneschal of the Sun | 烈阳总督因提 | 稀有 | 14 张 (标准 13+1) |
+| Goblin Tomb Raider | 古墓奇鬼 | 普通 | 88 张 ( pauper 88) |
+| Inti, Seneschal of the Sun | 烈阳总督因提 | 稀有 | 20 张 (标准 18+2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dreadmaw's Ire | 血口龙怒火 | 非普通 | 5 张 (标准 0+5) |
+| Dreadmaw's Ire | 血口龙怒火 | 非普通 | 7 张 (标准 4+3) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tectonic Hazard | 地壳灾害 | 普通 | 31 张 ( pauper 3+26, 标准 0+2) |
+| Tectonic Hazard | 地壳灾害 | 普通 | 26 张 ( pauper 2+22, 标准 0+2) |
 
 #### 绿（G）
 
@@ -3754,13 +3521,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Cenote Scout | Cenote Scout | 非普通 | 2 张 (标准 2) |
-| Ghalta, Stampede Tyrant | 狂奔暴龙戈厄塔 | 秘稀 | 24 张 (摩登 24) |
+| Ghalta, Stampede Tyrant | 狂奔暴龙戈厄塔 | 秘稀 | 26 张 (摩登 26) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Spelunking | 探查洞穴 | 非普通 | 52 张 (摩登 52) |
+| Spelunking | 探查洞穴 | 非普通 | 24 张 (摩登 24) |
 
 #### 多色（Multicolor）
 
@@ -3768,59 +3535,26 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Amalia Benavides Aguirre | 阿玛利亚贝纳维德阿格雷 | 稀有 | 72 张 (标准 72) |
+| Amalia Benavides Aguirre | 阿玛利亚贝纳维德阿格雷 | 稀有 | 84 张 (标准 84) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Molten Collapse | Molten Collapse | 稀有 | 1 张 (标准 0+1) |
 | Wail of the Forgotten | 遗世者厉嚎 | 稀有 | 4 张 (标准 4) |
 
 #### 无色（Colorless）
 
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Hunter's Blowgun | 猎人吹箭筒 | 普通 | 1 张 ( pauper 1) |
-
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cavern of Souls | 灵魂洞窟 | 秘稀 | 187 张 (摩登 98+20, 标准 65+4) |
-| Pit of Offerings | 献祭死渊 | 非普通 | 2 张 (标准 1+1) |
-| Promising Vein | 诱人矿脉 | 普通 | 6 张 (标准 6) |
+| Cavern of Souls | 灵魂洞窟 | 秘稀 | 168 张 (摩登 73+18, 标准 72+5) |
+| Pit of Offerings | 献祭死渊 | 非普通 | 6 张 (标准 3+3) |
+| Promising Vein | 诱人矿脉 | 普通 | 5 张 (标准 5) |
 | Restless Anchorage | 不息锚岸 | 稀有 | 25 张 (标准 25) |
 | Restless Prairie | 不息沃原 | 稀有 | 1 张 (标准 1) |
-
-### The Lost Caverns of Ixalan Commander (LCC) — 2023-11-17
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Azure Fleet Admiral | 碧蓝舰队总帅 | 普通 | 2 张 ( pauper 2) |
-| Master of the Pearl Trident | 珍珠三叉戟大师 | 稀有 | 16 张 (摩登 16) |
-| Svyelun of Sea and Sky | 海空女神希亚尔 | 秘稀 | 8 张 (摩登 2+6) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Amulet of Vigor | 活力护身符 | 稀有 | 52 张 (摩登 52) |
-| Blade of the Bloodchief | 血侯之刃 | 稀有 | 148 张 (摩登 147+1) |
-| Chalice of the Void | 虚空圣杯 | 秘稀 | 115 张 (摩登 35+80) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Geier Reach Sanitarium | 基尔山脉疯人院 | 稀有 | 11 张 (摩登 11) |
 
 ### The Lost Caverns of Ixalan Promos (PLCI) — 2023-11-17
 
@@ -3830,7 +3564,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Malcolm, Alluring Scoundrel | 迷声恶棍马科姆 | 稀有 | 9 张 (标准 0+9) |
+| Malcolm, Alluring Scoundrel | 迷声恶棍马科姆 | 稀有 | 7 张 (标准 0+7) |
 
 #### 黑（B）
 
@@ -3844,7 +3578,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Corpses of the Lost | 失落者之骸 | 稀有 | 8 张 (标准 8) |
+| Corpses of the Lost | 失落者之骸 | 稀有 | 4 张 (标准 4) |
 
 #### 多色（Multicolor）
 
@@ -3860,7 +3594,134 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Restless Reef | 不息暗礁 | 稀有 | 68 张 (标准 68) |
+| Restless Reef | 不息暗礁 | 稀有 | 62 张 (标准 62) |
+
+### Special Guests (SPG) — 2023-11-17
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Stoneforge Mystic | 锻石秘教徒 | 稀有 | 4 张 (摩登 4) |
+
+#### 蓝（U）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Whir of Invention | 创发隆响 | 稀有 | 24 张 (摩登 24) |
+
+#### 黑（B）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Darkness | 黑暗 | 特殊 | 1 张 ( pauper 1) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Damnation | 破灭 | 稀有 | 3 张 (摩登 0+3) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Goblin Bushwhacker | 开路鬼怪 | 普通 | 83 张 ( pauper 83) |
+| Magus of the Moon | 红月贤者 | 稀有 | 5 张 (摩登 1+4) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Galvanic Blast | 电流冲击波 | 非普通 | 227 张 (摩登 1+27,  pauper 199) |
+
+#### 绿（G）
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Green Sun's Zenith | 绿阳当空 | 稀有 | 240 张 (摩登 240) |
+| Scapeshift | 变境 | 秘稀 | 22 张 (摩登 22) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fiend Artisan | 塑生邪魔 | 秘稀 | 40 张 (摩登 40) |
+| Slippery Bogle | 油滑波葛 | 非普通 | 24 张 ( pauper 24) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Drown in the Loch | 拖入湖底 | 非普通 | 22 张 (摩登 22) |
+| Manamorphose | 魔力塑型 | 非普通 | 56 张 (摩登 32,  pauper 24) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Frogmite | 小蛙兽 | 普通 | 7 张 ( pauper 7) |
+| Thought-Knot Seer | 结念预知体 | 稀有 | 78 张 (摩登 53+25) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Skysovereign, Consul Flagship | 执政官旗舰云威号 | 秘稀 | 5 张 (摩登 0+5) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Arid Mesa | 不毛高地 | 稀有 | 294 张 (摩登 294) |
+| Desert | 沙漠 | 非普通 | 10 张 ( pauper 8+2) |
+| Marsh Flats | 沼地平野 | 稀有 | 331 张 (摩登 331) |
+| Misty Rainforest | 雾漫雨林 | 稀有 | 268 张 (摩登 268) |
+| Prismatic Vista | 澈光远景 | 稀有 | 5 张 (摩登 5) |
+| Scalding Tarn | 沸腾山湖 | 稀有 | 169 张 (摩登 169) |
+| Verdant Catacombs | 新绿陵墓 | 稀有 | 178 张 (摩登 178) |
+
+### The Lost Caverns of Ixalan Commander (LCC) — 2023-11-17
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Azure Fleet Admiral | 碧蓝舰队总帅 | 普通 | 3 张 ( pauper 2+1) |
+| Master of the Pearl Trident | 珍珠三叉戟大师 | 稀有 | 8 张 (摩登 8) |
+| Svyelun of Sea and Sky | 海空女神希亚尔 | 秘稀 | 6 张 (摩登 0+6) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Amulet of Vigor | 活力护身符 | 稀有 | 24 张 (摩登 24) |
+| Blade of the Bloodchief | 血侯之刃 | 稀有 | 112 张 (摩登 112) |
+| Chalice of the Void | 虚空圣杯 | 秘稀 | 64 张 (摩登 22+42) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Geier Reach Sanitarium | 基尔山脉疯人院 | 稀有 | 10 张 (摩登 10) |
 
 ### Ravnica Remastered (RVR) — 2024-01-12
 
@@ -3870,8 +3731,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Drift of Phantasms | 飘移幻象 | 普通 | 12 张 ( pauper 12) |
-| Fblthp, the Lost | 迷途的夫毕佐 | 稀有 | 3 张 (摩登 3) |
+| Drift of Phantasms | 飘移幻象 | 普通 | 20 张 ( pauper 20) |
+| Fblthp, the Lost | 迷途的夫毕佐 | 稀有 | 2 张 (摩登 2) |
 
 **瞬间**
 
@@ -3900,7 +3761,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arclight Phoenix | 弧光凤凰 | 稀有 | 8 张 (摩登 8) |
+| Arclight Phoenix | 弧光凤凰 | 稀有 | 4 张 (摩登 4) |
 
 #### 绿（G）
 
@@ -3908,7 +3769,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Chord of Calling | 和声召集 | 稀有 | 22 张 (摩登 22) |
+| Chord of Calling | 和声召集 | 稀有 | 14 张 (摩登 14) |
 
 **法术**
 
@@ -3925,119 +3786,13 @@
 | Judge's Familiar | 法官佣兽 | 普通 | 4 张 ( pauper 4) |
 | Slitherhead | 滑地颅 | 普通 | 1 张 ( pauper 1) |
 
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sphinx's Revelation | 史芬斯的启示 | 稀有 | 1 张 (摩登 1) |
-
 #### 无色（Colorless）
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Pithing Needle | 穿髓金针 | 稀有 | 89 张 (摩登 39+50) |
-
-### Murders at Karlov Manor (MKM) — 2024-02-09
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Doorkeeper Thrull | 索尔兽门卫 | 稀有 | 17 张 (摩登 15, 标准 0+2) |
-| Novice Inspector | 生手巡检员 | 普通 | 83 张 ( pauper 83) |
-
-#### 蓝（U）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Cryptic Coat | 隐密大衣 | 稀有 | 2 张 (标准 1+1) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Vein Ripper | 血脉开膛手 | 秘稀 | 3 张 (标准 3) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Outrageous Robbery | 骇人劫案 | 稀有 | 25 张 (标准 1+24) |
-| Toxin Analysis | 毒理分析 | 普通 | 79 张 ( pauper 73+6) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Deadly Cover-Up | 致命掩盖 | 稀有 | 60 张 (标准 50+10) |
-| Extract a Confession | 逼供有招 | 普通 | 95 张 ( pauper 14+81) |
-
-#### 红（R）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Demand Answers | 索求回答 | 普通 | 4 张 ( pauper 4) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Rubblebelt Maverick | 瓦砾区独行客 | 普通 | 5 张 ( pauper 5) |
-| Vitu-Ghazi Inspector | 维图加基巡检员 | 普通 | 59 张 ( pauper 1+58) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Archdruid's Charm | 高位德鲁伊护符 | 稀有 | 5 张 (标准 1+4) |
-
-#### 多色（Multicolor）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Lightning Helix | 闪电螺旋 | 非普通 | 25 张 (摩登 4, 标准 21) |
-| No More Lies | 终结谎言 | 非普通 | 53 张 (摩登 26, 标准 27) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Break Out | Break Out | 非普通 | 20 张 (标准 20) |
-| Ill-Timed Explosion | 厄时爆炸 | 稀有 | 44 张 (标准 5+39) |
-| Soul Search | 搜索灵魂 | 非普通 | 2 张 (标准 0+2) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Scene of the Crime | 罪案现场 | 非普通 | 1 张 (标准 0+1) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Commercial District | 商贸城区 | 稀有 | 53 张 (摩登 50, 标准 3) |
-| Elegant Parlor | 优雅客厅 | 稀有 | 90 张 (摩登 88, 标准 2) |
-| Raucous Theater | 喧闹剧院 | 稀有 | 21 张 (摩登 21) |
-| Shadowy Backstreet | 暗影后巷 | 稀有 | 80 张 (摩登 79, 标准 1) |
-| Thundering Falls | 雷鸣瀑布 | 稀有 | 111 张 (摩登 109, 标准 2) |
-| Underground Mortuary | 地下殓房 | 稀有 | 63 张 (摩登 63) |
+| Pithing Needle | 穿髓金针 | 稀有 | 67 张 (摩登 27+40) |
 
 ### Murders at Karlov Manor Promos (PMKM) — 2024-02-09
 
@@ -4047,7 +3802,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Case of the Uneaten Feast | Case of the Uneaten Feast | 稀有 | 72 张 (标准 72) |
+| Case of the Uneaten Feast | Case of the Uneaten Feast | 稀有 | 84 张 (标准 84) |
+
+#### 红（R）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Case of the Crimson Pulse | Case of the Crimson Pulse | 稀有 | 3 张 (标准 0+3) |
 
 #### 绿（G）
 
@@ -4063,7 +3826,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Leyline of the Guildpact | 十会盟地脉 | 稀有 | 84 张 (摩登 84) |
+| Leyline of the Guildpact | 十会盟地脉 | 稀有 | 48 张 (摩登 48) |
 
 #### 无色（Colorless）
 
@@ -4071,9 +3834,103 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hedge Maze | 树篱迷宫 | 稀有 | 73 张 (摩登 73) |
-| Lush Portico | 葱郁门廊 | 稀有 | 22 张 (摩登 22) |
-| Meticulous Archive | 整洁档案库 | 稀有 | 147 张 (摩登 137, 标准 10) |
+| Hedge Maze | 树篱迷宫 | 稀有 | 67 张 (摩登 67) |
+| Lush Portico | 葱郁门廊 | 稀有 | 13 张 (摩登 13) |
+| Meticulous Archive | 整洁档案库 | 稀有 | 110 张 (摩登 102, 标准 8) |
+
+### Murders at Karlov Manor (MKM) — 2024-02-09
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Doorkeeper Thrull | 索尔兽门卫 | 稀有 | 1 张 (标准 0+1) |
+| Novice Inspector | 生手巡检员 | 普通 | 79 张 ( pauper 79) |
+
+#### 蓝（U）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Cryptic Coat | 隐密大衣 | 稀有 | 2 张 (标准 1+1) |
+
+#### 黑（B）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Outrageous Robbery | 骇人劫案 | 稀有 | 23 张 (标准 1+22) |
+| Toxin Analysis | 毒理分析 | 普通 | 75 张 ( pauper 72+3) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Deadly Cover-Up | 致命掩盖 | 稀有 | 47 张 (标准 41+6) |
+| Extract a Confession | 逼供有招 | 普通 | 91 张 ( pauper 15+76) |
+
+#### 红（R）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Demand Answers | 索求回答 | 普通 | 8 张 ( pauper 8) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Rubblebelt Maverick | 瓦砾区独行客 | 普通 | 5 张 ( pauper 5) |
+| Vitu-Ghazi Inspector | 维图加基巡检员 | 普通 | 50 张 ( pauper 0+50) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Archdruid's Charm | 高位德鲁伊护符 | 稀有 | 7 张 (标准 3+4) |
+
+#### 多色（Multicolor）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Lightning Helix | 闪电螺旋 | 非普通 | 29 张 (摩登 4, 标准 25) |
+| No More Lies | 终结谎言 | 非普通 | 52 张 (摩登 25, 标准 27) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Break Out | Break Out | 非普通 | 16 张 (标准 16) |
+| Ill-Timed Explosion | 厄时爆炸 | 稀有 | 42 张 (标准 9+33) |
+| Soul Search | 搜索灵魂 | 非普通 | 2 张 (标准 0+2) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Scene of the Crime | 罪案现场 | 非普通 | 1 张 (标准 0+1) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Commercial District | 商贸城区 | 稀有 | 41 张 (摩登 39, 标准 2) |
+| Elegant Parlor | 优雅客厅 | 稀有 | 59 张 (摩登 57, 标准 2) |
+| Raucous Theater | 喧闹剧院 | 稀有 | 13 张 (摩登 13) |
+| Shadowy Backstreet | 暗影后巷 | 稀有 | 64 张 (摩登 64) |
+| Thundering Falls | 雷鸣瀑布 | 稀有 | 88 张 (摩登 84, 标准 4) |
+| Underground Mortuary | 地下殓房 | 稀有 | 57 张 (摩登 57) |
 
 ### Murders at Karlov Manor Commander (MKC) — 2024-02-09
 
@@ -4093,7 +3950,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Repeal | 撤回 | 普通 | 8 张 (摩登 8) |
+| Repeal | 撤回 | 普通 | 4 张 (摩登 4) |
 
 #### 多色（Multicolor）
 
@@ -4107,7 +3964,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Firespout | 火龙卷 | 非普通 | 17 张 (摩登 0+17) |
+| Firespout | 火龙卷 | 非普通 | 13 张 (摩登 0+13) |
 
 #### 无色（Colorless）
 
@@ -4115,7 +3972,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Boros Garrison | 波洛斯驻防地 | 普通 | 9 张 ( pauper 9) |
+| Boros Garrison | 波洛斯驻防地 | 普通 | 15 张 ( pauper 15) |
 | Selesnya Sanctuary | 瑟雷尼亚圣殿 | 普通 | 4 张 (摩登 4) |
 
 ### Fallout (PIP) — 2024-03-08
@@ -4126,7 +3983,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Wild Growth | 野地丛生 | 普通 | 50 张 ( pauper 50) |
+| Wild Growth | 野地丛生 | 普通 | 54 张 ( pauper 54) |
 
 #### 无色（Colorless）
 
@@ -4142,158 +3999,6 @@
 |------|--------|--------|------|
 | Mortuary Mire | 丧葬泥沼 | 普通 | 6 张 ( pauper 6) |
 
-### Outlaws of Thunder Junction (OTJ) — 2024-04-19
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Nurturing Pixie | 育幼碧仙 | 非普通 | 8 张 (标准 8) |
-| Outlaw Medic | 狂徒医士 | 普通 | 61 张 ( pauper 61) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| High Noon | 日正当中 | 稀有 | 271 张 (摩登 15+222, 标准 28+6) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Harrier Strix | 飞掠鹞枭 | 普通 | 29 张 ( pauper 29) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Forsaken Miner | 遭弃矿工 | 非普通 | 17 张 (标准 8+9) |
-| Nezumi Linkbreaker | 破链鼠人 | 普通 | 23 张 ( pauper 23) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Corrupted Conviction | 腐化信念 | 普通 | 16 张 ( pauper 16) |
-| Shoot the Sheriff | 击杀警长 | 非普通 | 54 张 (摩登 0+1, 标准 39+14) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Magebane Lizard | 克法蜥蜴 | 非普通 | 44 张 (摩登 0+14, 标准 4+26) |
-| Reckless Lackey | 鲁莽跟班 | 普通 | 12 张 ( pauper 12) |
-| Slickshot Show-Off | 花枪帮炫耀师 | 稀有 | 325 张 (摩登 140, 标准 185) |
-| Stingerback Terror | 刺针背惧龙 | 稀有 | 4 张 (标准 3+1) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Highway Robbery | 大道抢劫 | 普通 | 188 张 ( pauper 186+2) |
-| Scorching Shot | 焦热击 | 非普通 | 20 张 (标准 4+16) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Aloe Alchemist | 芦荟炼金术士 | 非普通 | 3 张 (摩登 3) |
-| Spinewoods Paladin | 棘林神圣武士 | 普通 | 37 张 ( pauper 1+36) |
-| Voracious Varmint | 贪饕害兽 | 普通 | 7 张 ( pauper 0+7) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Doc Aurlock, Grizzled Genius | 天才灰熊道奥洛克 | 非普通 | 4 张 (标准 4) |
-| Honest Rutstein | 诚实的鲁斯登 | 非普通 | 1 张 (标准 1) |
-| Ruthless Lawbringer | 无情裁罚者 | 非普通 | 1 张 (摩登 1) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Lavaspur Boots | 熔刺靴 | 非普通 | 4 张 (摩登 1, 标准 3) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Abraded Bluffs | 风侵绝壁 | 普通 | 2 张 ( pauper 2) |
-| Blooming Marsh | 花开沼地 | 稀有 | 44 张 (摩登 35, 标准 9) |
-| Conduit Pylons | 通导缆塔 | 普通 | 47 张 ( pauper 47) |
-| Inspiring Vantage | 启迪胜地 | 稀有 | 24 张 (摩登 6, 标准 18) |
-| Jagged Barrens | 嶙峋荒漠 | 普通 | 32 张 ( pauper 32) |
-| Soured Springs | 酸腐涌泉 | 普通 | 1 张 ( pauper 1) |
-
-### Outlaws of Thunder Junction Commander (OTC) — 2024-04-19
-
-#### 黑（B）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Baleful Mastery | 恶邪奇技 | 稀有 | 1 张 (摩登 0+1) |
-
-#### 红（R）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Bitter Reunion | 苦涩重逢 | 普通 | 14 张 ( pauper 14) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Electric Revelation | 电激启示 | 普通 | 18 张 ( pauper 18) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Silhana Ledgewalker | 西哈纳檐行者 | 普通 | 27 张 ( pauper 27) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Winding Way | 蜿蜒长路 | 普通 | 179 张 ( pauper 179) |
-
-#### 多色（Multicolor）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Thrilling Discovery | 快意发现 | 普通 | 12 张 ( pauper 12) |
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Darkslick Shores | 暗光海滨 | 稀有 | 33 张 (摩登 33) |
-
 ### Outlaws of Thunder Junction Promos (POTJ) — 2024-04-19
 
 #### 白（W）
@@ -4302,7 +4007,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Aven Interrupter | 阻咒艾文 | 稀有 | 30 张 (标准 29+1) |
+| Aven Interrupter | 阻咒艾文 | 稀有 | 31 张 (标准 28+3) |
 
 #### 蓝（U）
 
@@ -4318,7 +4023,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Insatiable Avarice | 无魇贪欲 | 稀有 | 2 张 (标准 2) |
+| Insatiable Avarice | 无魇贪欲 | 稀有 | 4 张 (标准 4) |
 
 #### 绿（G）
 
@@ -4326,8 +4031,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bristly Bill, Spine Sower | Bristly Bill, Spine Sower | 秘稀 | 14 张 (标准 14) |
-| Outcaster Trailblazer | 莽野帮开路人 | 稀有 | 4 张 (标准 4) |
+| Bristly Bill, Spine Sower | Bristly Bill, Spine Sower | 秘稀 | 16 张 (标准 16) |
+| Outcaster Trailblazer | 莽野帮开路人 | 稀有 | 8 张 (标准 8) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Smuggler's Surprise | Smuggler's Surprise | 稀有 | 1 张 (标准 0+1) |
 
 #### 多色（Multicolor）
 
@@ -4343,9 +4054,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Botanical Sanctum | 植物圣所 | 稀有 | 8 张 (摩登 4, 标准 4) |
-| Concealed Courtyard | 隐秘庭院 | 稀有 | 73 张 (标准 73) |
-| Spirebluff Canal | 尖塔崖天渠 | 稀有 | 397 张 (摩登 81, 标准 316) |
+| Botanical Sanctum | 植物圣所 | 稀有 | 10 张 (摩登 4, 标准 6) |
+| Concealed Courtyard | 隐秘庭院 | 稀有 | 93 张 (标准 93) |
+| Spirebluff Canal | 尖塔崖天渠 | 稀有 | 383 张 (摩登 54, 标准 329) |
 
 ### The Big Score (BIG) — 2024-04-19
 
@@ -4371,7 +4082,84 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Pest Control | 害虫防治 | 秘稀 | 32 张 (摩登 9+4, 标准 7+12) |
+| Pest Control | 害虫防治 | 秘稀 | 26 张 (摩登 6, 标准 7+13) |
+
+### Outlaws of Thunder Junction (OTJ) — 2024-04-19
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Nurturing Pixie | 育幼碧仙 | 非普通 | 13 张 (标准 13) |
+| Outlaw Medic | 狂徒医士 | 普通 | 57 张 ( pauper 57) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| High Noon | 日正当中 | 稀有 | 208 张 (摩登 15+157, 标准 28+8) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Harrier Strix | 飞掠鹞枭 | 普通 | 32 张 ( pauper 32) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Forsaken Miner | 遭弃矿工 | 非普通 | 13 张 (标准 4+9) |
+| Nezumi Linkbreaker | 破链鼠人 | 普通 | 15 张 ( pauper 15) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Corrupted Conviction | 腐化信念 | 普通 | 9 张 ( pauper 9) |
+| Shoot the Sheriff | 击杀警长 | 非普通 | 50 张 (摩登 0+1, 标准 36+13) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Magda, the Hoardmaster | Magda, the Hoardmaster | 稀有 | 4 张 (标准 4) |
+| Magebane Lizard | 克法蜥蜴 | 非普通 | 45 张 (摩登 0+14, 标准 4+27) |
+| Reckless Lackey | 鲁莽跟班 | 普通 | 8 张 ( pauper 8) |
+| Slickshot Show-Off | 花枪帮炫耀师 | 稀有 | 287 张 (摩登 122, 标准 165) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Highway Robbery | 大道抢劫 | 普通 | 168 张 ( pauper 168) |
+| Scorching Shot | 焦热击 | 非普通 | 18 张 (标准 2+16) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Aloe Alchemist | 芦荟炼金术士 | 非普通 | 2 张 (摩登 2) |
+| Spinewoods Paladin | 棘林神圣武士 | 普通 | 29 张 ( pauper 0+29) |
+| Voracious Varmint | 贪饕害兽 | 普通 | 5 张 ( pauper 0+5) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Honest Rutstein | 诚实的鲁斯登 | 非普通 | 1 张 (标准 1) |
 
 #### 无色（Colorless）
 
@@ -4379,7 +4167,18 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lost Jitte | 失落的十手 | 秘稀 | 1 张 (标准 0+1) |
+| Lavaspur Boots | 熔刺靴 | 非普通 | 4 张 (摩登 1, 标准 3) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Abraded Bluffs | 风侵绝壁 | 普通 | 2 张 ( pauper 2) |
+| Blooming Marsh | 花开沼地 | 稀有 | 35 张 (摩登 26, 标准 9) |
+| Conduit Pylons | 通导缆塔 | 普通 | 41 张 ( pauper 41) |
+| Inspiring Vantage | 启迪胜地 | 稀有 | 39 张 (摩登 3, 标准 36) |
+| Jagged Barrens | 嶙峋荒漠 | 普通 | 20 张 ( pauper 20) |
+| Soured Springs | 酸腐涌泉 | 普通 | 1 张 ( pauper 1) |
 
 ### Breaking News (OTP) — 2024-04-19
 
@@ -4389,7 +4188,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Journey to Nowhere | 未知旅程 | 普通 | 114 张 ( pauper 73+41) |
+| Journey to Nowhere | 未知旅程 | 普通 | 103 张 ( pauper 68+35) |
 
 #### 蓝（U）
 
@@ -4397,9 +4196,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Archive Trap | 档案陷阱 | 稀有 | 8 张 (摩登 8) |
+| Archive Trap | 档案陷阱 | 稀有 | 4 张 (摩登 4) |
 | Archmage's Charm | 大法师的护符 | 稀有 | 4 张 (摩登 4) |
-| Commandeer | 霸占 | 稀有 | 2 张 (摩登 0+2) |
+| Commandeer | 霸占 | 稀有 | 1 张 (摩登 0+1) |
 
 #### 黑（B）
 
@@ -4407,13 +4206,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Surgical Extraction | 手术摘除 | 稀有 | 199 张 (摩登 20+179) |
+| Surgical Extraction | 手术摘除 | 稀有 | 152 张 (摩登 19+133) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Thoughtseize | 攫取思绪 | 稀有 | 598 张 (摩登 478+120) |
+| Thoughtseize | 攫取思绪 | 稀有 | 466 张 (摩登 363+103) |
 
 #### 红（R）
 
@@ -4421,231 +4220,29 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Skullcrack | 碎颅击 | 非普通 | 4 张 (摩登 2+2) |
+| Skullcrack | 碎颅击 | 非普通 | 2 张 (摩登 0+2) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Skewer the Critics | 遏止倒彩 | 普通 | 12 张 (摩登 8,  pauper 4) |
+| Skewer the Critics | 遏止倒彩 | 普通 | 4 张 (摩登 4) |
 
-### Modern Horizons 2 Timeshifts (H2R) — 2024-06-14
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Esper Sentinel | 艾斯波哨卫 | 稀有 | 4 张 (摩登 4) |
-| Solitude | 幽寂 | 秘稀 | 424 张 (摩登 419+5) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Subtlety | 锐敏 | 秘稀 | 212 张 (摩登 206+6) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Dress Down | 褪除武装 | 稀有 | 11 张 (摩登 7+4) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sling-Gang Lieutenant | 掷弹指战官 | 非普通 | 3 张 (摩登 3) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Munitions Expert | 军火专家 | 非普通 | 4 张 (摩登 4) |
-
-### Modern Horizons 3 Promos (PMH3) — 2024-06-14
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ocelot Pride | 豹猫群 | 秘稀 | 176 张 (摩登 176) |
-
-#### 蓝（U）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Strix Serenade | 猛枭夜曲 | 稀有 | 23 张 (摩登 6+17) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Emperor of Bones | 白骨帝王 | 稀有 | 113 张 (摩登 112+1) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Necrodominance | 死冥霸权 | 秘稀 | 12 张 (摩登 12) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Six | 六树妖 | 稀有 | 22 张 (摩登 5+17) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Psychic Frog | 灵能蛙 | 稀有 | 442 张 (摩登 442) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Eldrazi Linebreaker | 破阵奥札奇 | 稀有 | 8 张 (摩登 8) |
-| Herigast, Erupting Nullkite | 喷焰虚虐体赫厉轧 | 秘稀 | 7 张 (摩登 7) |
-| Nulldrifter | 漂虚体 | 稀有 | 6 张 (摩登 6) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Disruptor Flute | 纷扰笛 | 稀有 | 62 张 (摩登 2+60) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Kozilek's Command | 寇基雷的指命 | 稀有 | 400 张 (摩登 400) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Polluted Delta | 聚污三角洲 | 稀有 | 520 张 (摩登 520) |
-
-### Modern Horizons 3 (MH3) — 2024-06-14
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Guide of Souls | 导灵僧 | 稀有 | 176 张 (摩登 176) |
-| Phelia, Exuberant Shepherd | 亢奋牧犬费利亚 | 稀有 | 146 张 (摩登 146) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Static Prison | 静态拘禁 | 非普通 | 20 张 (摩登 20) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Orim's Chant | 欧琳的吟颂 | 稀有 | 155 张 (摩登 94+61) |
-| Thraben Charm | 瑟班护符 | 普通 | 267 张 (摩登 75+1,  pauper 142+49) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Wrath of the Skies | 天空之怒 | 稀有 | 482 张 (摩登 124+358) |
-
-#### 蓝（U）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Brainsurge | 脑力涌动 | 非普通 | 4 张 (摩登 4) |
-| Consign to Memory | 托诸记忆 | 非普通 | 1017 张 (摩登 143+874) |
-| Flare of Denial | 拒斥眩闪 | 稀有 | 47 张 (摩登 42+5) |
-| Tune the Narrative | 叙事调律 | 普通 | 16 张 (摩登 16) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Deem Inferior | 判言低劣 | 普通 | 88 张 ( pauper 79+9) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Accursed Marauder | 受诅劫掠者 | 普通 | 34 张 ( pauper 15+19) |
-| Marionette Apprentice | 弄偶学徒 | 非普通 | 8 张 (摩登 8) |
-| Nethergoyf | 阴间耶夫 | 秘稀 | 37 张 (摩登 37) |
-| Refurbished Familiar | 复新佣兽 | 普通 | 240 张 ( pauper 240) |
-| Warren Soultrader | 繁殖地易魂师 | 稀有 | 4 张 (摩登 4) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Chthonian Nightmare | 阴冥魇境 | 稀有 | 7 张 (摩登 7) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Eviscerator's Insight | 剜心洞察 | 普通 | 161 张 ( pauper 161) |
-| Flare of Malice | 恶意眩闪 | 稀有 | 8 张 (摩登 6+2) |
+### Outlaws of Thunder Junction Commander (OTC) — 2024-04-19
 
 #### 红（R）
 
-**生物**
+**结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Detective's Phoenix | 侦探的凤凰 | 稀有 | 48 张 (摩登 48) |
-| Reckless Pyrosurfer | 鲁莽滑焰客 | 非普通 | 7 张 (摩登 7) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Inventor's Axe | 发明家之斧 | 普通 | 40 张 ( pauper 40) |
+| Bitter Reunion | 苦涩重逢 | 普通 | 12 张 ( pauper 12) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Galvanic Discharge | 电流涌射 | 普通 | 211 张 (摩登 211) |
-| Siege Smash | 攻城猛击 | 普通 | 5 张 ( pauper 0+5) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Glimpse the Impossible | 瞥视绝望 | 普通 | 20 张 ( pauper 20) |
-| Meltdown | 熔毁 | 非普通 | 126 张 (摩登 0+126) |
+| Electric Revelation | 电激启示 | 普通 | 18 张 ( pauper 18) |
 
 #### 绿（G）
 
@@ -4653,103 +4250,29 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Annoyed Altisaur | 恼怒硕伟龙 | 非普通 | 53 张 ( pauper 53) |
-| Eladamri, Korvecdal | 寇维达领袖艾拉达力 | 秘稀 | 2 张 (摩登 1+1) |
-| Fanatic of Rhonas | 罗纳斯的狂徒 | 稀有 | 84 张 (摩登 84) |
-| Nyxborn Hydra | 天裔多头龙 | 普通 | 132 张 ( pauper 125+7) |
-| Priest of Titania | 泰坦尼亚牧师 | 非普通 | 92 张 ( pauper 92) |
-| Sylvan Safekeeper | 林间救护人 | 稀有 | 6 张 (摩登 6) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Colossal Dreadmask | 庞巨血口面具 | 普通 | 2 张 ( pauper 2) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Birthing Ritual | 诞生仪式 | 秘稀 | 40 张 (摩登 40) |
+| Silhana Ledgewalker | 西哈纳檐行者 | 普通 | 19 张 ( pauper 19) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Horrific Assault | 怖惧突袭 | 普通 | 3 张 ( pauper 3) |
-| Malevolent Rumble | 恶意隆响 | 普通 | 597 张 (摩登 435,  pauper 162) |
+| Winding Way | 蜿蜒长路 | 普通 | 160 张 ( pauper 160) |
 
 #### 多色（Multicolor）
 
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sneaky Snacker | 鬼祟贪吃灵 | 普通 | 284 张 ( pauper 284) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Planar Genesis | 时空创生 | 非普通 | 52 张 (摩登 52) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Basking Broodscale | 沐日孳巢蜥 | 普通 | 190 张 (摩登 188+2) |
-| Devourer of Destiny | 命运吞噬体 | 稀有 | 139 张 (摩登 139) |
-| Eldrazi Repurposer | 易生奥札奇 | 普通 | 44 张 ( pauper 44) |
-| Glaring Fleshraker | 眩目片肉体 | 非普通 | 196 张 (摩登 196) |
-| It That Heralds the End | 示终恶体 | 非普通 | 6 张 (摩登 6) |
-| Sowing Mycospawn | 茂生孽菌体 | 稀有 | 256 张 (摩登 256) |
-| Thief of Existence | 窃生恶体 | 稀有 | 86 张 (摩登 1+85) |
-| Wastescape Battlemage | 废景院战巫师 | 非普通 | 9 张 (摩登 5+4) |
-| Writhing Chrysalis | 纠拧孵化蛹 | 普通 | 309 张 (摩登 54+8,  pauper 220+27) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ruby Medallion | 红宝石徽章 | 稀有 | 44 张 (摩登 44) |
-| Sapphire Medallion | 蓝宝石徽章 | 稀有 | 4 张 (摩登 4) |
-| Vexing Bauble | 乱心饰品 | 非普通 | 401 张 (摩登 120+281) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Null Elemental Blast | 虚元素冲击波 | 非普通 | 2 张 (摩登 0+2) |
-| Unfathomable Truths | 深邃真相 | 普通 | 64 张 ( pauper 64) |
-
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fanged Flames | 利齿烈焰 | 普通 | 15 张 ( pauper 15) |
+| Thrilling Discovery | 快意发现 | 普通 | 8 张 ( pauper 8) |
+
+#### 无色（Colorless）
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arena of Glory | 荣光竞技场 | 稀有 | 67 张 (摩登 67) |
-| Barbarian Ring | 蛮族决斗擂台 | 非普通 | 6 张 (摩登 6) |
-| Bloodstained Mire | 血斑泥沼 | 稀有 | 287 张 (摩登 287) |
-| Contaminated Landscape | 污化地境 | 普通 | 16 张 ( pauper 16) |
-| Flooded Strand | 潮没水滨 | 稀有 | 677 张 (摩登 677) |
-| Monumental Henge | 丰碑石阵 | 稀有 | 16 张 (摩登 16) |
-| Phyrexian Tower | 非瑞克西亚高塔 | 秘稀 | 9 张 (摩登 9) |
-| Seething Landscape | 火热地境 | 普通 | 18 张 ( pauper 18) |
-| Sheltering Landscape | 庇护地境 | 普通 | 6 张 ( pauper 6) |
-| Shifting Woodland | 变幻林地 | 稀有 | 52 张 (摩登 51+1) |
-| Spymaster's Vault | 密探长地窖 | 稀有 | 19 张 (摩登 19) |
-| Twisted Landscape | 扭曲地境 | 普通 | 94 张 ( pauper 94) |
-| Ugin's Labyrinth | 乌金的迷宫 | 秘稀 | 222 张 (摩登 222) |
-| Urza's Cave | 克撒的洞窟 | 非普通 | 3 张 (摩登 3) |
-| Windswept Heath | 风袭荒地 | 稀有 | 262 张 (摩登 262) |
-| Wooded Foothills | 繁茂丘陵 | 稀有 | 340 张 (摩登 340) |
+| Darkslick Shores | 暗光海滨 | 稀有 | 22 张 (摩登 22) |
 
 ### Modern Horizons 3 Commander (M3C) — 2024-06-14
 
@@ -4783,25 +4306,347 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Forsaken Monument | 遭弃纪念碑 | 秘稀 | 1 张 (摩登 0+1) |
-| Mystic Forge | 神秘熔炉 | 稀有 | 1 张 (摩登 0+1) |
-| Oblivion Stone | 遗忘石 | 稀有 | 2 张 (摩登 0+2) |
+| Oblivion Stone | 遗忘石 | 稀有 | 1 张 (摩登 0+1) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| All Is Dust | 尽归尘土 | 秘稀 | 15 张 (摩登 13+2) |
+| All Is Dust | 尽归尘土 | 秘稀 | 10 张 (摩登 8+2) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Lair of the Hydra | 多头蛇蜥巢穴 | 稀有 | 2 张 (摩登 2) |
-| Mystic Gate | 神秘门户 | 稀有 | 16 张 (摩登 16) |
-| Urza's Mine | 克撒的矿脉 | 普通 | 200 张 (摩登 68,  pauper 132) |
-| Urza's Power Plant | 克撒的动力炉 | 普通 | 200 张 (摩登 68,  pauper 132) |
-| Urza's Tower | 克撒的塔 | 普通 | 200 张 (摩登 68,  pauper 132) |
-| Vesuva | 维苏瓦 | 秘稀 | 4 张 (摩登 4) |
+| Mystic Gate | 神秘门户 | 稀有 | 12 张 (摩登 12) |
+| Urza's Mine | 克撒的矿脉 | 普通 | 160 张 (摩登 48,  pauper 112) |
+| Urza's Power Plant | 克撒的动力炉 | 普通 | 160 张 (摩登 48,  pauper 112) |
+| Urza's Tower | 克撒的塔 | 普通 | 160 张 (摩登 48,  pauper 112) |
+| Vesuva | 维苏瓦 | 秘稀 | 3 张 (摩登 3) |
+
+### Modern Horizons 3 (MH3) — 2024-06-14
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Guide of Souls | 导灵僧 | 稀有 | 116 张 (摩登 116) |
+| Phelia, Exuberant Shepherd | 亢奋牧犬费利亚 | 稀有 | 112 张 (摩登 112) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Static Prison | 静态拘禁 | 非普通 | 10 张 (摩登 10) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Orim's Chant | 欧琳的吟颂 | 稀有 | 97 张 (摩登 58+39) |
+| Thraben Charm | 瑟班护符 | 普通 | 226 张 (摩登 48+1,  pauper 136+41) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Wrath of the Skies | 天空之怒 | 稀有 | 349 张 (摩登 87+262) |
+
+#### 蓝（U）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Brainsurge | 脑力涌动 | 非普通 | 4 张 (摩登 4) |
+| Consign to Memory | 托诸记忆 | 非普通 | 756 张 (摩登 122+634) |
+| Flare of Denial | 拒斥眩闪 | 稀有 | 27 张 (摩登 25+2) |
+| Tune the Narrative | 叙事调律 | 普通 | 9 张 (摩登 9) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Deem Inferior | 判言低劣 | 普通 | 80 张 ( pauper 71+9) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Accursed Marauder | 受诅劫掠者 | 普通 | 29 张 ( pauper 15+14) |
+| Marionette Apprentice | 弄偶学徒 | 非普通 | 4 张 (摩登 4) |
+| Nethergoyf | 阴间耶夫 | 秘稀 | 25 张 (摩登 25) |
+| Refurbished Familiar | 复新佣兽 | 普通 | 240 张 ( pauper 240) |
+| Warren Soultrader | 繁殖地易魂师 | 稀有 | 4 张 (摩登 4) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Chthonian Nightmare | 阴冥魇境 | 稀有 | 6 张 (摩登 6) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Eviscerator's Insight | 剜心洞察 | 普通 | 151 张 ( pauper 151) |
+| Flare of Malice | 恶意眩闪 | 稀有 | 8 张 (摩登 6+2) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Detective's Phoenix | 侦探的凤凰 | 稀有 | 46 张 (摩登 46) |
+| Reckless Pyrosurfer | 鲁莽滑焰客 | 非普通 | 4 张 (摩登 4) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Inventor's Axe | 发明家之斧 | 普通 | 29 张 ( pauper 29) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Galvanic Discharge | 电流涌射 | 普通 | 143 张 (摩登 143) |
+| Siege Smash | 攻城猛击 | 普通 | 5 张 ( pauper 0+5) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Glimpse the Impossible | 瞥视绝望 | 普通 | 20 张 ( pauper 20) |
+| Meltdown | 熔毁 | 非普通 | 103 张 (摩登 0+103) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Annoyed Altisaur | 恼怒硕伟龙 | 非普通 | 62 张 ( pauper 62) |
+| Eladamri, Korvecdal | 寇维达领袖艾拉达力 | 秘稀 | 1 张 (摩登 0+1) |
+| Evolution Witness | 进化见证人 | 普通 | 1 张 ( pauper 1) |
+| Fanatic of Rhonas | 罗纳斯的狂徒 | 稀有 | 48 张 (摩登 48) |
+| Nyxborn Hydra | 天裔多头龙 | 普通 | 111 张 ( pauper 105+6) |
+| Priest of Titania | 泰坦尼亚牧师 | 非普通 | 72 张 ( pauper 72) |
+| Sylvan Safekeeper | 林间救护人 | 稀有 | 4 张 (摩登 4) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Colossal Dreadmask | 庞巨血口面具 | 普通 | 3 张 ( pauper 3) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Birthing Ritual | 诞生仪式 | 秘稀 | 32 张 (摩登 32) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Horrific Assault | 怖惧突袭 | 普通 | 3 张 ( pauper 3) |
+| Malevolent Rumble | 恶意隆响 | 普通 | 443 张 (摩登 297,  pauper 146) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sneaky Snacker | 鬼祟贪吃灵 | 普通 | 244 张 ( pauper 244) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Planar Genesis | 时空创生 | 非普通 | 52 张 (摩登 52) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Basking Broodscale | 沐日孳巢蜥 | 普通 | 146 张 (摩登 145+1) |
+| Devourer of Destiny | 命运吞噬体 | 稀有 | 103 张 (摩登 103) |
+| Eldrazi Repurposer | 易生奥札奇 | 普通 | 51 张 ( pauper 51) |
+| Glaring Fleshraker | 眩目片肉体 | 非普通 | 145 张 (摩登 145) |
+| It That Heralds the End | 示终恶体 | 非普通 | 6 张 (摩登 6) |
+| Sowing Mycospawn | 茂生孽菌体 | 稀有 | 180 张 (摩登 180) |
+| Thief of Existence | 窃生恶体 | 稀有 | 65 张 (摩登 0+65) |
+| Wastescape Battlemage | 废景院战巫师 | 非普通 | 7 张 (摩登 5+2) |
+| Writhing Chrysalis | 纠拧孵化蛹 | 普通 | 296 张 (摩登 40+4,  pauper 232+20) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ruby Medallion | 红宝石徽章 | 稀有 | 32 张 (摩登 32) |
+| Sapphire Medallion | 蓝宝石徽章 | 稀有 | 4 张 (摩登 4) |
+| Vexing Bauble | 乱心饰品 | 非普通 | 305 张 (摩登 91+214) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Null Elemental Blast | 虚元素冲击波 | 非普通 | 2 张 (摩登 0+2) |
+| Unfathomable Truths | 深邃真相 | 普通 | 53 张 ( pauper 53) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fanged Flames | 利齿烈焰 | 普通 | 13 张 ( pauper 13) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Arena of Glory | 荣光竞技场 | 稀有 | 44 张 (摩登 44) |
+| Barbarian Ring | 蛮族决斗擂台 | 非普通 | 4 张 (摩登 4) |
+| Bloodstained Mire | 血斑泥沼 | 稀有 | 227 张 (摩登 227) |
+| Contaminated Landscape | 污化地境 | 普通 | 17 张 ( pauper 17) |
+| Flooded Strand | 潮没水滨 | 稀有 | 482 张 (摩登 482) |
+| Monumental Henge | 丰碑石阵 | 稀有 | 12 张 (摩登 12) |
+| Phyrexian Tower | 非瑞克西亚高塔 | 秘稀 | 9 张 (摩登 9) |
+| Seething Landscape | 火热地境 | 普通 | 18 张 ( pauper 18) |
+| Sheltering Landscape | 庇护地境 | 普通 | 6 张 ( pauper 6) |
+| Shifting Woodland | 变幻林地 | 稀有 | 33 张 (摩登 32+1) |
+| Spymaster's Vault | 密探长地窖 | 稀有 | 9 张 (摩登 9) |
+| Twisted Landscape | 扭曲地境 | 普通 | 110 张 ( pauper 110) |
+| Ugin's Labyrinth | 乌金的迷宫 | 秘稀 | 144 张 (摩登 144) |
+| Urza's Cave | 克撒的洞窟 | 非普通 | 2 张 (摩登 2) |
+| Windswept Heath | 风袭荒地 | 稀有 | 198 张 (摩登 198) |
+| Wooded Foothills | 繁茂丘陵 | 稀有 | 289 张 (摩登 289) |
+
+### Modern Horizons 3 Promos (PMH3) — 2024-06-14
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ocelot Pride | 豹猫群 | 秘稀 | 116 张 (摩登 116) |
+
+#### 蓝（U）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Strix Serenade | 猛枭夜曲 | 稀有 | 15 张 (摩登 3+12) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Emperor of Bones | 白骨帝王 | 稀有 | 80 张 (摩登 79+1) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Necrodominance | 死冥霸权 | 秘稀 | 8 张 (摩登 8) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Six | 六树妖 | 稀有 | 11 张 (摩登 5+6) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Psychic Frog | 灵能蛙 | 稀有 | 332 张 (摩登 332) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Eldrazi Linebreaker | 破阵奥札奇 | 稀有 | 8 张 (摩登 8) |
+| Herigast, Erupting Nullkite | 喷焰虚虐体赫厉轧 | 秘稀 | 5 张 (摩登 5) |
+| Nulldrifter | 漂虚体 | 稀有 | 6 张 (摩登 6) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Disruptor Flute | 纷扰笛 | 稀有 | 47 张 (摩登 2+45) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Kozilek's Command | 寇基雷的指命 | 稀有 | 280 张 (摩登 280) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Polluted Delta | 聚污三角洲 | 稀有 | 382 张 (摩登 382) |
+
+### Modern Horizons 2 Timeshifts (H2R) — 2024-06-14
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Esper Sentinel | 艾斯波哨卫 | 稀有 | 4 张 (摩登 4) |
+| Solitude | 幽寂 | 秘稀 | 341 张 (摩登 336+5) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Subtlety | 锐敏 | 秘稀 | 164 张 (摩登 162+2) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Dress Down | 褪除武装 | 稀有 | 6 张 (摩登 4+2) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sling-Gang Lieutenant | 掷弹指战官 | 非普通 | 3 张 (摩登 3) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Munitions Expert | 军火专家 | 非普通 | 4 张 (摩登 4) |
 
 ### Assassin's Creed (ACR) — 2024-07-05
 
@@ -4820,9 +4665,99 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Abstergo Entertainment | 阿布斯泰戈娱乐 | 稀有 | 1 张 (摩登 1) |
-| Fiery Islet | 炽火孤岛 | 稀有 | 130 张 (摩登 130) |
-| Nurturing Peatland | 生机泥地 | 稀有 | 42 张 (摩登 42) |
+| Fiery Islet | 炽火孤岛 | 稀有 | 107 张 (摩登 107) |
+| Nurturing Peatland | 生机泥地 | 稀有 | 43 张 (摩登 43) |
 | Waterlogged Grove | 漫水林地 | 稀有 | 3 张 (摩登 3) |
+
+### Bloomburrow Tokens (TBLB) — 2024-08-02
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Starscape Cleric | Starscape Cleric | 非普通 | 75 张 (标准 50+25) |
+
+### Bloomburrow Promos (PBLB) — 2024-08-02
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Essence Channeler | Essence Channeler | 稀有 | 3 张 (标准 3) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mockingbird | Mockingbird | 稀有 | 9 张 (摩登 5, 标准 4) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Stormchaser's Talent | Stormchaser's Talent | 稀有 | 177 张 (摩登 13, 标准 164) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Iridescent Vinelasher | Iridescent Vinelasher | 稀有 | 4 张 (标准 4) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Cruelclaw's Heist | Cruelclaw's Heist | 稀有 | 6 张 (标准 0+6) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Manifold Mouse | Manifold Mouse | 稀有 | 4 张 (标准 4) |
+| Valley Flamecaller | Valley Flamecaller | 稀有 | 2 张 (标准 2) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Artist's Talent | Artist's Talent | 稀有 | 26 张 (摩登 16, 标准 10) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Pawpatch Recruit | Pawpatch Recruit | 稀有 | 20 张 (标准 18+2) |
+| Scrapshooter | Scrapshooter | 稀有 | 4 张 (标准 0+4) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Vren, the Relentless | Vren, the Relentless | 稀有 | 2 张 (标准 0+2) |
+| Ygra, Eater of All | Ygra, Eater of All | 秘稀 | 3 张 (标准 0+3) |
+| Zoraline, Cosmos Caller | Zoraline, Cosmos Caller | 稀有 | 21 张 (标准 21) |
+
+#### 无色（Colorless）
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fountainport | Fountainport | 稀有 | 2 张 (标准 2) |
 
 ### Bloomburrow (BLB) — 2024-08-02
 
@@ -4832,20 +4767,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Beza, the Bounding Spring | Beza, the Bounding Spring | 秘稀 | 8 张 (摩登 0+3, 标准 0+5) |
+| Beza, the Bounding Spring | Beza, the Bounding Spring | 秘稀 | 7 张 (标准 0+7) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dawn's Truce | Dawn's Truce | 稀有 | 46 张 (标准 1+45) |
-| Parting Gust | Parting Gust | 非普通 | 1 张 (标准 1) |
+| Dawn's Truce | Dawn's Truce | 稀有 | 29 张 (标准 0+29) |
+| Parting Gust | Parting Gust | 非普通 | 3 张 (标准 3) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dewdrop Cure | Dewdrop Cure | 非普通 | 28 张 (摩登 2+26) |
+| Dewdrop Cure | Dewdrop Cure | 非普通 | 32 张 (摩登 2+28, 标准 0+2) |
 
 #### 蓝（U）
 
@@ -4853,14 +4788,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Eddymurk Crab | Eddymurk Crab | 非普通 | 192 张 (摩登 0+2, 标准 184+6) |
-| Thundertrap Trainer | Thundertrap Trainer | 稀有 | 61 张 (摩登 40+21) |
+| Eddymurk Crab | Eddymurk Crab | 非普通 | 202 张 (标准 196+6) |
+| Thundertrap Trainer | Thundertrap Trainer | 稀有 | 39 张 (摩登 18+21) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shore Up | 离水登岸 | 普通 | 17 张 ( pauper 3, 标准 13+1) |
+| Shore Up | 离水登岸 | 普通 | 16 张 (标准 14+2) |
 
 #### 黑（B）
 
@@ -4882,10 +4817,11 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Dragonhawk, Fate's Tempest | Dragonhawk, Fate's Tempest | 秘稀 | 1 张 (标准 1) |
 | Emberheart Challenger | Emberheart Challenger | 稀有 | 26 张 (标准 26) |
-| Hearthborn Battler | Hearthborn Battler | 稀有 | 8 张 (标准 8) |
-| Hired Claw | Hired Claw | 稀有 | 36 张 (标准 36) |
-| Sunspine Lynx | Sunspine Lynx | 稀有 | 57 张 (标准 12+45) |
+| Hearthborn Battler | Hearthborn Battler | 稀有 | 4 张 (标准 4) |
+| Hired Claw | Hired Claw | 稀有 | 40 张 (标准 40) |
+| Sunspine Lynx | Sunspine Lynx | 稀有 | 61 张 (标准 14+47) |
 
 **结界**
 
@@ -4906,20 +4842,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Keen-Eyed Curator | Keen-Eyed Curator | 稀有 | 136 张 (摩登 0+52, 标准 51+33) |
+| Keen-Eyed Curator | Keen-Eyed Curator | 稀有 | 125 张 (摩登 0+44, 标准 48+33) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Heaped Harvest | Heaped Harvest | 普通 | 8 张 ( pauper 8) |
+| Heaped Harvest | Heaped Harvest | 普通 | 2 张 ( pauper 2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Overprotect | Overprotect | 非普通 | 11 张 (标准 9+2) |
-| Pawpatch Formation | Pawpatch Formation | 非普通 | 20 张 (标准 0+20) |
+| Overprotect | Overprotect | 非普通 | 9 张 (标准 9) |
+| Pawpatch Formation | Pawpatch Formation | 非普通 | 16 张 (标准 0+16) |
 
 #### 多色（Multicolor）
 
@@ -4933,13 +4869,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ral, Crackling Wit | Ral, Crackling Wit | 秘稀 | 46 张 (标准 3+43) |
+| Ral, Crackling Wit | Ral, Crackling Wit | 秘稀 | 49 张 (标准 3+46) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lunar Convocation | Lunar Convocation | 稀有 | 69 张 (标准 69) |
+| Lunar Convocation | Lunar Convocation | 稀有 | 81 张 (标准 81) |
 
 #### 无色（Colorless）
 
@@ -4955,7 +4891,7 @@
 |------|--------|--------|------|
 | Hidden Grotto | Hidden Grotto | 普通 | 6 张 ( pauper 6) |
 | Mudflat Village | Mudflat Village | 非普通 | 2 张 (标准 2) |
-| Rockface Village | Rockface Village | 非普通 | 5 张 (标准 5) |
+| Rockface Village | Rockface Village | 非普通 | 9 张 (标准 9) |
 
 ### Mystery Booster 2 (MB2) — 2024-08-02
 
@@ -4966,14 +4902,14 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Containment Priest | 围护僧侣 | 稀有 | 4 张 (摩登 0+4) |
-| Ethersworn Canonist | 乙金盟法规师 | 稀有 | 4 张 (摩登 0+4) |
+| Ethersworn Canonist | 乙金盟法规师 | 稀有 | 3 张 (摩登 0+3) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Deafening Silence | 震撼寂静 | 非普通 | 24 张 (摩登 0+24) |
-| Leyline of Sanctity | 圣洁地脉 | 稀有 | 11 张 (摩登 0+11) |
+| Deafening Silence | 震撼寂静 | 非普通 | 20 张 (摩登 0+20) |
+| Leyline of Sanctity | 圣洁地脉 | 稀有 | 10 张 (摩登 0+10) |
 
 #### 蓝（U）
 
@@ -4981,21 +4917,21 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Thassa's Oracle | 塔萨的先知 | 稀有 | 4 张 (摩登 4) |
+| Thassa's Oracle | 塔萨的先知 | 稀有 | 3 张 (摩登 3) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Narset, Parter of Veils | 揭帷娜尔施 | 非普通 | 51 张 (摩登 46+5) |
+| Narset, Parter of Veils | 揭帷娜尔施 | 非普通 | 43 张 (摩登 38+5) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hydroblast | 流水冲击波 | 非普通 | 471 张 ( pauper 0+471) |
-| Mystical Dispute | 神秘干扰 | 非普通 | 619 张 (摩登 0+619) |
-| Pact of Negation | 逸散条约 | 稀有 | 61 张 (摩登 47+14) |
+| Hydroblast | 流水冲击波 | 非普通 | 430 张 ( pauper 0+430) |
+| Mystical Dispute | 神秘干扰 | 非普通 | 482 张 (摩登 0+482) |
+| Pact of Negation | 逸散条约 | 稀有 | 64 张 (摩登 51+13) |
 
 #### 黑（B）
 
@@ -5003,9 +4939,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Death's Shadow | 死亡阴影 | 稀有 | 12 张 (摩登 12) |
-| Faerie Macabre | 渡亡仙灵 | 普通 | 197 张 (摩登 0+21,  pauper 1+175) |
-| Street Wraith | 街道鬼魂 | 普通 | 127 张 (摩登 115,  pauper 12) |
+| Death's Shadow | 死亡阴影 | 稀有 | 4 张 (摩登 4) |
+| Faerie Macabre | 渡亡仙灵 | 普通 | 177 张 (摩登 0+18,  pauper 1+158) |
+| Street Wraith | 街道鬼魂 | 普通 | 110 张 (摩登 98,  pauper 12) |
 
 **瞬间**
 
@@ -5020,23 +4956,23 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Blazing Rootwalla | 炽焰萝特瓦拉 | 非普通 | 20 张 (摩登 20) |
-| Dragon's Rage Channeler | 龙怒通念师 | 非普通 | 164 张 (摩登 164) |
+| Dragon's Rage Channeler | 龙怒通念师 | 非普通 | 136 张 (摩登 136) |
 | Goblin Guide | 鬼怪向导 | 稀有 | 4 张 (摩登 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ancient Grudge | 长年怀恨 | 普通 | 50 张 ( pauper 0+50) |
-| Pyroblast | 爆焰冲击波 | 非普通 | 419 张 ( pauper 0+419) |
-| Unholy Heat | 不洁热火 | 普通 | 251 张 (摩登 105+146) |
+| Ancient Grudge | 长年怀恨 | 普通 | 45 张 ( pauper 0+45) |
+| Pyroblast | 爆焰冲击波 | 非普通 | 384 张 ( pauper 0+384) |
+| Unholy Heat | 不洁热火 | 普通 | 210 张 (摩登 94+116) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Rite of Flame | 烈焰仪式 | 普通 | 4 张 ( pauper 4) |
-| Wish | 愿望术 | 稀有 | 22 张 (摩登 22) |
+| Wish | 愿望术 | 稀有 | 16 张 (摩登 16) |
 
 #### 绿（G）
 
@@ -5044,7 +4980,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Collector Ouphe | 集宝奥夫 | 稀有 | 60 张 (摩登 0+60) |
+| Collector Ouphe | 集宝奥夫 | 稀有 | 53 张 (摩登 0+53) |
 | Tinder Wall | Tinder Wall | 普通 | 6 张 ( pauper 6) |
 
 **瞬间**
@@ -5052,13 +4988,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Noxious Revival | 恶毒复生 | 非普通 | 1 张 (摩登 0+1) |
-| Summoner's Pact | 召唤师条约 | 稀有 | 92 张 (摩登 92) |
+| Summoner's Pact | 召唤师条约 | 稀有 | 81 张 (摩登 81) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ancient Stirrings | 唤醒古物 | 普通 | 239 张 (摩登 187,  pauper 52) |
+| Ancient Stirrings | 唤醒古物 | 普通 | 187 张 (摩登 146,  pauper 41) |
 
 #### 多色（Multicolor）
 
@@ -5066,15 +5002,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ice-Fang Coatl | 冰牙寇特蛇 | 稀有 | 12 张 (摩登 12) |
-| Lavinia, Azorius Renegade | 俄佐立变节者拉温妮 | 稀有 | 5 张 (摩登 1+4) |
+| Ice-Fang Coatl | 冰牙寇特蛇 | 稀有 | 8 张 (摩登 8) |
+| Lavinia, Azorius Renegade | 俄佐立变节者拉温妮 | 稀有 | 4 张 (摩登 0+4) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Teferi, Hero of Dominaria | 多明纳里亚英雄泰菲力 | 秘稀 | 15 张 (摩登 15) |
-| Teferi, Time Raveler | 理时泰菲力 | 秘稀 | 204 张 (摩登 140+64) |
+| Teferi, Hero of Dominaria | 多明纳里亚英雄泰菲力 | 秘稀 | 11 张 (摩登 11) |
+| Teferi, Time Raveler | 理时泰菲力 | 秘稀 | 142 张 (摩登 92+50) |
 
 #### 无色（Colorless）
 
@@ -5082,131 +5018,50 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hollow One | 空壳石椁 | 稀有 | 48 张 (摩登 48) |
-| Memnite | 蒙纳兽 | 非普通 | 4 张 (摩登 4) |
+| Hollow One | 空壳石椁 | 稀有 | 44 张 (摩登 44) |
+| Memnite | 蒙纳兽 | 非普通 | 6 张 (摩登 6) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Aether Vial | 乙太精瓶 | 稀有 | 16 张 (摩登 16) |
+| Aether Vial | 乙太精瓶 | 稀有 | 8 张 (摩登 8) |
 | Darksteel Citadel | 玄铁殿堂 | 非普通 | 4 张 ( pauper 4) |
-| Engineered Explosives | 密设爆裂物 | 稀有 | 178 张 (摩登 82+96) |
-| Ensnaring Bridge | 陷阱桥 | 秘稀 | 17 张 (摩登 0+17) |
-| Goblin Charbelcher | 鬼怪喷火炮 | 稀有 | 40 张 (摩登 40) |
-| Grafdigger's Cage | 挖坟人囚笼 | 稀有 | 74 张 (摩登 0+74) |
-| Grinding Station | 辗碎工段 | 非普通 | 11 张 (摩登 11) |
-| Isochron Scepter | 等时权杖 | 稀有 | 40 张 (摩登 31+9) |
-| Lotus Petal | Lotus Petal | 非普通 | 24 张 ( pauper 22+2) |
-| Mishra's Bauble | 米斯拉的饰品 | 非普通 | 303 张 (摩登 303) |
-| Relic of Progenitus | 祖神兽遗宝 | 非普通 | 368 张 (摩登 34+11,  pauper 2+321) |
-| Serum Powder | 浆液粉末 | 稀有 | 32 张 (摩登 32) |
-| Tormod's Crypt | 托玛墓穴 | 非普通 | 161 张 (摩登 76+60,  pauper 0+25) |
+| Engineered Explosives | 密设爆裂物 | 稀有 | 124 张 (摩登 57+67) |
+| Ensnaring Bridge | 陷阱桥 | 秘稀 | 12 张 (摩登 0+12) |
+| Goblin Charbelcher | 鬼怪喷火炮 | 稀有 | 24 张 (摩登 24) |
+| Grafdigger's Cage | 挖坟人囚笼 | 稀有 | 55 张 (摩登 0+55) |
+| Grinding Station | 辗碎工段 | 非普通 | 10 张 (摩登 10) |
+| Isochron Scepter | 等时权杖 | 稀有 | 24 张 (摩登 18+6) |
+| Lotus Petal | Lotus Petal | 非普通 | 21 张 ( pauper 19+2) |
+| Mishra's Bauble | 米斯拉的饰品 | 非普通 | 236 张 (摩登 236) |
+| Relic of Progenitus | 祖神兽遗宝 | 非普通 | 344 张 (摩登 36+6,  pauper 0+302) |
+| Serum Powder | 浆液粉末 | 稀有 | 24 张 (摩登 24) |
+| Tormod's Crypt | 托玛墓穴 | 非普通 | 122 张 (摩登 57+41,  pauper 0+24) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Urza's Saga | 克撒传 | 稀有 | 377 张 (摩登 377) |
+| Urza's Saga | 克撒传 | 稀有 | 272 张 (摩登 272) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Basilisk Gate | 石蜥门 | 普通 | 74 张 ( pauper 74) |
-| Ghost Quarter | 魂魅城区 | 非普通 | 21 张 (摩登 13+8) |
-| Snow-Covered Wastes | — | 非普通 | 2 张 (摩登 2) |
-
-### Bloomburrow Promos (PBLB) — 2024-08-02
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Essence Channeler | Essence Channeler | 稀有 | 3 张 (标准 3) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mockingbird | Mockingbird | 稀有 | 10 张 (摩登 6, 标准 4) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Stormchaser's Talent | Stormchaser's Talent | 稀有 | 205 张 (摩登 17, 标准 188) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Iridescent Vinelasher | Iridescent Vinelasher | 稀有 | 4 张 (标准 4) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Cruelclaw's Heist | Cruelclaw's Heist | 稀有 | 14 张 (标准 0+14) |
-
-#### 红（R）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Artist's Talent | Artist's Talent | 稀有 | 29 张 (摩登 22, 标准 7) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Pawpatch Recruit | Pawpatch Recruit | 稀有 | 51 张 (标准 49+2) |
-| Scrapshooter | Scrapshooter | 稀有 | 4 张 (标准 0+4) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Vren, the Relentless | Vren, the Relentless | 稀有 | 2 张 (标准 0+2) |
-| Ygra, Eater of All | Ygra, Eater of All | 秘稀 | 1 张 (标准 0+1) |
-| Zoraline, Cosmos Caller | Zoraline, Cosmos Caller | 稀有 | 18 张 (标准 18) |
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Fountainport | Fountainport | 稀有 | 2 张 (标准 2) |
+| Basilisk Gate | 石蜥门 | 普通 | 66 张 ( pauper 66) |
+| Ghost Quarter | 魂魅城区 | 非普通 | 13 张 (摩登 9+4) |
+| Snow-Covered Wastes | — | 非普通 | 1 张 (摩登 1) |
 
 ### Bloomburrow Commander (BLC) — 2024-08-02
 
-#### 蓝（U）
-
-**鹏洛客**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Jace, the Mind Sculptor | 心灵塑师杰斯 | 秘稀 | 1 张 (摩登 1) |
-
 #### 黑（B）
 
 **生物**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Nested Shambler | 巢居跛行尸 | 普通 | 24 张 ( pauper 24) |
+| Nested Shambler | 巢居跛行尸 | 普通 | 16 张 ( pauper 16) |
 
 #### 绿（G）
 
@@ -5222,7 +5077,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Coiling Oracle | 盘卷先知 | 普通 | 12 张 (摩登 12) |
+| Coiling Oracle | 盘卷先知 | 普通 | 8 张 (摩登 8) |
 | Skyfisher Spider | 捕空蜘蛛 | 非普通 | 1 张 (摩登 0+1) |
 
 #### 无色（Colorless）
@@ -5231,24 +5086,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Karn, the Great Creator | 万创卡恩 | 秘稀 | 68 张 (摩登 68) |
+| Karn, the Great Creator | 万创卡恩 | 秘稀 | 48 张 (摩登 48) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Copperline Gorge | 铜索峡谷 | 稀有 | 28 张 (摩登 28) |
-| Seachrome Coast | 铬亮海岸 | 稀有 | 12 张 (摩登 12) |
-
-### Bloomburrow Tokens (TBLB) — 2024-08-02
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Starscape Cleric | Starscape Cleric | 非普通 | 63 张 (标准 46+17) |
+| Copperline Gorge | 铜索峡谷 | 稀有 | 24 张 (摩登 24) |
+| Seachrome Coast | 铬亮海岸 | 稀有 | 7 张 (摩登 7) |
 
 ### Love Your LGS 2024 (PLG24) — 2024-08-06
 
@@ -5259,6 +5104,70 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Cut Down | 斩落 | 非普通 | 1 张 (摩登 0+1) |
+
+### Duskmourn: House of Horror Promos (PDSK) — 2024-09-27
+
+#### 白（W）
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Split Up | Split Up | 稀有 | 10 张 (标准 0+10) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Abhorrent Oculus | Abhorrent Oculus | 秘稀 | 58 张 (摩登 37+17, 标准 4) |
+| Enduring Curiosity | Enduring Curiosity | 稀有 | 46 张 (摩登 4, 标准 40+2) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Doomsday Excruciator | Doomsday Excruciator | 稀有 | 37 张 (标准 32+5) |
+| Valgavoth, Terror Eater | Valgavoth, Terror Eater | 秘稀 | 1 张 (标准 1) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Leyline of the Void | 虚空地脉 | 稀有 | 60 张 (摩登 0+11, 标准 0+49) |
+
+#### 红（R）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Leyline of Resonance | Leyline of Resonance | 稀有 | 4 张 (标准 4) |
+
+#### 多色（Multicolor）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Roaring Furnace / Steaming Sauna | Roaring Furnace / Steaming Sauna | 稀有 | 58 张 (标准 30+28) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ghost Vacuum | Ghost Vacuum | 稀有 | 156 张 (摩登 0+23, 标准 5+128) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Gloomlake Verge | Gloomlake Verge | 稀有 | 116 张 (摩登 10, 标准 106) |
 
 ### Duskmourn: House of Horror (DSK) — 2024-09-27
 
@@ -5274,7 +5183,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ethereal Armor | Ethereal Armor | 非普通 | 36 张 ( pauper 36) |
+| Ethereal Armor | Ethereal Armor | 非普通 | 24 张 ( pauper 24) |
 | Shardmage's Rescue | Shardmage's Rescue | 非普通 | 1 张 (标准 0+1) |
 
 **瞬间**
@@ -5289,19 +5198,19 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Floodpits Drowner | Floodpits Drowner | 非普通 | 48 张 (摩登 0+3, 标准 45) |
+| Floodpits Drowner | Floodpits Drowner | 非普通 | 52 张 (摩登 0+3, 标准 49) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Unable to Scream | Unable to Scream | 普通 | 26 张 (摩登 2+8,  pauper 1+15) |
+| Unable to Scream | Unable to Scream | 普通 | 25 张 (摩登 2+7,  pauper 1+15) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Get Out | Get Out | 非普通 | 91 张 (标准 48+43) |
+| Get Out | Get Out | 非普通 | 100 张 (标准 59+41) |
 
 #### 黑（B）
 
@@ -5309,13 +5218,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Overlord of the Balemurk | Overlord of the Balemurk | 秘稀 | 155 张 (摩登 115, 标准 40) |
+| Overlord of the Balemurk | Overlord of the Balemurk | 秘稀 | 115 张 (摩登 79, 标准 36) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Unholy Annex / Ritual Chamber | Unholy Annex / Ritual Chamber | 稀有 | 16 张 (标准 16) |
+| Unholy Annex / Ritual Chamber | Unholy Annex / Ritual Chamber | 稀有 | 12 张 (标准 12) |
 
 #### 红（R）
 
@@ -5323,25 +5232,25 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Clockwork Percussionist | Clockwork Percussionist | 普通 | 96 张 ( pauper 96) |
+| Clockwork Percussionist | Clockwork Percussionist | 普通 | 84 张 ( pauper 84) |
 | Enduring Courage | Enduring Courage | 稀有 | 1 张 (标准 1) |
-| Fear of Missing Out | Fear of Missing Out | 稀有 | 33 张 (摩登 8, 标准 25) |
-| Razorkin Needlehead | Razorkin Needlehead | 稀有 | 4 张 (标准 4) |
+| Fear of Missing Out | Fear of Missing Out | 稀有 | 29 张 (摩登 8, 标准 21) |
+| Razorkin Needlehead | Razorkin Needlehead | 稀有 | 6 张 (标准 4+2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Turn Inside Out | Turn Inside Out | 普通 | 1 张 (标准 1) |
-| Untimely Malfunction | Untimely Malfunction | 非普通 | 3 张 (摩登 0+3) |
-| Violent Urge | Violent Urge | 非普通 | 48 张 (摩登 33, 标准 15) |
+| Turn Inside Out | Turn Inside Out | 普通 | 3 张 (标准 3) |
+| Untimely Malfunction | Untimely Malfunction | 非普通 | 1 张 (摩登 0+1) |
+| Violent Urge | Violent Urge | 非普通 | 40 张 (摩登 28, 标准 12) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Grab the Prize | Grab the Prize | 普通 | 192 张 ( pauper 192) |
-| Pyroclasm | 烈火断层 | 非普通 | 107 张 (摩登 1+48, 标准 0+58) |
+| Grab the Prize | Grab the Prize | 普通 | 164 张 ( pauper 164) |
+| Pyroclasm | 烈火断层 | 非普通 | 84 张 (摩登 0+27, 标准 0+57) |
 | Vengeful Possession | Vengeful Possession | 非普通 | 1 张 (标准 0+1) |
 
 #### 绿（G）
@@ -5351,15 +5260,15 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Enduring Vitality | Enduring Vitality | 稀有 | 4 张 (标准 4) |
-| Insidious Fungus | Insidious Fungus | 非普通 | 3 张 (摩登 0+1, 标准 0+2) |
-| Patchwork Beastie | Patchwork Beastie | 非普通 | 20 张 (标准 20) |
-| Tyvar, the Pummeler | Tyvar, the Pummeler | 秘稀 | 15 张 (摩登 15) |
+| Insidious Fungus | Insidious Fungus | 非普通 | 2 张 (标准 0+2) |
+| Patchwork Beastie | Patchwork Beastie | 非普通 | 16 张 (标准 16) |
+| Tyvar, the Pummeler | Tyvar, the Pummeler | 秘稀 | 16 张 (摩登 16) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Monstrous Emergence | Monstrous Emergence | 普通 | 80 张 ( pauper 0+80) |
+| Monstrous Emergence | Monstrous Emergence | 普通 | 62 张 ( pauper 0+62) |
 
 #### 多色（Multicolor）
 
@@ -5367,14 +5276,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Oblivious Bookworm | Oblivious Bookworm | 非普通 | 32 张 (标准 32) |
-| Wildfire Wickerfolk | Wildfire Wickerfolk | 非普通 | 20 张 (标准 20) |
+| Oblivious Bookworm | Oblivious Bookworm | 非普通 | 28 张 (标准 28) |
+| Wildfire Wickerfolk | Wildfire Wickerfolk | 非普通 | 16 张 (标准 16) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Kaito, Bane of Nightmares | Kaito, Bane of Nightmares | 秘稀 | 54 张 (摩登 25+1, 标准 28) |
+| Kaito, Bane of Nightmares | Kaito, Bane of Nightmares | 秘稀 | 55 张 (摩登 21+1, 标准 32+1) |
 
 #### 无色（Colorless）
 
@@ -5382,75 +5291,11 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Blazemire Verge | Blazemire Verge | 稀有 | 22 张 (标准 22) |
-| Floodfarm Verge | Floodfarm Verge | 稀有 | 67 张 (摩登 9, 标准 58) |
-| Hushwood Verge | Hushwood Verge | 稀有 | 67 张 (标准 67) |
-| Razortrap Gorge | Razortrap Gorge | 普通 | 16 张 ( pauper 16) |
-| Thornspire Verge | Thornspire Verge | 稀有 | 25 张 (标准 25) |
-
-### Duskmourn: House of Horror Promos (PDSK) — 2024-09-27
-
-#### 白（W）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Split Up | Split Up | 稀有 | 7 张 (标准 0+7) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Abhorrent Oculus | Abhorrent Oculus | 秘稀 | 91 张 (摩登 70+17, 标准 4) |
-| Enduring Curiosity | Enduring Curiosity | 稀有 | 41 张 (摩登 4, 标准 35+2) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Doomsday Excruciator | Doomsday Excruciator | 稀有 | 40 张 (标准 34+6) |
-| Valgavoth, Terror Eater | Valgavoth, Terror Eater | 秘稀 | 1 张 (标准 1) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Leyline of the Void | 虚空地脉 | 稀有 | 57 张 (摩登 0+18, 标准 0+39) |
-
-#### 红（R）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Leyline of Resonance | Leyline of Resonance | 稀有 | 8 张 (标准 8) |
-
-#### 多色（Multicolor）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Roaring Furnace / Steaming Sauna | Roaring Furnace / Steaming Sauna | 稀有 | 63 张 (标准 34+29) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ghost Vacuum | Ghost Vacuum | 稀有 | 154 张 (摩登 0+34, 标准 4+116) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Gloomlake Verge | Gloomlake Verge | 稀有 | 123 张 (摩登 16, 标准 107) |
+| Blazemire Verge | Blazemire Verge | 稀有 | 20 张 (标准 20) |
+| Floodfarm Verge | Floodfarm Verge | 稀有 | 67 张 (摩登 8, 标准 59) |
+| Hushwood Verge | Hushwood Verge | 稀有 | 28 张 (标准 28) |
+| Razortrap Gorge | Razortrap Gorge | 普通 | 12 张 ( pauper 12) |
+| Thornspire Verge | Thornspire Verge | 稀有 | 22 张 (标准 22) |
 
 ### Duskmourn: House of Horror Commander (DSC) — 2024-09-27
 
@@ -5468,7 +5313,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Otherworldly Gaze | 异界凝视 | 普通 | 40 张 (摩登 38,  pauper 2) |
+| Otherworldly Gaze | 异界凝视 | 普通 | 35 张 (摩登 33,  pauper 2) |
 
 #### 黑（B）
 
@@ -5476,19 +5321,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Archon of Cruelty | 残酷统领 | 秘稀 | 64 张 (摩登 64) |
+| Archon of Cruelty | 残酷统领 | 秘稀 | 36 张 (摩登 36) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Goryo's Vengeance | 怨灵复仇 | 稀有 | 168 张 (摩登 168) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Exhume | Exhume | 非普通 | 2 张 ( pauper 2) |
+| Goryo's Vengeance | 怨灵复仇 | 稀有 | 132 张 (摩登 132) |
 
 #### 绿（G）
 
@@ -5497,13 +5336,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Ashaya, Soul of the Wild | 荒野之魂艾莎娅 | 秘稀 | 3 张 (摩登 3) |
-| Dryad Arbor | 树灵乔木 | 稀有 | 124 张 (摩登 124) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Wilderness Reclamation | 复归荒野 | 非普通 | 4 张 (摩登 4) |
+| Dryad Arbor | 树灵乔木 | 稀有 | 105 张 (摩登 105) |
 
 #### 多色（Multicolor）
 
@@ -5511,38 +5344,26 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Growth Spiral | 成长涡旋 | 普通 | 20 张 ( pauper 20) |
+| Growth Spiral | 成长涡旋 | 普通 | 16 张 ( pauper 16) |
 
 #### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Darkmoss Bridge | 暗苔结桥 | 普通 | 1 张 ( pauper 1) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Azorius Chancery | 俄佐立衡平法院 | 非普通 | 18 张 ( pauper 18) |
+| Azorius Chancery | 俄佐立衡平法院 | 非普通 | 17 张 ( pauper 17) |
 | Barren Moor | 贫瘠湿地 | 非普通 | 12 张 ( pauper 12) |
-| Blackcleave Cliffs | 暗峰山崖 | 稀有 | 29 张 (摩登 29) |
+| Blackcleave Cliffs | 暗峰山崖 | 稀有 | 24 张 (摩登 24) |
 | Castle Vantress | 凡翠丝堡 | 稀有 | 1 张 (摩登 1) |
 | Dimir Aqueduct | 底密尔下水道 | 非普通 | 10 张 ( pauper 10) |
-| Simic Growth Chamber | 析米克生长室 | 非普通 | 69 张 (摩登 49,  pauper 20) |
-
-### Foundations Promos (PFDN) — 2024-11-15
-
-#### 白（W）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Day of Judgment | 审判末日 | 稀有 | 60 张 (标准 25+35) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Kiora, the Rising Tide | Kiora, the Rising Tide | 稀有 | 10 张 (标准 10) |
+| Simic Growth Chamber | 析米克生长室 | 非普通 | 38 张 (摩登 22,  pauper 16) |
 
 ### Foundations (FDN) — 2024-11-15
 
@@ -5552,14 +5373,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Crystal Barricade | Crystal Barricade | 稀有 | 28 张 (摩登 0+28) |
-| Hinterland Sanctifier | Hinterland Sanctifier | 普通 | 72 张 (标准 72) |
+| Crystal Barricade | Crystal Barricade | 稀有 | 32 张 (摩登 0+32) |
+| Hinterland Sanctifier | Hinterland Sanctifier | 普通 | 84 张 (标准 84) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Raise the Past | Raise the Past | 稀有 | 9 张 (标准 0+9) |
+| Raise the Past | Raise the Past | 稀有 | 7 张 (标准 0+7) |
 
 #### 蓝（U）
 
@@ -5567,9 +5388,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Drake Hatcher | Drake Hatcher | 稀有 | 31 张 (标准 29+2) |
-| Sphinx of the Final Word | 终局史芬斯 | 秘稀 | 6 张 (标准 0+6) |
-| Tolarian Terror | 陶拉里亚惧兽 | 普通 | 189 张 ( pauper 189) |
+| Drake Hatcher | Drake Hatcher | 稀有 | 32 张 (标准 30+2) |
+| Sphinx of the Final Word | 终局史芬斯 | 秘稀 | 5 张 (标准 0+5) |
+| Tolarian Terror | 陶拉里亚惧兽 | 普通 | 181 张 ( pauper 181) |
 
 **结界**
 
@@ -5581,8 +5402,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Flashfreeze | 快速冻结 | 非普通 | 157 张 (标准 3+154) |
-| Mystical Teachings | 神秘教谕 | 非普通 | 17 张 ( pauper 17) |
+| Flashfreeze | 快速冻结 | 非普通 | 160 张 (标准 1+159) |
+| Mystical Teachings | 神秘教谕 | 非普通 | 13 张 ( pauper 13) |
 
 #### 黑（B）
 
@@ -5591,10 +5412,10 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Bloodthirsty Conqueror | Bloodthirsty Conqueror | 秘稀 | 2 张 (标准 2) |
-| Infestation Sage | Infestation Sage | 普通 | 34 张 ( pauper 23+11) |
+| Infestation Sage | Infestation Sage | 普通 | 24 张 ( pauper 15+9) |
 | Marauding Blight-Priest | 劫掠芜土僧 | 普通 | 2 张 ( pauper 2) |
 | Massacre Wurm | 屠戮亚龙 | 秘稀 | 2 张 (标准 0+2) |
-| Myojin of Night's Reach | 夜幕明神 | 稀有 | 2 张 (标准 0+2) |
+| Myojin of Night's Reach | 夜幕明神 | 稀有 | 1 张 (标准 0+1) |
 
 **鹏洛客**
 
@@ -5608,19 +5429,13 @@
 |------|--------|--------|------|
 | Phyrexian Arena | 非瑞克西亚斗技场 | 稀有 | 1 张 (标准 0+1) |
 
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Stab | Stab | 普通 | 1 张 (标准 0+1) |
-
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Deathmark | 死印 | 非普通 | 7 张 (标准 0+7) |
-| Duress | 逼从 | 普通 | 333 张 (摩登 4+2,  pauper 1+148, 标准 86+92) |
-| Pilfer | 行窃 | 普通 | 3 张 ( pauper 0+3) |
+| Deathmark | 死印 | 非普通 | 13 张 (标准 0+13) |
+| Duress | 逼从 | 普通 | 309 张 (摩登 0+2,  pauper 1+146, 标准 74+86) |
+| Pilfer | 行窃 | 普通 | 2 张 ( pauper 0+2) |
 
 #### 红（R）
 
@@ -5630,6 +5445,7 @@
 |------|--------|--------|------|
 | Crackling Cyclops | Crackling Cyclops | 普通 | 2 张 ( pauper 2) |
 | Kellan, Planar Trailblazer | Kellan, Planar Trailblazer | 稀有 | 2 张 (标准 2) |
+| Viashino Pyromancer | Viashino Pyromancer | 普通 | 2 张 (标准 2) |
 
 **结界**
 
@@ -5641,8 +5457,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Boltwave | Boltwave | 非普通 | 12 张 (摩登 8, 标准 4) |
-| Slagstorm | 熔滓风暴 | 稀有 | 44 张 (标准 0+44) |
+| Boltwave | Boltwave | 非普通 | 10 张 (摩登 4, 标准 6) |
+| Obliterating Bolt | Obliterating Bolt | 非普通 | 4 张 (标准 0+4) |
+| Slagstorm | 熔滓风暴 | 稀有 | 51 张 (标准 0+51) |
 
 #### 绿（G）
 
@@ -5650,7 +5467,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mossborn Hydra | Mossborn Hydra | 稀有 | 180 张 (标准 30+150) |
+| Mossborn Hydra | Mossborn Hydra | 稀有 | 160 张 (标准 18+142) |
 | Reclamation Sage | 复碧智者 | 非普通 | 2 张 (摩登 0+2) |
 | Scavenging Ooze | 腐食流浆 | 稀有 | 2 张 (摩登 0+2) |
 
@@ -5658,13 +5475,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Vivien Reid | 薇薇安瑞德 | 秘稀 | 12 张 (标准 0+12) |
+| Vivien Reid | 薇薇安瑞德 | 秘稀 | 8 张 (标准 0+8) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bushwhack | 野林开路 | 普通 | 13 张 ( pauper 0+1, 标准 12) |
+| Bushwhack | 野林开路 | 普通 | 9 张 (标准 9) |
 
 #### 多色（Multicolor）
 
@@ -5673,13 +5490,12 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Balmor, Battlemage Captain | 战巫师队长巴尔莫 | 非普通 | 1 张 (标准 1) |
-| Elenda, Saint of Dusk | Elenda, Saint of Dusk | 稀有 | 2 张 (标准 0+2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Boros Charm | 波洛斯护符 | 非普通 | 12 张 (摩登 8, 标准 0+4) |
+| Boros Charm | 波洛斯护符 | 非普通 | 8 张 (摩登 4, 标准 0+4) |
 
 #### 无色（Colorless）
 
@@ -5687,22 +5503,40 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sire of Seven Deaths | Sire of Seven Deaths | 秘稀 | 60 张 (摩登 39+21) |
+| Sire of Seven Deaths | Sire of Seven Deaths | 秘稀 | 43 张 (摩登 25+18) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Basilisk Collar | 蜥怪颈环 | 稀有 | 3 张 (标准 2+1) |
-| Expedition Map | 探险地图 | 普通 | 194 张 (摩登 68,  pauper 126) |
-| Heraldic Banner | 纹章旗帜 | 非普通 | 8 张 (标准 8) |
+| Expedition Map | 探险地图 | 普通 | 157 张 (摩登 48,  pauper 109) |
+| Heraldic Banner | 纹章旗帜 | 非普通 | 4 张 (标准 4) |
 | Leyline Axe | Leyline Axe | 稀有 | 4 张 (标准 4) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Soulstone Sanctuary | Soulstone Sanctuary | 稀有 | 38 张 (标准 38) |
+| Soulstone Sanctuary | Soulstone Sanctuary | 稀有 | 41 张 (标准 41) |
+
+### Foundations Promos (PFDN) — 2024-11-15
+
+#### 白（W）
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Day of Judgment | 审判末日 | 稀有 | 66 张 (标准 27+39) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Kiora, the Rising Tide | Kiora, the Rising Tide | 稀有 | 8 张 (标准 8) |
 
 ### Foundations Jumpstart (J25) — 2024-11-15
 
@@ -5713,13 +5547,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Search Party Captain | 搜救队长 | 普通 | 4 张 ( pauper 4) |
-| Steadfast Unicorn | 坚定的独角兽 | 普通 | 5 张 ( pauper 5) |
+| Steadfast Unicorn | 坚定的独角兽 | 普通 | 3 张 ( pauper 3) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cartouche of Solidarity | 团结魔符 | 普通 | 13 张 ( pauper 9+4) |
+| Cartouche of Solidarity | 团结魔符 | 普通 | 10 张 ( pauper 6+4) |
 
 #### 蓝（U）
 
@@ -5728,10 +5562,10 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Augur of Bolas | 波拉斯卜算师 | 非普通 | 123 张 ( pauper 123) |
-| Faerie Seer | 仙灵预言师 | 普通 | 126 张 ( pauper 126) |
-| Moon-Circuit Hacker | 月路骇客 | 普通 | 89 张 ( pauper 89) |
-| Ninja of the Deep Hours | 深夜忍者 | 普通 | 102 张 ( pauper 102) |
-| Waker of Waves | 弄涛巨鲸 | 非普通 | 32 张 (摩登 32) |
+| Faerie Seer | 仙灵预言师 | 普通 | 129 张 ( pauper 129) |
+| Moon-Circuit Hacker | 月路骇客 | 普通 | 88 张 ( pauper 88) |
+| Ninja of the Deep Hours | 深夜忍者 | 普通 | 107 张 ( pauper 107) |
+| Waker of Waves | 弄涛巨鲸 | 非普通 | 30 张 (摩登 30) |
 
 **结界**
 
@@ -5744,7 +5578,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Thoughtcast | 格物致知 | 普通 | 128 张 (摩登 9,  pauper 119) |
+| Thoughtcast | 格物致知 | 普通 | 111 张 ( pauper 111) |
 
 #### 黑（B）
 
@@ -5752,8 +5586,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Balustrade Spy | 栏外探子 | 普通 | 85 张 ( pauper 80+5) |
-| Shambling Ghast | 跛行妖鬼 | 普通 | 23 张 (摩登 4,  pauper 19) |
+| Balustrade Spy | 栏外探子 | 普通 | 77 张 ( pauper 72+5) |
+| Shambling Ghast | 跛行妖鬼 | 普通 | 18 张 (摩登 4,  pauper 14) |
 | Vito, Thorn of the Dusk Rose | 暮影蔷薇之棘维托 | 稀有 | 1 张 (摩登 1) |
 
 **神器**
@@ -5766,7 +5600,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Go for the Throat | 直刺咽喉 | 非普通 | 9 张 (摩登 0+1,  pauper 3+5) |
+| Go for the Throat | 直刺咽喉 | 非普通 | 7 张 ( pauper 3+4) |
 
 #### 红（R）
 
@@ -5775,15 +5609,14 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Battle Cry Goblin | 战吼哥布林 | 非普通 | 2 张 (摩登 2) |
-| Fanatical Firebrand | 狂热惹事鬼 | 普通 | 1 张 (标准 1) |
-| Firebrand Archer | 焰箭弓手 | 普通 | 2 张 ( pauper 2) |
+| Fanatical Firebrand | 狂热惹事鬼 | 普通 | 2 张 ( pauper 2) |
 | Kiln Fiend | 火炉邪鬼 | 普通 | 4 张 ( pauper 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fling | 投掷 | 普通 | 7 张 (摩登 1,  pauper 4+2) |
+| Fling | 投掷 | 普通 | 6 张 (摩登 1,  pauper 3+2) |
 
 #### 绿（G）
 
@@ -5806,7 +5639,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Violent Outburst | 暴烈迸发 | 普通 | 61 张 (摩登 61) |
+| Violent Outburst | 暴烈迸发 | 普通 | 52 张 (摩登 52) |
 
 #### 无色（Colorless）
 
@@ -5814,16 +5647,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gingerbrute | 姜饼怪人 | 普通 | 18 张 (摩登 1,  pauper 17) |
-| Maelstrom Colossus | 涡心巨像 | 普通 | 64 张 ( pauper 64) |
-| Myr Enforcer | 执法秘耳 | 普通 | 124 张 ( pauper 124) |
+| Gingerbrute | 姜饼怪人 | 普通 | 13 张 (摩登 1,  pauper 12) |
+| Maelstrom Colossus | 涡心巨像 | 普通 | 56 张 ( pauper 56) |
+| Myr Enforcer | 执法秘耳 | 普通 | 112 张 ( pauper 112) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Prophetic Prism | 预视棱镜 | 普通 | 73 张 ( pauper 73) |
-| Vault of Whispers | Vault of Whispers | 普通 | 194 张 ( pauper 194) |
+| Prophetic Prism | 预视棱镜 | 普通 | 59 张 ( pauper 59) |
+| Vault of Whispers | Vault of Whispers | 普通 | 186 张 ( pauper 186) |
 
 **地**
 
@@ -5839,14 +5672,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Eidolon of Rhetoric | 巧辞幻灵 | 非普通 | 1 张 (摩登 0+1) |
 | Spirit of the Labyrinth | 迷宫精怪 | 稀有 | 2 张 (摩登 1+1) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hallowed Moonlight | 圣洁月光 | 稀有 | 5 张 (摩登 0+5) |
+| Hallowed Moonlight | 圣洁月光 | 稀有 | 3 张 (摩登 0+3) |
 
 #### 蓝（U）
 
@@ -5854,21 +5686,27 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Archaeomancer | 古语术士 | 普通 | 57 张 ( pauper 57) |
-| Fallaji Archaeologist | 法拉吉考古学家 | 普通 | 66 张 (摩登 62,  pauper 4) |
-| Murmuring Mystic | 细语秘教徒 | 普通 | 135 张 ( pauper 72+63) |
+| Archaeomancer | 古语术士 | 普通 | 49 张 ( pauper 49) |
+| Fallaji Archaeologist | 法拉吉考古学家 | 普通 | 53 张 (摩登 53) |
+| Murmuring Mystic | 细语秘教徒 | 普通 | 121 张 ( pauper 64+57) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Aqueous Form | 似水流形 | 普通 | 2 张 ( pauper 1+1) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Retraction Helix | 撤收螺旋 | 普通 | 4 张 ( pauper 4) |
+| Retraction Helix | 撤收螺旋 | 普通 | 2 张 ( pauper 2) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Day's Undoing | 重启一日 | 稀有 | 20 张 (摩登 18+2) |
+| Day's Undoing | 重启一日 | 稀有 | 16 张 (摩登 14+2) |
 | Hidden Strings | 无形操丝 | 普通 | 1 张 (摩登 1) |
 
 #### 黑（B）
@@ -5877,14 +5715,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gurmag Angler | 谷尔玛钓客 | 普通 | 18 张 ( pauper 18) |
+| Gurmag Angler | 谷尔玛钓客 | 普通 | 16 张 ( pauper 16) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Crypt Incursion | 入侵墓穴 | 普通 | 7 张 (摩登 0+3,  pauper 0+4) |
-| Supernatural Stamina | 非凡耐力 | 普通 | 22 张 ( pauper 22) |
+| Crypt Incursion | 入侵墓穴 | 普通 | 3 张 (摩登 0+2,  pauper 0+1) |
+| Supernatural Stamina | 非凡耐力 | 普通 | 14 张 ( pauper 14) |
 
 #### 红（R）
 
@@ -5892,13 +5730,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Monastery Swiftspear | 寺院迅矛僧 | 非普通 | 156 张 (摩登 156) |
+| Monastery Swiftspear | 寺院迅矛僧 | 非普通 | 132 张 (摩登 132) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Smash to Smithereens | 砸成碎片 | 普通 | 64 张 ( pauper 0+64) |
+| Smash to Smithereens | 砸成碎片 | 普通 | 51 张 ( pauper 0+51) |
 
 **法术**
 
@@ -5912,17 +5750,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gladecover Scout | 没林斥候 | 普通 | 36 张 ( pauper 36) |
+| Gladecover Scout | 没林斥候 | 普通 | 24 张 ( pauper 24) |
 | Kraul Harpooner | 刻洛鱼叉手 | 非普通 | 15 张 (摩登 0+15) |
-| Nylea's Disciple | 倪勒娅的信徒 | 普通 | 32 张 ( pauper 0+32) |
+| Nylea's Disciple | 倪勒娅的信徒 | 普通 | 28 张 ( pauper 0+28) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fog | 浓雾 | 普通 | 11 张 ( pauper 8+3) |
-| Natural State | 异态归真 | 普通 | 6 张 (摩登 0+6) |
-| Pulse of Murasa | 姆拉撒的脉动 | 非普通 | 45 张 ( pauper 32+13) |
+| Fog | 浓雾 | 普通 | 9 张 ( pauper 6+3) |
+| Natural State | 异态归真 | 普通 | 5 张 (摩登 0+5) |
+| Pulse of Murasa | 姆拉撒的脉动 | 非普通 | 51 张 ( pauper 35+16) |
 
 #### 多色（Multicolor）
 
@@ -5931,13 +5769,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Ghor-Clan Rampager | 狂暴高尔族 | 非普通 | 2 张 (摩登 2) |
-| Xenagos, God of Revels | 贪欢神谢纳戈斯 | 秘稀 | 12 张 (摩登 12) |
+| Xenagos, God of Revels | 贪欢神谢纳戈斯 | 秘稀 | 13 张 (摩登 13) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Wear / Tear | Wear / Tear | 非普通 | 134 张 (摩登 0+134) |
+| Wear / Tear | Wear / Tear | 非普通 | 92 张 (摩登 0+92) |
 
 #### 无色（Colorless）
 
@@ -5945,7 +5783,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Kozilek's Return | 寇基雷再临 | 秘稀 | 14 张 (摩登 14) |
+| Kozilek's Return | 寇基雷再临 | 秘稀 | 10 张 (摩登 10) |
 
 **地**
 
@@ -5953,7 +5791,7 @@
 |------|--------|--------|------|
 | Azorius Guildgate | 俄佐立公会门 | 普通 | 4 张 ( pauper 4) |
 | Boros Guildgate | 波洛斯公会门 | 普通 | 4 张 ( pauper 4) |
-| Urborg, Tomb of Yawgmoth | 约格莫夫之墓乌尔博格 | 稀有 | 4 张 (摩登 4) |
+| Urborg, Tomb of Yawgmoth | 约格莫夫之墓乌尔博格 | 稀有 | 2 张 (摩登 2) |
 
 ### Spotlight Series (PSPL) — 2025-01-03
 
@@ -5963,15 +5801,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Get Lost | 速速退离 | 稀有 | 23 张 (摩登 1, 标准 9+13) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Vendilion Clique | 薇安留聚群 | 秘稀 | 1 张 (摩登 0+1) |
+| Get Lost | 速速退离 | 稀有 | 13 张 (标准 6+7) |
 
 ### Innistrad Remastered (INR) — 2025-01-24
 
@@ -5982,7 +5812,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Cathar Commando | 护教军突击兵 | 普通 | 2 张 (标准 0+2) |
-| Thraben Inspector | 瑟班巡检官 | 普通 | 104 张 ( pauper 104) |
+| Thraben Inspector | 瑟班巡检官 | 普通 | 100 张 ( pauper 100) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Rally the Peasants | 集结农民 | 非普通 | 9 张 ( pauper 9) |
 
 #### 黑（B）
 
@@ -5990,26 +5826,26 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Griselbrand | 棘泽边 | 秘稀 | 67 张 (摩登 67) |
+| Griselbrand | 棘泽边 | 秘稀 | 58 张 (摩登 58) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sorin, Imperious Bloodlord | 骄傲血领索霖 | 秘稀 | 11 张 (摩登 0+11) |
+| Sorin, Imperious Bloodlord | 骄傲血领索霖 | 秘稀 | 7 张 (摩登 0+7) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| The Meathook Massacre | 肉钩大屠杀 | 秘稀 | 3 张 (摩登 0+3) |
+| The Meathook Massacre | 肉钩大屠杀 | 秘稀 | 2 张 (摩登 0+2) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tragic Slip | 悲剧失足 | 普通 | 18 张 ( pauper 11+7) |
-| Village Rites | 村民仪式 | 普通 | 18 张 ( pauper 18) |
+| Tragic Slip | 悲剧失足 | 普通 | 13 张 ( pauper 6+7) |
+| Village Rites | 村民仪式 | 普通 | 12 张 ( pauper 12) |
 
 #### 红（R）
 
@@ -6018,14 +5854,14 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Festival Crasher | 收成节破坏魔 | 普通 | 4 张 ( pauper 4) |
-| Thermo-Alchemist | 热力炼金术士 | 非普通 | 4 张 ( pauper 4) |
-| Voldaren Epicure | 沃达连品血客 | 普通 | 268 张 ( pauper 268) |
+| Thermo-Alchemist | 热力炼金术士 | 非普通 | 2 张 ( pauper 2) |
+| Voldaren Epicure | 沃达连品血客 | 普通 | 250 张 ( pauper 250) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fiery Temper | 火爆 | 非普通 | 187 张 ( pauper 187) |
+| Fiery Temper | 火爆 | 非普通 | 164 张 ( pauper 164) |
 | Lightning Axe | 闪电斧 | 非普通 | 2 张 (摩登 0+2) |
 
 **法术**
@@ -6040,15 +5876,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bramble Wurm | 刺藤亚龙 | 普通 | 117 张 ( pauper 98+19) |
-| Cultivator Colossus | 培护巨像 | 秘稀 | 13 张 (摩登 13) |
-| Young Wolf | 幼狼 | 普通 | 31 张 (摩登 31) |
+| Bramble Wurm | 刺藤亚龙 | 普通 | 101 张 ( pauper 84+17) |
+| Cultivator Colossus | 培护巨像 | 秘稀 | 6 张 (摩登 6) |
+| Young Wolf | 幼狼 | 普通 | 17 张 (摩登 17) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Eldritch Evolution | 邪异进化 | 稀有 | 50 张 (摩登 50) |
+| Eldritch Evolution | 邪异进化 | 稀有 | 54 张 (摩登 54) |
 | Traverse the Ulvenwald | 穿越沃文森 | 稀有 | 8 张 (摩登 8) |
 
 #### 多色（Multicolor）
@@ -6057,7 +5893,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Maelstrom Pulse | 涡心鼓动 | 稀有 | 2 张 (标准 2) |
+| Maelstrom Pulse | 涡心鼓动 | 稀有 | 1 张 (标准 1) |
 
 #### 无色（Colorless）
 
@@ -6065,13 +5901,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Emrakul, the Promised End | 绝望终局伊莫库 | 秘稀 | 264 张 (摩登 261+3) |
+| Emrakul, the Promised End | 绝望终局伊莫库 | 秘稀 | 178 张 (摩登 175+3) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hanweir Battlements | 翰威城垛 | 稀有 | 13 张 (摩登 13) |
+| Hanweir Battlements | 翰威城垛 | 稀有 | 6 张 (摩登 6) |
 
 ### Japan Standard Cup (PJSC) — 2025-02-09
 
@@ -6081,39 +5917,34 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tishana's Tidebinder | 提莎娜的缚潮师 | 稀有 | 32 张 (摩登 14+2, 标准 3+13) |
+| Tishana's Tidebinder | 提莎娜的缚潮师 | 稀有 | 27 张 (摩登 7+2, 标准 7+11) |
 
-### Aetherdrift Commander (DRC) — 2025-02-14
+### Aetherdrift Promos (PDFT) — 2025-02-14
 
-#### 绿（G）
+#### 红（R）
 
 **生物**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Elder Gargaroth | 年长庞巨兽 | 秘稀 | 19 张 (摩登 0+19) |
+| Burnout Bashtronaut | Burnout Bashtronaut | 稀有 | 10 张 (标准 10) |
+| Howlsquad Heavy | Howlsquad Heavy | 稀有 | 5 张 (标准 5) |
 
 #### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ornithopter of Paradise | 天堂扑翼机 | 普通 | 1 张 ( pauper 1) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Slagwoods Bridge | 熔林结桥 | 普通 | 92 张 ( pauper 92) |
-| Tanglepool Bridge | 铜池结桥 | 普通 | 4 张 ( pauper 4) |
+| Monument to Endurance | Monument to Endurance | 稀有 | 20 张 (标准 6+14) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Desert of the True | 真信神荒漠 | 普通 | 1 张 (摩登 1) |
-| Orzhov Basilica | 欧佐夫大殿 | 非普通 | 12 张 ( pauper 12) |
+| Bleachbone Verge | Bleachbone Verge | 稀有 | 86 张 (摩登 5, 标准 81) |
+| Riverpyre Verge | Riverpyre Verge | 稀有 | 354 张 (摩登 4, 标准 350) |
+| Wastewood Verge | Wastewood Verge | 稀有 | 19 张 (标准 19) |
 
 ### Aetherdrift (DFT) — 2025-02-14
 
@@ -6123,7 +5954,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ride's End | Ride's End | 普通 | 30 张 ( pauper 30) |
+| Ride's End | Ride's End | 普通 | 28 张 ( pauper 28) |
 
 #### 蓝（U）
 
@@ -6131,19 +5962,19 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mindspring Merfolk | Mindspring Merfolk | 稀有 | 9 张 (摩登 9) |
+| Mindspring Merfolk | Mindspring Merfolk | 稀有 | 4 张 (摩登 4) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Riverchurn Monument | Riverchurn Monument | 稀有 | 20 张 (标准 0+20) |
+| Riverchurn Monument | Riverchurn Monument | 稀有 | 21 张 (标准 0+21) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bounce Off | Bounce Off | 普通 | 10 张 (标准 7+3) |
+| Bounce Off | Bounce Off | 普通 | 17 张 (标准 14+3) |
 
 #### 黑（B）
 
@@ -6158,14 +5989,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Grim Bauble | Grim Bauble | 普通 | 21 张 ( pauper 11+6, 标准 1+3) |
+| Grim Bauble | Grim Bauble | 普通 | 19 张 ( pauper 9+6, 标准 1+3) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ancient Vendetta | Ancient Vendetta | 非普通 | 62 张 (标准 0+62) |
-| Intimidation Tactics | Intimidation Tactics | 非普通 | 14 张 (标准 4+10) |
+| Ancient Vendetta | Ancient Vendetta | 非普通 | 66 张 (标准 0+66) |
+| Intimidation Tactics | Intimidation Tactics | 非普通 | 10 张 (标准 4+6) |
 
 #### 红（R）
 
@@ -6176,7 +6007,7 @@
 | Greasewrench Goblin | Greasewrench Goblin | 非普通 | 20 张 (标准 20) |
 | Hazoret, Godseeker | Hazoret, Godseeker | 秘稀 | 1 张 (标准 1) |
 | Magmakin Artillerist | Magmakin Artillerist | 普通 | 3 张 ( pauper 3) |
-| Marauding Mako | Marauding Mako | 非普通 | 72 张 (摩登 48, 标准 24) |
+| Marauding Mako | Marauding Mako | 非普通 | 84 张 (摩登 44, 标准 40) |
 
 **鹏洛客**
 
@@ -6190,25 +6021,25 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Beastrider Vanguard | Beastrider Vanguard | 普通 | 11 张 (摩登 2,  pauper 9) |
+| Beastrider Vanguard | Beastrider Vanguard | 普通 | 14 张 (摩登 4,  pauper 10) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lumbering Worldwagon | Lumbering Worldwagon | 稀有 | 18 张 (标准 18) |
+| Lumbering Worldwagon | Lumbering Worldwagon | 稀有 | 18 张 (标准 17+1) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dredger's Insight | Dredger's Insight | 非普通 | 17 张 (摩登 11, 标准 6) |
+| Dredger's Insight | Dredger's Insight | 非普通 | 9 张 (摩登 5, 标准 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Defend the Rider | Defend the Rider | 非普通 | 7 张 (标准 3+4) |
+| Defend the Rider | Defend the Rider | 非普通 | 8 张 (标准 2+6) |
 
 #### 多色（Multicolor）
 
@@ -6216,15 +6047,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Brightglass Gearhulk | Brightglass Gearhulk | 秘稀 | 49 张 (摩登 2, 标准 47) |
-| Ketramose, the New Dawn | Ketramose, the New Dawn | 秘稀 | 41 张 (摩登 41) |
-| Oildeep Gearhulk | Oildeep Gearhulk | 秘稀 | 17 张 (标准 0+17) |
+| Brightglass Gearhulk | Brightglass Gearhulk | 秘稀 | 18 张 (摩登 2, 标准 16) |
+| Ketramose, the New Dawn | Ketramose, the New Dawn | 秘稀 | 43 张 (摩登 43) |
+| Oildeep Gearhulk | Oildeep Gearhulk | 秘稀 | 18 张 (标准 0+18) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Broadside Barrage | Broadside Barrage | 非普通 | 38 张 (标准 7+31) |
+| Broadside Barrage | Broadside Barrage | 非普通 | 53 张 (标准 11+42) |
 
 #### 无色（Colorless）
 
@@ -6233,54 +6064,10 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Avishkar Raceway | Avishkar Raceway | 普通 | 1 张 ( pauper 1) |
-| Sunbillow Verge | Sunbillow Verge | 稀有 | 21 张 (摩登 1, 标准 20) |
-| Willowrush Verge | Willowrush Verge | 稀有 | 8 张 (摩登 1, 标准 7) |
+| Sunbillow Verge | Sunbillow Verge | 稀有 | 30 张 (摩登 1, 标准 29) |
+| Willowrush Verge | Willowrush Verge | 稀有 | 4 张 (标准 4) |
 
-### Aetherdrift Promos (PDFT) — 2025-02-14
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Burnout Bashtronaut | Burnout Bashtronaut | 稀有 | 8 张 (标准 8) |
-| Howlsquad Heavy | Howlsquad Heavy | 稀有 | 3 张 (标准 3) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Monument to Endurance | Monument to Endurance | 稀有 | 16 张 (标准 6+10) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Bleachbone Verge | Bleachbone Verge | 稀有 | 90 张 (摩登 7, 标准 83) |
-| Riverpyre Verge | Riverpyre Verge | 稀有 | 348 张 (摩登 4, 标准 344) |
-| Wastewood Verge | Wastewood Verge | 稀有 | 22 张 (标准 22) |
-
-### Tarkir: Dragonstorm Promos (PTDM) — 2025-04-11
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Voice of Victory | Voice of Victory | 稀有 | 222 张 (摩登 126, 标准 74+22) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Stadium Headliner | Stadium Headliner | 稀有 | 4 张 (标准 4) |
-| Tersa Lightshatter | Tersa Lightshatter | 稀有 | 27 张 (标准 27) |
+### Aetherdrift Commander (DRC) — 2025-02-14
 
 #### 绿（G）
 
@@ -6288,43 +6075,29 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Surrak, Elusive Hunter | Surrak, Elusive Hunter | 稀有 | 132 张 (标准 79+53) |
+| Elder Gargaroth | 年长庞巨兽 | 秘稀 | 10 张 (摩登 0+10) |
 
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Nature's Rhythm | Nature's Rhythm | 稀有 | 164 张 (摩登 164) |
-
-#### 多色（Multicolor）
+#### 无色（Colorless）
 
 **生物**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Temur Battlecrier | Temur Battlecrier | 稀有 | 4 张 (标准 4) |
+| Ornithopter of Paradise | 天堂扑翼机 | 普通 | 1 张 ( pauper 1) |
 
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Inevitable Defeat | Inevitable Defeat | 稀有 | 66 张 (标准 66) |
-
-#### 无色（Colorless）
-
-**鹏洛客**
+**神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ugin, Eye of the Storms | Ugin, Eye of the Storms | 秘稀 | 120 张 (摩登 115+2, 标准 3) |
+| Slagwoods Bridge | 熔林结桥 | 普通 | 108 张 ( pauper 108) |
+| Tanglepool Bridge | 铜池结桥 | 普通 | 4 张 ( pauper 4) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cori Mountain Monastery | Cori Mountain Monastery | 稀有 | 44 张 (摩登 28, 标准 16) |
-| Dalkovan Encampment | Dalkovan Encampment | 稀有 | 48 张 (摩登 46, 标准 2) |
-| Mistrise Village | Mistrise Village | 稀有 | 34 张 (摩登 9+2, 标准 23) |
+| Desert of the True | 真信神荒漠 | 普通 | 1 张 (摩登 1) |
+| Orzhov Basilica | 欧佐夫大殿 | 非普通 | 11 张 ( pauper 11) |
 
 ### Tarkir: Dragonstorm (TDM) — 2025-04-11
 
@@ -6334,16 +6107,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Clarion Conqueror | Clarion Conqueror | 稀有 | 146 张 (摩登 0+112, 标准 6+28) |
+| Clarion Conqueror | Clarion Conqueror | 稀有 | 147 张 (摩登 0+98, 标准 14+35) |
 | Dalkovan Packbeasts | Dalkovan Packbeasts | 非普通 | 2 张 (标准 2) |
-| Sage of the Skies | Sage of the Skies | 稀有 | 33 张 (标准 16+17) |
+| Mardu Devotee | Mardu Devotee | 普通 | 4 张 ( pauper 4) |
+| Sage of the Skies | Sage of the Skies | 稀有 | 41 张 (标准 24+17) |
 | Salt Road Packbeast | Salt Road Packbeast | 普通 | 11 张 ( pauper 11) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Elspeth, Storm Slayer | Elspeth, Storm Slayer | 秘稀 | 27 张 (标准 2+25) |
+| Elspeth, Storm Slayer | Elspeth, Storm Slayer | 秘稀 | 10 张 (标准 0+10) |
 
 **法术**
 
@@ -6369,7 +6143,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Winternight Stories | Winternight Stories | 稀有 | 43 张 (摩登 11, 标准 32) |
+| Winternight Stories | Winternight Stories | 稀有 | 38 张 (摩登 7, 标准 31) |
 
 #### 黑（B）
 
@@ -6377,7 +6151,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Qarsi Revenant | Qarsi Revenant | 稀有 | 29 张 (标准 1+28) |
+| Qarsi Revenant | Qarsi Revenant | 稀有 | 27 张 (标准 1+26) |
 
 **瞬间**
 
@@ -6389,7 +6163,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Strategic Betrayal | Strategic Betrayal | 非普通 | 162 张 (摩登 0+1, 标准 39+122) |
+| Strategic Betrayal | Strategic Betrayal | 非普通 | 167 张 (摩登 0+1, 标准 37+129) |
 
 #### 红（R）
 
@@ -6398,21 +6172,21 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Fleeting Effigy | Fleeting Effigy | 非普通 | 3 张 (标准 3) |
-| Shocking Sharpshooter | Shocking Sharpshooter | 非普通 | 8 张 (标准 8) |
+| Shocking Sharpshooter | Shocking Sharpshooter | 非普通 | 10 张 (标准 8+2) |
 | Stormscale Scion | Stormscale Scion | 秘稀 | 2 张 (摩登 0+2) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cori-Steel Cutter | Cori-Steel Cutter | 稀有 | 156 张 (摩登 156) |
+| Cori-Steel Cutter | Cori-Steel Cutter | 稀有 | 140 张 (摩登 140) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Channeled Dragonfire | Channeled Dragonfire | 非普通 | 14 张 (标准 14) |
-| Wild Ride | Wild Ride | 普通 | 46 张 (标准 45+1) |
+| Channeled Dragonfire | Channeled Dragonfire | 非普通 | 15 张 (标准 15) |
+| Wild Ride | Wild Ride | 普通 | 40 张 (标准 40) |
 
 #### 绿（G）
 
@@ -6422,14 +6196,14 @@
 |------|--------|--------|------|
 | Craterhoof Behemoth | 陨蹄贝西摩斯 | 秘稀 | 31 张 (摩登 31) |
 | Dragon Sniper | Dragon Sniper | 非普通 | 6 张 (标准 0+6) |
-| Undergrowth Leopard | Undergrowth Leopard | 普通 | 1 张 ( pauper 0+1) |
+| Undergrowth Leopard | Undergrowth Leopard | 普通 | 5 张 ( pauper 0+5) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Heritage Reclamation | Heritage Reclamation | 普通 | 47 张 (摩登 0+5,  pauper 12+13, 标准 0+17) |
-| Snakeskin Veil | 蛇皮帘幕 | 普通 | 33 张 (摩登 4,  pauper 7, 标准 13+9) |
+| Heritage Reclamation | Heritage Reclamation | 普通 | 37 张 (摩登 0+7,  pauper 8+6, 标准 0+16) |
+| Snakeskin Veil | 蛇皮帘幕 | 普通 | 29 张 (摩登 4,  pauper 7, 标准 12+6) |
 
 #### 多色（Multicolor）
 
@@ -6437,7 +6211,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ureni, the Song Unending | Ureni, the Song Unending | 秘稀 | 12 张 (摩登 12) |
+| Ureni, the Song Unending | Ureni, the Song Unending | 秘稀 | 13 张 (摩登 13) |
 
 **结界**
 
@@ -6449,6 +6223,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Frontline Rush | Frontline Rush | 非普通 | 4 张 (标准 4) |
 | Jeskai Revelation | Jeskai Revelation | 秘稀 | 156 张 (标准 155+1) |
 | Rakshasa's Bargain | Rakshasa's Bargain | 非普通 | 4 张 (标准 4) |
 
@@ -6461,9 +6236,81 @@
 | Bloodfell Caves | 染血洞窟 | 普通 | 2 张 ( pauper 2) |
 | Dismal Backwater | 阴沉死水 | 普通 | 1 张 ( pauper 1) |
 | Jungle Hollow | 丛林幽谷 | 普通 | 4 张 ( pauper 4) |
+| Maelstrom of the Spirit Dragon | Maelstrom of the Spirit Dragon | 稀有 | 4 张 (标准 4) |
 | Scoured Barrens | 侵蚀荒漠 | 普通 | 7 张 ( pauper 7) |
-| Thornwood Falls | 棘林瀑布 | 普通 | 9 张 ( pauper 9) |
-| Wind-Scarred Crag | 风蚀峭壁 | 普通 | 8 张 ( pauper 8) |
+| Thornwood Falls | 棘林瀑布 | 普通 | 6 张 ( pauper 6) |
+| Wind-Scarred Crag | 风蚀峭壁 | 普通 | 4 张 ( pauper 4) |
+
+### Tarkir: Dragonstorm Promos (PTDM) — 2025-04-11
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Voice of Victory | Voice of Victory | 稀有 | 193 张 (摩登 80, 标准 88+25) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Magmatic Hellkite | Magmatic Hellkite | 稀有 | 12 张 (摩登 4, 标准 8) |
+| Sarkhan, Dragon Ascendant | Sarkhan, Dragon Ascendant | 稀有 | 8 张 (标准 8) |
+| Stadium Headliner | Stadium Headliner | 稀有 | 8 张 (标准 8) |
+| Tersa Lightshatter | Tersa Lightshatter | 稀有 | 32 张 (标准 32) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Surrak, Elusive Hunter | Surrak, Elusive Hunter | 稀有 | 101 张 (标准 58+43) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Nature's Rhythm | Nature's Rhythm | 稀有 | 168 张 (摩登 168) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Temur Battlecrier | Temur Battlecrier | 稀有 | 8 张 (标准 8) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Frostcliff Siege | Frostcliff Siege | 稀有 | 3 张 (标准 3) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Inevitable Defeat | Inevitable Defeat | 稀有 | 71 张 (标准 71) |
+
+#### 无色（Colorless）
+
+**鹏洛客**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ugin, Eye of the Storms | Ugin, Eye of the Storms | 秘稀 | 78 张 (摩登 75+1, 标准 2) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Cori Mountain Monastery | Cori Mountain Monastery | 稀有 | 47 张 (摩登 28, 标准 19) |
+| Dalkovan Encampment | Dalkovan Encampment | 稀有 | 35 张 (摩登 31, 标准 4) |
+| Mistrise Village | Mistrise Village | 稀有 | 36 张 (摩登 7+2, 标准 26+1) |
 
 ### Tarkir: Dragonstorm Commander (TDC) — 2025-04-11
 
@@ -6473,13 +6320,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Hedron Crab | 晶石蟹 | 非普通 | 8 张 (摩登 8) |
+| Hedron Crab | 晶石蟹 | 非普通 | 4 张 (摩登 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Opt | 抉择 | 普通 | 240 张 (标准 240) |
+| Opt | 抉择 | 普通 | 250 张 (标准 250) |
 
 #### 黑（B）
 
@@ -6501,16 +6348,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arboreal Grazer | 树栖食草兽 | 普通 | 52 张 (摩登 52) |
-| Axebane Guardian | 禁伐林守护者 | 普通 | 19 张 ( pauper 19) |
+| Arboreal Grazer | 树栖食草兽 | 普通 | 24 张 (摩登 24) |
+| Axebane Guardian | 禁伐林守护者 | 普通 | 27 张 ( pauper 27) |
 | Overgrown Battlement | 蔓生城垛 | 非普通 | 88 张 ( pauper 88) |
-| Wall of Roots | 根墙 | 普通 | 75 张 (摩登 2,  pauper 73) |
+| Wall of Roots | 根墙 | 普通 | 70 张 ( pauper 70) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Life from the Loam | 黑土滋壤 | 稀有 | 18 张 (摩登 4+14) |
+| Life from the Loam | 黑土滋壤 | 稀有 | 13 张 (摩登 4+9) |
 
 #### 无色（Colorless）
 
@@ -6518,20 +6365,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Crashing Drawbridge | 城门吊桥 | 普通 | 3 张 ( pauper 3) |
+| Crashing Drawbridge | 城门吊桥 | 普通 | 1 张 ( pauper 1) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bountiful Landscape | 富饶地境 | 普通 | 7 张 ( pauper 7) |
+| Bountiful Landscape | 富饶地境 | 普通 | 3 张 ( pauper 3) |
 | Castle Ardenvale | 雅登瓦堡 | 稀有 | 7 张 (摩登 7) |
-| Cephalid Coliseum | 章人竞技场 | 非普通 | 7 张 (摩登 7) |
+| Cephalid Coliseum | 章人竞技场 | 非普通 | 5 张 (摩登 5) |
 | Crypt of Agadeem | 艾格丁墓穴 | 稀有 | 1 张 (摩登 1) |
 | Deceptive Landscape | 欺瞒地境 | 普通 | 4 张 ( pauper 4) |
 | Foreboding Landscape | 恶兆地境 | 普通 | 12 张 ( pauper 12) |
-| Mosswort Bridge | 苔草桥 | 稀有 | 21 张 (摩登 21) |
-| Perilous Landscape | 险恶地境 | 普通 | 72 张 ( pauper 72) |
+| Mosswort Bridge | 苔草桥 | 稀有 | 12 张 (摩登 12) |
+| Perilous Landscape | 险恶地境 | 普通 | 60 张 ( pauper 60) |
 
 ### Pioneer Anthology 1 (PA1) — 2025-05-05
 
@@ -6541,258 +6388,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Warping Wail | 歪曲厉嚎 | 非普通 | 53 张 (摩登 8+45) |
+| Warping Wail | 歪曲厉嚎 | 非普通 | 43 张 (摩登 7+36) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sanctum of Ugin | 乌金圣所 | 稀有 | 7 张 (摩登 7) |
-
-### Final Fantasy Commander (FIC) — 2025-06-13
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Puresteel Paladin | 净钢神圣武士 | 稀有 | 4 张 (摩登 4) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Authority of the Consuls | 执政官威权 | 稀有 | 5 张 (标准 0+5) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Snapcaster Mage | 迅咒法师 | 秘稀 | 23 张 (摩登 21+2) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Stitcher's Supplier | 拼接师备尸 | 非普通 | 4 张 (摩登 4) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Snuff Out | Snuff Out | 普通 | 120 张 ( pauper 113+7) |
-
-#### 绿（G）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Fight Rigging | 操纵比赛 | 稀有 | 84 张 (摩登 84) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Walking Ballista | 自行弩炮 | 稀有 | 90 张 (摩登 68+22) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Colossus Hammer | 巨锤 | 非普通 | 4 张 (摩登 4) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Contaminated Aquifer | 污化水层 | 普通 | 72 张 ( pauper 72) |
-| Demolition Field | 颓垣废址 | 非普通 | 87 张 (摩登 29, 标准 52+6) |
-| Geothermal Bog | 地热腐沼 | 普通 | 1 张 ( pauper 1) |
-| Idyllic Beachfront | 田园滩岸 | 普通 | 6 张 ( pauper 6) |
-| Nomad Outpost | 游牧人哨站 | 非普通 | 2 张 (标准 2) |
-| Sunken Ruins | 沉没废墟 | 稀有 | 2 张 (摩登 2) |
-| Wooded Ridgeline | 林木山脊 | 普通 | 14 张 ( pauper 13+1) |
-
-### Final Fantasy (FIN) — 2025-06-13
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Summon: Choco/Mog | Summon: Choco/Mog | 普通 | 2 张 ( pauper 2) |
-| Zack Fair | Zack Fair | 非普通 | 4 张 (标准 3+1) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Restoration Magic | Restoration Magic | 非普通 | 1 张 (标准 1) |
-
-#### 蓝（U）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Dreams of Laguna | Dreams of Laguna | 普通 | 2 张 ( pauper 2) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Combat Tutorial | Combat Tutorial | 普通 | 1 张 ( pauper 1) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ardyn, the Usurper | Ardyn, the Usurper | 稀有 | 17 张 (标准 17) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Black Mage's Rod | Black Mage's Rod | 普通 | 32 张 ( pauper 32) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mysidian Elder | Mysidian Elder | 普通 | 28 张 ( pauper 28) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Samurai's Katana | Samurai's Katana | 非普通 | 2 张 (标准 2) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Fire Magic | Fire Magic | 非普通 | 28 张 (摩登 0+22, 标准 1+5) |
-| Thunder Magic | Thunder Magic | 普通 | 2 张 (标准 2) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Suplex | Suplex | 普通 | 73 张 ( pauper 9+64) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sazh's Chocobo | Sazh's Chocobo | 非普通 | 184 张 (标准 184) |
-| Tifa Lockhart | Tifa Lockhart | 稀有 | 5 张 (摩登 3, 标准 2) |
-| Town Greeter | Town Greeter | 普通 | 24 张 (标准 24) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Commune with Beavers | Commune with Beavers | 普通 | 14 张 (标准 14) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Lightning, Army of One | Lightning, Army of One | 秘稀 | 1 张 (标准 0+1) |
-| The Wandering Minstrel | The Wandering Minstrel | 稀有 | 5 张 (摩登 0+5) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Instant Ramen | Instant Ramen | 普通 | 2 张 ( pauper 2) |
-
-### Final Fantasy: Through the Ages (FCA) — 2025-06-13
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ranger-Captain of Eos | 亿欧护林队长 | 秘稀 | 81 张 (摩登 81) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Urza, Lord High Artificer | 铸物勋爵克撒 | 秘稀 | 4 张 (摩登 4) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Cryptic Command | 地下指命 | 稀有 | 1 张 (摩登 1) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Yawgmoth, Thran Physician | 索蓝医师约格莫夫 | 秘稀 | 22 张 (摩登 22) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Fatal Push | 送终一击 | 非普通 | 476 张 (摩登 342+134) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ragavan, Nimble Pilferer | 巧手窃猴勒格文 | 秘稀 | 233 张 (摩登 233) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Primeval Titan | 太古泰坦 | 秘稀 | 40 张 (摩登 40) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Nature's Claim | 还诸自然 | 普通 | 180 张 (摩登 16+160,  pauper 0+4) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Atraxa, Grand Unifier | 大一统飞将亚崔夏 | 秘稀 | 183 张 (摩登 181+2) |
+| Sanctum of Ugin | 乌金圣所 | 稀有 | 5 张 (摩登 5) |
 
 ### Final Fantasy Promos (PFIN) — 2025-06-13
 
@@ -6819,7 +6421,246 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Starting Town | Starting Town | 稀有 | 234 张 (标准 234) |
+| Starting Town | Starting Town | 稀有 | 262 张 (标准 262) |
+
+### Final Fantasy Commander (FIC) — 2025-06-13
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Puresteel Paladin | 净钢神圣武士 | 稀有 | 4 张 (摩登 4) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Authority of the Consuls | 执政官威权 | 稀有 | 5 张 (标准 0+5) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Snapcaster Mage | 迅咒法师 | 秘稀 | 15 张 (摩登 15) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Stitcher's Supplier | 拼接师备尸 | 非普通 | 4 张 (摩登 4) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Snuff Out | Snuff Out | 普通 | 118 张 ( pauper 115+3) |
+
+#### 绿（G）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fight Rigging | 操纵比赛 | 稀有 | 48 张 (摩登 48) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Walking Ballista | 自行弩炮 | 稀有 | 70 张 (摩登 53+17) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Colossus Hammer | 巨锤 | 非普通 | 4 张 (摩登 4) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Contaminated Aquifer | 污化水层 | 普通 | 72 张 ( pauper 72) |
+| Demolition Field | 颓垣废址 | 非普通 | 86 张 (摩登 29, 标准 51+6) |
+| Geothermal Bog | 地热腐沼 | 普通 | 1 张 ( pauper 1) |
+| Idyllic Beachfront | 田园滩岸 | 普通 | 6 张 ( pauper 6) |
+| Nomad Outpost | 游牧人哨站 | 非普通 | 2 张 (标准 2) |
+| Wooded Ridgeline | 林木山脊 | 普通 | 16 张 ( pauper 15+1) |
+
+### Final Fantasy (FIN) — 2025-06-13
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Summon: Choco/Mog | Summon: Choco/Mog | 普通 | 5 张 ( pauper 5) |
+| Zack Fair | Zack Fair | 非普通 | 4 张 (标准 3+1) |
+
+#### 蓝（U）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Dreams of Laguna | Dreams of Laguna | 普通 | 2 张 ( pauper 2) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Combat Tutorial | Combat Tutorial | 普通 | 1 张 ( pauper 1) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ardyn, the Usurper | Ardyn, the Usurper | 稀有 | 15 张 (标准 15) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Black Mage's Rod | Black Mage's Rod | 普通 | 25 张 ( pauper 25) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mysidian Elder | Mysidian Elder | 普通 | 24 张 ( pauper 24) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Samurai's Katana | Samurai's Katana | 非普通 | 2 张 (标准 2) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fire Magic | Fire Magic | 非普通 | 31 张 (摩登 0+21, 标准 2+8) |
+| Opera Love Song | Opera Love Song | 非普通 | 2 张 (标准 2) |
+| Thunder Magic | Thunder Magic | 普通 | 2 张 (标准 2) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Suplex | Suplex | 普通 | 65 张 ( pauper 5+60) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sazh's Chocobo | Sazh's Chocobo | 非普通 | 168 张 (标准 168) |
+| Tifa Lockhart | Tifa Lockhart | 稀有 | 3 张 (摩登 3) |
+| Town Greeter | Town Greeter | 普通 | 21 张 (标准 21) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Commune with Beavers | Commune with Beavers | 普通 | 10 张 (标准 10) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Lightning, Army of One | Lightning, Army of One | 秘稀 | 1 张 (标准 0+1) |
+| The Wandering Minstrel | The Wandering Minstrel | 稀有 | 1 张 (摩登 0+1) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Instant Ramen | Instant Ramen | 普通 | 2 张 ( pauper 2) |
+
+### Final Fantasy: Through the Ages (FCA) — 2025-06-13
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ranger-Captain of Eos | 亿欧护林队长 | 秘稀 | 53 张 (摩登 53) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Urza, Lord High Artificer | 铸物勋爵克撒 | 秘稀 | 1 张 (摩登 1) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Cryptic Command | 地下指命 | 稀有 | 1 张 (摩登 1) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Yawgmoth, Thran Physician | 索蓝医师约格莫夫 | 秘稀 | 10 张 (摩登 10) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Fatal Push | 送终一击 | 非普通 | 363 张 (摩登 238+125) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ragavan, Nimble Pilferer | 巧手窃猴勒格文 | 秘稀 | 140 张 (摩登 140) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Primeval Titan | 太古泰坦 | 秘稀 | 19 张 (摩登 19) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Nature's Claim | 还诸自然 | 普通 | 152 张 (摩登 14+134,  pauper 0+4) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Atraxa, Grand Unifier | 大一统飞将亚崔夏 | 秘稀 | 148 张 (摩登 146+2) |
 
 ### Edge of Eternities Promos (PEOE) — 2025-08-01
 
@@ -6829,7 +6670,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Haliya, Guided by Light | Haliya, Guided by Light | 稀有 | 81 张 (摩登 18, 标准 63) |
+| Haliya, Guided by Light | Haliya, Guided by Light | 稀有 | 92 张 (摩登 16, 标准 76) |
 
 #### 蓝（U）
 
@@ -6837,15 +6678,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Consult the Star Charts | Consult the Star Charts | 稀有 | 151 张 (摩登 85, 标准 60+6) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Elegy Acolyte | Elegy Acolyte | 稀有 | 3 张 (标准 3) |
+| Consult the Star Charts | Consult the Star Charts | 稀有 | 120 张 (摩登 50, 标准 62+8) |
 
 #### 红（R）
 
@@ -6853,13 +6686,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Nova Hellkite | Nova Hellkite | 稀有 | 25 张 (摩登 0+1, 标准 23+1) |
+| Nova Hellkite | Nova Hellkite | 稀有 | 32 张 (标准 31+1) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Weapons Manufacturing | Weapons Manufacturing | 稀有 | 76 张 (摩登 71+1, 标准 4) |
+| Weapons Manufacturing | Weapons Manufacturing | 稀有 | 51 张 (摩登 47, 标准 4) |
 
 #### 绿（G）
 
@@ -6867,8 +6700,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Frenzied Baloth | Frenzied Baloth | 稀有 | 2 张 (标准 0+2) |
-| Icetill Explorer | Icetill Explorer | 稀有 | 207 张 (摩登 23+5, 标准 178+1) |
+| Icetill Explorer | Icetill Explorer | 稀有 | 181 张 (摩登 15+3, 标准 162+1) |
 
 #### 多色（Multicolor）
 
@@ -6876,59 +6708,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cosmogoyf | Cosmogoyf | 稀有 | 32 张 (摩登 32) |
-
-### Edge of Eternities Commander (EOC) — 2025-08-01
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Emry, Lurker of the Loch | 深湖潜妖艾莉 | 稀有 | 93 张 (摩登 86+7) |
-| Kappa Cannoneer | 驮炮河童 | 稀有 | 76 张 (摩登 76) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Swan Song | 天鹅绝唱 | 稀有 | 13 张 (摩登 0+13) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Aftermath Analyst | 事后分析师 | 非普通 | 13 张 (摩登 13) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| World Breaker | 毁世恶体 | 秘稀 | 14 张 (摩登 14) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Golem Foundry | 魔像锻炉 | 普通 | 12 张 ( pauper 12) |
-| Rustvale Bridge | 锈谷结桥 | 普通 | 2 张 ( pauper 2) |
-| Seat of the Synod | 悉诺议会宅邸 | 普通 | 90 张 ( pauper 90) |
-| Silverbluff Bridge | 银崖结桥 | 普通 | 72 张 ( pauper 72) |
-| Soul-Guide Lantern | 导灵明灯 | 非普通 | 267 张 (摩登 49+35, 标准 2+181) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Karplusan Forest | 卡普路桑森林 | 稀有 | 4 张 (摩登 4) |
-| Lonely Sandbar | 孤绝沙洲 | 普通 | 2 张 ( pauper 2) |
-| Secluded Steppe | 远僻草原 | 普通 | 2 张 (摩登 2) |
-| The Mycosynth Gardens | 构生菌园 | 稀有 | 35 张 (摩登 35) |
+| Cosmogoyf | Cosmogoyf | 稀有 | 24 张 (摩登 24) |
 
 ### Edge of Eternities (EOE) — 2025-08-01
 
@@ -6938,8 +6718,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cosmogrand Zenith | Cosmogrand Zenith | 秘稀 | 8 张 (标准 6+2) |
-| Starfield Shepherd | Starfield Shepherd | 非普通 | 31 张 (摩登 16, 标准 15) |
+| Cosmogrand Zenith | Cosmogrand Zenith | 秘稀 | 10 张 (标准 8+2) |
+| Starfield Shepherd | Starfield Shepherd | 非普通 | 37 张 (摩登 14, 标准 23) |
 
 **神器**
 
@@ -6951,13 +6731,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Seam Rip | Seam Rip | 非普通 | 108 张 (摩登 1, 标准 40+67) |
+| Seam Rip | Seam Rip | 非普通 | 101 张 (标准 24+77) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Scout for Survivors | Scout for Survivors | 非普通 | 3 张 (摩登 2+1) |
+| Scout for Survivors | Scout for Survivors | 非普通 | 2 张 (摩登 1+1) |
 
 #### 蓝（U）
 
@@ -6966,26 +6746,26 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Gigastorm Titan | Gigastorm Titan | 非普通 | 3 张 (标准 0+3) |
-| Illvoi Galeblade | Illvoi Galeblade | 普通 | 5 张 ( pauper 5) |
-| Quantum Riddler | Quantum Riddler | 秘稀 | 552 张 (摩登 456+22, 标准 22+52) |
+| Illvoi Galeblade | Illvoi Galeblade | 普通 | 1 张 ( pauper 1) |
+| Quantum Riddler | Quantum Riddler | 秘稀 | 458 张 (摩登 357+19, 标准 34+48) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cryogen Relic | Cryogen Relic | 普通 | 51 张 ( pauper 51) |
+| Cryogen Relic | Cryogen Relic | 普通 | 42 张 ( pauper 42) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cryoshatter | Cryoshatter | 普通 | 53 张 ( pauper 29+24) |
+| Cryoshatter | Cryoshatter | 普通 | 55 张 ( pauper 31+24) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Annul | 抹除 | 非普通 | 238 张 ( pauper 0+200, 标准 0+38) |
+| Annul | 抹除 | 非普通 | 238 张 ( pauper 0+194, 标准 0+44) |
 
 #### 黑（B）
 
@@ -6993,8 +6773,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Perigee Beckoner | Perigee Beckoner | 普通 | 7 张 ( pauper 7) |
-| Timeline Culler | Timeline Culler | 非普通 | 8 张 (标准 8) |
+| Perigee Beckoner | Perigee Beckoner | 普通 | 4 张 ( pauper 4) |
+| Timeline Culler | Timeline Culler | 非普通 | 4 张 (标准 4) |
 | Virus Beetle | 病毒甲虫 | 普通 | 4 张 ( pauper 4) |
 
 **瞬间**
@@ -7011,23 +6791,29 @@
 
 #### 红（R）
 
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Kavaron Harrier | Kavaron Harrier | 非普通 | 4 张 (标准 4) |
+
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Melded Moxite | Melded Moxite | 普通 | 63 张 ( pauper 62, 标准 1) |
+| Melded Moxite | Melded Moxite | 普通 | 55 张 ( pauper 54, 标准 1) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Full Bore | Full Bore | 非普通 | 43 张 (标准 32+11) |
+| Full Bore | Full Bore | 非普通 | 39 张 (标准 28+11) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Devastating Onslaught | Devastating Onslaught | 秘稀 | 4 张 (标准 4) |
+| Devastating Onslaught | Devastating Onslaught | 秘稀 | 8 张 (标准 8) |
 
 #### 绿（G）
 
@@ -7035,17 +6821,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Edge Rover | Edge Rover | 非普通 | 4 张 (标准 0+4) |
-| Eumidian Terrabotanist | Eumidian Terrabotanist | 非普通 | 19 张 (标准 0+19) |
+| Edge Rover | Edge Rover | 非普通 | 1 张 (标准 0+1) |
+| Eumidian Terrabotanist | Eumidian Terrabotanist | 非普通 | 13 张 (标准 0+13) |
 | Gene Pollinator | Gene Pollinator | 普通 | 4 张 ( pauper 4) |
-| Mightform Harmonizer | Mightform Harmonizer | 稀有 | 157 张 (标准 152+5) |
-| Ouroboroid | Ouroboroid | 秘稀 | 81 张 (摩登 23+9, 标准 39+10) |
+| Mightform Harmonizer | Mightform Harmonizer | 稀有 | 146 张 (标准 141+5) |
+| Ouroboroid | Ouroboroid | 秘稀 | 58 张 (摩登 21+10, 标准 20+7) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Meltstrider's Resolve | Meltstrider's Resolve | 非普通 | 184 张 (标准 100+84) |
+| Meltstrider's Resolve | Meltstrider's Resolve | 非普通 | 153 张 (标准 79+74) |
 
 #### 多色（Multicolor）
 
@@ -7054,7 +6840,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Dyadrine, Synthesis Amalgam | Dyadrine, Synthesis Amalgam | 稀有 | 6 张 (标准 6) |
-| Pinnacle Emissary | Pinnacle Emissary | 稀有 | 76 张 (摩登 76) |
+| Pinnacle Emissary | Pinnacle Emissary | 稀有 | 52 张 (摩登 52) |
 
 #### 无色（Colorless）
 
@@ -7062,21 +6848,91 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dauntless Scrapbot | Dauntless Scrapbot | 非普通 | 11 张 (标准 0+11) |
+| Dauntless Scrapbot | Dauntless Scrapbot | 非普通 | 9 张 (标准 0+9) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tezzeret, Cruel Captain | Tezzeret, Cruel Captain | 秘稀 | 8 张 (摩登 2, 标准 3+3) |
+| Tezzeret, Cruel Captain | Tezzeret, Cruel Captain | 秘稀 | 7 张 (摩登 1, 标准 3+3) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Extinguisher Battleship | Extinguisher Battleship | 稀有 | 14 张 (摩登 0+14) |
-| Nutrient Block | Nutrient Block | 普通 | 19 张 ( pauper 19) |
-| Pinnacle Kill-Ship | Pinnacle Kill-Ship | 普通 | 64 张 ( pauper 64) |
+| Extinguisher Battleship | Extinguisher Battleship | 稀有 | 11 张 (摩登 0+11) |
+| Nutrient Block | Nutrient Block | 普通 | 11 张 ( pauper 11) |
+| Pinnacle Kill-Ship | Pinnacle Kill-Ship | 普通 | 56 张 ( pauper 56) |
+
+### Edge of Eternities Commander (EOC) — 2025-08-01
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Emry, Lurker of the Loch | 深湖潜妖艾莉 | 稀有 | 73 张 (摩登 67+6) |
+| Kappa Cannoneer | 驮炮河童 | 稀有 | 52 张 (摩登 52) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Swan Song | 天鹅绝唱 | 稀有 | 10 张 (摩登 0+10) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Aftermath Analyst | 事后分析师 | 非普通 | 6 张 (摩登 6) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| World Breaker | 毁世恶体 | 秘稀 | 8 张 (摩登 8) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Golem Foundry | 魔像锻炉 | 普通 | 12 张 ( pauper 12) |
+| Rustvale Bridge | 锈谷结桥 | 普通 | 2 张 ( pauper 2) |
+| Seat of the Synod | 悉诺议会宅邸 | 普通 | 79 张 ( pauper 79) |
+| Silverbluff Bridge | 银崖结桥 | 普通 | 61 张 ( pauper 61) |
+| Soul-Guide Lantern | 导灵明灯 | 非普通 | 228 张 (摩登 39+18, 标准 2+169) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Karplusan Forest | 卡普路桑森林 | 稀有 | 4 张 (摩登 4) |
+| Lonely Sandbar | 孤绝沙洲 | 普通 | 1 张 ( pauper 1) |
+| Secluded Steppe | 远僻草原 | 普通 | 2 张 (摩登 2) |
+| The Mycosynth Gardens | 构生菌园 | 稀有 | 18 张 (摩登 18) |
+
+### The Big Score Promos (PBIG) — 2025-08-01
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Harvester of Misery | 苦痛纳索灵 | 秘稀 | 6 张 (摩登 0+4, 标准 0+2) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Torpor Orb | 迟钝法球 | 秘稀 | 50 张 (摩登 0+18, 标准 0+32) |
 
 ### Edge of Eternities: Stellar Sights (EOS) — 2025-08-01
 
@@ -7087,31 +6943,13 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Celestial Colonnade | 天界柱廊 | 稀有 | 1 张 (摩登 1) |
-| Echoing Deeps | 回响深渊 | 稀有 | 13 张 (摩登 13) |
-| Eldrazi Temple | 奥札奇殿堂 | 非普通 | 400 张 (摩登 400) |
-| Gemstone Caverns | 宝石洞穴 | 秘稀 | 126 张 (摩登 82+44) |
-| Grove of the Burnwillows | 焰柳树丛 | 稀有 | 193 张 (摩登 193) |
+| Echoing Deeps | 回响深渊 | 稀有 | 6 张 (摩登 6) |
+| Eldrazi Temple | 奥札奇殿堂 | 非普通 | 280 张 (摩登 280) |
+| Gemstone Caverns | 宝石洞穴 | 秘稀 | 89 张 (摩登 60+29) |
+| Grove of the Burnwillows | 焰柳树丛 | 稀有 | 149 张 (摩登 149) |
 | Inkmoth Nexus | 墨蛾连结点 | 稀有 | 7 张 (摩登 7) |
-| Mirrorpool | 镜映潭 | 秘稀 | 13 张 (摩登 13) |
+| Mirrorpool | 镜映潭 | 秘稀 | 6 张 (摩登 6) |
 | Sunken Citadel | 沉没殿堂 | 稀有 | 23 张 (摩登 23) |
-
-### The Big Score Promos (PBIG) — 2025-08-01
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Harvester of Misery | 苦痛纳索灵 | 秘稀 | 9 张 (摩登 0+8, 标准 0+1) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Torpor Orb | 迟钝法球 | 秘稀 | 61 张 (摩登 0+28, 标准 0+33) |
 
 ### Arena Anthology 2 (AA2) — 2025-08-19
 
@@ -7121,7 +6959,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Thought Scour | 洗清思想 | 普通 | 205 张 (摩登 25,  pauper 180) |
+| Thought Scour | 洗清思想 | 普通 | 176 张 (摩登 8,  pauper 168) |
 
 #### 绿（G）
 
@@ -7129,7 +6967,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Eternal Witness | 不朽见证人 | 非普通 | 25 张 (摩登 25) |
+| Eternal Witness | 不朽见证人 | 非普通 | 23 张 (摩登 23) |
 
 #### 多色（Multicolor）
 
@@ -7137,8 +6975,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Grist, the Hunger Tide | 饥潮格蕊斯 | 秘稀 | 41 张 (摩登 12+29) |
-| Wrenn and Six | 芮恩与六树妖 | 秘稀 | 8 张 (摩登 6+2) |
+| Grist, the Hunger Tide | 饥潮格蕊斯 | 秘稀 | 34 张 (摩登 7+27) |
+| Wrenn and Six | 芮恩与六树妖 | 秘稀 | 4 张 (摩登 2+2) |
 
 #### 无色（Colorless）
 
@@ -7146,9 +6984,9 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ancient Den | 远古狮穴 | 普通 | 27 张 ( pauper 27) |
-| Great Furnace | 大熔炉 | 普通 | 181 张 ( pauper 181) |
-| Mox Opal | 蛋白玛珂 | 秘稀 | 132 张 (摩登 132) |
+| Ancient Den | 远古狮穴 | 普通 | 23 张 ( pauper 23) |
+| Great Furnace | 大熔炉 | 普通 | 171 张 ( pauper 171) |
+| Mox Opal | 蛋白玛珂 | 秘稀 | 100 张 (摩登 100) |
 | Tree of Tales | Tree of Tales | 普通 | 4 张 ( pauper 4) |
 
 ### Arena Anthology 1 (AA1) — 2025-08-19
@@ -7159,8 +6997,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Talisman of Impulse | Talisman of Impulse | 非普通 | 30 张 (摩登 30) |
-| Talisman of Unity | 调和饰符 | 非普通 | 20 张 (摩登 20) |
+| Talisman of Impulse | Talisman of Impulse | 非普通 | 20 张 (摩登 20) |
+| Talisman of Unity | 调和饰符 | 非普通 | 8 张 (摩登 8) |
 
 ### Arena Anthology 3 (AA3) — 2025-09-23
 
@@ -7170,7 +7008,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Flickerwisp | 明灭翔灵 | 非普通 | 63 张 (摩登 63) |
+| Flickerwisp | 明灭翔灵 | 非普通 | 49 张 (摩登 49) |
 
 #### 蓝（U）
 
@@ -7178,7 +7016,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Force Spike | Force Spike | 普通 | 59 张 ( pauper 57+2) |
+| Force Spike | Force Spike | 普通 | 64 张 ( pauper 62+2) |
 
 #### 红（R）
 
@@ -7186,8 +7024,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Assault Strobe | 突袭闪光 | 普通 | 26 张 (摩登 6+16,  pauper 4) |
-| Chain Lightning | 连锁闪电 | 普通 | 40 张 ( pauper 40) |
+| Assault Strobe | 突袭闪光 | 普通 | 22 张 (摩登 6+12,  pauper 4) |
+| Chain Lightning | 连锁闪电 | 普通 | 44 张 ( pauper 44) |
 
 #### 绿（G）
 
@@ -7203,7 +7041,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Emrakul, the Aeons Torn | 万世创伤伊莫库 | 秘稀 | 2 张 (摩登 2) |
+| Emrakul, the Aeons Torn | 万世创伤伊莫库 | 秘稀 | 1 张 (摩登 1) |
 
 **神器**
 
@@ -7215,178 +7053,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Yavimaya, Cradle of Growth | 育苗摇篮亚维马雅 | 稀有 | 9 张 (摩登 9) |
-
-### Marvel Universe (MAR) — 2025-09-26
-
-#### 白（W）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Leyline Binding | 地脉束缚 | 稀有 | 84 张 (摩登 84) |
-| Rest in Peace | 得享安息 | 秘稀 | 177 张 (摩登 0+95, 标准 0+82) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ephemerate | 流光烁影 | 普通 | 371 张 (摩登 290,  pauper 81) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Harbinger of the Seas | 海疆先兆师 | 稀有 | 107 张 (摩登 31+76) |
-| Lord of Atlantis | 亚特兰提斯领主 | 特殊 | 16 张 (摩登 16) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Three Steps Ahead | 早想三步 | 稀有 | 36 张 (标准 33+3) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Ponder | 沉思 | 普通 | 117 张 ( pauper 117) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Dauthi Voidwalker | 道西虚空行者 | 稀有 | 13 张 (摩登 3+10) |
-
-#### 红（R）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Goblin Bombardment | 鬼怪轰炸 | 稀有 | 121 张 (摩登 121) |
-
-#### 绿（G）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Rancor | 仇视 | 非普通 | 38 张 ( pauper 38) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Force of Vigor | 活旺之力 | 稀有 | 186 张 (摩登 0+186) |
-| Tangle | Tangle | 普通 | 20 张 ( pauper 20) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Aurelia, the Warleader | 战领欧瑞梨 | 秘稀 | 1 张 (标准 0+1) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Warleader's Call | 战领召令 | 稀有 | 4 张 (标准 4) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Escape to the Wilds | 逃往幻野 | 稀有 | 1 张 (摩登 0+1) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Roaming Throne | 游荡王座 | 稀有 | 3 张 (标准 3) |
-
-### Marvel's Spider-Man (SPM) — 2025-09-26
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Hydro-Man, Fluid Felon | Hydro-Man, Fluid Felon | 稀有 | 22 张 (标准 12+10) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Hide on the Ceiling | Hide on the Ceiling | 稀有 | 1 张 (标准 0+1) |
-| Secret Identity | Secret Identity | 非普通 | 67 张 (标准 62+5) |
-| Spider-Sense | Spider-Sense | 稀有 | 12 张 (摩登 0+1, 标准 2+9) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Black Cat, Cunning Thief | Black Cat, Cunning Thief | 稀有 | 1 张 (标准 1) |
-| Morlun, Devourer of Spiders | Morlun, Devourer of Spiders | 稀有 | 2 张 (标准 0+2) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| The Soul Stone | The Soul Stone | 秘稀 | 3 张 (标准 3) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Spider-Punk | Spider-Punk | 稀有 | 3 张 (标准 3) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Radioactive Spider | Radioactive Spider | 稀有 | 11 张 (标准 0+11) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Carnage, Crimson Chaos | Carnage, Crimson Chaos | 稀有 | 12 张 (标准 12) |
-| Cosmic Spider-Man | Cosmic Spider-Man | 秘稀 | 3 张 (标准 3) |
-| Spider Manifestation | Spider Manifestation | 普通 | 41 张 ( pauper 2, 标准 39) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Interdimensional Web Watch | Interdimensional Web Watch | 稀有 | 7 张 (标准 7) |
-| Peter Parker's Camera | Peter Parker's Camera | 稀有 | 1 张 (摩登 1) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sinister Hideout | Sinister Hideout | 普通 | 1 张 ( pauper 1) |
+| Yavimaya, Cradle of Growth | 育苗摇篮亚维马雅 | 稀有 | 8 张 (摩登 8) |
 
 ### Marvel's Spider-Man Promos (PSPM) — 2025-09-26
 
@@ -7412,7 +7079,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sandman, Shifting Scoundrel | Sandman, Shifting Scoundrel | 稀有 | 5 张 (标准 0+5) |
+| Sandman, Shifting Scoundrel | Sandman, Shifting Scoundrel | 稀有 | 6 张 (标准 0+6) |
 
 #### 多色（Multicolor）
 
@@ -7420,7 +7087,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Superior Spider-Man | Superior Spider-Man | 稀有 | 113 张 (摩登 26, 标准 86+1) |
+| Superior Spider-Man | Superior Spider-Man | 稀有 | 95 张 (摩登 20, 标准 74+1) |
 
 #### 无色（Colorless）
 
@@ -7428,7 +7095,178 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Multiversal Passage | Multiversal Passage | 稀有 | 188 张 (标准 188) |
+| Multiversal Passage | Multiversal Passage | 稀有 | 178 张 (标准 178) |
+
+### Marvel Universe (MAR) — 2025-09-26
+
+#### 白（W）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Leyline Binding | 地脉束缚 | 稀有 | 52 张 (摩登 52) |
+| Rest in Peace | 得享安息 | 秘稀 | 145 张 (摩登 0+76, 标准 0+69) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ephemerate | 流光烁影 | 普通 | 304 张 (摩登 235,  pauper 69) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Harbinger of the Seas | 海疆先兆师 | 稀有 | 72 张 (摩登 16+56) |
+| Lord of Atlantis | 亚特兰提斯领主 | 特殊 | 8 张 (摩登 8) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Three Steps Ahead | 早想三步 | 稀有 | 34 张 (标准 31+3) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ponder | 沉思 | 普通 | 109 张 ( pauper 109) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Dauthi Voidwalker | 道西虚空行者 | 稀有 | 11 张 (摩登 5+6) |
+
+#### 红（R）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Goblin Bombardment | 鬼怪轰炸 | 稀有 | 77 张 (摩登 77) |
+
+#### 绿（G）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Rancor | 仇视 | 非普通 | 28 张 ( pauper 28) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Force of Vigor | 活旺之力 | 稀有 | 128 张 (摩登 0+128) |
+| Tangle | Tangle | 普通 | 14 张 ( pauper 14) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Aurelia, the Warleader | 战领欧瑞梨 | 秘稀 | 1 张 (标准 0+1) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Warleader's Call | 战领召令 | 稀有 | 8 张 (标准 8) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Escape to the Wilds | 逃往幻野 | 稀有 | 1 张 (摩登 0+1) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Roaming Throne | 游荡王座 | 稀有 | 9 张 (标准 9) |
+
+### Marvel's Spider-Man (SPM) — 2025-09-26
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Hydro-Man, Fluid Felon | Hydro-Man, Fluid Felon | 稀有 | 26 张 (标准 12+14) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Hide on the Ceiling | Hide on the Ceiling | 稀有 | 1 张 (标准 0+1) |
+| Secret Identity | Secret Identity | 非普通 | 61 张 (标准 56+5) |
+| Spider-Sense | Spider-Sense | 稀有 | 18 张 (摩登 0+1, 标准 3+14) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Black Cat, Cunning Thief | Black Cat, Cunning Thief | 稀有 | 1 张 (标准 1) |
+| Morlun, Devourer of Spiders | Morlun, Devourer of Spiders | 稀有 | 3 张 (标准 0+3) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| The Soul Stone | The Soul Stone | 秘稀 | 2 张 (标准 2) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Spider-Punk | Spider-Punk | 稀有 | 3 张 (标准 3) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Radioactive Spider | Radioactive Spider | 稀有 | 5 张 (标准 0+5) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Carnage, Crimson Chaos | Carnage, Crimson Chaos | 稀有 | 18 张 (标准 18) |
+| Cosmic Spider-Man | Cosmic Spider-Man | 秘稀 | 3 张 (标准 3) |
+| Spider Manifestation | Spider Manifestation | 普通 | 25 张 ( pauper 2, 标准 23) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Interdimensional Web Watch | Interdimensional Web Watch | 稀有 | 7 张 (标准 7) |
+| Peter Parker's Camera | Peter Parker's Camera | 稀有 | 1 张 (摩登 1) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sinister Hideout | Sinister Hideout | 普通 | 1 张 ( pauper 1) |
 
 ### Marvel Legends Series Inserts (LMAR) — 2025-09-30
 
@@ -7438,7 +7276,206 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Spectacular Spider-Man | Spectacular Spider-Man | 稀有 | 11 张 (标准 4+7) |
+| Spectacular Spider-Man | Spectacular Spider-Man | 稀有 | 13 张 (标准 4+9) |
+
+### Avatar: The Last Airbender (TLA) — 2025-11-21
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Curious Farm Animals | Curious Farm Animals | 普通 | 1 张 (标准 0+1) |
+| Suki, Courageous Rescuer | Suki, Courageous Rescuer | 稀有 | 1 张 (标准 1) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Aang's Iceberg | Aang's Iceberg | 稀有 | 4 张 (标准 4) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Gran-Gran | Gran-Gran | 非普通 | 46 张 (摩登 9, 标准 37) |
+| The Unagi of Kyoshi Island | The Unagi of Kyoshi Island | 稀有 | 2 张 (标准 0+2) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Accumulate Wisdom | Accumulate Wisdom | 非普通 | 60 张 (标准 60) |
+| It'll Quench Ya! | It'll Quench Ya! | 普通 | 37 张 (摩登 0+1,  pauper 0+2, 标准 34) |
+| Octopus Form | Octopus Form | 普通 | 4 张 (标准 3+1) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Boomerang Basics | Boomerang Basics | 非普通 | 168 张 (摩登 19, 标准 149) |
+| Waterbending Lesson | Waterbending Lesson | 普通 | 5 张 ( pauper 0+5) |
+
+#### 黑（B）
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Dai Li Indoctrination | Dai Li Indoctrination | 普通 | 1 张 (摩登 0+1) |
+| Ruinous Waterbending | Ruinous Waterbending | 非普通 | 2 张 (摩登 0+2) |
+
+#### 红（R）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Combustion Technique | Combustion Technique | 非普通 | 60 张 (标准 60) |
+| Firebending Lesson | Firebending Lesson | 普通 | 125 张 ( pauper 0+5, 标准 117+3) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Iroh's Demonstration | Iroh's Demonstration | 非普通 | 26 张 (摩登 0+1, 标准 23+2) |
+| Price of Freedom | Price of Freedom | 非普通 | 83 张 (摩登 28+1, 标准 4+50) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Badgermole Cub | Badgermole Cub | 秘稀 | 286 张 (摩登 182, 标准 104) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Origin of Metalbending | Origin of Metalbending | 普通 | 46 张 (摩登 0+1,  pauper 0+11, 标准 5+29) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| True Ancestry | True Ancestry | 非普通 | 1 张 (摩登 0+1) |
+
+#### 多色（Multicolor）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Abandon Attachments | Abandon Attachments | 普通 | 79 张 ( pauper 17+4, 标准 58) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Barrels of Blasting Jelly | Barrels of Blasting Jelly | 普通 | 66 张 ( pauper 66) |
+| Bender's Waterskin | Bender's Waterskin | 普通 | 42 张 ( pauper 38, 标准 4) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Agna Qel'a | Agna Qel'a | 稀有 | 3 张 (标准 3) |
+| Realm of Koh | Realm of Koh | 稀有 | 4 张 (标准 4) |
+
+### Avatar: The Last Airbender Promos (PTLA) — 2025-11-21
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Momo, Friendly Flier | Momo, Friendly Flier | 稀有 | 34 张 (摩登 6, 标准 28) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Airbender Ascension | Airbender Ascension | 稀有 | 1 张 (标准 1) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Avatar's Wrath | Avatar's Wrath | 稀有 | 45 张 (标准 26+19) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Wan Shi Tong, Librarian | Wan Shi Tong, Librarian | 秘稀 | 46 张 (摩登 19, 标准 4+23) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mai, Scornful Striker | Mai, Scornful Striker | 稀有 | 8 张 (摩登 0+1, 标准 2+5) |
+| Raven Eagle | Raven Eagle | 稀有 | 2 张 (标准 0+2) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Phoenix Fleet Airship | Phoenix Fleet Airship | 秘稀 | 4 张 (摩登 4) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Day of Black Sun | Day of Black Sun | 稀有 | 60 张 (标准 32+28) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Zhao, the Moon Slayer | Zhao, the Moon Slayer | 稀有 | 14 张 (标准 14) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Great Divide Guide | Great Divide Guide | 稀有 | 2 张 (标准 2) |
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Earthbender Ascension | Earthbender Ascension | 稀有 | 168 张 (标准 168) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Planetarium of Wan Shi Tong | Planetarium of Wan Shi Tong | 秘稀 | 1 张 (摩登 0+1) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Abandoned Air Temple | Abandoned Air Temple | 稀有 | 37 张 (标准 37) |
+| Ba Sing Se | Ba Sing Se | 稀有 | 151 张 (标准 151) |
+| Fire Nation Palace | Fire Nation Palace | 稀有 | 1 张 (标准 1) |
 
 ### Avatar: The Last Airbender Eternal (TLE) — 2025-11-21
 
@@ -7463,8 +7500,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Consider | 详加考虑 | 普通 | 6 张 ( pauper 6) |
-| Force of Negation | 否认之力 | 稀有 | 391 张 (摩登 351+40) |
-| Visions of Beyond | 未来预视 | 稀有 | 3 张 (摩登 3) |
+| Force of Negation | 否认之力 | 稀有 | 305 张 (摩登 275+30) |
 
 #### 红（R）
 
@@ -7472,13 +7508,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Bolt Bend | 咒击偏折 | 非普通 | 1 张 (标准 0+1) |
 | Searing Blood | 炙热鲜血 | 非普通 | 4 张 (摩登 0+4) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shattering Spree | 粉碎无歇 | 非普通 | 12 张 (摩登 0+12) |
+| Shattering Spree | 粉碎无歇 | 非普通 | 11 张 (摩登 0+11) |
 
 #### 绿（G）
 
@@ -7494,212 +7531,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cityscape Leveler | 夷城械 | 秘稀 | 15 张 (摩登 0+15) |
+| Cityscape Leveler | 夷城械 | 秘稀 | 10 张 (摩登 0+10) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sunbaked Canyon | 日灼峡谷 | 稀有 | 12 张 (摩登 12) |
+| Sunbaked Canyon | 日灼峡谷 | 稀有 | 6 张 (摩登 6) |
 | Valakut, the Molten Pinnacle | 熔天顶瓦拉库 | 稀有 | 1 张 (摩登 1) |
-
-### Avatar: The Last Airbender Promos (PTLA) — 2025-11-21
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Momo, Friendly Flier | Momo, Friendly Flier | 稀有 | 22 张 (摩登 6, 标准 16) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Airbender Ascension | Airbender Ascension | 稀有 | 3 张 (标准 3) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Avatar's Wrath | Avatar's Wrath | 稀有 | 42 张 (标准 26+16) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Wan Shi Tong, Librarian | Wan Shi Tong, Librarian | 秘稀 | 44 张 (摩登 25, 标准 3+16) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mai, Scornful Striker | Mai, Scornful Striker | 稀有 | 11 张 (摩登 0+2, 标准 2+7) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Phoenix Fleet Airship | Phoenix Fleet Airship | 秘稀 | 4 张 (摩登 4) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Day of Black Sun | Day of Black Sun | 稀有 | 65 张 (标准 38+27) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Zhao, the Moon Slayer | Zhao, the Moon Slayer | 稀有 | 18 张 (标准 18) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Great Divide Guide | Great Divide Guide | 稀有 | 2 张 (标准 2) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Earthbender Ascension | Earthbender Ascension | 稀有 | 184 张 (标准 184) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Planetarium of Wan Shi Tong | Planetarium of Wan Shi Tong | 秘稀 | 1 张 (摩登 0+1) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Abandoned Air Temple | Abandoned Air Temple | 稀有 | 56 张 (标准 56) |
-| Ba Sing Se | Ba Sing Se | 稀有 | 171 张 (标准 171) |
-
-### Avatar: The Last Airbender (TLA) — 2025-11-21
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Appa, Steadfast Guardian | Appa, Steadfast Guardian | 秘稀 | 4 张 (标准 4) |
-| Curious Farm Animals | Curious Farm Animals | 普通 | 1 张 (标准 0+1) |
-| Suki, Courageous Rescuer | Suki, Courageous Rescuer | 稀有 | 1 张 (标准 1) |
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Aang's Iceberg | Aang's Iceberg | 稀有 | 4 张 (标准 4) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Gran-Gran | Gran-Gran | 非普通 | 59 张 (摩登 14, 标准 45) |
-| The Unagi of Kyoshi Island | The Unagi of Kyoshi Island | 稀有 | 2 张 (标准 0+2) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Accumulate Wisdom | Accumulate Wisdom | 非普通 | 64 张 (标准 64) |
-| It'll Quench Ya! | It'll Quench Ya! | 普通 | 39 张 (摩登 0+1,  pauper 0+2, 标准 36) |
-| Octopus Form | Octopus Form | 普通 | 6 张 (标准 3+3) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Boomerang Basics | Boomerang Basics | 非普通 | 188 张 (摩登 21, 标准 167) |
-| Waterbending Lesson | Waterbending Lesson | 普通 | 5 张 ( pauper 0+5) |
-
-#### 黑（B）
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Dai Li Indoctrination | Dai Li Indoctrination | 普通 | 1 张 (摩登 0+1) |
-| Ruinous Waterbending | Ruinous Waterbending | 非普通 | 2 张 (摩登 0+2) |
-
-#### 红（R）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Combustion Technique | Combustion Technique | 非普通 | 64 张 (标准 64) |
-| Firebending Lesson | Firebending Lesson | 普通 | 128 张 ( pauper 0+5, 标准 120+3) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Iroh's Demonstration | Iroh's Demonstration | 非普通 | 29 张 (摩登 0+1, 标准 26+2) |
-| Price of Freedom | Price of Freedom | 非普通 | 88 张 (摩登 28+3, 标准 2+55) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Badgermole Cub | Badgermole Cub | 秘稀 | 366 张 (摩登 190, 标准 176) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Origin of Metalbending | Origin of Metalbending | 普通 | 46 张 (摩登 0+1,  pauper 0+12, 标准 4+29) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| True Ancestry | True Ancestry | 非普通 | 1 张 (摩登 0+1) |
-
-#### 多色（Multicolor）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Abandon Attachments | Abandon Attachments | 普通 | 85 张 ( pauper 22+4, 标准 59) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Barrels of Blasting Jelly | Barrels of Blasting Jelly | 普通 | 83 张 ( pauper 83) |
-| Bender's Waterskin | Bender's Waterskin | 普通 | 49 张 ( pauper 43, 标准 6) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Agna Qel'a | Agna Qel'a | 稀有 | 3 张 (标准 3) |
-| Realm of Koh | Realm of Koh | 稀有 | 4 张 (标准 4) |
 
 ### MagicFest 2026 (PF26) — 2026-01-01
 
@@ -7709,7 +7548,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Counterspell | 反击咒语 | 非普通 | 606 张 (摩登 192+4,  pauper 408+2) |
+| Counterspell | 反击咒语 | 非普通 | 536 张 (摩登 140+2,  pauper 392+2) |
 
 #### 绿（G）
 
@@ -7717,20 +7556,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Fyndhorn Elves | 范得贺恩妖精 | 普通 | 45 张 ( pauper 45) |
-| Llanowar Elves | 罗堰妖精 | 普通 | 328 张 ( pauper 81, 标准 247) |
+| Fyndhorn Elves | 范得贺恩妖精 | 普通 | 43 张 ( pauper 43) |
+| Llanowar Elves | 罗堰妖精 | 普通 | 262 张 ( pauper 62, 标准 200) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Utopia Sprawl | 理想境蔓生 | 非普通 | 132 张 (摩登 24,  pauper 108) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Explore | 探索大地 | 普通 | 1 张 (摩登 1) |
+| Utopia Sprawl | 理想境蔓生 | 非普通 | 120 张 (摩登 16,  pauper 104) |
 
 ### Wizards Play Network 2026 (PW26) — 2026-01-01
 
@@ -7740,7 +7573,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Into the Flood Maw | Into the Flood Maw | 非普通 | 78 张 (摩登 27+21, 标准 3+27) |
+| Into the Flood Maw | Into the Flood Maw | 非普通 | 67 张 (摩登 18+18, 标准 3+28) |
 
 #### 黑（B）
 
@@ -7748,7 +7581,166 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Nowhere to Run | Nowhere to Run | 非普通 | 39 张 (标准 35+4) |
+| Nowhere to Run | Nowhere to Run | 非普通 | 32 张 (标准 31+1) |
+
+### Lorwyn Eclipsed Promos (PECL) — 2026-01-23
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sunderflock | Sunderflock | 稀有 | 145 张 (标准 85+60) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Hexing Squelcher | Hexing Squelcher | 稀有 | 14 张 (标准 14) |
+
+#### 绿（G）
+
+**结界**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sapling Nursery | Sapling Nursery | 稀有 | 134 张 (标准 96+38) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Celestial Reunion | Celestial Reunion | 秘稀 | 3 张 (标准 3) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Abigale, Eloquent First-Year | Abigale, Eloquent First-Year | 稀有 | 5 张 (摩登 2, 标准 0+3) |
+| Emptiness | Emptiness | 秘稀 | 44 张 (摩登 1, 标准 43) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Ashling's Command | Ashling's Command | 稀有 | 6 张 (标准 6) |
+
+### Lorwyn Eclipsed (ECL) — 2026-01-23
+
+#### 白（W）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Pyrrhic Strike | Pyrrhic Strike | 非普通 | 24 张 (标准 0+24) |
+
+**法术**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Winnowing | Winnowing | 稀有 | 6 张 (标准 0+6) |
+
+#### 蓝（U）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Flitterwing Nuisance | Flitterwing Nuisance | 稀有 | 3 张 (标准 3) |
+| Glen Elendra Guardian | Glen Elendra Guardian | 稀有 | 1 张 (标准 0+1) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Spell Snare | 圈套咒语 | 非普通 | 336 张 (摩登 149+97, 标准 53+37) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Iron-Shield Elf | Iron-Shield Elf | 非普通 | 40 张 (标准 40) |
+| Moonshadow | Moonshadow | 秘稀 | 68 张 (摩登 24, 标准 44) |
+| Mudbutton Cursetosser | Mudbutton Cursetosser | 非普通 | 4 张 (摩登 4) |
+| Taster of Wares | Taster of Wares | 稀有 | 3 张 (摩登 3) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Requiting Hex | Requiting Hex | 非普通 | 153 张 (摩登 0+3, 标准 122+28) |
+| Scarblade's Malice | Scarblade's Malice | 普通 | 3 张 ( pauper 3) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Flamebraider | Flamebraider | 非普通 | 13 张 (摩登 4, 标准 9) |
+| Lavaleaper | Lavaleaper | 稀有 | 2 张 (标准 2) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sear | Sear | 非普通 | 71 张 (标准 44+27) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Bristlebane Battler | Bristlebane Battler | 稀有 | 4 张 (标准 4) |
+| Chomping Changeling | Chomping Changeling | 非普通 | 9 张 (摩登 0+6, 标准 0+3) |
+| Formidable Speaker | Formidable Speaker | 稀有 | 53 张 (摩登 20, 标准 33) |
+| Great Forest Druid | Great Forest Druid | 普通 | 1 张 ( pauper 0+1) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Blossoming Defense | 防御全开 | 非普通 | 3 张 (标准 3) |
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Deceit | Deceit | 秘稀 | 63 张 (摩登 5, 标准 58) |
+| Vibrance | Vibrance | 秘稀 | 16 张 (摩登 4, 标准 12) |
+| Wistfulness | Wistfulness | 秘稀 | 98 张 (摩登 66+3, 标准 15+14) |
+
+#### 无色（Colorless）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Rooftop Percher | Rooftop Percher | 普通 | 41 张 ( pauper 22+19) |
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Firdoch Core | Firdoch Core | 普通 | 12 张 (标准 12) |
+| Springleaf Drum | 春叶鼓 | 非普通 | 74 张 (摩登 39,  pauper 8, 标准 27) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Eclipsed Realms | Eclipsed Realms | 非普通 | 4 张 (摩登 4) |
 
 ### Lorwyn Eclipsed Commander (ECC) — 2026-01-23
 
@@ -7758,7 +7750,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mulldrifter | 漂念精 | 非普通 | 83 张 ( pauper 83) |
+| Mulldrifter | 漂念精 | 非普通 | 69 张 ( pauper 69) |
 
 **法术**
 
@@ -7778,7 +7770,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Persist | 留存 | 稀有 | 64 张 (摩登 64) |
+| Persist | 留存 | 稀有 | 36 张 (摩登 36) |
 
 #### 红（R）
 
@@ -7786,7 +7778,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ingot Chewer | 嚼锭怪 | 普通 | 10 张 (摩登 0+7,  pauper 0+3) |
+| Ingot Chewer | 嚼锭怪 | 普通 | 9 张 (摩登 0+6,  pauper 0+3) |
 
 #### 绿（G）
 
@@ -7794,16 +7786,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Devoted Druid | 虔诚德鲁伊 | 非普通 | 172 张 (摩登 164,  pauper 8) |
-| Endurance | 坚忍 | 秘稀 | 232 张 (摩登 115+117) |
-| Foundation Breaker | 碎根灵 | 非普通 | 15 张 (摩登 0+15) |
-| Ignoble Hierarch | 陋族大主教 | 稀有 | 9 张 (摩登 9) |
+| Devoted Druid | 虔诚德鲁伊 | 非普通 | 172 张 (摩登 168,  pauper 4) |
+| Endurance | 坚忍 | 秘稀 | 179 张 (摩登 90+89) |
+| Foundation Breaker | 碎根灵 | 非普通 | 10 张 (摩登 0+10) |
+| Ignoble Hierarch | 陋族大主教 | 稀有 | 7 张 (摩登 7) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Abundant Growth | 丰足成长 | 普通 | 47 张 ( pauper 47) |
+| Abundant Growth | 丰足成长 | 普通 | 31 张 ( pauper 31) |
 
 #### 多色（Multicolor）
 
@@ -7821,170 +7813,10 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Ancient Ziggurat | 远古金塔庙 | 非普通 | 4 张 (摩登 4) |
-| Golgari Rot Farm | 葛加理腐尸农场 | 非普通 | 11 张 ( pauper 11) |
-| Gruul Turf | 古鲁地盘 | 非普通 | 41 张 (摩登 35,  pauper 4+2) |
+| Golgari Rot Farm | 葛加理腐尸农场 | 非普通 | 7 张 ( pauper 7) |
+| Gruul Turf | 古鲁地盘 | 非普通 | 22 张 (摩登 16,  pauper 4+2) |
 | Ifnir Deadlands | 依法尼秽壤 | 非普通 | 4 张 (摩登 4) |
-| Rakdos Carnarium | 拉铎司剜祭场 | 非普通 | 5 张 ( pauper 5) |
-
-### Lorwyn Eclipsed Promos (PECL) — 2026-01-23
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sunderflock | Sunderflock | 稀有 | 125 张 (标准 57+68) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Hexing Squelcher | Hexing Squelcher | 稀有 | 18 张 (标准 18) |
-
-#### 绿（G）
-
-**结界**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sapling Nursery | Sapling Nursery | 稀有 | 145 张 (标准 97+48) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Celestial Reunion | Celestial Reunion | 秘稀 | 3 张 (标准 3) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Abigale, Eloquent First-Year | Abigale, Eloquent First-Year | 稀有 | 5 张 (摩登 2, 标准 0+3) |
-| Emptiness | Emptiness | 秘稀 | 38 张 (摩登 1, 标准 37) |
-
-### Lorwyn Eclipsed (ECL) — 2026-01-23
-
-#### 白（W）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Pyrrhic Strike | Pyrrhic Strike | 非普通 | 22 张 (标准 0+22) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Winnowing | Winnowing | 稀有 | 6 张 (标准 0+6) |
-
-#### 蓝（U）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Flitterwing Nuisance | Flitterwing Nuisance | 稀有 | 2 张 (标准 2) |
-| Silvergill Mentor | Silvergill Mentor | 非普通 | 3 张 (摩登 3) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Spell Snare | 圈套咒语 | 非普通 | 404 张 (摩登 200+127,  pauper 0+2, 标准 43+32) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Iron-Shield Elf | Iron-Shield Elf | 非普通 | 24 张 (标准 24) |
-| Moonshadow | Moonshadow | 秘稀 | 64 张 (摩登 36, 标准 28) |
-| Mudbutton Cursetosser | Mudbutton Cursetosser | 非普通 | 4 张 (摩登 4) |
-| Taster of Wares | Taster of Wares | 稀有 | 3 张 (摩登 3) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Requiting Hex | Requiting Hex | 非普通 | 160 张 (摩登 3+5, 标准 130+22) |
-| Scarblade's Malice | Scarblade's Malice | 普通 | 3 张 ( pauper 3) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Flamebraider | Flamebraider | 非普通 | 7 张 (摩登 4, 标准 3) |
-| Lavaleaper | Lavaleaper | 稀有 | 1 张 (标准 1) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sear | Sear | 非普通 | 64 张 (标准 39+25) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Burning Curiosity | Burning Curiosity | 普通 | 1 张 ( pauper 1) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Bristlebane Battler | Bristlebane Battler | 稀有 | 4 张 (标准 4) |
-| Chomping Changeling | Chomping Changeling | 非普通 | 10 张 (摩登 0+7, 标准 0+3) |
-| Formidable Speaker | Formidable Speaker | 稀有 | 70 张 (摩登 34, 标准 36) |
-| Great Forest Druid | Great Forest Druid | 普通 | 1 张 ( pauper 0+1) |
-| Virulent Emissary | Virulent Emissary | 非普通 | 1 张 (摩登 1) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Blossoming Defense | 防御全开 | 非普通 | 3 张 (标准 3) |
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Deceit | Deceit | 秘稀 | 73 张 (摩登 13, 标准 60) |
-| Vibrance | Vibrance | 秘稀 | 8 张 (摩登 4, 标准 4) |
-| Wistfulness | Wistfulness | 秘稀 | 108 张 (摩登 85+1, 标准 6+16) |
-
-#### 无色（Colorless）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Rooftop Percher | Rooftop Percher | 普通 | 54 张 ( pauper 29+25) |
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Firdoch Core | Firdoch Core | 普通 | 16 张 (标准 16) |
-| Springleaf Drum | 春叶鼓 | 非普通 | 79 张 (摩登 52,  pauper 8, 标准 19) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Eclipsed Realms | Eclipsed Realms | 非普通 | 4 张 (摩登 4) |
+| Rakdos Carnarium | 拉铎司剜祭场 | 非普通 | 1 张 ( pauper 1) |
 
 ### Lorwyn Eclipsed Tokens (TECL) — 2026-01-23
 
@@ -7994,7 +7826,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mutavault | 易形地窖 | 稀有 | 11 张 (摩登 11) |
+| Mutavault | 易形地窖 | 稀有 | 7 张 (摩登 7) |
 
 ### Teenage Mutant Ninja Turtles (TMT) — 2026-03-06
 
@@ -8004,13 +7836,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Leonardo, Big Brother | Leonardo, Big Brother | 普通 | 62 张 ( pauper 62) |
+| Leonardo, Big Brother | Leonardo, Big Brother | 普通 | 59 张 ( pauper 59) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| The Last Ronin's Technique | The Last Ronin's Technique | 非普通 | 3 张 (标准 3) |
+| The Last Ronin's Technique | The Last Ronin's Technique | 非普通 | 7 张 (标准 7) |
 
 #### 蓝（U）
 
@@ -8018,20 +7850,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Krang, Master Mind | Krang, Master Mind | 稀有 | 4 张 (摩登 4) |
+| Krang, Master Mind | Krang, Master Mind | 稀有 | 1 张 (摩登 1) |
 | Utrom Scientists | Utrom Scientists | 普通 | 4 张 ( pauper 4) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sewer-veillance Cam | Sewer-veillance Cam | 普通 | 78 张 (摩登 14,  pauper 62+2) |
+| Sewer-veillance Cam | Sewer-veillance Cam | 普通 | 78 张 (摩登 12,  pauper 66) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Negate | 失效 | 普通 | 94 张 ( pauper 10+28, 标准 8+48) |
+| Negate | 失效 | 普通 | 95 张 ( pauper 6+24, 标准 10+55) |
 
 #### 黑（B）
 
@@ -8039,8 +7871,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dream Beavers | Dream Beavers | 非普通 | 22 张 (标准 22) |
-| Oroku Saki, Shredder Rising | Oroku Saki, Shredder Rising | 普通 | 14 张 ( pauper 14) |
+| Dream Beavers | Dream Beavers | 非普通 | 26 张 (标准 26) |
+| Oroku Saki, Shredder Rising | Oroku Saki, Shredder Rising | 普通 | 12 张 ( pauper 12) |
 | Super Shredder | Super Shredder | 秘稀 | 2 张 (标准 0+2) |
 
 **神器**
@@ -8055,14 +7887,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Casey Jones, Vigilante | Casey Jones, Vigilante | 稀有 | 13 张 (标准 13) |
+| Casey Jones, Vigilante | Casey Jones, Vigilante | 稀有 | 16 张 (标准 16) |
 | Raphael, Tough Turtle | Raphael, Tough Turtle | 普通 | 2 张 (标准 2) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Cool but Rude | Cool but Rude | 稀有 | 25 张 (摩登 0+1, 标准 24) |
+| Cool but Rude | Cool but Rude | 稀有 | 41 张 (摩登 0+1, 标准 40) |
 
 #### 绿（G）
 
@@ -8071,20 +7903,20 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Frog Butler | Frog Butler | 普通 | 2 张 (标准 0+2) |
-| Leatherhead, Swamp Stalker | Leatherhead, Swamp Stalker | 稀有 | 105 张 (摩登 0+6, 标准 53+46) |
-| Primordial Pachyderm | Primordial Pachyderm | 普通 | 16 张 ( pauper 1+15) |
+| Leatherhead, Swamp Stalker | Leatherhead, Swamp Stalker | 稀有 | 71 张 (摩登 0+6, 标准 21+44) |
+| Primordial Pachyderm | Primordial Pachyderm | 普通 | 13 张 ( pauper 1+12) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Guac & Marshmallow Pizza | Guac & Marshmallow Pizza | 普通 | 6 张 ( pauper 6) |
+| Guac & Marshmallow Pizza | Guac & Marshmallow Pizza | 普通 | 3 张 ( pauper 3) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Michelangelo's Technique | Michelangelo's Technique | 稀有 | 8 张 (标准 8) |
+| Michelangelo's Technique | Michelangelo's Technique | 稀有 | 12 张 (标准 12) |
 
 #### 多色（Multicolor）
 
@@ -8094,8 +7926,8 @@
 |------|--------|--------|------|
 | Foot Ninjas | Foot Ninjas | 普通 | 3 张 ( pauper 3) |
 | Karai, Future of the Foot | Karai, Future of the Foot | 非普通 | 1 张 (标准 1) |
-| North Wind Avatar | North Wind Avatar | 秘稀 | 11 张 (标准 10+1) |
-| Tokka & Rahzar, Terrible Twos | Tokka & Rahzar, Terrible Twos | 稀有 | 1 张 (标准 1) |
+| Mechanized Ninja Cavalry | Mechanized Ninja Cavalry | 普通 | 2 张 ( pauper 2) |
+| North Wind Avatar | North Wind Avatar | 秘稀 | 12 张 (标准 12) |
 
 #### 无色（Colorless）
 
@@ -8103,14 +7935,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Skateboard | Skateboard | 非普通 | 36 张 (摩登 29, 标准 7) |
-| The Ooze | The Ooze | 稀有 | 4 张 (标准 0+4) |
+| Skateboard | Skateboard | 非普通 | 27 张 (摩登 22, 标准 5) |
+| The Ooze | The Ooze | 稀有 | 6 张 (标准 0+6) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Escape Tunnel | 脱逃暗道 | 普通 | 185 张 ( pauper 15, 标准 170) |
+| Escape Tunnel | 脱逃暗道 | 普通 | 165 张 ( pauper 11, 标准 154) |
 | Foot Headquarters | Foot Headquarters | 普通 | 2 张 ( pauper 2) |
 | Illegitimate Business | Illegitimate Business | 普通 | 4 张 ( pauper 4) |
 
@@ -8122,7 +7954,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Brainstorm | 脑力激荡 | 普通 | 307 张 ( pauper 306+1) |
+| Brainstorm | 脑力激荡 | 普通 | 301 张 ( pauper 301) |
 
 #### 无色（Colorless）
 
@@ -8130,19 +7962,19 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arcbound Ravager | Arcbound Ravager | 稀有 | 5 张 (摩登 5) |
+| Arcbound Ravager | Arcbound Ravager | 稀有 | 2 张 (摩登 2) |
 
 **神器**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shadowspear | 蔽影矛 | 稀有 | 28 张 (摩登 21+7) |
+| Shadowspear | 蔽影矛 | 稀有 | 22 张 (摩登 15+7) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Undercity Sewers | 地底城水道 | 稀有 | 226 张 (摩登 181, 标准 45) |
+| Undercity Sewers | 地底城水道 | 稀有 | 176 张 (摩登 135, 标准 41) |
 
 ### Teenage Mutant Ninja Turtles Eternal (TMC) — 2026-03-06
 
@@ -8152,7 +7984,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Utrom Monitor | Utrom Monitor | 普通 | 94 张 ( pauper 94) |
+| Utrom Monitor | Utrom Monitor | 普通 | 85 张 ( pauper 85) |
 
 #### 多色（Multicolor）
 
@@ -8160,7 +7992,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Supreme Verdict | 最高裁决 | 稀有 | 24 张 (摩登 14+10) |
+| Supreme Verdict | 最高裁决 | 稀有 | 20 张 (摩登 12+8) |
 
 #### 无色（Colorless）
 
@@ -8168,8 +8000,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ash Barrens | 灰烬瘠地 | 普通 | 26 张 ( pauper 26) |
-| City of Brass | 黄铜之都 | 稀有 | 6 张 (摩登 6) |
+| Ash Barrens | 灰烬瘠地 | 普通 | 21 张 ( pauper 21) |
+| City of Brass | 黄铜之都 | 稀有 | 4 张 (摩登 4) |
 
 ### Secrets of Strixhaven (SOS) — 2026-04-24
 
@@ -8179,20 +8011,20 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Shattered Acolyte | Shattered Acolyte | 普通 | 12 张 ( pauper 4+8) |
+| Shattered Acolyte | Shattered Acolyte | 普通 | 16 张 ( pauper 4+12) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Erode | Erode | 稀有 | 192 张 (摩登 32+25, 标准 110+25) |
+| Erode | Erode | 稀有 | 183 张 (摩登 29+13, 标准 127+14) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Daydream | Daydream | 非普通 | 16 张 (标准 16) |
-| Practiced Offense | Practiced Offense | 稀有 | 103 张 (摩登 23, 标准 80) |
+| Daydream | Daydream | 非普通 | 24 张 (标准 24) |
+| Practiced Offense | Practiced Offense | 稀有 | 80 张 (摩登 20, 标准 60) |
 
 #### 蓝（U）
 
@@ -8206,14 +8038,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Divergent Equation | Divergent Equation | 非普通 | 2 张 (摩登 2) |
 | Essence Scatter | 菁华离散 | 普通 | 7 张 ( pauper 0+2, 标准 0+5) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Flow State | Flow State | 非普通 | 195 张 (摩登 10, 标准 181+4) |
+| Flow State | Flow State | 非普通 | 198 张 (摩登 6, 标准 188+4) |
 
 #### 黑（B）
 
@@ -8221,13 +8052,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Moseo, Vein's New Dean | Moseo, Vein's New Dean | 稀有 | 53 张 (标准 53) |
+| Moseo, Vein's New Dean | Moseo, Vein's New Dean | 稀有 | 62 张 (标准 62) |
 
 **鹏洛客**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ral Zarek, Guest Lecturer | Ral Zarek, Guest Lecturer | 秘稀 | 8 张 (标准 6+2) |
+| Ral Zarek, Guest Lecturer | Ral Zarek, Guest Lecturer | 秘稀 | 9 张 (标准 6+3) |
 
 **瞬间**
 
@@ -8239,11 +8070,11 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arcane Omens | Arcane Omens | 非普通 | 1 张 (标准 0+1) |
-| Decorum Dissertation | Decorum Dissertation | 秘稀 | 18 张 (摩登 0+2, 标准 1+15) |
-| End of the Hunt | End of the Hunt | 非普通 | 7 张 (摩登 1+6) |
+| Arcane Omens | Arcane Omens | 非普通 | 2 张 (标准 0+2) |
+| Decorum Dissertation | Decorum Dissertation | 秘稀 | 21 张 (摩登 0+2, 标准 1+18) |
+| End of the Hunt | End of the Hunt | 非普通 | 5 张 (摩登 1+4) |
 | Pox Plague | Pox Plague | 稀有 | 3 张 (标准 3) |
-| Withering Curse | Withering Curse | 秘稀 | 5 张 (标准 3+2) |
+| Withering Curse | Withering Curse | 秘稀 | 3 张 (标准 3) |
 
 #### 红（R）
 
@@ -8251,22 +8082,22 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Tablet of Discovery | Tablet of Discovery | 非普通 | 164 张 (标准 164) |
+| Tablet of Discovery | Tablet of Discovery | 非普通 | 168 张 (标准 168) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Flashback | Flashback | 稀有 | 61 张 (摩登 11, 标准 50) |
+| Flashback | Flashback | 稀有 | 64 张 (摩登 10, 标准 54) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Ancestral Anger | 先祖怒火 | 普通 | 48 张 ( pauper 4, 标准 44) |
+| Ancestral Anger | 先祖怒火 | 普通 | 44 张 ( pauper 4, 标准 40) |
 | Duel Tactics | Duel Tactics | 非普通 | 1 张 (标准 0+1) |
-| Impractical Joke | Impractical Joke | 非普通 | 42 张 (标准 31+11) |
-| Improvisation Capstone | Improvisation Capstone | 秘稀 | 17 张 (标准 14+3) |
+| Impractical Joke | Impractical Joke | 非普通 | 52 张 (标准 42+10) |
+| Improvisation Capstone | Improvisation Capstone | 秘稀 | 21 张 (标准 18+3) |
 
 #### 绿（G）
 
@@ -8274,13 +8105,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Slumbering Trudge | Slumbering Trudge | 稀有 | 84 张 (摩登 84) |
+| Slumbering Trudge | Slumbering Trudge | 稀有 | 48 张 (摩登 48) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Glorious Decay | Glorious Decay | 普通 | 30 张 ( pauper 0+4, 标准 0+26) |
+| Glorious Decay | Glorious Decay | 普通 | 22 张 ( pauper 0+4, 标准 0+18) |
 
 **法术**
 
@@ -8296,30 +8127,31 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Bogwater Lumaret | Bogwater Lumaret | 普通 | 4 张 ( pauper 4) |
-| Hardened Academic | Hardened Academic | 稀有 | 43 张 (摩登 20, 标准 23) |
+| Hardened Academic | Hardened Academic | 稀有 | 59 张 (摩登 20, 标准 39) |
+| Lorehold, the Historian | Lorehold, the Historian | 秘稀 | 2 张 (标准 2) |
 | Pest Mascot | Pest Mascot | 普通 | 4 张 ( pauper 4) |
-| Spirit Mascot | Spirit Mascot | 普通 | 8 张 ( pauper 8) |
+| Spirit Mascot | Spirit Mascot | 普通 | 4 张 ( pauper 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Embrace the Paradox | Embrace the Paradox | 普通 | 13 张 ( pauper 13) |
-| Prismari Charm | Prismari Charm | 非普通 | 85 张 (摩登 3+1, 标准 81) |
+| Embrace the Paradox | Embrace the Paradox | 普通 | 11 张 ( pauper 11) |
+| Prismari Charm | Prismari Charm | 非普通 | 112 张 (摩登 3+1, 标准 108) |
 | Quandrix Charm | Quandrix Charm | 非普通 | 3 张 (摩登 0+1, 标准 2) |
-| Traumatic Critique | Traumatic Critique | 稀有 | 51 张 (摩登 5, 标准 46) |
-| Vibrant Outburst | Vibrant Outburst | 非普通 | 47 张 (标准 42+5) |
-| Witherbloom Charm | Witherbloom Charm | 非普通 | 16 张 (摩登 11+3, 标准 2) |
+| Traumatic Critique | Traumatic Critique | 稀有 | 64 张 (摩登 1, 标准 63) |
+| Vibrant Outburst | Vibrant Outburst | 非普通 | 44 张 (标准 39+5) |
+| Witherbloom Charm | Witherbloom Charm | 非普通 | 9 张 (摩登 7, 标准 2) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Grapple with Death | Grapple with Death | 普通 | 9 张 ( pauper 5+4) |
-| Pursue the Past | Pursue the Past | 普通 | 68 张 ( pauper 68) |
-| Splatter Technique | Splatter Technique | 稀有 | 11 张 (标准 7+4) |
-| Vicious Rivalry | Vicious Rivalry | 稀有 | 18 张 (标准 0+18) |
-| Visionary's Dance | Visionary's Dance | 普通 | 4 张 ( pauper 4) |
+| Grapple with Death | Grapple with Death | 普通 | 7 张 ( pauper 4+3) |
+| Pursue the Past | Pursue the Past | 普通 | 56 张 ( pauper 56) |
+| Splatter Technique | Splatter Technique | 稀有 | 8 张 (标准 6+2) |
+| Vicious Rivalry | Vicious Rivalry | 稀有 | 15 张 (标准 0+15) |
+| Visionary's Dance | Visionary's Dance | 普通 | 1 张 ( pauper 1) |
 
 #### 无色（Colorless）
 
@@ -8333,17 +8165,43 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Together as One | Together as One | 稀有 | 43 张 (标准 43) |
+| Together as One | Together as One | 稀有 | 39 张 (标准 39) |
 
 **地**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Deathcap Glade | 毒蕈林地 | 稀有 | 19 张 (标准 19) |
+| Deathcap Glade | 毒蕈林地 | 稀有 | 15 张 (标准 15) |
 | Forum of Amity | Forum of Amity | 普通 | 1 张 ( pauper 1) |
-| Paradox Gardens | Paradox Gardens | 普通 | 2 张 ( pauper 2) |
-| Petrified Hamlet | Petrified Hamlet | 稀有 | 27 张 (标准 5+22) |
-| Shattered Sanctum | 破碎圣所 | 稀有 | 95 张 (标准 95) |
+| Paradox Gardens | Paradox Gardens | 普通 | 1 张 ( pauper 1) |
+| Petrified Hamlet | Petrified Hamlet | 稀有 | 26 张 (标准 4+22) |
+| Shattered Sanctum | 破碎圣所 | 稀有 | 106 张 (标准 106) |
+
+### Secrets of Strixhaven Promos (PSOS) — 2026-04-24
+
+#### 多色（Multicolor）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Colorstorm Stallion | Colorstorm Stallion | 稀有 | 127 张 (标准 40+87) |
+
+**鹏洛客**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Professor Dellian Fel | Professor Dellian Fel | 秘稀 | 17 张 (摩登 1, 标准 11+5) |
+
+#### 无色（Colorless）
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Great Hall of the Biblioplex | Great Hall of the Biblioplex | 稀有 | 179 张 (标准 171+8) |
+| Stormcarved Coast | 风蚀海岸 | 稀有 | 64 张 (标准 64) |
+| Sundown Pass | 日落隘口 | 稀有 | 46 张 (标准 46) |
 
 ### Secrets of Strixhaven Mystical Archive (SOA) — 2026-04-24
 
@@ -8353,8 +8211,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Prismatic Ending | 虹彩终局 | 非普通 | 291 张 (摩登 242+49) |
-| Requisition Raid | 征用突袭 | 非普通 | 5 张 (标准 0+5) |
+| Prismatic Ending | 虹彩终局 | 非普通 | 222 张 (摩登 185+37) |
+| Requisition Raid | 征用突袭 | 非普通 | 6 张 (标准 0+6) |
 
 #### 蓝（U）
 
@@ -8362,17 +8220,17 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Disdainful Stroke | 倨傲击 | 非普通 | 104 张 (标准 0+104) |
-| Flusterstorm | 躁乱风暴 | 稀有 | 20 张 (摩登 0+20) |
-| Spell Pierce | 点破咒语 | 非普通 | 373 张 (摩登 29+56,  pauper 59+13, 标准 86+130) |
+| Disdainful Stroke | 倨傲击 | 非普通 | 121 张 (标准 0+121) |
+| Flusterstorm | 躁乱风暴 | 稀有 | 12 张 (摩登 0+12) |
+| Spell Pierce | 点破咒语 | 非普通 | 353 张 (摩登 12+50,  pauper 59+11, 标准 92+129) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Preordain | 注定 | 普通 | 356 张 (摩登 248,  pauper 108) |
-| Sleight of Hand | 变戏法 | 普通 | 228 张 (标准 228) |
-| Stock Up | Stock Up | 非普通 | 231 张 (摩登 18+22, 标准 189+2) |
+| Preordain | 注定 | 普通 | 293 张 (摩登 206,  pauper 87) |
+| Sleight of Hand | 变戏法 | 普通 | 242 张 (标准 242) |
+| Stock Up | Stock Up | 非普通 | 198 张 (摩登 11+8, 标准 177+2) |
 
 #### 黑（B）
 
@@ -8380,15 +8238,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bitter Triumph | 惨痛胜利 | 非普通 | 83 张 (摩登 7, 标准 72+4) |
-| Dismember | 肢解 | 非普通 | 172 张 (摩登 73+99) |
-| Sheoldred's Edict | 希欧蕊的勒令 | 非普通 | 82 张 (摩登 71+11) |
+| Bitter Triumph | 惨痛胜利 | 非普通 | 76 张 (摩登 4, 标准 66+6) |
+| Dismember | 肢解 | 非普通 | 123 张 (摩登 57+66) |
+| Sheoldred's Edict | 希欧蕊的勒令 | 非普通 | 61 张 (摩登 53+8) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Living End | 走骨行尸 | 秘稀 | 60 张 (摩登 60) |
+| Living End | 走骨行尸 | 秘稀 | 45 张 (摩登 45) |
 
 #### 红（R）
 
@@ -8397,17 +8255,17 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Bulk Up | Bulk Up | 非普通 | 1 张 (标准 1) |
-| Burst Lightning | 闪电迸发 | 普通 | 253 张 (标准 249+4) |
-| Monstrous Rage | 怪物狂怒 | 非普通 | 7 张 (摩登 7) |
-| Pyretic Ritual | 热病祭礼 | 普通 | 44 张 (摩登 44) |
-| Return the Favor | 同等回报 | 非普通 | 27 张 (标准 0+27) |
+| Burst Lightning | 闪电迸发 | 普通 | 285 张 (标准 278+7) |
+| Monstrous Rage | 怪物狂怒 | 非普通 | 8 张 (摩登 8) |
+| Pyretic Ritual | 热病祭礼 | 普通 | 32 张 (摩登 32) |
+| Return the Favor | 同等回报 | 非普通 | 26 张 (标准 0+26) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Brotherhood's End | 兄弟反目 | 稀有 | 52 张 (摩登 0+52) |
-| Empty the Warrens | 净空繁殖地 | 普通 | 10 张 (摩登 0+10) |
+| Brotherhood's End | 兄弟反目 | 稀有 | 41 张 (摩登 0+41) |
+| Empty the Warrens | 净空繁殖地 | 普通 | 7 张 (摩登 0+7) |
 
 #### 绿（G）
 
@@ -8415,16 +8273,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Crop Rotation | 轮耕法 | 非普通 | 56 张 ( pauper 56) |
-| Royal Treatment | 皇族礼遇 | 非普通 | 45 张 (摩登 4, 标准 30+11) |
-| Veil of Summer | 夏色帘幕 | 非普通 | 114 张 (摩登 27+87) |
+| Crop Rotation | 轮耕法 | 非普通 | 49 张 ( pauper 49) |
+| Royal Treatment | 皇族礼遇 | 非普通 | 34 张 (摩登 4, 标准 23+7) |
+| Veil of Summer | 夏色帘幕 | 非普通 | 105 张 (摩登 32+73) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Pick Your Poison | 挑选毒药 | 普通 | 50 张 (摩登 0+21,  pauper 0+8, 标准 1+20) |
-| Shared Roots | Shared Roots | 非普通 | 23 张 (标准 23) |
+| Pick Your Poison | 挑选毒药 | 普通 | 49 张 (摩登 0+19,  pauper 0+8, 标准 1+21) |
+| Shared Roots | Shared Roots | 非普通 | 26 张 (标准 26) |
 
 #### 多色（Multicolor）
 
@@ -8438,7 +8296,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Culling Ritual | 牲祭仪式 | 稀有 | 24 张 (摩登 0+24) |
+| Culling Ritual | 牲祭仪式 | 稀有 | 16 张 (摩登 0+16) |
 
 ### Secrets of Strixhaven Commander (SOC) — 2026-04-24
 
@@ -8449,14 +8307,14 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Skyclave Apparition | 空境亡灵 | 稀有 | 2 张 (摩登 2) |
-| White Orchid Phantom | 白兰幽魅 | 稀有 | 50 张 (摩登 14+36) |
+| White Orchid Phantom | 白兰幽魅 | 稀有 | 43 张 (摩登 12+31) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Sentinel's Eyes | 哨卫之眼 | 普通 | 14 张 ( pauper 14) |
-| Sheltered by Ghosts | Sheltered by Ghosts | 非普通 | 44 张 (标准 1+43) |
+| Sentinel's Eyes | 哨卫之眼 | 普通 | 9 张 ( pauper 9) |
+| Sheltered by Ghosts | Sheltered by Ghosts | 非普通 | 25 张 (标准 1+24) |
 
 #### 黑（B）
 
@@ -8464,8 +8322,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bloodghast | 可怖血妖 | 稀有 | 24 张 (标准 24) |
-| Viscera Seer | 拽脏预言师 | 普通 | 11 张 (摩登 10,  pauper 1) |
+| Bloodghast | 可怖血妖 | 稀有 | 40 张 (标准 40) |
+| Viscera Seer | 拽脏预言师 | 普通 | 7 张 (摩登 6,  pauper 1) |
 
 #### 红（R）
 
@@ -8473,13 +8331,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Abrade | 风化侵蚀 | 非普通 | 26 张 (摩登 0+3, 标准 12+11) |
+| Abrade | 风化侵蚀 | 非普通 | 35 张 (摩登 0+2, 标准 14+19) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Faithless Looting | 丧信掠夺 | 普通 | 279 张 (摩登 96,  pauper 183) |
+| Faithless Looting | 丧信掠夺 | 普通 | 221 张 (摩登 68,  pauper 153) |
 
 #### 绿（G）
 
@@ -8487,17 +8345,10 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Gilded Goose | 金鹅 | 稀有 | 20 张 (摩登 20) |
+| Gilded Goose | 金鹅 | 稀有 | 12 张 (摩登 12) |
 | Goldvein Hydra | 金脉多头龙 | 秘稀 | 1 张 (标准 0+1) |
 
 #### 多色（Multicolor）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Assassin's Trophy | 杀手留念 | 稀有 | 2 张 (摩登 0+2) |
-| Prismari Command | 粹丽指命 | 稀有 | 3 张 (摩登 2+1) |
 
 **法术**
 
@@ -8511,7 +8362,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Haywire Mite | 失控虫械 | 非普通 | 73 张 (摩登 63+10) |
+| Haywire Mite | 失控虫械 | 非普通 | 58 张 (摩登 50+8) |
 
 **神器**
 
@@ -8523,44 +8374,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Bojuka Bog | 泊卒卡腐沼 | 普通 | 133 张 (摩登 6+9,  pauper 115+3) |
+| Bojuka Bog | 泊卒卡腐沼 | 普通 | 114 张 (摩登 4+7,  pauper 100+3) |
 | Emeria, the Sky Ruin | 天空遗迹伊美黎 | 稀有 | 1 张 (摩登 1) |
-| Flooded Grove | 潮没树丛 | 稀有 | 7 张 (摩登 7) |
-| Haunted Mire | 遭祟泥沼 | 普通 | 14 张 ( pauper 14) |
+| Flooded Grove | 潮没树丛 | 稀有 | 5 张 (摩登 5) |
+| Haunted Mire | 遭祟泥沼 | 普通 | 12 张 ( pauper 12) |
 | Lorehold Campus | 衡鉴校区 | 普通 | 1 张 ( pauper 1) |
 | Quandrix Campus | 量析校区 | 普通 | 1 张 ( pauper 1) |
-| Shivan Reef | 西瓦暗礁 | 稀有 | 26 张 (摩登 26) |
+| Shivan Reef | 西瓦暗礁 | 稀有 | 20 张 (摩登 20) |
 | Silverquill Campus | 银毫校区 | 普通 | 1 张 ( pauper 1) |
-| Tangled Islet | 繁根孤岛 | 普通 | 14 张 ( pauper 14) |
-| Twilight Mire | 暮色泥沼 | 稀有 | 6 张 (摩登 6) |
+| Tangled Islet | 繁根孤岛 | 普通 | 12 张 ( pauper 12) |
 | Yavimaya Coast | 亚维马雅海岸 | 稀有 | 2 张 (摩登 2) |
-
-### Secrets of Strixhaven Promos (PSOS) — 2026-04-24
-
-#### 多色（Multicolor）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Colorstorm Stallion | Colorstorm Stallion | 稀有 | 114 张 (摩登 0+1, 标准 35+78) |
-
-**鹏洛客**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Professor Dellian Fel | Professor Dellian Fel | 秘稀 | 20 张 (摩登 2, 标准 14+4) |
-
-#### 无色（Colorless）
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Dreamroot Cascade | 幻根瀑布 | 稀有 | 2 张 (标准 2) |
-| Great Hall of the Biblioplex | Great Hall of the Biblioplex | 稀有 | 181 张 (标准 171+10) |
-| Stormcarved Coast | 风蚀海岸 | 稀有 | 45 张 (标准 45) |
-| Sundown Pass | 日落隘口 | 稀有 | 48 张 (标准 48) |
 
 ### Marvel Super Heroes Commander (MSC) — 2026-06-26
 
@@ -8570,8 +8393,8 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Aunt May | Aunt May | 非普通 | 22 张 (标准 22) |
-| Spider-Man, Web-Slinger | Spider-Man, Web-Slinger | 普通 | 17 张 ( pauper 17) |
+| Aunt May | Aunt May | 非普通 | 25 张 (标准 25) |
+| Spider-Man, Web-Slinger | Spider-Man, Web-Slinger | 普通 | 16 张 ( pauper 16) |
 
 **瞬间**
 
@@ -8580,9 +8403,9 @@
 | Bovine Intervention | Bovine Intervention | 非普通 | 2 张 (摩登 0+2) |
 | Destroy Evil | 消灭邪物 | 普通 | 5 张 ( pauper 0+5) |
 | Dispatch | 迅速了结 | 非普通 | 1 张 (摩登 1) |
-| Path to Exile | 流放之径 | 非普通 | 38 张 (摩登 34+4) |
-| Spectacular Tactics | Spectacular Tactics | 普通 | 8 张 (标准 0+8) |
-| Ultimate Alliance | Ultimate Alliance | 普通 | 3 张 ( pauper 1+2) |
+| Path to Exile | 流放之径 | 非普通 | 29 张 (摩登 28+1) |
+| Spectacular Tactics | Spectacular Tactics | 普通 | 6 张 (标准 0+6) |
+| Ultimate Alliance | Ultimate Alliance | 普通 | 5 张 ( pauper 1+4) |
 
 #### 蓝（U）
 
@@ -8590,13 +8413,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Arcane Denial | 玄秘否定 | 普通 | 20 张 ( pauper 20) |
+| Arcane Denial | 玄秘否定 | 普通 | 16 张 ( pauper 16) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Deep Analysis | 深入分析 | 普通 | 40 张 ( pauper 37+3) |
+| Deep Analysis | 深入分析 | 普通 | 34 张 ( pauper 33+1) |
 
 #### 黑（B）
 
@@ -8610,22 +8433,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dark Ritual | 黑暗祭礼 | 非普通 | 13 张 ( pauper 13) |
+| Dark Ritual | 黑暗祭礼 | 非普通 | 12 张 ( pauper 12) |
 | Doom Blade | 送终刀锋 | 非普通 | 4 张 ( pauper 3+1) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Toxic Deluge | 毒雨倾盆 | 稀有 | 54 张 (摩登 2+52) |
+| Toxic Deluge | 毒雨倾盆 | 稀有 | 41 张 (摩登 1+40) |
 
 #### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Masked Meower | Masked Meower | 普通 | 4 张 ( pauper 4) |
 
 **瞬间**
 
@@ -8633,16 +8450,15 @@
 |------|--------|--------|------|
 | Big Score | 大干一票 | 普通 | 16 张 ( pauper 16) |
 | Crossover Collaboration | Crossover Collaboration | 普通 | 9 张 ( pauper 9) |
-| Lightning Bolt | 闪电击 | 非普通 | 617 张 (摩登 273+8,  pauper 336) |
-| Shock | 电震 | 普通 | 24 张 (标准 24) |
+| Lightning Bolt | 闪电击 | 非普通 | 509 张 (摩登 210+8,  pauper 291) |
+| Shock | 电震 | 普通 | 26 张 (标准 26) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Blasphemous Act | 渎神行径 | 稀有 | 4 张 (摩登 0+4) |
-| Grapeshot | 霰散弹 | 普通 | 21 张 (摩登 10+11) |
-| Vandalblast | 蛮野冲击 | 非普通 | 1 张 (摩登 0+1) |
+| Grapeshot | 霰散弹 | 普通 | 15 张 (摩登 7+8) |
 
 #### 绿（G）
 
@@ -8650,7 +8466,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Birds of Paradise | 天堂鸟 | 稀有 | 92 张 (摩登 92) |
+| Birds of Paradise | 天堂鸟 | 稀有 | 94 张 (摩登 94) |
 | Spider-Rex, Daring Dino | Spider-Rex, Daring Dino | 普通 | 1 张 ( pauper 1) |
 
 #### 多色（Multicolor）
@@ -8659,13 +8475,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Terminate | 终结 | 非普通 | 21 张 ( pauper 7+14) |
+| Terminate | 终结 | 非普通 | 23 张 ( pauper 9+14) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Expressive Iteration | 展现迭代 | 非普通 | 138 张 (摩登 134+4) |
+| Expressive Iteration | 展现迭代 | 非普通 | 115 张 (摩登 109+6) |
 
 #### 无色（Colorless）
 
@@ -8680,10 +8496,10 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Drowned Catacomb | 水没墓穴 | 稀有 | 1 张 (摩登 1) |
-| Fabled Passage | 神奇小径 | 稀有 | 184 张 (标准 184) |
+| Fabled Passage | 神奇小径 | 稀有 | 168 张 (标准 168) |
 | Mystic Monastery | 神秘寺院 | 非普通 | 3 张 (标准 3) |
-| Scavenger Grounds | 荒骨咒土 | 稀有 | 3 张 (摩登 2+1) |
-| Secluded Courtyard | 幽僻庭院 | 非普通 | 24 张 (摩登 12, 标准 12) |
+| Scavenger Grounds | 荒骨咒土 | 稀有 | 2 张 (摩登 2) |
+| Secluded Courtyard | 幽僻庭院 | 非普通 | 32 张 (摩登 12, 标准 20) |
 | Unclaimed Territory | 无主领地 | 非普通 | 6 张 (摩登 6) |
 
 ### Marvel Super Heroes (MSH) — 2026-06-26
@@ -8704,13 +8520,13 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| The Mind Stone | The Mind Stone | 秘稀 | 3 张 (标准 3) |
+| The Mind Stone | The Mind Stone | 秘稀 | 2 张 (标准 2) |
 
 **结界**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Political Triumph | Political Triumph | 非普通 | 4 张 (标准 4) |
+| Political Triumph | Political Triumph | 非普通 | 8 张 (标准 8) |
 
 #### 蓝（U）
 
@@ -8718,16 +8534,16 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Loki, God of Mischief | Loki, God of Mischief | 稀有 | 19 张 (摩登 16, 标准 3) |
+| Loki, God of Mischief | Loki, God of Mischief | 稀有 | 15 张 (摩登 12, 标准 3) |
 | Ms. Marvel, Kamala Khan | Ms. Marvel, Kamala Khan | 稀有 | 1 张 (标准 0+1) |
 | Namor the Sub-Mariner | Namor the Sub-Mariner | 秘稀 | 24 张 (摩登 4+10, 标准 4+6) |
-| The Wondrous Wasp | The Wondrous Wasp | 稀有 | 20 张 (摩登 1, 标准 19) |
+| The Wondrous Wasp | The Wondrous Wasp | 稀有 | 20 张 (标准 20) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| We Say Thee Nay! | We Say Thee Nay! | 普通 | 19 张 (标准 19) |
+| We Say Thee Nay! | We Say Thee Nay! | 普通 | 20 张 (标准 20) |
 
 #### 黑（B）
 
@@ -8738,8 +8554,8 @@
 | Baron Helmut Zemo | Baron Helmut Zemo | 稀有 | 4 张 (标准 4) |
 | Black Widow, Super Spy | Black Widow, Super Spy | 秘稀 | 2 张 (标准 2) |
 | Doctor Doom | Doctor Doom | 秘稀 | 2 张 (标准 2) |
-| Elektra, Daughter of the Hand | Elektra, Daughter of the Hand | 稀有 | 5 张 (标准 5) |
-| M.O.D.O.K. | M.O.D.O.K. | 秘稀 | 14 张 (标准 8+6) |
+| Elektra, Daughter of the Hand | Elektra, Daughter of the Hand | 稀有 | 4 张 (标准 4) |
+| M.O.D.O.K. | M.O.D.O.K. | 秘稀 | 11 张 (标准 5+6) |
 
 #### 红（R）
 
@@ -8748,7 +8564,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Fin Fang Foom | Fin Fang Foom | 稀有 | 2 张 (标准 2) |
-| Thor, God of Thunder | Thor, God of Thunder | 秘稀 | 55 张 (标准 34+21) |
+| Thor, God of Thunder | Thor, God of Thunder | 秘稀 | 52 张 (标准 32+20) |
 
 **结界**
 
@@ -8760,14 +8576,15 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Lightning Strike | 闪电炼击 | 普通 | 10 张 (标准 8+2) |
+| Lightning Strike | 闪电炼击 | 普通 | 14 张 (标准 10+4) |
+| Vision of Love | Vision of Love | 普通 | 1 张 ( pauper 1) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Avengers Disassembled | Avengers Disassembled | 稀有 | 91 张 (摩登 22+6, 标准 14+49) |
-| Hex Magic | Hex Magic | 非普通 | 43 张 (摩登 41, 标准 2) |
+| Avengers Disassembled | Avengers Disassembled | 稀有 | 90 张 (摩登 22+6, 标准 12+50) |
+| Hex Magic | Hex Magic | 非普通 | 34 张 (摩登 32, 标准 2) |
 
 #### 绿（G）
 
@@ -8775,22 +8592,22 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Guerrilla Gorilla | Guerrilla Gorilla | 普通 | 26 张 (摩登 0+24,  pauper 0+2) |
-| Mole Man, Moloid Master | Mole Man, Moloid Master | 稀有 | 6 张 (标准 6) |
-| Shang-Chi, Master of Kung Fu | Shang-Chi, Master of Kung Fu | 秘稀 | 46 张 (摩登 42, 标准 4) |
+| Guerrilla Gorilla | Guerrilla Gorilla | 普通 | 28 张 (摩登 0+26,  pauper 0+2) |
+| Mole Man, Moloid Master | Mole Man, Moloid Master | 稀有 | 8 张 (标准 8) |
+| Shang-Chi, Master of Kung Fu | Shang-Chi, Master of Kung Fu | 秘稀 | 49 张 (摩登 45, 标准 4) |
 | The Unbeatable Squirrel Girl | The Unbeatable Squirrel Girl | 稀有 | 4 张 (标准 4) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Rapid Rescue | Rapid Rescue | 普通 | 42 张 (标准 42) |
+| Rapid Rescue | Rapid Rescue | 普通 | 34 张 (标准 34) |
 
 **法术**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Call Damage Control | Call Damage Control | 普通 | 22 张 ( pauper 3+19) |
+| Call Damage Control | Call Damage Control | 普通 | 18 张 ( pauper 2+16) |
 
 #### 多色（Multicolor）
 
@@ -8828,9 +8645,9 @@
 | Avengers Tower | Avengers Tower | 非普通 | 4 张 (标准 4) |
 | Castle Doom | Castle Doom | 稀有 | 4 张 (标准 4) |
 | Dark Fortress | Dark Fortress | 稀有 | 4 张 (标准 4) |
-| Gathering Place | Gathering Place | 稀有 | 21 张 (摩登 18, 标准 3) |
-| Gleaming Bastion | Gleaming Bastion | 稀有 | 16 张 (标准 16) |
-| Hidden Lair | Hidden Lair | 稀有 | 46 张 (标准 46) |
+| Gathering Place | Gathering Place | 稀有 | 8 张 (摩登 8) |
+| Gleaming Bastion | Gleaming Bastion | 稀有 | 20 张 (标准 20) |
+| Hidden Lair | Hidden Lair | 稀有 | 41 张 (标准 41) |
 | Training Compound | Training Compound | 稀有 | 11 张 (标准 11) |
 
 ### Marvel Super Heroes Jumpstart Front Cards (FMSC) — 2026-06-26
@@ -8843,84 +8660,6 @@
 |------|--------|--------|------|
 | Pym Particles | Pym Particles | 非普通 | 3 张 (标准 3) |
 
-### The Hobbit Eternal (HOC) — 2026-08-14
-
-#### 白（W）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Eagles of the North | 北山群鹰 | 普通 | 2 张 ( pauper 2) |
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Reprieve | 稍作缓息 | 秘稀 | 4 张 (摩登 2+2) |
-
-#### 蓝（U）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Stern Scolding | 严肃斥责 | 非普通 | 21 张 (摩登 19+2) |
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Orcish Bowmasters | 奥克弓手 | 秘稀 | 175 张 (摩登 175) |
-
-#### 红（R）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Guttersnipe | 贫窟伏击客 | 非普通 | 131 张 ( pauper 129+2) |
-| Oliphaunt | 毛象 | 普通 | 41 张 (摩登 41) |
-
-**法术**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Fire of Orthanc | 欧尔桑克烈焰 | 普通 | 2 张 ( pauper 0+2) |
-
-#### 绿（G）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Delighted Halfling | 快乐的半身人 | 秘稀 | 221 张 (摩登 221) |
-| Elvish Mystic | 妖精秘教徒 | 普通 | 54 张 ( pauper 53+1) |
-
-#### 多色（Multicolor）
-
-**瞬间**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Flame of Anor | 阿诺尔之火 | 秘稀 | 20 张 (摩登 15+5) |
-
-#### 无色（Colorless）
-
-**神器**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mox Amber | 琥珀玛珂 | 秘稀 | 45 张 (摩登 45) |
-
-**地**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Mount Doom | 末日山 | 秘稀 | 2 张 (摩登 2) |
-
 ### The Hobbit (HOB) — 2026-08-14
 
 #### 白（W）
@@ -8929,13 +8668,14 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Belladonna Took | Belladonna Took | 稀有 | 5 张 (摩登 3, 标准 2) |
-| The Queen of Dale | The Queen of Dale | 秘稀 | 2 张 (标准 2) |
+| Belladonna Took | Belladonna Took | 稀有 | 9 张 (摩登 3, 标准 6) |
+| The Queen of Dale | The Queen of Dale | 秘稀 | 4 张 (标准 3+1) |
 
 **瞬间**
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Bilbo's Gambit | Bilbo's Gambit | 稀有 | 3 张 (标准 0+3) |
 | Settle the Wreckage | 处理残迹 | 稀有 | 3 张 (标准 0+3) |
 
 #### 蓝（U）
@@ -8952,6 +8692,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
+| Confusticate and Bebother | Confusticate and Bebother | 普通 | 2 张 ( pauper 2) |
 | Plunder the Trollshaws | Plunder the Trollshaws | 普通 | 4 张 ( pauper 2, 标准 2) |
 
 #### 黑（B）
@@ -8971,6 +8712,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Dwarven Mauler | Dwarven Mauler | 非普通 | 8 张 (标准 8) |
+| Smaug the Magnificent | Smaug the Magnificent | 秘稀 | 7 张 (标准 7) |
 | Thorin, Mountain-king | Thorin, Mountain-king | 秘稀 | 3 张 (标准 3) |
 
 #### 多色（Multicolor）
@@ -8980,6 +8722,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Dwalin, Weaponmaster | Dwalin, Weaponmaster | 稀有 | 4 张 (标准 4) |
+| Patient Instructor | Patient Instructor | 普通 | 8 张 ( pauper 8) |
 
 #### 无色（Colorless）
 
@@ -8994,7 +8737,7 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | Dwarven Mattock | Dwarven Mattock | 非普通 | 3 张 (标准 3) |
-| Giant's Boulder | Giant's Boulder | 普通 | 24 张 ( pauper 24) |
+| Giant's Boulder | Giant's Boulder | 普通 | 32 张 ( pauper 32) |
 | Key to the Side-Door | Key to the Side-Door | 非普通 | 6 张 (摩登 4, 标准 2) |
 
 **地**
@@ -9002,6 +8745,84 @@
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
 | The Lonely Mountain | The Lonely Mountain | 稀有 | 6 张 (标准 6) |
+
+### The Hobbit Eternal (HOC) — 2026-08-14
+
+#### 白（W）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Eagles of the North | 北山群鹰 | 普通 | 4 张 ( pauper 4) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Reprieve | 稍作缓息 | 秘稀 | 4 张 (摩登 2+2) |
+
+#### 蓝（U）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Stern Scolding | 严肃斥责 | 非普通 | 15 张 (摩登 13+2) |
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Orcish Bowmasters | 奥克弓手 | 秘稀 | 135 张 (摩登 135) |
+
+#### 红（R）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Guttersnipe | 贫窟伏击客 | 非普通 | 116 张 ( pauper 116) |
+| Oliphaunt | 毛象 | 普通 | 37 张 (摩登 37) |
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Improvised Club | 临时木棍 | 普通 | 2 张 ( pauper 2) |
+
+#### 绿（G）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Delighted Halfling | 快乐的半身人 | 秘稀 | 207 张 (摩登 207) |
+| Elvish Mystic | 妖精秘教徒 | 普通 | 34 张 ( pauper 33+1) |
+
+#### 多色（Multicolor）
+
+**瞬间**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Flame of Anor | 阿诺尔之火 | 秘稀 | 17 张 (摩登 14+3) |
+
+#### 无色（Colorless）
+
+**神器**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mox Amber | 琥珀玛珂 | 秘稀 | 38 张 (摩登 38) |
+
+**地**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Mount Doom | 末日山 | 秘稀 | 2 张 (摩登 2) |
 
 ### Mystery Booster Commander Edition (MBC) — 2026-11-09
 
@@ -9011,7 +8832,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Dust to Dust | Dust to Dust | 非普通 | 168 张 ( pauper 0+168) |
+| Dust to Dust | Dust to Dust | 非普通 | 157 张 ( pauper 0+157) |
 
 #### 无色（Colorless）
 
@@ -9019,17 +8840,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mind Stone | 心灵石 | 非普通 | 59 张 (摩登 59) |
-
-### Stardates (SDS) — 2026-11-13
-
-#### 黑（B）
-
-**生物**
-
-| 卡牌 | 中文名 | 稀有度 | 用量 |
-|------|--------|--------|------|
-| Sheoldred, the Apocalypse | 启示天灾希欧蕊 | 秘稀 | 5 张 (摩登 5) |
+| Mind Stone | 心灵石 | 非普通 | 39 张 (摩登 39) |
 
 ### Star Trek (TRK) — 2026-11-13
 
@@ -9039,7 +8850,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Reckless Impulse | 鲁莽冲动 | 普通 | 110 张 (摩登 44,  pauper 64+2) |
+| Reckless Impulse | 鲁莽冲动 | 普通 | 88 张 (摩登 32,  pauper 56) |
 
 #### 无色（Colorless）
 
@@ -9047,16 +8858,26 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Blood Crypt | 血腥墓穴 | 稀有 | 138 张 (摩登 66, 标准 72) |
-| Breeding Pool | 滋生之池 | 稀有 | 143 张 (摩登 97, 标准 46) |
-| Godless Shrine | 无神祭祠 | 稀有 | 230 张 (摩登 124, 标准 106) |
-| Hallowed Fountain | 崇圣喷泉 | 稀有 | 292 张 (摩登 163, 标准 129) |
-| Overgrown Tomb | 蔓生墓园 | 稀有 | 175 张 (摩登 130, 标准 45) |
-| Sacred Foundry | 圣洁锻炉 | 稀有 | 271 张 (摩登 179, 标准 92) |
-| Steam Vents | 蒸气喷发口 | 稀有 | 616 张 (摩登 228, 标准 388) |
-| Stomping Ground | 晃动大地 | 稀有 | 104 张 (摩登 72, 标准 32) |
-| Temple Garden | 殿堂花园 | 稀有 | 182 张 (摩登 95, 标准 87) |
-| Watery Grave | 积水墓地 | 稀有 | 348 张 (摩登 239, 标准 109) |
+| Blood Crypt | 血腥墓穴 | 稀有 | 130 张 (摩登 46, 标准 84) |
+| Breeding Pool | 滋生之池 | 稀有 | 121 张 (摩登 75, 标准 46) |
+| Godless Shrine | 无神祭祠 | 稀有 | 224 张 (摩登 94, 标准 130) |
+| Hallowed Fountain | 崇圣喷泉 | 稀有 | 249 张 (摩登 118, 标准 131) |
+| Overgrown Tomb | 蔓生墓园 | 稀有 | 151 张 (摩登 113, 标准 38) |
+| Sacred Foundry | 圣洁锻炉 | 稀有 | 253 张 (摩登 135, 标准 118) |
+| Steam Vents | 蒸气喷发口 | 稀有 | 588 张 (摩登 177, 标准 411) |
+| Stomping Ground | 晃动大地 | 稀有 | 90 张 (摩登 58, 标准 32) |
+| Temple Garden | 殿堂花园 | 稀有 | 119 张 (摩登 76, 标准 43) |
+| Watery Grave | 积水墓地 | 稀有 | 274 张 (摩登 175, 标准 99) |
+
+### Stardates (SDS) — 2026-11-13
+
+#### 黑（B）
+
+**生物**
+
+| 卡牌 | 中文名 | 稀有度 | 用量 |
+|------|--------|--------|------|
+| Sheoldred, the Apocalypse | 启示天灾希欧蕊 | 秘稀 | 6 张 (摩登 6) |
 
 ### Star Trek Commander (TRC) — 2026-11-13
 
@@ -9085,7 +8906,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| L�rien Revealed | L�rien Revealed | 普通 | 392 张 (摩登 16,  pauper 376) |
+| L�rien Revealed | L�rien Revealed | 普通 | 358 张 (摩登 6,  pauper 352) |
 
 #### 黑（B）
 
@@ -9093,7 +8914,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Troll of Khazad-d�m | Troll of Khazad-d�m | 普通 | 72 张 (摩登 15,  pauper 56+1) |
+| Troll of Khazad-d�m | Troll of Khazad-d�m | 普通 | 58 张 (摩登 7,  pauper 50+1) |
 
 #### 红（R）
 
@@ -9107,7 +8928,7 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Mj�lnir, Hammer of Thor | Mj�lnir, Hammer of Thor | 秘稀 | 3 张 (摩登 0+3) |
+| Mj�lnir, Hammer of Thor | Mj�lnir, Hammer of Thor | 秘稀 | 2 张 (摩登 0+2) |
 
 #### 多色（Multicolor）
 
@@ -9124,79 +8945,81 @@
 
 | 卡牌 | 中文名 | 稀有度 | 用量 |
 |------|--------|--------|------|
-| Aang, Swift Savior | Aang, Swift Savior |  | 47 张 (摩登 4, 标准 42+1) |
-| Aang, at the Crossroads | Aang, at the Crossroads |  | 4 张 (标准 4) |
-| Ajani, Nacatl Pariah | Ajani, Nacatl Pariah |  | 148 张 (摩登 148) |
-| Ashling, Rekindled | Ashling, Rekindled |  | 6 张 (标准 4+2) |
-| Beyeen Veil | Beyeen Veil |  | 19 张 (摩登 19) |
+| Aang, Swift Savior | Aang, Swift Savior |  | 46 张 (摩登 3, 标准 42+1) |
+| Ajani, Nacatl Pariah | Ajani, Nacatl Pariah |  | 92 张 (摩登 92) |
+| Ashling, Rekindled | Ashling, Rekindled |  | 14 张 (标准 12+2) |
+| Beyeen Veil | Beyeen Veil |  | 15 张 (摩登 15) |
+| Bilbo Baggins, Burglar | Bilbo Baggins, Burglar |  | 2 张 ( pauper 2) |
 | Blightstep Pathway | Blightstep Pathway |  | 4 张 (摩登 4) |
 | Bofur, Reliable Guardian | Bofur, Reliable Guardian |  | 2 张 (标准 2) |
-| Boggart Trawler | Boggart Trawler |  | 39 张 (摩登 39) |
-| Bramble Familiar | Bramble Familiar |  | 4 张 (标准 4) |
-| Brazen Borrower | Brazen Borrower |  | 14 张 (摩登 7+7) |
-| Bridgeworks Battle | Bridgeworks Battle |  | 17 张 (摩登 17) |
-| Bruce Banner | Bruce Banner |  | 3 张 (摩登 2, 标准 1) |
-| Callous Sell-Sword | Callous Sell-Sword |  | 49 张 (摩登 6, 标准 34+9) |
-| Cecil, Dark Knight | Cecil, Dark Knight |  | 17 张 (标准 17) |
+| Boggart Trawler | Boggart Trawler |  | 32 张 (摩登 32) |
+| Brazen Borrower | Brazen Borrower |  | 10 张 (摩登 7+3) |
+| Bridgeworks Battle | Bridgeworks Battle |  | 16 张 (摩登 16) |
+| Bruce Banner | Bruce Banner |  | 2 张 (摩登 1, 标准 1) |
+| Callous Sell-Sword | Callous Sell-Sword |  | 44 张 (摩登 6, 标准 30+8) |
+| Cecil, Dark Knight | Cecil, Dark Knight |  | 15 张 (标准 15) |
 | Clearwater Pathway | Clearwater Pathway |  | 1 张 (摩登 1) |
-| Darkbore Pathway | Darkbore Pathway |  | 14 张 (摩登 14) |
+| Darkbore Pathway | Darkbore Pathway |  | 10 张 (摩登 10) |
 | Decadent Dragon | Decadent Dragon |  | 2 张 (标准 2) |
 | Delver of Secrets | Delver of Secrets |  | 108 张 ( pauper 108) |
-| Disciple of Freyalise | Disciple of Freyalise |  | 119 张 (摩登 119) |
+| Disciple of Freyalise | Disciple of Freyalise |  | 82 张 (摩登 82) |
 | Dread Linnorm | Dread Linnorm |  | 1 张 ( pauper 1) |
-| Drowner of Truth | Drowner of Truth |  | 34 张 (摩登 34) |
-| Duskwatch Recruiter | Duskwatch Recruiter |  | 39 张 (摩登 39) |
-| Elite Interceptor | Elite Interceptor |  | 22 张 ( pauper 21, 标准 1) |
-| Elusive Otter | Elusive Otter |  | 44 张 (标准 44) |
-| Emeritus of Abundance | Emeritus of Abundance |  | 18 张 (摩登 10, 标准 4+4) |
-| Emeritus of Ideation | Emeritus of Ideation |  | 89 张 (标准 33+56) |
+| Drowner of Truth | Drowner of Truth |  | 20 张 (摩登 20) |
+| Duskwatch Recruiter | Duskwatch Recruiter |  | 37 张 (摩登 37) |
+| Elite Interceptor | Elite Interceptor |  | 20 张 ( pauper 17+2, 标准 1) |
+| Elusive Otter | Elusive Otter |  | 40 张 (标准 40) |
+| Emeritus of Abundance | Emeritus of Abundance |  | 11 张 (摩登 6, 标准 3+2) |
+| Emeritus of Ideation | Emeritus of Ideation |  | 90 张 (标准 28+62) |
 | Erayo, Soratami Ascendant | Erayo, Soratami Ascendant |  | 4 张 (摩登 4) |
-| Esper Origins | Esper Origins |  | 146 张 (标准 145+1) |
-| Fable of the Mirror-Breaker | Fable of the Mirror-Breaker |  | 22 张 (摩登 22) |
-| Fang Dragon | Fang Dragon |  | 14 张 ( pauper 1+13) |
+| Esper Origins | Esper Origins |  | 144 张 (标准 143+1) |
+| Fable of the Mirror-Breaker | Fable of the Mirror-Breaker |  | 12 张 (摩登 12) |
+| Fang Dragon | Fang Dragon |  | 12 张 ( pauper 1+11) |
 | Fell the Profane | Fell the Profane |  | 6 张 (摩登 6) |
+| Gandalf, Goblins' Bane | Gandalf, Goblins' Bane |  | 3 张 (标准 3) |
 | Graveyard Trespasser | Graveyard Trespasser |  | 2 张 (摩登 2) |
 | Grub, Storied Matriarch | Grub, Storied Matriarch |  | 3 张 (摩登 3) |
 | Gwen Stacy | Gwen Stacy |  | 2 张 (标准 2) |
 | Hagra Mauling | Hagra Mauling |  | 1 张 (摩登 1) |
-| Hearth Elemental | Hearth Elemental |  | 86 张 (标准 72+14) |
-| Hydroelectric Specimen | Hydroelectric Specimen |  | 44 张 (摩登 44) |
-| Jadzi, Steward of Fate | Jadzi, Steward of Fate |  | 26 张 (标准 26) |
-| Jennifer Walters | Jennifer Walters |  | 43 张 (标准 43) |
-| Jwari Disruption | Jwari Disruption |  | 43 张 (摩登 43) |
-| King T'Challa | King T'Challa |  | 13 张 (标准 7+6) |
-| Lunarch Veteran | Lunarch Veteran |  | 75 张 ( pauper 75) |
-| Maelstrom Artisan | Maelstrom Artisan |  | 4 张 (标准 0+4) |
-| Marang River Regent | Marang River Regent |  | 4 张 (标准 3+1) |
+| Hearth Elemental | Hearth Elemental |  | 108 张 (标准 97+11) |
+| Hydroelectric Specimen | Hydroelectric Specimen |  | 28 张 (摩登 28) |
+| Jadzi, Steward of Fate | Jadzi, Steward of Fate |  | 23 张 (标准 23) |
+| Jennifer Walters | Jennifer Walters |  | 27 张 (标准 27) |
+| Jwari Disruption | Jwari Disruption |  | 28 张 (摩登 28) |
+| King T'Challa | King T'Challa |  | 11 张 (标准 6+5) |
+| Lake-town Mariners | Lake-town Mariners |  | 1 张 (标准 0+1) |
+| Lindblum, Industrial Regency | Lindblum, Industrial Regency |  | 3 张 (标准 3) |
+| Lunarch Veteran | Lunarch Veteran |  | 73 张 ( pauper 73) |
+| Maelstrom Artisan | Maelstrom Artisan |  | 2 张 (标准 0+2) |
+| Marang River Regent | Marang River Regent |  | 6 张 (标准 4+2) |
 | Miles Morales | Miles Morales |  | 3 张 (标准 3) |
-| Monica Rambeau | Monica Rambeau |  | 2 张 (标准 0+2) |
-| Murderous Rider | Murderous Rider |  | 2 张 (摩登 0+2) |
-| Ojer Axonil, Deepest Might | Ojer Axonil, Deepest Might |  | 4 张 (标准 4) |
-| Outland Liberator | Outland Liberator |  | 19 张 (摩登 0+19) |
+| Monica Rambeau | Monica Rambeau |  | 3 张 (标准 1+2) |
+| Murderous Rider | Murderous Rider |  | 1 张 (摩登 0+1) |
+| Ojer Axonil, Deepest Might | Ojer Axonil, Deepest Might |  | 6 张 (标准 4+2) |
+| Outland Liberator | Outland Liberator |  | 19 张 (摩登 1+18) |
 | Peter Parker | Peter Parker |  | 2 张 (标准 2) |
-| Ral, Monsoon Mage | Ral, Monsoon Mage |  | 44 张 (摩登 44) |
-| Razorgrass Ambush | Razorgrass Ambush |  | 1 张 (摩登 1) |
-| Revitalizing Repast | Revitalizing Repast |  | 3 张 (摩登 3) |
-| Sagu Wildling | Sagu Wildling |  | 132 张 ( pauper 132) |
+| Ral, Monsoon Mage | Ral, Monsoon Mage |  | 32 张 (摩登 32) |
+| Revitalizing Repast | Revitalizing Repast |  | 1 张 (摩登 1) |
+| Sagu Wildling | Sagu Wildling |  | 123 张 ( pauper 123) |
+| Sanar, Unfinished Genius | Sanar, Unfinished Genius |  | 4 张 (标准 4) |
 | Scalding Viper | Scalding Viper |  | 4 张 (标准 4) |
-| Sea Gate Restoration | Sea Gate Restoration |  | 43 张 (摩登 43) |
-| Sephiroth, Fabled SOLDIER | Sephiroth, Fabled SOLDIER |  | 3 张 (摩登 3) |
+| Sea Gate Restoration | Sea Gate Restoration |  | 28 张 (摩登 28) |
+| Sephiroth, Fabled SOLDIER | Sephiroth, Fabled SOLDIER |  | 2 张 (摩登 2) |
 | Serah Farron | Serah Farron |  | 2 张 (标准 2) |
 | Silundi Vision | Silundi Vision |  | 4 张 (摩登 4) |
-| Sink into Stupor | Sink into Stupor |  | 185 张 (摩登 185) |
-| Skycoach Conductor | Skycoach Conductor |  | 28 张 (标准 28) |
+| Sink into Stupor | Sink into Stupor |  | 124 张 (摩登 124) |
+| Skycoach Conductor | Skycoach Conductor |  | 30 张 (标准 30) |
+| Smaug, the Great Calamity | Smaug, the Great Calamity |  | 2 张 ( pauper 2) |
 | Spring-Loaded Sawblades | Spring-Loaded Sawblades |  | 3 张 (标准 3) |
-| Stormshriek Feral | Stormshriek Feral |  | 4 张 ( pauper 4) |
-| Suppression Ray | Suppression Ray |  | 44 张 (摩登 44) |
-| Tamiyo, Inquisitive Student | Tamiyo, Inquisitive Student |  | 124 张 (摩登 118+6) |
+| Stormshriek Feral | Stormshriek Feral |  | 2 张 ( pauper 2) |
+| Suppression Ray | Suppression Ray |  | 26 张 (摩登 26) |
+| Tamiyo, Inquisitive Student | Tamiyo, Inquisitive Student |  | 95 张 (摩登 91+4) |
 | Tarrian's Journal | Tarrian's Journal |  | 1 张 (标准 1) |
 | The Legend of Kuruk | The Legend of Kuruk |  | 2 张 (摩登 0+2) |
-| The Legend of Roku | The Legend of Roku |  | 52 张 (摩登 21+24, 标准 0+7) |
+| The Legend of Roku | The Legend of Roku |  | 43 张 (摩登 17+19, 标准 0+7) |
 | The Modern Age | The Modern Age |  | 11 张 ( pauper 11) |
-| Tithing Blade | Tithing Blade |  | 65 张 ( pauper 43+18, 标准 3+1) |
-| Turntimber Symbiosis | Turntimber Symbiosis |  | 6 张 (摩登 6) |
-| Twinmaw Stormbrood | Twinmaw Stormbrood |  | 3 张 (标准 0+3) |
-| Umara Wizard | Umara Wizard |  | 1 张 (摩登 1) |
-| Valakut Awakening | Valakut Awakening |  | 28 张 (摩登 28) |
-| Waterlogged Teachings | Waterlogged Teachings |  | 27 张 (摩登 27) |
-| Witch Enchanter | Witch Enchanter |  | 99 张 (摩登 99) |
+| Tithing Blade | Tithing Blade |  | 57 张 ( pauper 37+16, 标准 3+1) |
+| Turntimber Symbiosis | Turntimber Symbiosis |  | 4 张 (摩登 4) |
+| Twinmaw Stormbrood | Twinmaw Stormbrood |  | 5 张 (标准 2+3) |
+| Valakut Awakening | Valakut Awakening |  | 22 张 (摩登 22) |
+| Waterlogged Teachings | Waterlogged Teachings |  | 15 张 (摩登 15) |
+| Witch Enchanter | Witch Enchanter |  | 80 张 (摩登 80) |
