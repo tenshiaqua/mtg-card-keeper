@@ -35478,5 +35478,777 @@
     "set": "tla",
     "set_name": "Avatar: The Last Airbender",
     "is_basic_land": false
+  },
+  "Astelli Reclaimer": {
+    "name": "Astelli Reclaimer",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Creature — Angel Warrior",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{W}{W}",
+    "set": "eoe",
+    "set_name": "Edge of Eternities",
+    "is_basic_land": false
+  },
+  "Braided Net // Braided Quipu": {
+    "name": "Braided Net // Braided Quipu",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact // Artifact",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "",
+    "set": "lci",
+    "set_name": "The Lost Caverns of Ixalan",
+    "is_basic_land": false
+  },
+  "Environmental Scientist": {
+    "name": "Environmental Scientist",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Human Druid",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "sos",
+    "set_name": "Secrets of Strixhaven",
+    "is_basic_land": false
+  },
+  "Gigantic Big Bear": {
+    "name": "Gigantic Big Bear",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Bear",
+    "type_category": "Creature",
+    "cmc": 7.0,
+    "mana_cost": "{5}{G}{G}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Perilous Snare": {
+    "name": "Perilous Snare",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "{2}{W}",
+    "set": "dft",
+    "set_name": "Aetherdrift",
+    "is_basic_land": false
+  },
+  "Postmortem Professor": {
+    "name": "Postmortem Professor",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Creature — Zombie Warlock",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "sos",
+    "set_name": "Secrets of Strixhaven",
+    "is_basic_land": false
+  },
+  "Pyromancer's Goggles": {
+    "name": "Pyromancer's Goggles",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Artifact",
+    "type_category": "Artifact",
+    "cmc": 5.0,
+    "mana_cost": "{5}",
+    "set": "fdn",
+    "set_name": "Foundations",
+    "is_basic_land": false
+  },
+  "Repurposing Bay": {
+    "name": "Repurposing Bay",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "dft",
+    "set_name": "Aetherdrift",
+    "is_basic_land": false
+  },
+  "Simulacrum Synthesizer": {
+    "name": "Simulacrum Synthesizer",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "big",
+    "set_name": "The Big Score",
+    "is_basic_land": false
+  },
+  "Terror of the Peaks": {
+    "name": "Terror of the Peaks",
+    "rarity": "mythic",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Dragon",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{R}{R}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "The Fire Crystal": {
+    "name": "The Fire Crystal",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Legendary Artifact",
+    "type_category": "Artifact",
+    "cmc": 4.0,
+    "mana_cost": "{2}{R}{R}",
+    "set": "fin",
+    "set_name": "Final Fantasy",
+    "is_basic_land": false
+  },
+  "The Irencrag": {
+    "name": "The Irencrag",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Artifact",
+    "type_category": "Artifact",
+    "cmc": 2.0,
+    "mana_cost": "{2}",
+    "set": "woe",
+    "set_name": "Wilds of Eldraine",
+    "is_basic_land": false
+  },
+  "Wail of War": {
+    "name": "Wail of War",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{B}",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Abundant Harvest": {
+    "name": "Abundant Harvest",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "cmm",
+    "set_name": "Commander Masters",
+    "is_basic_land": false
+  },
+  "Academy Ruins": {
+    "name": "Academy Ruins",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "2xm",
+    "set_name": "Double Masters",
+    "is_basic_land": false
+  },
+  "Aurora Awakener": {
+    "name": "Aurora Awakener",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Giant Druid",
+    "type_category": "Creature",
+    "cmc": 7.0,
+    "mana_cost": "{6}{G}",
+    "set": "ecl",
+    "set_name": "Lorwyn Eclipsed",
+    "is_basic_land": false
+  },
+  "Cindervines": {
+    "name": "Cindervines",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{R}{G}",
+    "set": "rvr",
+    "set_name": "Ravnica Remastered",
+    "is_basic_land": false
+  },
+  "Codex Shredder": {
+    "name": "Codex Shredder",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "cmr",
+    "set_name": "Commander Legends",
+    "is_basic_land": false
+  },
+  "Deduce": {
+    "name": "Deduce",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{U}",
+    "set": "mkm",
+    "set_name": "Murders at Karlov Manor",
+    "is_basic_land": false
+  },
+  "Dundoolin Weaver": {
+    "name": "Dundoolin Weaver",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Kithkin Druid",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "ecl",
+    "set_name": "Lorwyn Eclipsed",
+    "is_basic_land": false
+  },
+  "Eladamri's Call": {
+    "name": "Eladamri's Call",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{G}{W}",
+    "set": "mh1",
+    "set_name": "Modern Horizons",
+    "is_basic_land": false
+  },
+  "Elven Chorus": {
+    "name": "Elven Chorus",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 4.0,
+    "mana_cost": "{3}{G}",
+    "set": "ltr",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "is_basic_land": false
+  },
+  "Glittering Wish": {
+    "name": "Glittering Wish",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{G}{W}",
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "is_basic_land": false
+  },
+  "Lantern of Insight": {
+    "name": "Lantern of Insight",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "5dn",
+    "set_name": "Fifth Dawn",
+    "is_basic_land": false
+  },
+  "Linvala, Keeper of Silence": {
+    "name": "Linvala, Keeper of Silence",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Legendary Creature — Angel",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{2}{W}{W}",
+    "set": "jmp",
+    "set_name": "Jumpstart",
+    "is_basic_land": false
+  },
+  "Nature's Chant": {
+    "name": "Nature's Chant",
+    "rarity": "common",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G/W}",
+    "set": "mh1",
+    "set_name": "Modern Horizons",
+    "is_basic_land": false
+  },
+  "Polymorph": {
+    "name": "Polymorph",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{3}{U}",
+    "set": "m10",
+    "set_name": "Magic 2010",
+    "is_basic_land": false
+  },
+  "Pyxis of Pandemonium": {
+    "name": "Pyxis of Pandemonium",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "ths",
+    "set_name": "Theros",
+    "is_basic_land": false
+  },
+  "Riddles in the Dark": {
+    "name": "Riddles in the Dark",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Shape Anew": {
+    "name": "Shape Anew",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{3}{U}",
+    "set": "som",
+    "set_name": "Scars of Mirrodin",
+    "is_basic_land": false
+  },
+  "Spellskite": {
+    "name": "Spellskite",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Creature — Phyrexian Horror",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{2}",
+    "set": "clb",
+    "set_name": "Commander Legends: Battle for Baldur's Gate",
+    "is_basic_land": false
+  },
+  "Tarmogoyf": {
+    "name": "Tarmogoyf",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Lhurgoyf",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "tsr",
+    "set_name": "Time Spiral Remastered",
+    "is_basic_land": false
+  },
+  "The Underworld Cookbook": {
+    "name": "The Underworld Cookbook",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact — Book",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "mh2",
+    "set_name": "Modern Horizons 2",
+    "is_basic_land": false
+  },
+  "Timely Reinforcements": {
+    "name": "Timely Reinforcements",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 3.0,
+    "mana_cost": "{2}{W}",
+    "set": "m12",
+    "set_name": "Magic 2012",
+    "is_basic_land": false
+  },
+  "Vendetta": {
+    "name": "Vendetta",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "roe",
+    "set_name": "Rise of the Eldrazi",
+    "is_basic_land": false
+  },
+  "Voice of Resurgence": {
+    "name": "Voice of Resurgence",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Creature — Elemental",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{G}{W}",
+    "set": "2xm",
+    "set_name": "Double Masters",
+    "is_basic_land": false
+  },
+  "Crime // Punishment": {
+    "name": "Crime // Punishment",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Sorcery // Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 7.0,
+    "mana_cost": "{3}{W}{B} // {X}{B}{G}",
+    "set": "dis",
+    "set_name": "Dissension",
+    "is_basic_land": false
+  },
+  "Crime / Punishment": {
+    "name": "Crime // Punishment",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Sorcery // Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 7.0,
+    "mana_cost": "{3}{W}{B} // {X}{B}{G}",
+    "set": "dis",
+    "set_name": "Dissension",
+    "is_basic_land": false
+  },
+  "Repudiate // Replicate": {
+    "name": "Repudiate // Replicate",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant // Sorcery",
+    "type_category": "Instant",
+    "cmc": 5.0,
+    "mana_cost": "{G/U}{G/U} // {1}{G}{U}",
+    "set": "rvr",
+    "set_name": "Ravnica Remastered",
+    "is_basic_land": false
+  },
+  "Repudiate / Replicate": {
+    "name": "Repudiate // Replicate",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant // Sorcery",
+    "type_category": "Instant",
+    "cmc": 5.0,
+    "mana_cost": "{G/U}{G/U} // {1}{G}{U}",
+    "set": "rvr",
+    "set_name": "Ravnica Remastered",
+    "is_basic_land": false
+  },
+  "About Face": {
+    "name": "About Face",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{R}",
+    "set": "ulg",
+    "set_name": "Urza's Legacy",
+    "is_basic_land": false
+  },
+  "Artifact Ward": {
+    "name": "Artifact Ward",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "atq",
+    "set_name": "Antiquities",
+    "is_basic_land": false
+  },
+  "Chittering Rats": {
+    "name": "Chittering Rats",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Creature — Rat",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{1}{B}{B}",
+    "set": "dst",
+    "set_name": "Darksteel",
+    "is_basic_land": false
+  },
+  "Command Bridge": {
+    "name": "Command Bridge",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "eoe",
+    "set_name": "Edge of Eternities",
+    "is_basic_land": false
+  },
+  "Cry of Contrition": {
+    "name": "Cry of Contrition",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "gpt",
+    "set_name": "Guildpact",
+    "is_basic_land": false
+  },
+  "Disintegrate": {
+    "name": "Disintegrate",
+    "rarity": "special",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{X}{R}",
+    "set": "tsb",
+    "set_name": "Time Spiral Timeshifted",
+    "is_basic_land": false
+  },
+  "Gift of Orzhova": {
+    "name": "Gift of Orzhova",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 3.0,
+    "mana_cost": "{1}{W/B}{W/B}",
+    "set": "mm3",
+    "set_name": "Modern Masters 2017",
+    "is_basic_land": false
+  },
+  "Lava Burst": {
+    "name": "Lava Burst",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{X}{R}",
+    "set": "me2",
+    "set_name": "Masters Edition II",
+    "is_basic_land": false
+  },
+  "Mystic Remora": {
+    "name": "Mystic Remora",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 1.0,
+    "mana_cost": "{U}",
+    "set": "dmr",
+    "set_name": "Dominaria Remastered",
+    "is_basic_land": false
+  },
+  "Reverent Silence": {
+    "name": "Reverent Silence",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{3}{G}",
+    "set": "nem",
+    "set_name": "Nemesis",
+    "is_basic_land": false
+  },
+  "Spore Cloud": {
+    "name": "Spore Cloud",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{1}{G}{G}",
+    "set": "me2",
+    "set_name": "Masters Edition II",
+    "is_basic_land": false
+  },
+  "Thalakos Seer": {
+    "name": "Thalakos Seer",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Thalakos Wizard",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{U}{U}",
+    "set": "tpr",
+    "set_name": "Tempest Remastered",
+    "is_basic_land": false
   }
 }
