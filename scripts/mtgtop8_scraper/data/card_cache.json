@@ -36250,5 +36250,278 @@
     "set": "tpr",
     "set_name": "Tempest Remastered",
     "is_basic_land": false
+  },
+  "Eroded Canyon": {
+    "name": "Eroded Canyon",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land — Desert",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Frantic Scapegoat": {
+    "name": "Frantic Scapegoat",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Goat",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{R}",
+    "set": "mkm",
+    "set_name": "Murders at Karlov Manor",
+    "is_basic_land": false
+  },
+  "Giant Growth": {
+    "name": "Giant Growth",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Glimpse the Core": {
+    "name": "Glimpse the Core",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "lci",
+    "set_name": "The Lost Caverns of Ixalan",
+    "is_basic_land": false
+  },
+  "Imodane's Recruiter // Train Troops": {
+    "name": "Imodane's Recruiter // Train Troops",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Human Knight // Sorcery — Adventure",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{R} // {4}{W}",
+    "set": "woe",
+    "set_name": "Wilds of Eldraine",
+    "is_basic_land": false
+  },
+  "Molten-Core Maestro": {
+    "name": "Molten-Core Maestro",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Goblin Bard",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "sos",
+    "set_name": "Secrets of Strixhaven",
+    "is_basic_land": false
+  },
+  "Morningtide's Light": {
+    "name": "Morningtide's Light",
+    "rarity": "mythic",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{3}{W}",
+    "set": "ecl",
+    "set_name": "Lorwyn Eclipsed",
+    "is_basic_land": false
+  },
+  "Oko, Lorwyn Liege // Oko, Shadowmoor Scion": {
+    "name": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Planeswalker — Oko // Legendary Planeswalker — Oko",
+    "type_category": "Planeswalker",
+    "cmc": 3.0,
+    "mana_cost": "",
+    "set": "ecl",
+    "set_name": "Lorwyn Eclipsed",
+    "is_basic_land": false
+  },
+  "Quandrix, the Proof": {
+    "name": "Quandrix, the Proof",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Creature — Elder Dragon",
+    "type_category": "Creature",
+    "cmc": 6.0,
+    "mana_cost": "{4}{G}{U}",
+    "set": "sos",
+    "set_name": "Secrets of Strixhaven",
+    "is_basic_land": false
+  },
+  "Sorceress's Schemes": {
+    "name": "Sorceress's Schemes",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{3}{R}",
+    "set": "fin",
+    "set_name": "Final Fantasy",
+    "is_basic_land": false
+  },
+  "Spider-Woman, Stunning Savior": {
+    "name": "Spider-Woman, Stunning Savior",
+    "rarity": "rare",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Creature — Spider Human Hero",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W/U}",
+    "set": "spm",
+    "set_name": "Marvel's Spider-Man",
+    "is_basic_land": false
+  },
+  "Super-Adaptoid": {
+    "name": "Super-Adaptoid",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Artifact Creature — Robot Villain",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{2}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Elvish Warmaster": {
+    "name": "Elvish Warmaster",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Elf Warrior",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "khm",
+    "set_name": "Kaldheim",
+    "is_basic_land": false
+  },
+  "Pendelhaven": {
+    "name": "Pendelhaven",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "a25",
+    "set_name": "Masters 25",
+    "is_basic_land": false
+  },
+  "Tyvar's Stand": {
+    "name": "Tyvar's Stand",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{X}{G}",
+    "set": "soc",
+    "set_name": "Secrets of Strixhaven Commander",
+    "is_basic_land": false
+  },
+  "Dimension X": {
+    "name": "Dimension X",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "tmt",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "is_basic_land": false
+  },
+  "Festival of Trokin": {
+    "name": "Festival of Trokin",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "p02",
+    "set_name": "Portal Second Age",
+    "is_basic_land": false
+  },
+  "Forgotten Cave": {
+    "name": "Forgotten Cave",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "c21",
+    "set_name": "Commander 2021",
+    "is_basic_land": false
+  },
+  "Slippery Karst": {
+    "name": "Slippery Karst",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "dmr",
+    "set_name": "Dominaria Remastered",
+    "is_basic_land": false
   }
 }
