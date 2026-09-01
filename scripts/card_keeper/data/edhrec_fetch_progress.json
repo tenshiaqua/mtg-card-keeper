@@ -2,10 +2,10 @@
   "completed": [],
   "failed": [],
   "last_run": {
-    "timestamp": "2026-08-31T10:02:13.646664",
+    "timestamp": "2026-09-01T08:58:40.694743",
     "range": "month",
     "total_fetched": 700,
-    "total_new": 9,
+    "total_new": 1,
     "errors": 0
   }
 }
