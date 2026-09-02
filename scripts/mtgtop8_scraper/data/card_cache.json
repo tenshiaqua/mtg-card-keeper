@@ -40448,5 +40448,194 @@
     "set": "khm",
     "set_name": "Kaldheim",
     "is_basic_land": false
+  },
+  "Kin-Tree Severance": {
+    "name": "Kin-Tree Severance",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 6.0,
+    "mana_cost": "{2/W}{2/B}{2/G}",
+    "set": "tdm",
+    "set_name": "Tarkir: Dragonstorm",
+    "is_basic_land": false
+  },
+  "Malicious Eclipse": {
+    "name": "Malicious Eclipse",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 3.0,
+    "mana_cost": "{1}{B}{B}",
+    "set": "lci",
+    "set_name": "The Lost Caverns of Ixalan",
+    "is_basic_land": false
+  },
+  "Spinewoods Armadillo": {
+    "name": "Spinewoods Armadillo",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Armadillo",
+    "type_category": "Creature",
+    "cmc": 6.0,
+    "mana_cost": "{4}{G}{G}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Batterskull": {
+    "name": "Batterskull",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact — Equipment",
+    "type_category": "Artifact",
+    "cmc": 5.0,
+    "mana_cost": "{5}",
+    "set": "2xm",
+    "set_name": "Double Masters",
+    "is_basic_land": false
+  },
+  "Dour Port-Mage": {
+    "name": "Dour Port-Mage",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Frog Wizard",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{U}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Hushbringer": {
+    "name": "Hushbringer",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Creature — Faerie",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "eld",
+    "set_name": "Throne of Eldraine",
+    "is_basic_land": false
+  },
+  "Sigarda's Aid": {
+    "name": "Sigarda's Aid",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "cmr",
+    "set_name": "Commander Legends",
+    "is_basic_land": false
+  },
+  "Steelshaper's Gift": {
+    "name": "Steelshaper's Gift",
+    "rarity": "rare",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "cmm",
+    "set_name": "Commander Masters",
+    "is_basic_land": false
+  },
+  "Sundial of the Infinite": {
+    "name": "Sundial of the Infinite",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 2.0,
+    "mana_cost": "{2}",
+    "set": "m12",
+    "set_name": "Magic 2012",
+    "is_basic_land": false
+  },
+  "Sword of Light and Shadow": {
+    "name": "Sword of Light and Shadow",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact — Equipment",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "{3}",
+    "set": "2xm",
+    "set_name": "Double Masters",
+    "is_basic_land": false
+  },
+  "Charge of the Mites": {
+    "name": "Charge of the Mites",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{W}",
+    "set": "one",
+    "set_name": "Phyrexia: All Will Be One",
+    "is_basic_land": false
+  },
+  "Silent Dart": {
+    "name": "Silent Dart",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "rvr",
+    "set_name": "Ravnica Remastered",
+    "is_basic_land": false
+  },
+  "Whitemane Lion": {
+    "name": "Whitemane Lion",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Creature — Cat",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "dmr",
+    "set_name": "Dominaria Remastered",
+    "is_basic_land": false
   }
 }
