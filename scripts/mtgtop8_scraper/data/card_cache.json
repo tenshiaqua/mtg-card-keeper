@@ -40637,5 +40637,175 @@
     "set": "dmr",
     "set_name": "Dominaria Remastered",
     "is_basic_land": false
+  },
+  "Beorn the Fierce": {
+    "name": "Beorn the Fierce",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Legendary Creature — Bear Shapeshifter Warrior",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{G}{G}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Dancing from Dark to Dawn": {
+    "name": "Dancing from Dark to Dawn",
+    "rarity": "mythic",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 5.0,
+    "mana_cost": "{3}{G}{G}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Skycrash": {
+    "name": "Skycrash",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "dft",
+    "set_name": "Aetherdrift",
+    "is_basic_land": false
+  },
+  "Spawn-Gang Commander": {
+    "name": "Spawn-Gang Commander",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Creature — Eldrazi Goblin",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{R}{R}",
+    "set": "mh3",
+    "set_name": "Modern Horizons 3",
+    "is_basic_land": false
+  },
+  "Starfield Vocalist": {
+    "name": "Starfield Vocalist",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Human Bard",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{3}{U}",
+    "set": "eoe",
+    "set_name": "Edge of Eternities",
+    "is_basic_land": false
+  },
+  "The Endstone": {
+    "name": "The Endstone",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Artifact",
+    "type_category": "Artifact",
+    "cmc": 7.0,
+    "mana_cost": "{7}",
+    "set": "eoe",
+    "set_name": "Edge of Eternities",
+    "is_basic_land": false
+  },
+  "Ugin, the Ineffable": {
+    "name": "Ugin, the Ineffable",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Planeswalker — Ugin",
+    "type_category": "Planeswalker",
+    "cmc": 6.0,
+    "mana_cost": "{6}",
+    "set": "cmm",
+    "set_name": "Commander Masters",
+    "is_basic_land": false
+  },
+  "Yggdrasil, Rebirth Engine": {
+    "name": "Yggdrasil, Rebirth Engine",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Legendary Artifact",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "{3}",
+    "set": "acr",
+    "set_name": "Assassin's Creed",
+    "is_basic_land": false
+  },
+  "Blossombind": {
+    "name": "Blossombind",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{U}",
+    "set": "ecl",
+    "set_name": "Lorwyn Eclipsed",
+    "is_basic_land": false
+  },
+  "Halimar Depths": {
+    "name": "Halimar Depths",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "dsc",
+    "set_name": "Duskmourn: House of Horror Commander",
+    "is_basic_land": false
+  },
+  "Radiant's Judgment": {
+    "name": "Radiant's Judgment",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{W}",
+    "set": "dmr",
+    "set_name": "Dominaria Remastered",
+    "is_basic_land": false
+  },
+  "Righteous Aura": {
+    "name": "Righteous Aura",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "mmq",
+    "set_name": "Mercadian Masques",
+    "is_basic_land": false
   }
 }
