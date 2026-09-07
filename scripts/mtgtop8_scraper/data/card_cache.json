@@ -41975,5 +41975,456 @@
     "set": "tla",
     "set_name": "Avatar: The Last Airbender",
     "is_basic_land": false
+  },
+  "Adagia, Windswept Bastion": {
+    "name": "Adagia, Windswept Bastion",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land — Planet",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "eoe",
+    "set_name": "Edge of Eternities",
+    "is_basic_land": false
+  },
+  "Armor Wars": {
+    "name": "Armor Wars",
+    "rarity": "rare",
+    "colors": [
+      "R",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Enchantment — Saga",
+    "type_category": "Enchantment",
+    "cmc": 4.0,
+    "mana_cost": "{2}{U}{R}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Broodspinner": {
+    "name": "Broodspinner",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Creature — Spider",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{B}{G}",
+    "set": "dsk",
+    "set_name": "Duskmourn: House of Horror",
+    "is_basic_land": false
+  },
+  "Cache Grab": {
+    "name": "Cache Grab",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Deadly Precision": {
+    "name": "Deadly Precision",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "is_basic_land": false
+  },
+  "Desolation of Smaug": {
+    "name": "Desolation of Smaug",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{2}{R}{R}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "Justice, Vance Astrovik": {
+    "name": "Justice, Vance Astrovik",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Legendary Creature — Mutant Hero",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Kaito, Cunning Infiltrator": {
+    "name": "Kaito, Cunning Infiltrator",
+    "rarity": "mythic",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Legendary Planeswalker — Kaito",
+    "type_category": "Planeswalker",
+    "cmc": 3.0,
+    "mana_cost": "{1}{U}{U}",
+    "set": "fdn",
+    "set_name": "Foundations",
+    "is_basic_land": false
+  },
+  "Lively Dirge": {
+    "name": "Lively Dirge",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Maha, Its Feathers Night": {
+    "name": "Maha, Its Feathers Night",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Legendary Creature — Elemental Bird",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{3}{B}{B}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Murdock's Crusade": {
+    "name": "Murdock's Crusade",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Mutagen Man, Living Ooze": {
+    "name": "Mutagen Man, Living Ooze",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Legendary Creature — Ooze Mutant",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{X}{G}{G}",
+    "set": "tmt",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "is_basic_land": false
+  },
+  "Obsessive Pursuit": {
+    "name": "Obsessive Pursuit",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "is_basic_land": false
+  },
+  "Shredder's Technique": {
+    "name": "Shredder's Technique",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 3.0,
+    "mana_cost": "{2}{B}",
+    "set": "tmt",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "is_basic_land": false
+  },
+  "Symbiote Spider-Man": {
+    "name": "Symbiote Spider-Man",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Creature — Symbiote Spider Hero",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U/B}",
+    "set": "spm",
+    "set_name": "Marvel's Spider-Man",
+    "is_basic_land": false
+  },
+  "The Misty Mountains Cold": {
+    "name": "The Misty Mountains Cold",
+    "rarity": "rare",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Enchantment — Saga",
+    "type_category": "Enchantment",
+    "cmc": 3.0,
+    "mana_cost": "{2}{R}",
+    "set": "hob",
+    "set_name": "The Hobbit",
+    "is_basic_land": false
+  },
+  "The Swarmweaver": {
+    "name": "The Swarmweaver",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Artifact Creature — Scarecrow",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{2}{B}{G}",
+    "set": "dsk",
+    "set_name": "Duskmourn: House of Horror",
+    "is_basic_land": false
+  },
+  "Witchstalker Frenzy": {
+    "name": "Witchstalker Frenzy",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 4.0,
+    "mana_cost": "{3}{R}",
+    "set": "woe",
+    "set_name": "Wilds of Eldraine",
+    "is_basic_land": false
+  },
+  "Bloodbraid Elf": {
+    "name": "Bloodbraid Elf",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Creature — Elf Berserker",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{2}{R}{G}",
+    "set": "2x2",
+    "set_name": "Double Masters 2022",
+    "is_basic_land": false
+  },
+  "Elixir of Immortality": {
+    "name": "Elixir of Immortality",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "c21",
+    "set_name": "Commander 2021",
+    "is_basic_land": false
+  },
+  "Armored Armadillo": {
+    "name": "Armored Armadillo",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Creature — Armadillo",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Brood Birthing": {
+    "name": "Brood Birthing",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "roe",
+    "set_name": "Rise of the Eldrazi",
+    "is_basic_land": false
+  },
+  "Burning Sun's Fury": {
+    "name": "Burning Sun's Fury",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "mom",
+    "set_name": "March of the Machine",
+    "is_basic_land": false
+  },
+  "Compulsive Research": {
+    "name": "Compulsive Research",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "tdc",
+    "set_name": "Tarkir: Dragonstorm Commander",
+    "is_basic_land": false
+  },
+  "Fragmentize": {
+    "name": "Fragmentize",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "kld",
+    "set_name": "Kaladesh",
+    "is_basic_land": false
+  },
+  "Lightwheel Enhancements": {
+    "name": "Lightwheel Enhancements",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "dft",
+    "set_name": "Aetherdrift",
+    "is_basic_land": false
+  },
+  "Magmatic Sinkhole": {
+    "name": "Magmatic Sinkhole",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 6.0,
+    "mana_cost": "{5}{R}",
+    "set": "mh1",
+    "set_name": "Modern Horizons",
+    "is_basic_land": false
+  },
+  "Rest for the Weary": {
+    "name": "Rest for the Weary",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "wwk",
+    "set_name": "Worldwake",
+    "is_basic_land": false
+  },
+  "Solid Footing": {
+    "name": "Solid Footing",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "iko",
+    "set_name": "Ikoria: Lair of Behemoths",
+    "is_basic_land": false
+  },
+  "Utter Insignificance": {
+    "name": "Utter Insignificance",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{U}",
+    "set": "mh3",
+    "set_name": "Modern Horizons 3",
+    "is_basic_land": false
   }
 }
