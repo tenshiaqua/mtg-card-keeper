@@ -134,6 +134,29 @@ body {
 .tab:hover { border-color: #5eb3f3; color: #333333; }
 .tab.active { background: #5eb3f3; color: #1c5fa8; border-color: #5eb3f3; font-weight: bold; }
 
+/* 每周构筑变动 */
+.weekly-diff-summary { text-align: center; color: #6c757d; margin-bottom: 16px; }
+.weekly-diff-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.weekly-diff-panel { border-radius: 12px; padding: 16px; }
+.weekly-diff-panel.new { background: #eaf8ee; }
+.weekly-diff-panel.dropped { background: #fff0f0; }
+.weekly-diff-panel h2 { margin-bottom: 4px; }
+.weekly-diff-panel.new h2 { color: #2b8a3e; }
+.weekly-diff-panel.dropped h2 { color: #c92a2a; }
+.weekly-diff-count { color: #6c757d; font-size: 0.9em; margin-bottom: 14px; }
+.weekly-rarity-group { margin-top: 14px; }
+.weekly-rarity-group h3 { border-bottom: 1px solid rgba(108,117,125,0.25); padding-bottom: 5px; margin-bottom: 6px; }
+.weekly-diff-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(108,117,125,0.16); }
+.weekly-diff-card:last-child { border-bottom: 0; }
+.weekly-card-name { min-width: 0; }
+.weekly-card-name strong, .weekly-card-name span { display: block; }
+.weekly-card-name strong { overflow-wrap: anywhere; }
+.weekly-card-name span { color: #6c757d; font-size: 0.85em; }
+.weekly-format-counts { display: grid; grid-template-columns: repeat(3, minmax(38px, auto)); gap: 6px; flex: 0 0 auto; text-align: center; }
+.weekly-format-counts span { font-size: 0.78em; color: #6c757d; }
+.weekly-format-counts b { display: block; color: #333333; font-size: 1.05em; }
+.weekly-empty { color: #6c757d; padding: 24px 0; text-align: center; }
+
 /* 系列浏览器 */
 .set-browser { margin-bottom: 16px; }
 .set-search-box { position: relative; max-width: 600px; margin: 0 auto 12px; }
@@ -200,6 +223,7 @@ body {
   .constructed-grid, .edh-grid { grid-template-columns: repeat(2, 1fr); }
   .card-header { flex-direction: column; }
   .card-meta { text-align: left; margin-top: 10px; }
+  .weekly-diff-columns { grid-template-columns: 1fr; }
 }
 
 /* ========== 卡牌详情三栏布局 ========== */
@@ -372,6 +396,7 @@ body {
   <div class="tabs">
     <button class="tab active" data-tab="search" id="tabSearch">🔍 卡牌查询</button>
     <button class="tab" data-tab="sets" id="tabSets">📦 按系列浏览</button>
+    <button class="tab" data-tab="weeklyDiff" id="tabWeeklyDiff">📈 每周变动</button>
   </div>
   <div class="search-box" id="searchBox">
     <input type="text" id="searchInput" placeholder="输入卡牌英文名或中文名..." autocomplete="off" disabled>
@@ -399,6 +424,13 @@ body {
   <div id="setCardsContainer"></div>
 </div>
 
+<!-- 每周构筑变动 Tab -->
+<div class="result-container" id="weeklyDiffContainer" style="display:none">
+  <div id="weeklyDiffContent">
+    <div class="loading"><div class="spinner"></div><p>正在加载每周变动...</p></div>
+  </div>
+</div>
+
 <script src="scryfall.js"></script>
 <script src="app.js"></script>
 <script>
@@ -414,7 +446,10 @@ const setFilterInput = document.getElementById('setFilterInput');
 const setCardsContainer = document.getElementById('setCardsContainer');
 const tabSearch = document.getElementById('tabSearch');
 const tabSets = document.getElementById('tabSets');
+const tabWeeklyDiff = document.getElementById('tabWeeklyDiff');
 const searchBox = document.getElementById('searchBox');
+const weeklyDiffContainer = document.getElementById('weeklyDiffContainer');
+const weeklyDiffContent = document.getElementById('weeklyDiffContent');
 
 let debounceTimer = null;
 let selectedIdx = -1;
@@ -456,6 +491,8 @@ CardKeeper.init('card_database.json', 'sets_index.json').then(() => {
   } else {
     setFilterInput.placeholder = '系列数据未加载';
   }
+
+  renderWeeklyDiff();
 }).catch(err => {
   document.getElementById('loadingIndicator').remove();
   statsBar.textContent = '❌ 数据库加载失败';
@@ -474,15 +511,18 @@ CardKeeper.init('card_database.json', 'sets_index.json').then(() => {
 
 tabSearch.addEventListener('click', () => switchTab('search'), false);
 tabSets.addEventListener('click', () => switchTab('sets'), false);
+tabWeeklyDiff.addEventListener('click', () => switchTab('weeklyDiff'), false);
 
 function switchTab(tab) {
   // 统一移除所有 active
   tabSearch.classList.remove('active');
   tabSets.classList.remove('active');
+  tabWeeklyDiff.classList.remove('active');
   // 统一隐藏所有容器
   searchBox.style.display = 'none';
   resultContainer.style.display = 'none';
   setsContainer.style.display = 'none';
+  weeklyDiffContainer.style.display = 'none';
 
   if (tab === 'search') {
     tabSearch.classList.add('active');
@@ -493,7 +533,64 @@ function switchTab(tab) {
     tabSets.classList.add('active');
     setsContainer.style.display = '';
     setFilterInput.focus();
+  } else if (tab === 'weeklyDiff') {
+    tabWeeklyDiff.classList.add('active');
+    weeklyDiffContainer.style.display = '';
   }
+}
+
+function renderWeeklyDiff() {
+  const diff = CardKeeper.weeklyDiff;
+  if (!diff) {
+    weeklyDiffContent.innerHTML = '<div class="empty"><h3>暂无每周变动数据</h3><p>下一次每周更新后会自动生成。</p></div>';
+    return;
+  }
+
+  const rarityNames = {
+    mythic: '秘稀', rare: '稀有', uncommon: '非普通', common: '普通',
+    special: '特殊', bonus: '额外', unknown: '未知'
+  };
+  const formats = [
+    ['modern', '摩登'], ['standard', '标准'], ['pauper', '纯铁']
+  ];
+
+  function renderPanel(kind, title, icon, count) {
+    const groups = diff[kind] || {};
+    const keys = Object.keys(groups);
+    if (!keys.length) {
+      return '<section class="weekly-diff-panel ' + kind + '">' +
+        '<h2>' + icon + ' ' + title + '</h2>' +
+        '<div class="weekly-diff-count">0 张</div>' +
+        '<div class="weekly-empty">本周没有变化</div></section>';
+    }
+
+    let html = '<section class="weekly-diff-panel ' + kind + '">' +
+      '<h2>' + icon + ' ' + title + '</h2>' +
+      '<div class="weekly-diff-count">' + count + ' 张 · 按稀有度分类</div>';
+    keys.forEach(function(rarity) {
+      html += '<div class="weekly-rarity-group"><h3>' +
+        escapeHtml(rarityNames[rarity] || rarity) + '</h3>';
+      groups[rarity].forEach(function(card) {
+        html += '<div class="weekly-diff-card">' +
+          '<div class="weekly-card-name"><strong class="r-' + escapeHtml(card.rarity || 'common') + '">' +
+          escapeHtml(card.name) + '</strong><span>' + escapeHtml(card.chinese_name || '（无中文名）') + '</span></div>' +
+          '<div class="weekly-format-counts" aria-label="摩登、标准、纯铁用量">' +
+          formats.map(function(pair) {
+            return '<span>' + pair[1] + '<b>' + ((card.usage || {})[pair[0]] || 0) + '</b></span>';
+          }).join('') + '</div></div>';
+      });
+      html += '</div>';
+    });
+    return html + '</section>';
+  }
+
+  weeklyDiffContent.innerHTML =
+    '<div class="weekly-diff-summary">对比 ' + escapeHtml(diff.last_week || '上周') +
+    ' → ' + escapeHtml(diff.this_week || '本周') + '</div>' +
+    '<div class="weekly-diff-columns">' +
+    renderPanel('new', '新增构筑用卡', '🟢', diff.new_count || 0) +
+    renderPanel('dropped', '环境弃用构筑用卡', '🔴', diff.dropped_count || 0) +
+    '</div>';
 }
 
 // ============================================================
@@ -765,7 +862,7 @@ function renderCard(card, target, setCode) {
           '</div>' +
 
           '<div class="section">' +
-            '<h3>🏟️ 构筑赛制使用（最近2周上位）' + trendIcon(trend.constructed) + '</h3>' +
+            '<h3>🏟️ 构筑赛制使用（最近1周上位）' + trendIcon(trend.constructed) + '</h3>' +
             '<div class="constructed-grid">' + constructedHtml + '</div>' +
             trendChartHtml +
           '</div>' +

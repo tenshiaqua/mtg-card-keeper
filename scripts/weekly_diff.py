@@ -7,6 +7,8 @@
 用法：
     python scripts/weekly_diff.py              # 使用默认 snapshot 目录
     python scripts/weekly_diff.py --output report.md  # 指定输出文件
+
+同时生成 weekly_diff.json，供部署页面的“每周变动” Tab 使用。
 """
 
 import json
@@ -42,8 +44,10 @@ TYPE_CN = {
 
 # 格式化名
 FORMAT_CN = {
-    "standard": "标准", "modern": "摩登", "pauper": " pauper",
+    "standard": "标准", "modern": "摩登", "pauper": "纯铁",
 }
+
+FORMAT_ORDER = ["modern", "standard", "pauper"]
 
 
 def load_json(path):
@@ -93,6 +97,55 @@ def get_format_usage_detail(card):
                 else:
                     parts.append(f"{label} {main}")
     return ", ".join(parts) if parts else "—"
+
+
+def get_format_usage_counts(card):
+    """获取摩登、标准、纯铁的主牌+备牌用量。"""
+    counts = {}
+    constructed = card.get("constructed", {})
+    for fmt in FORMAT_ORDER:
+        data = constructed.get(fmt, {})
+        if isinstance(data, dict):
+            counts[fmt] = (data.get("count", 0) or 0) + (data.get("sideboard", 0) or 0)
+        else:
+            counts[fmt] = 0
+    return counts
+
+
+def make_json_entry(name, card):
+    """生成前端使用的单卡变动记录。"""
+    return {
+        "name": name,
+        "chinese_name": card.get("chinese_name", ""),
+        "rarity": card.get("rarity", "unknown"),
+        "rarity_cn": RARITY_CN.get(card.get("rarity", ""), card.get("rarity", "未知")),
+        "usage": get_format_usage_counts(card),
+    }
+
+
+def generate_json_payload(new_cards, dropped_cards, this_week_file, last_week_file):
+    """生成每周变动 Tab 使用的结构化数据。"""
+    rarity_order = ["mythic", "rare", "uncommon", "common", "special", "bonus", "unknown"]
+
+    def grouped(cards):
+        groups = {rarity: [] for rarity in rarity_order}
+        for name, card, _ in cards:
+            rarity = card.get("rarity", "unknown") or "unknown"
+            groups.setdefault(rarity, []).append(make_json_entry(name, card))
+        return {
+            rarity: sorted(items, key=lambda item: item["name"])
+            for rarity, items in groups.items()
+            if items
+        }
+
+    return {
+        "this_week": this_week_file,
+        "last_week": last_week_file,
+        "new": grouped(new_cards),
+        "dropped": grouped(dropped_cards),
+        "new_count": len(new_cards),
+        "dropped_count": len(dropped_cards),
+    }
 
 
 def compute_diff():
@@ -283,6 +336,7 @@ def main():
 
     if not output_path:
         output_path = os.path.join(REPO_ROOT, "weekly_diff_report.md")
+    json_output_path = os.path.join(REPO_ROOT, "weekly_diff.json")
 
     # 加载系列数据
     sets_released = load_json(SETS_RELEASED_PATH)
@@ -304,7 +358,14 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(report)
 
+    with open(json_output_path, "w", encoding="utf-8") as f:
+        json.dump(
+            generate_json_payload(new_cards, dropped_cards, this_week, last_week),
+            f, ensure_ascii=False, separators=(",", ":")
+        )
+
     print(f"✅ 变动报告已生成: {output_path}")
+    print(f"✅ 前端数据已生成: {json_output_path}")
     print(f"   新增: {len(new_cards)} 张 | 弃用: {len(dropped_cards)} 张")
 
 

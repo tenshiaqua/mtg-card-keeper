@@ -46,6 +46,7 @@ const CardKeeper = {
   setsIndex: {},    // { set_code: set_name } 系列代码→名称映射
   setsToCards: {},  // { set_code: [cardName, ...] } 系列→卡牌反向索引
   usageHistory: {}, // { cardName: { date: {standard, modern, pauper} } } 用量历史
+  weeklyDiff: null,  // 每周新增/弃用构筑用卡
   _loaded: false,
 
   // ============================================================
@@ -86,6 +87,16 @@ const CardKeeper = {
       }
     } catch (e) {
       console.warn('用量历史加载失败，趋势图不可用', e);
+    }
+
+    // 加载每周构筑用卡变动（如果存在，用于每周变动 Tab）
+    try {
+      const diffResp = await fetch('weekly_diff.json');
+      if (diffResp.ok) {
+        this.weeklyDiff = await diffResp.json();
+      }
+    } catch (e) {
+      console.warn('每周变动数据加载失败', e);
     }
 
     this._loaded = true;
