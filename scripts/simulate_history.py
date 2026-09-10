@@ -1,5 +1,5 @@
 """
-模拟 4 次双周抓取构建 usage_history.json。
+模拟 4 次每周抓取构建 usage_history.json。
 
 由于 mtgtop8 旧数据无法可靠回溯，使用当前 card_database.json 的用量为基准，
 为 4 个日期点（07.20 / 07.27 / 08.03 / 08.10）生成模拟趋势数据。
@@ -40,7 +40,7 @@ def load_json(path):
 
 def main():
     print("=" * 60)
-    print("模拟 4 次双周抓取构建 usage_history.json")
+    print("模拟 4 次每周抓取构建 usage_history.json")
     print("=" * 60)
 
     db = load_json(DEPLOY_DB)

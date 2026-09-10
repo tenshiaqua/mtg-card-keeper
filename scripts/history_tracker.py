@@ -10,7 +10,7 @@
 
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
@@ -18,7 +18,7 @@ DEPLOY_DB = os.path.join(REPO_ROOT, "card_database.json")
 HISTORY_FILE = os.path.join(REPO_ROOT, "usage_history.json")
 
 FORMATS = ["standard", "modern", "pauper"]
-MAX_HISTORY_POINTS = 26  # 保留最近 26 次记录（约 1 年，双周更新）
+MAX_HISTORY_POINTS = 52  # 保留最近 52 个周数据点（约 1 年）
 
 
 def load_json(path):
@@ -31,6 +31,29 @@ def load_json(path):
 def save_json(data, path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def week_monday(date):
+    """返回 date 所在周的周一，作为趋势数据的唯一键。"""
+    return date - timedelta(days=date.weekday())
+
+
+def normalize_weekly_history(history):
+    """将已有历史按周一归并，兼容此前可能写入的每日数据。
+
+    同一周若有多个点，保留该周最后一个日期的值，避免改变用量含义。
+    """
+    normalized = {}
+    for name, date_data in history.items():
+        weekly = {}
+        for date_key, usage in sorted(date_data.items()):
+            try:
+                date = datetime.strptime(date_key, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+            weekly[week_monday(date).isoformat()] = usage
+        normalized[name] = weekly
+    return normalized
 
 
 def main():
@@ -47,16 +70,18 @@ def main():
         db = json.load(f)
 
     # 2. 加载现有历史
-    history = load_json(HISTORY_FILE)
-    today = datetime.now().strftime("%Y-%m-%d")
+    history = normalize_weekly_history(load_json(HISTORY_FILE))
+    week_key = week_monday(datetime.now().date()).isoformat()
 
-    # 检查是否今天已经记录过（避免重复）
-    # 检查第一张卡是否已有今天的记录
+    # 检查本周是否已经记录过（避免重复）
+    # 检查第一张卡是否已有本周一的记录
     for name, card in db.items():
         if name.startswith("__"):
             continue
-        if name in history and today in history[name]:
-            print(f"⚠ 今天 ({today}) 已有记录，跳过（避免重复追加）")
+        if name in history and week_key in history[name]:
+            print(f"⚠ 本周 ({week_key}) 已有记录，跳过（避免重复追加）")
+            # 即使本周已有数据，也保存归并后的历史，确保旧的每日点被压缩为周点。
+            save_json(history, HISTORY_FILE)
             return
         break
 
@@ -90,7 +115,7 @@ def main():
         # 写入历史
         if name not in history:
             history[name] = {}
-        history[name][today] = usage_entry
+        history[name][week_key] = usage_entry
         updated += 1
 
     # 4. 裁剪旧记录（每张卡保留最近 MAX_HISTORY_POINTS 条）

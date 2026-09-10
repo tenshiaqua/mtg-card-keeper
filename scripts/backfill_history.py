@@ -1,7 +1,7 @@
 """
-首次回填脚本：模拟 4 次双周更新覆盖最近 2 个月。
+首次回填脚本：模拟 4 次每周更新覆盖最近 1 个月。
 
-每次抓取一个 2 周窗口（非重叠），从 4 次抓取中提取卡牌用量，
+每次抓取一个 1 周窗口（非重叠），从 4 次抓取中提取卡牌用量，
 汇总写入 usage_history.json，供前端趋势图使用。
 
 用法（首次运行一次即可）：
@@ -11,7 +11,7 @@
 注意：
   - 需要网络连接访问 mtgtop8.com
   - 4 次抓取约需 10-20 分钟（取决于网络和 mtgtop8 响应速度）
-  - 回填完成后，后续双周 workflow 自动追加新数据点
+  - 回填完成后，后续每周 workflow 自动追加新数据点
 """
 
 import json
@@ -29,8 +29,8 @@ SCRAPER_DATA_DIR = os.path.join(SCRIPTS_DIR, "mtgtop8_scraper", "data")
 PROGRESS_PATH = os.path.join(SCRAPER_DATA_DIR, "progress.json")
 
 FORMATS = ["standard", "modern", "pauper"]
-NUM_WINDOWS = 4  # 回填 4 个窗口（8 周 = 2 个月）
-WINDOW_WEEKS = 2  # 每个窗口 2 周
+NUM_WINDOWS = 4  # 回填 4 个窗口（4 周 = 1 个月）
+WINDOW_WEEKS = 1  # 每个窗口 1 周
 
 
 def load_json(path):
@@ -125,7 +125,7 @@ def extract_usage(raw_data: dict, window_end_date: str) -> dict:
 
 def main():
     print("=" * 60)
-    print("首次回填用量历史（模拟 4 次双周更新）")
+    print("首次回填用量历史（模拟 4 次每周更新）")
     print("=" * 60)
     print(f"覆盖范围: 最近 {NUM_WINDOWS * WINDOW_WEEKS} 周 ({NUM_WINDOWS} 个窗口)")
     print()

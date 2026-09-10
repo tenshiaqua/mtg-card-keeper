@@ -8,7 +8,7 @@
 
 ```
 ├── index.html / app.js / card_database.json   ← 前端静态文件（Pages 直接服务）
-├── .github/workflows/weekly-update.yml         ← 每周自动更新工作流
+├── .github/workflows/weekly-update.yml         ← 每周一自动更新工作流
 ├── scripts/                                    ← 数据抓取与构建代码
 │   ├── mtgtop8_scraper/                        ← mtgtop8 抓取器（纯标准库）
 │   ├── card_keeper/                            ← 数据库合并与推荐逻辑
