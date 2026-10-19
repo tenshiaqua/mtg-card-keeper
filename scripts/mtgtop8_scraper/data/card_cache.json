@@ -47867,5 +47867,1171 @@
     "set": "ogw",
     "set_name": "Oath of the Gatewatch",
     "is_basic_land": false
+  },
+  "Ayli, Eternal Pilgrim": {
+    "name": "Ayli, Eternal Pilgrim",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Creature — Kor Cleric",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{W}{B}",
+    "set": "fdn",
+    "set_name": "Foundations",
+    "is_basic_land": false
+  },
+  "Buster Sword": {
+    "name": "Buster Sword",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact — Equipment",
+    "type_category": "Artifact",
+    "cmc": 3.0,
+    "mana_cost": "{3}",
+    "set": "fin",
+    "set_name": "Final Fantasy",
+    "is_basic_land": false
+  },
+  "Case of the Stashed Skeleton": {
+    "name": "Case of the Stashed Skeleton",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Enchantment — Case",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "mkm",
+    "set_name": "Murders at Karlov Manor",
+    "is_basic_land": false
+  },
+  "Compel Brutality": {
+    "name": "Compel Brutality",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Fountainport Bell": {
+    "name": "Fountainport Bell",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Gideon the Oathless": {
+    "name": "Gideon the Oathless",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Legendary Creature — Human Mercenary",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{B}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Gold Pan": {
+    "name": "Gold Pan",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact — Equipment",
+    "type_category": "Artifact",
+    "cmc": 2.0,
+    "mana_cost": "{2}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Heartwood Crafter // Soul Tether": {
+    "name": "Heartwood Crafter // Soul Tether",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Elf Artificer // Sorcery",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{G} // {2}{R/G}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Ravine Raider": {
+    "name": "Ravine Raider",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Creature — Lizard Rogue",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Stingerquill Voxmancer // Vicious Verse": {
+    "name": "Stingerquill Voxmancer // Vicious Verse",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Creature — Goblin Sorcerer // Sorcery",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{B/R} // {B/R}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Super Villain Lockup": {
+    "name": "Super Villain Lockup",
+    "rarity": "uncommon",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Tinybones, the Pickpocket": {
+    "name": "Tinybones, the Pickpocket",
+    "rarity": "mythic",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Legendary Creature — Skeleton Rogue",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "otj",
+    "set_name": "Outlaws of Thunder Junction",
+    "is_basic_land": false
+  },
+  "Vigorbloom Charm": {
+    "name": "Vigorbloom Charm",
+    "rarity": "uncommon",
+    "colors": [
+      "G",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{G}{W}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Ascendant Packleader": {
+    "name": "Ascendant Packleader",
+    "rarity": "rare",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Wolf",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "vow",
+    "set_name": "Innistrad: Crimson Vow",
+    "is_basic_land": false
+  },
+  "Battlefield Forge": {
+    "name": "Battlefield Forge",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "frc",
+    "set_name": "Reality Fracture Commander",
+    "is_basic_land": false
+  },
+  "Bomat Courier": {
+    "name": "Bomat Courier",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Creature — Construct",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{1}",
+    "set": "kld",
+    "set_name": "Kaladesh",
+    "is_basic_land": false
+  },
+  "Cabal Coffers": {
+    "name": "Cabal Coffers",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "mh2",
+    "set_name": "Modern Horizons 2",
+    "is_basic_land": false
+  },
+  "Consuming Corruption": {
+    "name": "Consuming Corruption",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{B}{B}",
+    "set": "mh3",
+    "set_name": "Modern Horizons 3",
+    "is_basic_land": false
+  },
+  "Etched Champion": {
+    "name": "Etched Champion",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Creature — Soldier",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{3}",
+    "set": "mm2",
+    "set_name": "Modern Masters 2015",
+    "is_basic_land": false
+  },
+  "Everlasting Torment": {
+    "name": "Everlasting Torment",
+    "rarity": "rare",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 3.0,
+    "mana_cost": "{2}{B/R}",
+    "set": "ecc",
+    "set_name": "Lorwyn Eclipsed Commander",
+    "is_basic_land": false
+  },
+  "Fatal Grudge": {
+    "name": "Fatal Grudge",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{B}{R}",
+    "set": "snc",
+    "set_name": "Streets of New Capenna",
+    "is_basic_land": false
+  },
+  "Ghirapur Aether Grid": {
+    "name": "Ghirapur Aether Grid",
+    "rarity": "uncommon",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 3.0,
+    "mana_cost": "{2}{R}",
+    "set": "moc",
+    "set_name": "March of the Machine Commander",
+    "is_basic_land": false
+  },
+  "Gonti's Machinations": {
+    "name": "Gonti's Machinations",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "aer",
+    "set_name": "Aether Revolt",
+    "is_basic_land": false
+  },
+  "Klothys, God of Destiny": {
+    "name": "Klothys, God of Destiny",
+    "rarity": "mythic",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Legendary Enchantment Creature — God",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{1}{R}{G}",
+    "set": "thb",
+    "set_name": "Theros Beyond Death",
+    "is_basic_land": false
+  },
+  "Knight of Dusk's Shadow": {
+    "name": "Knight of Dusk's Shadow",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Creature — Human Knight",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "dmu",
+    "set_name": "Dominaria United",
+    "is_basic_land": false
+  },
+  "Michiko's Reign of Truth // Portrait of Michiko": {
+    "name": "Michiko's Reign of Truth // Portrait of Michiko",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Enchantment — Saga // Enchantment Creature — Human Noble",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "",
+    "set": "neo",
+    "set_name": "Kamigawa: Neon Dynasty",
+    "is_basic_land": false
+  },
+  "Patchwork Automaton": {
+    "name": "Patchwork Automaton",
+    "rarity": "uncommon",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Creature — Construct",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{2}",
+    "set": "neo",
+    "set_name": "Kamigawa: Neon Dynasty",
+    "is_basic_land": false
+  },
+  "Phyrexian Fleshgorger": {
+    "name": "Phyrexian Fleshgorger",
+    "rarity": "mythic",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Creature — Phyrexian Wurm",
+    "type_category": "Creature",
+    "cmc": 7.0,
+    "mana_cost": "{7}",
+    "set": "bro",
+    "set_name": "The Brothers' War",
+    "is_basic_land": false
+  },
+  "Plumb the Forbidden": {
+    "name": "Plumb the Forbidden",
+    "rarity": "uncommon",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "soc",
+    "set_name": "Secrets of Strixhaven Commander",
+    "is_basic_land": false
+  },
+  "Sleeper Agent": {
+    "name": "Sleeper Agent",
+    "rarity": "rare",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Creature — Phyrexian Minion",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{B}",
+    "set": "10e",
+    "set_name": "Tenth Edition",
+    "is_basic_land": false
+  },
+  "Steel Wrecking Ball": {
+    "name": "Steel Wrecking Ball",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact",
+    "type_category": "Artifact",
+    "cmc": 5.0,
+    "mana_cost": "{5}",
+    "set": "spm",
+    "set_name": "Marvel's Spider-Man",
+    "is_basic_land": false
+  },
+  "Treasure Vault": {
+    "name": "Treasure Vault",
+    "rarity": "rare",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Land",
+    "type_category": "Artifact",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "afr",
+    "set_name": "Adventures in the Forgotten Realms",
+    "is_basic_land": false
+  },
+  "Worldsoul's Rage": {
+    "name": "Worldsoul's Rage",
+    "rarity": "rare",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{X}{R}{G}",
+    "set": "eoc",
+    "set_name": "Edge of Eternities Commander",
+    "is_basic_land": false
+  },
+  "Anoint with Affliction": {
+    "name": "Anoint with Affliction",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "one",
+    "set_name": "Phyrexia: All Will Be One",
+    "is_basic_land": false
+  },
+  "Aquastrand Spider": {
+    "name": "Aquastrand Spider",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Spider Mutant",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "mm2",
+    "set_name": "Modern Masters 2015",
+    "is_basic_land": false
+  },
+  "Beckon Apparition": {
+    "name": "Beckon Apparition",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{W/B}",
+    "set": "uma",
+    "set_name": "Ultimate Masters",
+    "is_basic_land": false
+  },
+  "Bestial Incursion": {
+    "name": "Bestial Incursion",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 4.0,
+    "mana_cost": "{3}{G}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Blazing Crescendo": {
+    "name": "Blazing Crescendo",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Breathless Knight": {
+    "name": "Breathless Knight",
+    "rarity": "common",
+    "colors": [
+      "B",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Creature — Spirit Knight",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{1}{W}{B}",
+    "set": "mh2",
+    "set_name": "Modern Horizons 2",
+    "is_basic_land": false
+  },
+  "Bring the Ending": {
+    "name": "Bring the Ending",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{U}",
+    "set": "one",
+    "set_name": "Phyrexia: All Will Be One",
+    "is_basic_land": false
+  },
+  "Cho-Manno's Blessing": {
+    "name": "Cho-Manno's Blessing",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Enchantment — Aura",
+    "type_category": "Enchantment",
+    "cmc": 2.0,
+    "mana_cost": "{W}{W}",
+    "set": "mmq",
+    "set_name": "Mercadian Masques",
+    "is_basic_land": false
+  },
+  "Circular Logic": {
+    "name": "Circular Logic",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "dmr",
+    "set_name": "Dominaria Remastered",
+    "is_basic_land": false
+  },
+  "Clowning Around": {
+    "name": "Clowning Around",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "unf",
+    "set_name": "Unfinity",
+    "is_basic_land": false
+  },
+  "Conclave Phalanx": {
+    "name": "Conclave Phalanx",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Creature — Human Soldier",
+    "type_category": "Creature",
+    "cmc": 5.0,
+    "mana_cost": "{4}{W}",
+    "set": "mm2",
+    "set_name": "Modern Masters 2015",
+    "is_basic_land": false
+  },
+  "Contagious Vorrac": {
+    "name": "Contagious Vorrac",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Phyrexian Boar Beast",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{G}",
+    "set": "one",
+    "set_name": "Phyrexia: All Will Be One",
+    "is_basic_land": false
+  },
+  "Dizzy Spell": {
+    "name": "Dizzy Spell",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 1.0,
+    "mana_cost": "{U}",
+    "set": "rav",
+    "set_name": "Ravnica: City of Guilds",
+    "is_basic_land": false
+  },
+  "Double Cleave": {
+    "name": "Double Cleave",
+    "rarity": "common",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R/W}",
+    "set": "uma",
+    "set_name": "Ultimate Masters",
+    "is_basic_land": false
+  },
+  "Duskshell Crawler": {
+    "name": "Duskshell Crawler",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Insect",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "clu",
+    "set_name": "Ravnica: Clue Edition",
+    "is_basic_land": false
+  },
+  "Experiment One": {
+    "name": "Experiment One",
+    "rarity": "uncommon",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Human Ooze",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "rvr",
+    "set_name": "Ravnica Remastered",
+    "is_basic_land": false
+  },
+  "Faerie Trickery": {
+    "name": "Faerie Trickery",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Kindred Instant — Faerie",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{1}{U}{U}",
+    "set": "lrw",
+    "set_name": "Lorwyn",
+    "is_basic_land": false
+  },
+  "Filigree Familiar": {
+    "name": "Filigree Familiar",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Artifact Creature — Fox",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{3}",
+    "set": "cmr",
+    "set_name": "Commander Legends",
+    "is_basic_land": false
+  },
+  "Granger Guildmage": {
+    "name": "Granger Guildmage",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Human Wizard",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "mir",
+    "set_name": "Mirage",
+    "is_basic_land": false
+  },
+  "Hard Evidence": {
+    "name": "Hard Evidence",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 1.0,
+    "mana_cost": "{U}",
+    "set": "mh2",
+    "set_name": "Modern Horizons 2",
+    "is_basic_land": false
+  },
+  "Icequake": {
+    "name": "Icequake",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 3.0,
+    "mana_cost": "{1}{B}{B}",
+    "set": "me2",
+    "set_name": "Masters Edition II",
+    "is_basic_land": false
+  },
+  "Inspired Tethermage": {
+    "name": "Inspired Tethermage",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Elf Warrior",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{G}",
+    "set": "fra",
+    "set_name": "Reality Fracture",
+    "is_basic_land": false
+  },
+  "Jace's Phantasm": {
+    "name": "Jace's Phantasm",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Illusion",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{U}",
+    "set": "ima",
+    "set_name": "Iconic Masters",
+    "is_basic_land": false
+  },
+  "Knight of Wundagore": {
+    "name": "Knight of Wundagore",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Cat Knight Villain",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Leonin Elder": {
+    "name": "Leonin Elder",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Creature — Cat Cleric",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "mrd",
+    "set_name": "Mirrodin",
+    "is_basic_land": false
+  },
+  "Magitek Infantry": {
+    "name": "Magitek Infantry",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Artifact Creature — Robot Soldier",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{W}",
+    "set": "fin",
+    "set_name": "Final Fantasy",
+    "is_basic_land": false
+  },
+  "Maul Splicer": {
+    "name": "Maul Splicer",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Phyrexian Human Artificer",
+    "type_category": "Creature",
+    "cmc": 7.0,
+    "mana_cost": "{6}{G}",
+    "set": "nph",
+    "set_name": "New Phyrexia",
+    "is_basic_land": false
+  },
+  "Meditation Pools": {
+    "name": "Meditation Pools",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "tla",
+    "set_name": "Avatar: The Last Airbender",
+    "is_basic_land": false
+  },
+  "Nausea": {
+    "name": "Nausea",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "ema",
+    "set_name": "Eternal Masters",
+    "is_basic_land": false
+  },
+  "Night's Whisper": {
+    "name": "Night's Whisper",
+    "rarity": "common",
+    "colors": [
+      "B"
+    ],
+    "color_category": "B",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{B}",
+    "set": "hoc",
+    "set_name": "The Hobbit Eternal",
+    "is_basic_land": false
+  },
+  "Pet Avengers": {
+    "name": "Pet Avengers",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Dragon Cat Dog Bird Frog Hero",
+    "type_category": "Creature",
+    "cmc": 4.0,
+    "mana_cost": "{3}{G}",
+    "set": "msh",
+    "set_name": "Marvel Super Heroes",
+    "is_basic_land": false
+  },
+  "Quick Sliver": {
+    "name": "Quick Sliver",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Sliver",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "cmm",
+    "set_name": "Commander Masters",
+    "is_basic_land": false
+  },
+  "Reckless Fireweaver": {
+    "name": "Reckless Fireweaver",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Human Artificer",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "kld",
+    "set_name": "Kaladesh",
+    "is_basic_land": false
+  },
+  "Recommission": {
+    "name": "Recommission",
+    "rarity": "common",
+    "colors": [
+      "W"
+    ],
+    "color_category": "W",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{W}",
+    "set": "bro",
+    "set_name": "The Brothers' War",
+    "is_basic_land": false
+  },
+  "Rhystic Study": {
+    "name": "Rhystic Study",
+    "rarity": "rare",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Enchantment",
+    "type_category": "Enchantment",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "j22",
+    "set_name": "Jumpstart 2022",
+    "is_basic_land": false
+  },
+  "Sarpadian Simulacrum": {
+    "name": "Sarpadian Simulacrum",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Artifact Creature — Goblin",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{R}",
+    "set": "mh3",
+    "set_name": "Modern Horizons 3",
+    "is_basic_land": false
+  },
+  "Sculptor of Winter": {
+    "name": "Sculptor of Winter",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Snow Creature — Elf Rogue",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "khm",
+    "set_name": "Kaldheim",
+    "is_basic_land": false
+  },
+  "Servant of the Scale": {
+    "name": "Servant of the Scale",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Human Soldier",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "dtk",
+    "set_name": "Dragons of Tarkir",
+    "is_basic_land": false
+  },
+  "Smell Fear": {
+    "name": "Smell Fear",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "mh2",
+    "set_name": "Modern Horizons 2",
+    "is_basic_land": false
+  },
+  "Soul Manipulation": {
+    "name": "Soul Manipulation",
+    "rarity": "uncommon",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "color_category": "Multicolor",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 3.0,
+    "mana_cost": "{1}{U}{B}",
+    "set": "znc",
+    "set_name": "Zendikar Rising Commander",
+    "is_basic_land": false
+  },
+  "Sunlit Marsh": {
+    "name": "Sunlit Marsh",
+    "rarity": "common",
+    "colors": [],
+    "color_category": "Colorless",
+    "type_line": "Land — Plains Swamp",
+    "type_category": "Land",
+    "cmc": 0.0,
+    "mana_cost": "",
+    "set": "soc",
+    "set_name": "Secrets of Strixhaven Commander",
+    "is_basic_land": false
+  },
+  "Sunshower Druid": {
+    "name": "Sunshower Druid",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Creature — Frog Druid",
+    "type_category": "Creature",
+    "cmc": 1.0,
+    "mana_cost": "{G}",
+    "set": "blb",
+    "set_name": "Bloomburrow",
+    "is_basic_land": false
+  },
+  "Underworld Rage-Hound": {
+    "name": "Underworld Rage-Hound",
+    "rarity": "common",
+    "colors": [
+      "R"
+    ],
+    "color_category": "R",
+    "type_line": "Creature — Elemental Dog",
+    "type_category": "Creature",
+    "cmc": 2.0,
+    "mana_cost": "{1}{R}",
+    "set": "thb",
+    "set_name": "Theros Beyond Death",
+    "is_basic_land": false
+  },
+  "Undo": {
+    "name": "Undo",
+    "rarity": "uncommon",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Sorcery",
+    "type_category": "Sorcery",
+    "cmc": 3.0,
+    "mana_cost": "{1}{U}{U}",
+    "set": "s99",
+    "set_name": "Starter 1999",
+    "is_basic_land": false
+  },
+  "Whiteout": {
+    "name": "Whiteout",
+    "rarity": "common",
+    "colors": [
+      "G"
+    ],
+    "color_category": "G",
+    "type_line": "Instant",
+    "type_category": "Instant",
+    "cmc": 2.0,
+    "mana_cost": "{1}{G}",
+    "set": "me2",
+    "set_name": "Masters Edition II",
+    "is_basic_land": false
+  },
+  "Winter Eladrin": {
+    "name": "Winter Eladrin",
+    "rarity": "common",
+    "colors": [
+      "U"
+    ],
+    "color_category": "U",
+    "type_line": "Creature — Faerie Elf Wizard",
+    "type_category": "Creature",
+    "cmc": 3.0,
+    "mana_cost": "{2}{U}",
+    "set": "clb",
+    "set_name": "Commander Legends: Battle for Baldur's Gate",
+    "is_basic_land": false
   }
 }
